@@ -4,7 +4,7 @@ The repository to store all translations of Hell's Voyager.
 ## Warning
 The game is not yet complete, so much of the text will probably change several times between now and release. I therefore recommend that you only start translating when RKS (the creator ofHell's Voyager) says that the game is complete.
 
-## Guide to how translate correctly the texts in Hell's Voyager
+## Translating correctly the texts of Hell's Voyager
 There is some rules that you must follow, and some details that you have to be careful.
 
 ### Organization
