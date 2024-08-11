@@ -41,11 +41,11 @@ set_menu_musics,Musics
 set_menu_dialogues,Dialogues
 set_menu_go_back_div,BACK TO[n][n]HOME MENU
 set_menu_go_back,BACK TO HOME MENU
-set_descri_fullscreen,Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]WARNING:[n]- The "Bordeless window" option may not work if there is more than 1 screen.
-set_descri_resolution,Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the "View mode" option is set to "Window".
+set_descri_fullscreen,"Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]WARNING:[n]- The ""Bordeless window"" option may not work if there is more than 1 screen."
+set_descri_resolution,"Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the ""View mode"" option is set to ""Window""."
 set_descri_hud,Defines whether the HUD will appear on the screen.[n]Default: On
-set_descri_language,Defines the game language.[n][n]IMPORTANT WARNING:[n]- The game MUST be restarted to change the language, otherwise, the language will NOT be changed.
-set_descri_auto_lan,Defines whether the language of the game will match the language of the user's operating system.[n][n]WARNINGS:[n]- The game must be restarted for the change to be applied, otherwise, the change will NOT be applied;[n][n]- The game will only match the languages available in the "Language" option.
+set_descri_language,"Defines the game language.[n][n]IMPORTANT WARNING:[n]- The game MUST be restarted to change the language, otherwise, the language will NOT be changed."
+set_descri_auto_lan,"Defines whether the language of the game will match the language of the user's operating system.[n][n]WARNINGS:[n]- The game must be restarted for the change to be applied, otherwise, the change will NOT be applied;[n][n]- The game will only match the languages available in the ""Language"" option."
 set_descri_text_vel,Defines the speed of the dialog texts.[n][n]Default: Medium
 set_descri_con_walkF,Walk forward:
 set_descri_con_walkB,Walk backward:
@@ -395,8 +395,8 @@ material_desc_004,Reinforces weapons until +9.
 material_desc_005,Reinforces weapons to max.
 material_desc_006,Reinforces special weapons until +4.
 material_desc_007,Reinforces specialweapons to max.
-material_inspec_000,A piece of a Demon Cleric's skull. So powerful that, even though it's constantly flaming, it won't fall apart. A blacksmith can use this bone to forge another charge of Demon Chalice, thanks to a gift that the Demon Sorcerers have given to all blacksmiths in Hell, which makes them able to manipulate the bones of Demon Clerics.
-material_inspec_001,The blood of extinct Demon Clerics, wrapped in an absurdly powerful magical barrier. The only way to give it up is to grant it to a Cinder Totem, a totem created in the First Great Demon War, one of whose objectives was to channel the blood of the Demon Clerics into the medicines and healing spells of the Demon Sorcerers in order to avoid as much deaths as possible.
+material_inspec_000,"A piece of a Demon Cleric's skull. So powerful that, even though it's constantly flaming, it won't fall apart. A blacksmith can use this bone to forge another charge of Demon Chalice, thanks to a gift that the Demon Sorcerers have given to all blacksmiths in Hell, which makes them able to manipulate the bones of Demon Clerics."
+material_inspec_001,"The blood of extinct Demon Clerics, wrapped in an absurdly powerful magical barrier. The only way to give it up is to grant it to a Cinder Totem, a totem created in the First Great Demon War, one of whose objectives was to channel the blood of the Demon Clerics into the medicines and healing spells of the Demon Sorcerers in order to avoid as much deaths as possible."
 material_inspec_002,
 material_inspec_003,
 material_inspec_004,
@@ -408,10 +408,10 @@ key_name_003,Master key (1)
 key_name_004,Master key (2)
 key_name_005,Upper room key
 key_desc_000,Wings torn from an ancient red demon. Grants the ability to make a second jump.
-key_desc_001,Pendant forged with the Sacred Stone of Zuweixa, goddess of the elements. Grants the ability to dodge.
+key_desc_001,"Pendant forged with the Sacred Stone of Zuweixa, goddess of the elements. Grants the ability to dodge."
 key_desc_002,Silver bracelet forged by the ancient blacksmiths of the Snowy Mountain. Grants the ability to grab walls.
-key_desc_003,Opens common locks, used by ordinary thieves.
-key_desc_004,Opens common and uncommon locks, used by malicious thieves.
+key_desc_003,"Opens common locks, used by ordinary thieves."
+key_desc_004,"Opens common and uncommon locks, used by malicious thieves."
 key_desc_005,Opens the room in the upper wing of the safe zone.
 key_inspec_000,
 key_inspec_001,
@@ -440,7 +440,7 @@ accessory_desc_005,
 accessory_desc_006,
 accessory_desc_007,
 accessory_desc_008,A straw hat with a ribbon wrapped around it. Gives your attacks greater range.
-accessory_desc_009,A rusty cage made of a red metal. Poison and Bleed apply faster, but greatly reduce damage negation against them.
+accessory_desc_009,"A rusty cage made of a red metal. Poison and Bleed apply faster, but greatly reduce damage negation against them."
 accessory_desc_010,Simple head accessory. Increases impetus and luck.
 accessory_desc_011,A necromance magic orb. Increases the damage and the damage negation of non-physic attacks.
 accessory_inspec_000,
@@ -452,7 +452,7 @@ accessory_inspec_005,
 accessory_inspec_006,
 accessory_inspec_007,
 accessory_inspec_008,A hat inspired by an ancient myth about a man who possessed superhuman powers and had the almost unattainable dream of becoming a king. Somehow that hat is still intact.
-accessory_inspec_009,It was built to trap birds, but one day its purpose changed to not only trap birds, but also something obscure.
+accessory_inspec_009,"It was built to trap birds, but one day its purpose changed to not only trap birds, but also something obscure."
 accessory_inspec_010,
 accessory_inspec_011,
 armor_name_000,Knight Armor
@@ -496,7 +496,7 @@ armor_inspec_003,
 armor_inspec_004,
 armor_inspec_005,
 armor_inspec_006,
-armor_inspec_007,This kimono has been passed down from generation to generation in Massaru's family. It is no longer in as perfect condition as it once was. Massaru still wears it out of respect for his great-grandfather, who was a great emperor in Otsumoshita.
+armor_inspec_007,"This kimono has been passed down from generation to generation in Massaru's family. It is no longer in as perfect condition as it once was. Massaru still wears it out of respect for his great-grandfather, who was a great emperor in Otsumoshita."
 armor_inspec_008,
 armor_inspec_009,
 armor_inspec_010,
@@ -566,31 +566,31 @@ weapon_name_056,Frosty Mist Shield
 weapon_name_057,Demon Snake Bone Shield
 weapon_name_058,Spiked Wall
 weapon_desc_000,A slender dagger with a serpent handle. Inflicts poison on foes.
-weapon_desc_001,A pair of very sharpened daggers, one straight and the other curved.
+weapon_desc_001,"A pair of very sharpened daggers, one straight and the other curved."
 weapon_desc_002,A pair of daggers so cold that crystallize itself. Inflicts freezing on foes.
-weapon_desc_003,A pair of crescent-shaped daggers, very powerful and agile.
-weapon_desc_004,A neither too big nor too small sword, strong and agile.
-weapon_desc_005,A straight sword, balanced between strength and agility.
-weapon_desc_006,A straight sword engraved with runes on its blade, blessed by Meapol.
-weapon_desc_007,A pair of bastard sword, great for consecutives attacks.
+weapon_desc_003,"A pair of crescent-shaped daggers, very powerful and agile."
+weapon_desc_004,"A neither too big nor too small sword, strong and agile."
+weapon_desc_005,"A straight sword, balanced between strength and agility."
+weapon_desc_006,"A straight sword engraved with runes on its blade, blessed by Meapol."
+weapon_desc_007,"A pair of bastard sword, great for consecutives attacks."
 weapon_desc_008,A greatsword forged directly by Huozue's blacksmiths. Inflicts pyromancy.
 weapon_desc_009,The greatsword of the warriors of the Darkness Congregation.
 weapon_desc_010,The ancient sword. its trully power is as unknown as its creation.
 weapon_desc_011,Swords capable of raising the dead.
 weapon_desc_012,The frozen sword of ancient legends. They say it's capable of killing a god.
 weapon_desc_013,A huge cleaver. Maybe it belonged to a giant butcher.
-weapon_desc_014,A simple and cheap katana, painted black, purple and green.
-weapon_desc_015,A long oriental sword, agile and effective, although it's not very sturdy.
-weapon_desc_016,The sword of a great long haired warrior, engraved with unknown runes.
+weapon_desc_014,"A simple and cheap katana, painted black, purple and green."
+weapon_desc_015,"A long oriental sword, agile and effective, although it's not very sturdy."
+weapon_desc_016,"The sword of a great long haired warrior, engraved with unknown runes."
 weapon_desc_017,The sword of an ancient warrior who composed soothing melodies for the soul.
 weapon_desc_018,A katana with a huge blade.
 weapon_desc_019,A katana with a notched blade. Inflicts bleeding.
-weapon_desc_020,A katana and a wakizashi together, offensives and agile at the same time.
+weapon_desc_020,"A katana and a wakizashi together, offensives and agile at the same time."
 weapon_desc_021,An axe forged from precarious resources by the desperation of a jailed soul.
-weapon_desc_022,The winded axe of Vuikur, one of the god of the Golden Divinity.
+weapon_desc_022,"The winded axe of Vuikur, one of the god of the Golden Divinity."
 weapon_desc_023,An axe forged from the bones of dead demons.
 weapon_desc_024,A wood batt that thickens on the end. Sturdy and strong.
-weapon_desc_025,A wood batt that thickens at the end, with wire and teeth embedded in it.
+weapon_desc_025,"A wood batt that thickens at the end, with wire and teeth embedded in it."
 weapon_desc_026,The hammer given to humans because of their devotion to the gods.
 weapon_desc_027,
 weapon_desc_028,
@@ -603,7 +603,7 @@ weapon_desc_034,
 weapon_desc_035,
 weapon_desc_036,
 weapon_desc_037,A red chandelier of unimaginable power.
-weapon_desc_038,A dark whip made with leather, reinforced with spikes.
+weapon_desc_038,"A dark whip made with leather, reinforced with spikes."
 weapon_desc_039,
 weapon_desc_040,
 weapon_desc_041,
@@ -612,7 +612,7 @@ weapon_desc_043,
 weapon_desc_044,
 weapon_desc_045,
 weapon_desc_046,
-weapon_desc_047,A set of cleaver and axe, inseparable for bloodthirsty warriors.
+weapon_desc_047,"A set of cleaver and axe, inseparable for bloodthirsty warriors."
 weapon_desc_048,
 weapon_desc_049,
 weapon_desc_050,
@@ -641,7 +641,7 @@ weapon_inspec_013,
 weapon_inspec_014,
 weapon_inspec_015,
 weapon_inspec_016,
-weapon_inspec_017,Its owner, the famous and old Vinsir, together with the warriors of the Congregation of Darkness, battled against the Darkness to bring peace to Earth. He created calm and inspiring melodies to relieve his stress and that of his allies in this eternal war against the Dark. One day, Vinsir and his fellow fought against a great Fingran consumed by the Dark. His allie managed to win the battle and free the great beast's soul, but at the cost of sacrificing Vinsir's life. Today, in the Great Field of Ardiflowers, lies the tomb of the heroic composer.
+weapon_inspec_017,"Its owner, the famous and old Vinsir, together with the warriors of the Congregation of Darkness, battled against the Darkness to bring peace to Earth. He created calm and inspiring melodies to relieve his stress and that of his allies in this eternal war against the Dark. One day, Vinsir and his fellow fought against a great Fingran consumed by the Dark. His allie managed to win the battle and free the great beast's soul, but at the cost of sacrificing Vinsir's life. Today, in the Great Field of Ardiflowers, lies the tomb of the heroic composer."
 weapon_inspec_018,
 weapon_inspec_019,
 weapon_inspec_020,
@@ -724,7 +724,7 @@ magic_desc_016,Inflicts fire on the equipped weapon
 magic_desc_017,Inflicts freezing to equipped weapon
 magic_desc_018,Inflicts electricity on equipped weapon
 magic_desc_019,Inflicts bleeding on the equipped weapon
-magic_desc_020,Hits the ground 3 times, exploding everything around with darkness.
+magic_desc_020,"Hits the ground 3 times, exploding everything around with darkness."
 magic_inspec_000,
 magic_inspec_001,
 magic_inspec_002,
@@ -831,12 +831,12 @@ ring_desc_023,Spells are executed more quickly.
 ring_desc_024,Reduces the MP consumption of spells.
 ring_desc_025,Increases damage negation when bleeding is nearby.
 ring_desc_026,Increases attack when bleeding is nearby.
-ring_desc_027,Increases flames damage, but decreases flames damage negation.
-ring_desc_028,Increases freezing damage, but decreases freezing damage negation.
-ring_desc_029,Increases electrical damage, but decreases electrical damage negation.
-ring_desc_030,Increases poison damage, but decreases poison damage negation.
-ring_desc_031,Increases bleeding chance, but decreases bleeding damage negation.
-ring_desc_032,Increases darkness damage, but decreases darkness damage negation.
+ring_desc_027,"Increases flames damage, but decreases flames damage negation."
+ring_desc_028,"Increases freezing damage, but decreases freezing damage negation."
+ring_desc_029,"Increases electrical damage, but decreases electrical damage negation."
+ring_desc_030,"Increases poison damage, but decreases poison damage negation."
+ring_desc_031,"Increases bleeding chance, but decreases bleeding damage negation."
+ring_desc_032,"Increases darkness damage, but decreases darkness damage negation."
 ring_desc_033,Increases strength.
 ring_desc_034,Increases dexterity.
 ring_desc_035,Increases momentum.
@@ -849,16 +849,16 @@ ring_desc_041,Increases the damage of heavy attacks.
 ring_desc_042,Increases the damage of attacks in the air.
 ring_desc_043,Increases the damage of long-range weapons.
 ring_desc_044,Enemies detect you with more difficulty.
-ring_desc_045,Blood is not lost when you die, but the ring breaks.
-ring_desc_046,When you die, you rebirth exploding everything around you. Only works once.
+ring_desc_045,"Blood is not lost when you die, but the ring breaks."
+ring_desc_046,"When you die, you rebirth exploding everything around you. Only works once."
 ring_desc_047,Turns into a ghost for a brief moment and comes back to life after dying.
 ring_desc_048,Becomes intangible after standing still for a while.
-ring_desc_049,Enemies nearby become slower, but you lose a little HP for each enemy affected.
+ring_desc_049,"Enemies nearby become slower, but you lose a little HP for each enemy affected."
 ring_desc_050,Becomes immune to any hits for a while after taking a great damage.
 ring_desc_051,Hidden paths become more evident.
 ring_desc_052,Restores a little the duration of effects when defeating enemies.
-ring_desc_053,Each enemy defeated generates a damage negation buildup, but the buildup decreases over time.
-ring_desc_054,Each enemy defeated generates a strength buildup, but the buildup decreases over time.
+ring_desc_053,"Each enemy defeated generates a damage negation buildup, but the buildup decreases over time."
+ring_desc_054,"Each enemy defeated generates a strength buildup, but the buildup decreases over time."
 ring_desc_055,A bubble is created around you as a shield.
 ring_desc_056,Increases the height reached by jumping.
 ring_desc_057,Decreases all damage negations.
@@ -921,23 +921,23 @@ ring_inspec_055,
 ring_inspec_056,
 ring_inspec_057,
 knowledge_name_000,Letter of a Old Hell Adventurer
-knowledge_name_001,Single sheet of "The Ice of the Fourth Tier"
-knowledge_name_002,Second page of "The grass of the First Tier"
-knowledge_name_003,Fifteenth page of "The grass of the First Tier"
+knowledge_name_001,"Single sheet of ""The Ice of the Fourth Tier"""
+knowledge_name_002,"Second page of ""The grass of the First Tier"""
+knowledge_name_003,"Fifteenth page of ""The grass of the First Tier"""
 knowledge_desc_000,A Letter written by an adventurer a long time ago.
-knowledge_desc_001,A single sheet from the 1st volume of the series "Hell explained" by Connor Sant'Anna.
-knowledge_desc_002,Second page of the fifth volume of the series "Hell explained" by Connor Sant'Anna.
-knowledge_desc_003,Fifteenth page of the fifth volume of the series " Hell Explained" by Connor Sant'Anna.
-knowledge_inspec_000,The sheet is extremely old and worn, but still perfectly legible:[n]"Hello, next adventurer, I'm glad you've also found this area, near this letter there is a purple totem. It is able to restore your vigor and cure any illness by resting near it and believing in its gift."
-knowledge_inspec_001,The sheet is burnt, but it is possible to read part of it:[n]"...Due to its distance from the center of hell, being extremely cold and icy, it is almost impossible to survive without great preparation, such as warmer clothes and fires, for example. However, it wasn't always like this, the Fifth Layer was once the hottest of all, and had a king, the King of the Underground, Drensriel, who soon after winning his title, betrayed Mounds by trying to kill him to become the King of Hell. However, he was clearly defeated, Mounds is ruthless, there is no beating him... So the fifth layer has been moved as far away from the center as possible, as a way of showing that Mounds will show no mercy to anyone who goes against him..."
-knowledge_inspec_002,The sheet is torn and a little bit burnt, but still legible.[n]"...With his powers, Mounds creates a great flowery field, more than 500 billion kilometers long, in an attempt to imitate his old home, The Heavens. But the attempt failed in the blink of an eye. Mounds, furious, yells so loudly that the entire field is brutally burnt. The flowers, turned to ash. Trees, melted into lava. Flawed animals, turned into heaps of rotting flesh..."
-knowledge_inspec_003,The leaves are torn and a little burnt, but still legible.[n]"...His disciples, Doalpus and Alreeis, finished the construction. Finally, after 134 years, it was erected and ready to demonstrate the power and architecture of hell, Moundzian Castle, the domain of Mounds... In the castle's laboratory, Mounds and his disciples created, from the blood of Mounds and a female mammal, Mounds' maiden, Astrina... Once married, Mounds and Astrina had 4 children, called the first demonic beings, who, when they came of age, were given the title of Demon Leaders..."
+knowledge_desc_001,"A single sheet from the 1st volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_desc_002,"Second page of the fifth volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_desc_003,"Fifteenth page of the fifth volume of the series "" Hell Explained"" by Connor Sant'Anna."
+knowledge_inspec_000,"The sheet is extremely old and worn, but still perfectly legible:[n]""Hello, next adventurer, I'm glad you've also found this area, near this letter there is a purple totem. It is able to restore your vigor and cure any illness by resting near it and believing in its gift.”"
+knowledge_inspec_001,"The sheet is burnt, but it is possible to read part of it:[n]""...Due to its distance from the center of hell, being extremely cold and icy, it is almost impossible to survive without great preparation, such as warmer clothes and fires, for example. However, it wasn't always like this, the Fifth Layer was once the hottest of all, and had a king, the King of the Underground, Drensriel, who soon after winning his title, betrayed Mounds by trying to kill him to become the King of Hell. However, he was clearly defeated, Mounds is ruthless, there is no beating him... So the fifth layer has been moved as far away from the center as possible, as a way of showing that Mounds will show no mercy to anyone who goes against him..."""
+knowledge_inspec_002,"The sheet is torn and a little bit burnt, but still legible.[n]""...With his powers, Mounds creates a great flowery field, more than 500 billion kilometers long, in an attempt to imitate his old home, The Heavens. But the attempt failed in the blink of an eye. Mounds, furious, yells so loudly that the entire field is brutally burnt. The flowers, turned to ash. Trees, melted into lava. Flawed animals, turned into heaps of rotting flesh..."""
+knowledge_inspec_003,"The leaves are torn and a little burnt, but still legible.[n]""...His disciples, Doalpus and Alreeis, finished the construction. Finally, after 134 years, it was erected and ready to demonstrate the power and architecture of hell, Moundzian Castle, the domain of Mounds... In the castle's laboratory, Mounds and his disciples created, from the blood of Mounds and a female mammal, Mounds' maiden, Astrina... Once married, Mounds and Astrina had 4 children, called the first demonic beings, who, when they came of age, were given the title of Demon Leaders..."""
 bes_name_n000,Weak body
 bes_name_n001,Demonic Barbarian
-bes_name_n002,Eldaron, the Lost Golem
-bes_desc_n000,A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlast sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
-bes_desc_n001,A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
-bes_desc_n002,A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
+bes_name_n002,"Eldaron, the Lost Golem"
+bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlast sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
+bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
+bes_desc_n002,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
 bes_type_n000,Demidemon
 bes_type_n001,Flaming War Golem - Boss
 dialogue_op_000,Purchase items
@@ -951,28 +951,28 @@ npc_000_dialogue_002,I'm... a merchant... What do you want?
 npc_000_dialogue_003,Me? haha...
 npc_000_dialogue_004,I'm nothing but a merchant.
 npc_000_dialogue_005,I failed my family and...
-npc_000_dialogue_006,Actually, I know you don't care.
+npc_000_dialogue_006,"Actually, I know you don't care."
 npc_000_dialogue_007,I'm glad you're back!
 npc_000_dialogue_008,What do you want?
-npc_001_dialogue_000,Hey hey hey! Take it easy, boy.
+npc_001_dialogue_000,"Hey hey hey! Take it easy, boy."
 npc_001_dialogue_001,You are not dead...
-npc_001_dialogue_002,Tell me, how the hell did you arrived here?!
-npc_001_dialogue_003,Wait, you are another one of those who came here because of that annoying witch, are not you?
-npc_001_dialogue_004,If so, go ahead!
-npc_001_dialogue_005,Try once more, die once more... Be reborn once more.
+npc_001_dialogue_002,"Tell me, how the hell did you arrived here?!"
+npc_001_dialogue_003,"Wait, you are another one of those who came here because of that annoying witch, are not you?"
+npc_001_dialogue_004,"If so, go ahead!"
+npc_001_dialogue_005,"Try once more, die once more... Be reborn once more."
 npc_001_dialogue_006,ah...
 npc_001_dialogue_007,How long will they keep trying?
-npc_001_dialogue_008,Try once more, die once more... Be reborn once more.
+npc_001_dialogue_008,"Try once more, die once more... Be reborn once more."
 npc_001_dialogue_009,ah...
 npc_001_dialogue_010,How long will they keep trying?
-intro_dialogue_000,Ah, dear brother...
-intro_dialogue_001,You have already done so much for me, I ask you to offer me your help once again.
-intro_dialogue_002,I imagine you have heard about Mounds, the Demon King, the fallen celestial being.
-intro_dialogue_003,From my rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living
-intro_dialogue_004,To dominate it, and then ascend to heaven again and become the supreme god.
-intro_dialogue_005,Nothing good will come of it, my brother. He will spread disgrace throughout the world, misery and suffering.
-intro_dialogue_006,Therefore I ask, Massaru. You are the only one that I trust of body and soul to be able to face him, and then, defeat him.
-intro_dialogue_007,Through my witchcraft, I send you to hell.
+intro_dialogue_000,"Ah, dear brother..."
+intro_dialogue_001,"You have already done so much for me, I ask you to offer me your help once again."
+intro_dialogue_002,"I imagine you have heard about Mounds, the Demon King, the fallen celestial being."
+intro_dialogue_003,"From my rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
+intro_dialogue_004,"To dominate it, and then ascend to heaven again and become the supreme god."
+intro_dialogue_005,"Nothing good will come of it, my brother. He will spread disgrace throughout the world, misery and suffering."
+intro_dialogue_006,"Therefore I ask, Massaru. You are the only one that I trust of body and soul to be able to face him, and then, defeat him."
+intro_dialogue_007,"Through my witchcraft, I send you to hell."
 intro_dialogue_008,Whatever it takes.
 intro_dialogue_009,You will kill him army...
 intro_dialogue_010,You will kill Mounds.
@@ -981,10 +981,10 @@ help_title_000,Menu: Character Info
 help_title_001,Menu: Equipament
 help_title_002,Menu: Inventory
 help_title_003,Menu: Bestiary
-help_text_000,In the Character Info menu, you can check your status, level, attributes, attack power and more.[n][n]The information here reflects on your attacks and your damage negation against various types of damage, such that it can be increased by the armor and weapons you equip.
-help_text_001,In the Equipment menu, you can equip weapons, armor, rings, gems and items.[n][n]Each piece of equipment in each category changes Massaru's strength in different ways. Weapons increase your attack power, armors increase your damage negation, rings and accessories grant you effects, gems grant effects to your weapon. All your equipment can give you other effects, such as a weapon giving you some effect, even if that's not its main function. The bag makes it easier for you to access items in your inventory.
-help_text_002,In my Inventory, you can check all the items you own.[n][n]You can use them, generating some kind of gain or loss, depending on the item. Equip them, so you don't have to go to the Equipment menu to equip the item you want. Even discard them, if you no longer want an item in your inventory, but bear in mind that doing so will discard all the items you have of that type, that is, discarding an item that you have 10 amounts of, for example, will cause all 10 of your amounts to be discarded.
-help_text_003,In the Bestiary menu, you can check out all the monsters you've encountered so far.[n][n]Here you can find out more about the monsters, their names, types, history, HP and attack power, damage negation and how many times you've defeated them.
+help_text_000,"In the Character Info menu, you can check your status, level, attributes, attack power and more.[n][n]The information here reflects on your attacks and your damage negation against various types of damage, such that it can be increased by the armor and weapons you equip."
+help_text_001,"In the Equipment menu, you can equip weapons, armor, rings, gems and items.[n][n]Each piece of equipment in each category changes Massaru's strength in different ways. Weapons increase your attack power, armors increase your damage negation, rings and accessories grant you effects, gems grant effects to your weapon. All your equipment can give you other effects, such as a weapon giving you some effect, even if that's not its main function. The bag makes it easier for you to access items in your inventory."
+help_text_002,"In my Inventory, you can check all the items you own.[n][n]You can use them, generating some kind of gain or loss, depending on the item. Equip them, so you don't have to go to the Equipment menu to equip the item you want. Even discard them, if you no longer want an item in your inventory, but bear in mind that doing so will discard all the items you have of that type, that is, discarding an item that you have 10 amounts of, for example, will cause all 10 of your amounts to be discarded."
+help_text_003,"In the Bestiary menu, you can check out all the monsters you've encountered so far.[n][n]Here you can find out more about the monsters, their names, types, history, HP and attack power, damage negation and how many times you've defeated them."
 class_no_class,Without class
 class_knight,Knight
 class_northern_pilgrim,Northern Pilgrim
