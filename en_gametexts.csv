@@ -261,10 +261,10 @@ def_elec,Eletrical DEF
 def_psn,Poisonous DEF
 def_ble,Bloody DEF
 def_dar,Dark DEF
-legion_contra,
-legion_seinoc,
-legion_indcle,
-legion_dessip,
+legion_contra,Dungeon Convicts
+legion_seinoc,Conformists of the Entity
+legion_indcle,Darkness Congregation
+legion_dessip,Draconic Myth
 shp_title,Shop of items
 shp_kind_purchase,Purchase
 shp_kind_sell,Sell
@@ -301,19 +301,10 @@ ct_mm_ce,You haven't the necessary attributes to equip this magic.
 ct_wp_warp,Warp to selected Cinder Totem?
 ct_wp_yah,You are in this Cinder Totem
 ct_area_000,Icy Sparks
-ct_area_001,Souls Keep
+ct_area_001,Souls Dungeon
 ct_area_002,Core Forge
 ct_area_003,King's Domain
-ct_name_000,
-ct_name_001,
-ct_name_002,
-ct_name_003,
-ct_name_004,
-ct_name_100,
-ct_name_200,
-ct_name_300,
-ct_name_400,
-ct_name_500,
+ct_name_100,Voyagers' Manor
 tool_kind_00,Consumable
 tool_kind_01,Throwable
 weapon_kind_00,Dagger
@@ -345,7 +336,6 @@ weapon_kind_25,Heavy Gun
 weapon_kind_26,Exotic Weapon
 weapon_kind_27,Shield
 weapon_kind_28,Great Shield
-weapon_special_armament,Special {0}
 magic_kind_00,Attack
 magic_kind_01,Support
 tool_name_000,Demon Chalice
