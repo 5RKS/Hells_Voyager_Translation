@@ -1,0 +1,986 @@
+KEYS,TEST NOT REAL TRANSLATION
+init_menu_continue,Continuar
+init_menu_load_game,Carregar
+init_menu_new_game,Novo jogo
+init_menu_options,Configurações
+init_menu_language,Idioma
+init_menu_credits,Créditos
+init_menu_guit_game,Sair do jogo
+save_slot_empty,Dados vazios
+set_menu_apply,Aplicar mudanças
+set_menu_reset,Repor as predefinições
+set_menu_settings,CONFIGURAÇÕES
+set_menu_video,VÍDEO
+set_menu_view_mode,Modo de vídeo
+set_menu_fullscreen,Tela cheia
+set_menu_bw,Janela sem borda
+set_menu_window,Janela
+set_menu_resolution,Resolução
+set_menu_gameplay,JOGABILIDADE
+set_menu_hud,HUD
+set_menu_language,Idioma
+set_menu_auto_lan,Mudança automática de idioma
+set_menu_text_vel,Velocidade de texto
+set_menu_insta,Instantâneo
+set_menu_slow,Lenta
+set_menu_mid,Média
+set_menu_high,Alta
+set_menu_hud_not,Ocultar
+set_menu_hud_show,Mostrar
+set_menu_hud_otn,Só o necessário
+set_menu_view_con,Ver controles
+set_menu_cons_icons,Ícones de controles
+set_menu_keyboard,Teclado e Mouse
+set_menu_gamepad,Controle
+set_menu_dynamic,Dinâmico
+set_menu_audio,AUDIO
+set_menu_master,Geral
+set_menu_sfx,Efeitos sonoros
+set_menu_ambient,Ambiente
+set_menu_musics,Músicas
+set_menu_dialogues,Diálogos
+set_menu_go_back_div,VOLTAR PARA O[n][n]MENU PRINCIPAL
+set_menu_go_back,VOLTAR PARA O MENU PRINCIPAL
+set_descri_fullscreen,"Define o modo de exibição do jogo, se permanecerá em tela cheia ou não.[n][n]Padrão: Ligado[n][n]AVISO:[n]- A opção ""Janela sem borda"" pode não funcionar se houver mais de 1 monitor."
+set_descri_resolution,"Define a resolução da janela do jogo.[n][n]Padrão: 1920 x 1080[n][n]Esta opção só funcionará se a opção ""Modo de vídeo"" estiver em ""janela""."
+set_descri_hud,Define se a HUD irá aparecer na tela.[n][n]Padrão: Ligado
+set_descri_language,"Define o idioma do jogo.[n][n]AVISO IMPORTANTE:[n]- O jogo DEVE ser reiniciado para mudar idioma, caso contrário, o idioma NÃO será alterado."
+set_descri_auto_lan,"Define se o idioma do jogo se adequará ao idioma do sistema operacional do usuario.[n][n]AVISOS:[n]- O jogo deve ser reiniciado para a mudança ser aplicada, caso contrário, a mudança NÃO será aplicada;[n][n]- O jogo se adequará apenas aos idiomas disponíveis na opção ""Idioma""."
+set_descri_text_vel,Define a velocidade do texto de diálogos.[n][n]Padrão: Média
+set_descri_con_walkF,Andar para frente:
+set_descri_con_walkB,Andar para trás:
+set_descri_con_jump,Pular:
+set_descri_con_dodge,Esquivar:
+set_descri_con_crouch,Agachar:
+set_descri_con_atk,Ataque:
+set_descri_con_atk_hv,Ataque pesado:
+set_descri_con_block,Bloquear:
+set_descri_con_magic,Usar magia:
+set_descri_con_magic_swap,Trocar magia:
+set_descri_con_item,Usar item da bolsa:
+set_descri_con_swap_item,Trocar item da bolsa:
+set_descri_con_menu,Abrir menu de Massaru:
+set_descri_con_pause,Pausar jogo:
+set_descri_con_int,Interagir:
+set_descri_cons_icons,Define o icone dos botões de seu controle ou teclado.
+set_descri_master,Define o volume de todos os sons existentes no jogo.[n][n]Padrão: 10
+set_descri_sfx,Define o volume de todos os efeitos sonoros.[n][n]Padrão: 10
+set_descri_ambient,Define o volume dos sons ambientes.[n][n]Padrão: 10
+set_descri_musics,Define o volume de todas as músicas.[n][n]Padrão: 10
+set_descri_dialogues,Define o volume de todos os diálogos.[n][n]Padrão: 10
+set_descri_apply,Aplica as mudanças feitas nas opções anteriores.[n][n]AVISO IMPORTANTE:[n]- Talvez seja necessário reiniciar o jogo para aplicar certas mudanças.
+set_descri_reset_default,Repõe as predefinições originais do jogo.[n][n]AVISO IMPORTANTE:[n]- O jogo será REINICIADO.
+descri_default,Este item ainda não tem uma descrição.
+popup_reset_warn,Tem certeza que deseja repor as predefinições? O jogo será reiniciado!
+popup_reseting,Resetando as configurações...
+popup_apply_changes_warn,Tem certeza que deseja aplicar as mudanças?
+popup_changing,Aplicando as configurações...
+lan_menu_eng,English
+lan_menu_pt_br,Português BR
+lan_menu_jap,Japonês
+cred_menu_credits,CRÉDITOS
+cred_menu_developed,DESENVOLVIDO POR
+cred_menu_ravi,Ravi de Santana 'RKS'
+cred_menu_musics,MÚSICAS POR
+cred_menu_fl,Freak Luke
+term_version,Versão {0}
+term_cancel,Cancelar
+term_hold,Segurar
+term_press,Pressionar
+term_pause,PAUSA
+term_ok,OK
+term_no,Não
+term_yes,Sim
+term_void,Vazio
+term_on,Ligado
+term_off,Desligado
+term_enabled,Ativado
+term_disabled,Desativado
+term_locked,Bloqueado
+term_go_back,Voltar
+term_leave,Sair
+term_type_a,Tipo A
+term_type_b,Tipo B
+term_type_c,Tipo C
+term_you_died,VOCÊ MORREU
+term_ct_restored,TOTEM CINÉREO RESTAURADO
+term_enemy_exterminated,INIMIGO EXTERMINADO
+term_leader_defeated,LÍDER DERROTADO
+term_king_slain,REI MORTO
+term_condition,Condição
+term_legion,Legião
+term_hp,PV
+term_mp,PM
+term_blessing,Benção
+term_def,Negação de dano
+term_level,Nível
+term_blood_hld,Sangue carregado
+term_blood_ndd,Sangue necessário
+term_blood_required,Sangue requerido
+term_blood_received,Sangue recebido
+term_atk_power,Poder de ataque
+term_special_armament,{0} Especial
+term_heavy_infusion_a,{0} Pesado
+term_heavy_infusion_b,{0} Pesada
+term_heavy_infusion_c,{0} Pesados
+term_heavy_infusion_d,{0} Pesadas
+term_sharp_infusion_a,{0} Afiado
+term_sharp_infusion_b,{0} Afiada
+term_sharp_infusion_c,{0} Afiados
+term_sharp_infusion_d,{0} Afiadas
+term_quality_infusion_a,{0} de Qualidade
+term_quality_infusion_b,{0} de Qualidade
+term_quality_infusion_c,{0} de Qualidade
+term_quality_infusion_d,{0} de Qualidade
+term_brute_infusion_a,{0} Bruto
+term_brute_infusion_b,{0} Bruta
+term_brute_infusion_c,{0} Brutos
+term_brute_infusion_d,{0} Brutas
+term_pyromantic_infusion_a,{0} Piromântico
+term_pyromantic_infusion_b,{0} Piromântica
+term_pyromantic_infusion_c,{0} Piromânticos
+term_pyromantic_infusion_d,{0} Piromânticas
+term_flaming_infusion_a,{0} Flamejante
+term_flaming_infusion_b,{0} Flamejante
+term_flaming_infusion_c,{0} Flamejante
+term_flaming_infusion_d,{0} Flamejante
+term_freezing_infusion_a,{0} Congelante
+term_freezing_infusion_b,{0} Congelante
+term_freezing_infusion_c,{0} Congelante
+term_freezing_infusion_d,{0} Congelante
+term_electric_infusion_a,{0} Elétrico
+term_electric_infusion_b,{0} Elétrica
+term_electric_infusion_c,{0} Elétricos
+term_electric_infusion_d,{0} Elétricas
+term_poisonous_infusion_a,{0} Venenoso
+term_poisonous_infusion_b,{0} Venenosa
+term_poisonous_infusion_c,{0} Venenosos
+term_poisonous_infusion_d,{0} Venenosas
+term_bloody_infusion_a,{0} Sangrento
+term_bloody_infusion_b,{0} Sangrenta
+term_bloody_infusion_c,{0} Sangrentos
+term_bloody_infusion_d,{0} Sangrentas
+term_darkness_infusion_a,{0} da Escuridão
+term_darkness_infusion_b,{0} da Escuridão
+term_darkness_infusion_c,{0} da Escuridão
+term_darkness_infusion_d,{0} da Escuridão
+term_number,N.
+term_conclusion,Conclusão
+term_base_power,Poder base
+term_use,Usar
+term_equip,Equipar
+term_abbr_equip,E
+term_discard,Descartar
+term_tdefeat,Vezes derrotado
+term_no_magics,Você não possui nenhuma magia...
+term_no_items,Você não possui nenhum item deste grupo...
+term_shop_no_items,Esse mercante não possui nenhum item deste grupo...
+term_pick_up,Pegar
+term_lit,Restaurar
+term_rest,Descansar
+term_talk,Conversar
+term_investigate,Investigar
+term_class,Classe
+term_kind,Tipo
+term_unknown,Desconhecido
+term_value,Valor
+term_in_possession,Em posse
+term_stored,Armazenado
+term_cannot_sold,Este item não pode ser vendido
+term_description,Descrição
+term_skip,Pular
+term_effects,Efeitos
+term_immune,Imu.
+term_limit_reached,Não é possível armazenar mais quantias de {0}.
+inv_init_title,Info. do personagem
+inv_descri_title,Veja suas estatísticas
+inv_init_equi,EQUIPAMENTO
+inv_descri_equi,Altere seu equipamento
+inv_init_inv,INVENTÁRIO
+inv_descri_inv,Veja e use seus itens
+inv_init_knw,BESTIÁRIO
+inv_descri_knw,Descrição dos monstros
+inv_init_map,MAPA
+inv_descri_map,Veja sua localização
+inv_tools,FERRAMENTAS
+inv_materials,MATERIAIS
+inv_keys,ITENS CHAVE
+inv_accessories,ACESSÓRIOS
+inv_armors,ARMADURAS
+inv_weapons,ARMAS
+inv_gems,GEMAS  
+inv_magics,MAGIAS
+inv_rings,ANÉIS
+inv_knowledges,CONHECIMENTOS
+box_general,Geral
+box_power,Poder
+box_equipments,Equipamentos
+menu_equi_ana,Armadura e anéis
+menu_equi_wng,Arma e gemas
+menu_equi_bag,Bolsa
+menu_ce,Você não possui os atributos necessários para utilizar esta arma corretamente. Seus ataques estarão enfraquecidos.
+menu_inv_bda,Bônus e requisito de atributo
+menu_inv_dis_warn,Descartar este item?
+menu_shop_purchase_many,Comprar quantos?
+menu_shop_sell_many,Vender quantos?
+attr_str,Força
+attr_dex,Destreza
+attr_imp,Ímpeto
+attr_vit,Vitalidade
+attr_res,Resistência
+attr_lck,Sorte
+elm_phys,Físico
+elm_pyro,Piromântico
+elm_fire,Fogo
+elm_ice,Congelamento
+elm_elec,Eletricidade
+elm_psn,Veneno
+elm_ble,Sangramento
+elm_dar,Escuridão
+elm_phys_abbr,Fís.
+elm_pyro_abbr,Pirom.
+elm_fire_abbr,Fg.
+elm_ice_abbr,Cong.
+elm_elec_abbr,Eletr.
+elm_psn_abbr,Ven.
+elm_ble_abbr,Sang.
+elm_dar_abbr,Esc.
+atk_phys,ATQ. Físico
+atk_pyro,ATQ. Piromântico
+atk_fire,ATQ. Flamejante
+atk_ice,ATQ. Congelante
+atk_elec,ATQ. Elétrico
+atk_psn,ATQ. Venenoso
+atk_ble,ATQ. Sangrento
+atk_dar,ATQ. Sombrio
+def_phys,DEF. Física
+def_pyro,DEF. Piromântica
+def_fire,DEF. Flamejante
+def_ice,DEF. Congelante
+def_elec,DEF. Elétrica
+def_psn,DEF. Venenosa
+def_ble,DEF. Sangrenta
+def_dar,DEF. Sombria
+legion_contra,Condenados do Calabouço
+legion_seinoc,Conformistas da Entidade
+legion_indcle,Congregação da Escuridão
+legion_dessip,Mito Dracônico
+shp_title,Loja de itens
+shp_kind_purchase,Compra
+shp_kind_sell,Venda
+shp_desc_purchase,Compre itens do mercante
+shp_desc_sell,Venda itens para o mercante
+pause_cont,Continuar
+pause_desk,Sair para desktop
+pause_main,Sair para o menu principal
+ct_inventory,Inventário
+ct_lit,TOTEM CINÉRIO ACESO
+ct_lu,Subir de nível
+ct_mm,Memorizar magias
+ct_skills,Habilidades
+ct_dc,Cálice Demoníaco
+ct_storage,Armazenamento
+ct_warp,Viajar
+ct_wisdom,Sabedoria
+ct_confirm,Confirmar
+ct_lu_confirm_singular,Gastar {0} de sangue e subir {1} nível?
+ct_lu_confirm_plural,Gastar {0} de sangue e subir {1} níveis?
+ct_dc_allot,Distribuir Cálices
+ct_dc_charge,Adicionar cargas
+ct_dc_force,Aumentar força
+ct_dc_grant_charge_singular,Condecer {0} Osso Clerical para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_plural,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_no_items,Você não possui nenhum Osso Clerical.
+ct_dc_grant_force,Conceder 1 Orbe Sangrento para aumentar a quantidade de PV/PM recuperado pelo seu Cálice Demoníaco?
+ct_dc_grant_force_no_items,Você não possui nenhum Orbe Sangrento.
+ct_dc_grant_force_max,A quantidade de PV/PM recuperada pelo seu Cálice Demoníaco não pode ser mais aumentada.
+ct_mm_es,Espaço vazio
+ct_mm_kind,Tipo
+ct_mm_mc,Custo de PM
+ct_mm_ce,Você não possui os atributos necessários para equipar esta magia.
+ct_wp_warp,Viajar para Totem Cinéreo selecionado?
+ct_wp_yah,Você está nesse Totem Cinéreo
+ct_area_000,Fagulhas Esquecidas
+ct_area_001,Calabouço das Almas
+ct_area_002,Forja do Núcleo
+ct_area_003,Domínio do Rei
+ct_name_100,Morada dos Viajantes
+tool_kind_00,Consumível
+tool_kind_01,Arremessável
+weapon_kind_00,Adaga
+weapon_kind_01,Adaga dupla
+weapon_kind_02,Espada reta
+weapon_kind_03,Espada reta dupla
+weapon_kind_04,Espada grande
+weapon_kind_05,Espada curva
+weapon_kind_06,Espada curva dupla
+weapon_kind_07,Espada curva grande
+weapon_kind_08,Katana
+weapon_kind_09,Katana dupla
+weapon_kind_10,Machado
+weapon_kind_11,Machado duplo
+weapon_kind_12,Martelo
+weapon_kind_13,Martelo duplo
+weapon_kind_14,Martelo grande
+weapon_kind_15,Lança
+weapon_kind_16,Alabarda
+weapon_kind_17,Foice
+weapon_kind_18,Arma colossal
+weapon_kind_19,Chicote
+weapon_kind_20,Punho
+weapon_kind_21,Garras
+weapon_kind_22,Arma Dupla
+weapon_kind_23,Arco
+weapon_kind_24,Arma de fogo
+weapon_kind_25,Arma de fogo pesada
+weapon_kind_26,Arma exótica
+weapon_kind_27,Escudo
+weapon_kind_28,Escudo grande
+magic_kind_00,Ataque
+magic_kind_01,Suporte
+tool_name_000,Cálice Demoníaco
+tool_name_001,Cálice Demoníaco Clerical
+tool_name_002_010,Caco de Demônio Sangrento
+tool_name_011,Jarro flamejante
+tool_name_012,Papiro piromântico
+tool_desc_000,Um cálice contendo o sangue de um Demônio Clérigo.[n][n]Recupera determinada quantia de PV.
+tool_desc_001,Um cálice contendo o sangue de um Demônio Clérigo batizado com a magia divina.[n][n]Recupera determinada quantia de PM.
+tool_desc_002,Concede 850 sangue.
+tool_desc_003,Concede 1200 sangue.
+tool_desc_004,Concede 3000 sangue.
+tool_desc_005,Concede 6000 sangue.
+tool_desc_006,Concede 10000 sangue.
+tool_desc_007,Concede 25000 sangue.
+tool_desc_008,Concede 50000 sangue.
+tool_desc_009,Concede 75000 sangue.
+tool_desc_010,Concede 100000 sangue.
+tool_desc_011,Um pote que pode ser arremessado em coisas ou inimigos.[n][n]Causa dano flamejante.
+tool_desc_012,Imbui a arma atual com dano piromântico.
+tool_inspec_000,
+tool_inspec_001,
+tool_inspec_002,
+tool_inspec_003,
+tool_inspec_004,
+tool_inspec_005,
+tool_inspec_006,
+tool_inspec_007,
+tool_inspec_008,
+tool_inspec_009,
+tool_inspec_010,
+tool_inspec_011,
+tool_inspec_012,
+material_name_000,Osso Clerical
+material_name_001,Orbe Sangrento
+material_name_002,Resíduo de Pedra Solar
+material_name_003,Fragmento de Pedra Solar
+material_name_004,Pedaço de Pedra Solar
+material_name_005,Placa de Pedra Solar
+material_name_006,Fragmento de Pedra Lunar
+material_name_007,Placa de Pedra Lunar
+material_desc_000,Conceda este osso à um ferreiro para aumentar as cargas de Cálice Demoníaco.
+material_desc_001,Conceda este orbe à um Totem Cinéreo para aumentar a força do Cálice Demoníaco.
+material_desc_002,Reforça armas até +3.
+material_desc_003,Reforça armas até +6.
+material_desc_004,Reforça armas até +9.
+material_desc_005,Reforça armas ao máximo.
+material_desc_006,Reforça armas especiais até +4.
+material_desc_007,Reforça armas especiais ao máximo.
+material_inspec_000,"Uma parte de um crânio de um Demônio Clérigo. Tão poderoso que, mesmo flamejando constantemente, não se desfaz. Um ferreiro pode usar este osso para forjar mais uma carga de Cálice Demoníaco, graças a uma dádiva que os Demônios Feitiçeiros deram à todos os ferreiros do inferno, que os fazem capaz de manipular os ossos dos Demônios Clérigos."
+material_inspec_001,"Sangue dos extintos Demônios Clérigos, envolto de uma barreira mágica absurdamente poderosa. A única forma de cedê-la é concedendo o próprio à um Totem Cinéreo, um totem criado na Primeira Grande Guerra Demoníaca, um de seus objetivos era canalizar o sangue dos Demônios Clérigos nos medicamentos e magias curandeiras dos Demônios Feiticeiros para evitar o máximo de mortes possíveis."
+material_inspec_002,
+material_inspec_003,
+material_inspec_004,
+material_inspec_005,
+key_name_000,Asas Demoníacas
+key_name_001,Pingente Púrpura da Deusa
+key_name_002,Pulseira de Prata Radiante
+key_name_003,Chave mestra (1)
+key_name_004,Chave mestra (2)
+key_name_005,Chave da ala superior 
+key_desc_000,Asas arrancadas de um demônio vermelho antigo. Concede a habilidade de dar um segundo salto.
+key_desc_001,"Pingente forjado com a Pedra Sagrada de Zuweixa, deusa dos elementos. Concede a habilidade de esquiva."
+key_desc_002,Pulseira prateada forjada pelos antigos ferreiros da Motanha Nevada. Concede a habilidade de agarrar nas paredes.
+key_desc_003,"Abre fechaduras comuns, usado por ladrões medíocres."
+key_desc_004,"Abre fechaduras comuns e incomuns, usada por ladrões malfazejos."
+key_desc_005,Abre a sala da ala superior da safe zone.
+key_inspec_000,
+key_inspec_001,
+key_inspec_002,
+key_inspec_003,
+key_inspec_004,
+key_inspec_005,
+accessory_name_000,Elmo de Cavaleiro
+accessory_name_001,Elmo de Templário
+accessory_name_002,Elmo de Profanado
+accessory_name_003,Elmo de Cavaleiro Incendiado
+accessory_name_004,Elmo de Arauto Negro
+accessory_name_005,Elmo do Pecador da Luta
+accessory_name_006,Elmo do Norte
+accessory_name_007,Mascara de Oni
+accessory_name_008,Chapéu de Palha
+accessory_name_009,Gaiola Enferrujada
+accessory_name_010,Arco de Cabeça de Astrólogo
+accessory_name_011,Orbe de Necromante
+accessory_desc_000,
+accessory_desc_001,
+accessory_desc_002,
+accessory_desc_003,
+accessory_desc_004,
+accessory_desc_005,
+accessory_desc_006,
+accessory_desc_007,
+accessory_desc_008,Um chapéu feito de palha com uma fita envolta nele. Deixa seus ataques com um alcance maior.
+accessory_desc_009,"Uma gaiola enferrujada feita de um metal vermelho. Veneno e Sangramento aplicam mais rápidos, mas diminui muito a negação de dano aos mesmos."
+accessory_desc_010,Acessório simples de cabeça. Aumenta ímpeto e sorte.
+accessory_desc_011,Um orbe de magia necromante. Aumenta o dano e a negação de dano de ataques não físicos.
+accessory_inspec_000,
+accessory_inspec_001,
+accessory_inspec_002,
+accessory_inspec_003,
+accessory_inspec_004,
+accessory_inspec_005,
+accessory_inspec_006,
+accessory_inspec_007,
+accessory_inspec_008,Um chapéu inspirado de um antigo mito que contava sobre um homem que possuía poderes sobre-humanos e tinha o sonho quase inatingível de se tornar um rei. De alguma forma esse chapéu ainda está intacto.
+accessory_inspec_009,"Construída para prender aves, mas um dia seu proposito mudou, para não prender apenas aves, mas também algo obscuro."
+accessory_inspec_010,
+accessory_inspec_011,
+armor_name_000,Armadura de Cavaleiro
+armor_name_001,Armadura de Templário
+armor_name_002,Armadura de Profanado
+armor_name_003,Armadura de Cavaleiro Incendiado
+armor_name_004,Armadura de Arauto Negro
+armor_name_005,Armadura de Oni
+armor_name_006,Kimono Defasado
+armor_name_007,Kimono de Ronin
+armor_name_008,Cota de Malha do Norte
+armor_name_009,Vestes de Ladino
+armor_name_010,Vestes de Estudioso da Noite
+armor_name_011,Manto de Mago
+armor_name_012,Roupas de Eremita
+armor_name_013,Corda de Condenado
+armor_name_014,Correntes do Pecador da Luta
+armor_name_015,Ombreira de Couro
+armor_name_016,Conjunto Dourado
+armor_desc_000,Armadura de um antigo cavaleiro respeitoso.
+armor_desc_001,Armadura de um antigo templário agraciado.
+armor_desc_002,Armadura de um antigo profanado temido.
+armor_desc_003,
+armor_desc_004,
+armor_desc_005,
+armor_desc_006,Roupas de ronin do bisavô de Massaru.
+armor_desc_007,Kimono de um antigo ronin ardiloso.
+armor_desc_008,Armadura de um antigo peregrino do norte bestial.
+armor_desc_009,Vestes de um antigo ladino pilantra.
+armor_desc_010,
+armor_desc_011,Manto de um antigo mago sábio.
+armor_desc_012,
+armor_desc_013,Roupas de um antigo condenado caótico.
+armor_desc_014,
+armor_desc_015,Ombreira com uma placa de ferro resistente. Aumenta força e vitalidade.
+armor_desc_016,Armadura dourada. Antigamente foi usada por um grande rei do subsolo.
+armor_inspec_000,
+armor_inspec_001,
+armor_inspec_002,
+armor_inspec_003,
+armor_inspec_004,
+armor_inspec_005,
+armor_inspec_006,
+armor_inspec_007,"Este kimono foi passado de geração em geração da família de Massaru. Já não está tão em perfeito estado quanto já foi um dia. Massaru continua usando ele por respeito à seu bisavô, que foi um grande imperador em Otsumoshita."
+armor_inspec_008,
+armor_inspec_009,
+armor_inspec_010,
+armor_inspec_011,
+armor_inspec_012,
+armor_inspec_013,
+armor_inspec_014,
+armor_inspec_015,
+armor_inspec_016,
+weapon_name_000,Adaga de Serpente
+weapon_name_001,Adagas de Ladino
+weapon_name_002,Adagas Cristalizadas
+weapon_name_003,Shotel Duplo
+weapon_name_004,Espada Desgastada
+weapon_name_005,Espada Reta de Templário
+weapon_name_006,Espada Reta de Runas
+weapon_name_007,Espada Bastarda Dupla
+weapon_name_008,Espada Divina
+weapon_name_009,Espada da Congregação
+weapon_name_010,Ougmeyer
+weapon_name_011,Lâminas de Necromante
+weapon_name_012,Cristen
+weapon_name_013,Cutelo de fatiador
+weapon_name_014,Katana Simples Tingida
+weapon_name_015,Katana de Ronin
+weapon_name_016,Katana com Gravuras
+weapon_name_017,Katana da Melodia Tenebrosa
+weapon_name_018,Odachi
+weapon_name_019,Katana Serrada
+weapon_name_020,Daisho
+weapon_name_021,Machado de Prisioneiro
+weapon_name_022,Machado da Tempestade
+weapon_name_023,Machados Ósseos
+weapon_name_024,Porrete Entalhado
+weapon_name_025,Porrete Dentado
+weapon_name_026,Martelo da Vontade
+weapon_name_027,Dupla de Ferro
+weapon_name_028,Grande Maça Flangeada
+weapon_name_029,Martelo da Casca Negra
+weapon_name_030,Lança Gélida
+weapon_name_031,Jumonji Yari
+weapon_name_032,Alabarda Noturna
+weapon_name_033,Alabarda dos Raios Sangrentos
+weapon_name_034,Alabarda de Canhão Prostético
+weapon_name_035,Foice de Ceifador
+weapon_name_036,Foice de Lâmina Dupla
+weapon_name_037,Castiçal do Crepúsculo Divino
+weapon_name_038,Chicote de Profanado
+weapon_name_039,Chicote Bombardeiro de Couro
+weapon_name_040,Chicote do Sopro Gélido
+weapon_name_041,Punhos de Monge
+weapon_name_042,Cestus
+weapon_name_043,Cestus Espinhoso
+weapon_name_044,Esfera explosiva
+weapon_name_045,Garras toxicas
+weapon_name_046,Garras Curvadas
+weapon_name_047,Cutelo e Machadinha
+weapon_name_048,Lança e Espada
+weapon_name_049,Foice e Adaga
+weapon_name_050,Arco de Explorador
+weapon_name_051,Arco incendiado
+weapon_name_052,Arco Áureo
+weapon_name_053,Arcabuz
+weapon_name_054,Canhão
+weapon_name_055,Geta Laminada
+weapon_name_056,Escudo da Nevoa Gélida
+weapon_name_057,Escudo de Ossos de Serpente Demoníaca
+weapon_name_058,Parede com Espinhos
+weapon_desc_000,Uma adaga esguia com um cabo de serpente. Inflige veneno nos inimigos.
+weapon_desc_001,"Uma dupla de adagas muito bem afiadas, uma reta e a outra curvada."
+weapon_desc_002,Uma dupla de adagas tão gelidas que se cristalizam. Inflige congelamento nos inimigos.
+weapon_desc_003,"Uma dupla de adagas com formato de meia lua, muito poderosas e ágeis."
+weapon_desc_004,"Uma espada nem muito grande e nem muito pequena, forte e ágil."
+weapon_desc_005,"Uma espada reta, balanceada entre força e agilidade."
+weapon_desc_006,"Uma espada reta gravada com runas em sua lâmina, abençoada por Meapol."
+weapon_desc_007,"Uma dupla de espadas bastardas, ótima para ataques consecutivos."
+weapon_desc_008,Uma espada grande forjada diretamente por ferreiros de Huozue. Inflige piromancia.
+weapon_desc_009,A grande espada da legião de guerreiros da Calamidade Negra.
+weapon_desc_010,"A espada anciã, seu verdadeiro poder é tão desconhecida quanto sua criação."
+weapon_desc_011,Espadas capazes de renascerem os mortos.
+weapon_desc_012,A espada congelada das antigas lendas. Dizem que é capaz de matar um deus.
+weapon_desc_013,Um cutelo enorme. Talvez tenha pertencido a um gigante açogueiro.
+weapon_desc_014,"Uma katana simples e barata, pintada de preto, roxo e verde."
+weapon_desc_015,"Uma longa espada oriental, ágil e eficaz, por mais que não seja muito resistente."
+weapon_desc_016,"A espada de um grande guerreiro de cabelos longos, gravadas com runas desconhecidas."
+weapon_desc_017,A espada de um antigo guerreiro que compunha melodias relaxantes para a alma.
+weapon_desc_018,Uma katana com uma lâmina enorme.
+weapon_desc_019,Uma katana com uma lâmina dentada. Inflinge sangramento.
+weapon_desc_020,"Uma katana e uma wakizashi juntas, ofensivas e ágeis ao mesmo tempo."
+weapon_desc_021,Um machado forjada de recursos precários pelo desespero de uma alma aprisionada.
+weapon_desc_022,"O machado dos ventos de Vuikur, um dos deuses da Divindade Áurea."
+weapon_desc_023,Um machado forjado a partir de ossos de demônios mortos.
+weapon_desc_024,Um bastão de madeira que engrossa na ponta. Robusto e forte.
+weapon_desc_025,"Um bastão de madeira que engrossa na ponta, com arame e dentes enfincados nele."
+weapon_desc_026,O martelo dado aos humanos devido a sua devoção aos deuses.
+weapon_desc_027,
+weapon_desc_028,
+weapon_desc_029,
+weapon_desc_030,
+weapon_desc_031,
+weapon_desc_032,
+weapon_desc_033,
+weapon_desc_034,
+weapon_desc_035,
+weapon_desc_036,
+weapon_desc_037,Um candelabro vermelho de poder inimaginável.
+weapon_desc_038,"Um chicote escuro feito de couro, reforçado de espinhos."
+weapon_desc_039,
+weapon_desc_040,
+weapon_desc_041,
+weapon_desc_042,
+weapon_desc_043,
+weapon_desc_044,
+weapon_desc_045,
+weapon_desc_046,
+weapon_desc_047,"Um conjunto de um cutelo e machadinha, inseparáveis para guerreiros sedentos por sangue."
+weapon_desc_048,
+weapon_desc_049,
+weapon_desc_050,
+weapon_desc_051,
+weapon_desc_052,
+weapon_desc_053,
+weapon_desc_054,
+weapon_desc_055,
+weapon_desc_056,
+weapon_desc_057,
+weapon_desc_058,
+weapon_inspec_000,
+weapon_inspec_001,
+weapon_inspec_002,
+weapon_inspec_003,
+weapon_inspec_004,
+weapon_inspec_005,
+weapon_inspec_006,
+weapon_inspec_007,
+weapon_inspec_008,
+weapon_inspec_009,
+weapon_inspec_010,
+weapon_inspec_011,
+weapon_inspec_012,
+weapon_inspec_013,
+weapon_inspec_014,
+weapon_inspec_015,
+weapon_inspec_016,
+weapon_inspec_017,"Seu dono, o famoso e antigo Vinsir, junto com os guerreiros da Congregação da Escuridão, batalhava contra a Escuridão para trazer paz a Terra. Ele criava melodias calmas e inspiradoras com o intuito de descarregar seu estresse e o de seus aliados nessa guerra eterna contra a Escuridão. Um dia, Vinsir junto com seu companheiro lutavam contra um grande Fingran consumido pela Escuridão. Seu aliado conseguiu ganhar a batalha e libertar a alma da grande besta, mas ao custo do sacrifício da vida de Vinsir. Hoje em dia, no Grande Campo de Ardiflores, reside o túmulo do heróico compositor."
+weapon_inspec_018,
+weapon_inspec_019,
+weapon_inspec_020,
+weapon_inspec_021,
+weapon_inspec_022,
+weapon_inspec_023,
+weapon_inspec_024,
+weapon_inspec_025,
+weapon_inspec_026,
+weapon_inspec_027,
+weapon_inspec_028,
+weapon_inspec_029,
+weapon_inspec_030,
+weapon_inspec_031,
+weapon_inspec_032,
+weapon_inspec_033,
+weapon_inspec_034,
+weapon_inspec_035,
+weapon_inspec_036,
+weapon_inspec_037,Dizem que este candelabro foi forjado por um grande ferreiro abençoado por Huozue.
+weapon_inspec_038,
+weapon_inspec_039,
+weapon_inspec_040,
+weapon_inspec_041,
+weapon_inspec_042,
+weapon_inspec_043,
+weapon_inspec_044,
+weapon_inspec_045,
+weapon_inspec_046,
+weapon_inspec_047,
+weapon_inspec_048,
+weapon_inspec_049,
+weapon_inspec_050,
+weapon_inspec_051,
+weapon_inspec_052,
+weapon_inspec_053,
+weapon_inspec_054,
+weapon_inspec_055,
+weapon_inspec_056,
+weapon_inspec_057,
+weapon_inspec_058,
+magic_name_000,Chão Piromântico
+magic_name_001,Combustão Piromântica
+magic_name_002,Bola de fogo
+magic_name_003,Parede Flamejante
+magic_name_004,Estaca de Gelo
+magic_name_005,Cristais Gélidos
+magic_name_006,Haste de Raio
+magic_name_007,Cuspe Venenoso
+magic_name_008,Perseguição Sangrenta
+magic_name_009,Explosão Negra
+magic_name_010,Força de Huoko
+magic_name_011,Explêndida Força de Huoko
+magic_name_012,Fortitude de Huoko
+magic_name_013,Benção de Noctarogar
+magic_name_014,Benção de Kiabass
+magic_name_015,Piromancia de Falon
+magic_name_016,Fogo de Falon
+magic_name_017,Gelo de Falon
+magic_name_018,Raios de Falon
+magic_name_019,Sangue de Falon
+magic_name_020,Escuridão da Entidade Temida
+magic_desc_000,Espalha piromancia pelo chão.
+magic_desc_001,Conjura uma explosão piromântica.
+magic_desc_002,Arremessa uma bola flamejante.
+magic_desc_003,Lança colunas de fogo.
+magic_desc_004,Arremessa uma estaca de gelo.
+magic_desc_005,Arremessa cristais de gelo pontiagudos.
+magic_desc_006,Arremessa um relâmpago.
+magic_desc_007,Expele veneno pela boca.
+magic_desc_008,Conjura uma fumaça de sangue que persegue inimigos.
+magic_desc_009,Conjura orbes de escuridão que perseguem inimigos.
+magic_desc_010,Aumenta o poder de ataque.
+magic_desc_011,Aumento vastamente o poder de ataque.
+magic_desc_012,Melhora todas as negação de danos.
+magic_desc_013,Restaura vida gradualmente.
+magic_desc_014,Aumenta o dano de magias e diminui o gasto de PM delas.
+magic_desc_015,Inflinge piromancia a arma equipada.
+magic_desc_016,Inflinge fogo à arma equipada
+magic_desc_017,Inflinge congelamento à arma equipada
+magic_desc_018,Inflinge eletricidade à arma equipada
+magic_desc_019,Inflinge sangramento à arma equipada
+magic_desc_020,"Bate no chão 3 vezes, explodindo tudo ao redor com escuridão."
+magic_inspec_000,
+magic_inspec_001,
+magic_inspec_002,
+magic_inspec_003,
+magic_inspec_004,
+magic_inspec_005,
+magic_inspec_006,
+magic_inspec_007,
+magic_inspec_008,
+magic_inspec_009,
+magic_inspec_010,
+magic_inspec_011,
+magic_inspec_012,
+magic_inspec_013,
+magic_inspec_014,
+magic_inspec_015,
+magic_inspec_016,
+magic_inspec_017,
+magic_inspec_018,
+magic_inspec_019,
+magic_inspec_020,
+ring_name_000,Anel do Escudo Perfurado
+ring_name_001,Anel da Espada Quebrada
+ring_name_002,Anel do Escudo de Aço
+ring_name_003,Anel da Espada Eterna
+ring_name_004,Anel de Noctarogar
+ring_name_005,Anel da Kiabass
+ring_name_006,Anel da Planta Imortal
+ring_name_007,Anel da Planta de Sangue
+ring_name_008,Anel do Clérigo
+ring_name_009,Anel de Conformidade
+ring_name_010,Anel da Escama Resistente
+ring_name_011,Anel da Escama Flamejante
+ring_name_012,Anel da Escama Congelado
+ring_name_013,Anel da Escama Elétrica
+ring_name_014,Anel da Escama Venenosa
+ring_name_015,Anel da Escama Sangrenta
+ring_name_016,Anel da Escama Negra
+ring_name_017,Anel do Panteão Áureo
+ring_name_018,Anel do Trevo de Quatro Folhas
+ring_name_019,Anel da Ajuda Mágica
+ring_name_020,Anel da Vontade
+ring_name_021,Anel do Estudioso
+ring_name_022,Anel do Mago Implacável
+ring_name_023,Anel do Cristal Cintilante
+ring_name_024,Anel da Estrela
+ring_name_025,Anel do Samurai
+ring_name_026,Anel do Oni
+ring_name_027,Anel da Serpente Flamejante
+ring_name_028,Anel da Serpente Congelada
+ring_name_029,Anel da Serpente Elétrica
+ring_name_030,Anel da Serpente Peçonhenta
+ring_name_031,Anel da Serpente Sangrenta
+ring_name_032,Anel da Serpente Negra
+ring_name_033,Anel do Bárbaro
+ring_name_034,Anel do Ardiloso
+ring_name_035,Anel do Alquimista
+ring_name_036,Anel da Cavaleiro
+ring_name_037,Anel do Explorador
+ring_name_038,Anel da Motivação
+ring_name_039,Anel da Arte do Espadachim
+ring_name_040,Anel da Arte da Virtude
+ring_name_041,Anel da Arte da Guerra
+ring_name_042,Anel da Arte da Guerra
+ring_name_043,Anel do Atirador
+ring_name_044,Anel do Gato
+ring_name_045,Anel da Benção de Ornunddu
+ring_name_046,Anel da Fénix
+ring_name_047,Anel do Fantasma
+ring_name_048,Anel da Camuflagem
+ring_name_049,Anel da Penalidade
+ring_name_050,Anel do Fugitivo
+ring_name_051,Anel do Discernimento
+ring_name_052,Anel da Restauração
+ring_name_053,Anel da Defesa Assassina
+ring_name_054,Anel da Força Assassina
+ring_name_055,Anel da Bolha de Falon
+ring_name_056,Anel do Salto
+ring_name_057,Anel do Fardo
+ring_desc_000,Aumenta negação de dano quando estiver com pouco PV.
+ring_desc_001,Aumenta dano quando estiver com pouco PV.
+ring_desc_002,Aumenta negação de dano quando estiver com PV cheio.
+ring_desc_003,Aumenta dano quando estiver com PV cheio.
+ring_desc_004,Aumenta PV máximo.
+ring_desc_005,Aumenta PM máximo.
+ring_desc_006,Restaura PV gradualmente.
+ring_desc_007,Restaura PV ao derrotar inimigos.
+ring_desc_008,Melhora PV e PM restaurada pelo cálice.
+ring_desc_009,Melhora atributos mas aumenta o dano recebido.
+ring_desc_010,Melhora a negação de dano física.
+ring_desc_011,Melhora a negação de dano à chamas.
+ring_desc_012,Melhora a negação de dano à congelamento.
+ring_desc_013,Melhora a negação de dano elétrica.
+ring_desc_014,Melhora a negação de dano à veneno.
+ring_desc_015,Melhora a negação de dano à sangramento.
+ring_desc_016,Melhora a negação de dano à escuridão.
+ring_desc_017,Aumenta a benção.
+ring_desc_018,Aumenta o sangue adquirido ao derrotar inimigos.
+ring_desc_019,Melhora magias de suporte.
+ring_desc_020,Aumenta a duração de magias de suporte.
+ring_desc_021,Melhora magias de ataque.
+ring_desc_022,Melhora enormemente magias de ataque.
+ring_desc_023,Magias são executadas mais rapidamente.
+ring_desc_024,Reduz o consumo de PM de magias.
+ring_desc_025,Aumenta a negação de dano quando houver sangramento por perto.
+ring_desc_026,Aumenta o ataque quando houver sangramento por perto.
+ring_desc_027,"Aumenta o dano de chamas, mas diminui a negação de dano à chamas."
+ring_desc_028,"Aumenta o dano congelante, mas diminui a negação de dano à congelamento."
+ring_desc_029,"Aumenta o dano elétrico, mas diminui a negação de dano elétrica."
+ring_desc_030,"Aumenta o dano de veneno, mas diminui a negação de dano à veneno."
+ring_desc_031,"Aumenta o chance de sangramento, mas diminui a negação de dano à sangramento."
+ring_desc_032,"Aumenta o dano de escuridão, mas diminui a negação de dano à escuridão."
+ring_desc_033,Aumenta força.
+ring_desc_034,Aumenta destreza.
+ring_desc_035,Aumenta ímpeto.
+ring_desc_036,Aumenta resistência.
+ring_desc_037,Aumenta sorte.
+ring_desc_038,Aumenta o dano do primeiro ataque.
+ring_desc_039,Aumenta o dano de ataques consecutivos.
+ring_desc_040,Restaura PV com ataques consecutivos.
+ring_desc_041,Aumenta o dano de ataques pesados.
+ring_desc_042,Aumenta o dano de ataques no ar.
+ring_desc_043,Aumenta o dano de armas de longa distância.
+ring_desc_044,Inimigos te detectam com mais dificuldade.
+ring_desc_045,"Sangue não é perdido ao morrer, mas o anel se quebra."
+ring_desc_046,"Ao morrer, renasce explodindo tudo ao redor. Funciona apenas uma vez."
+ring_desc_047,Se transforma num fantasma por um breve momento e retorna a vida após morrer.
+ring_desc_048,Se torna intangível após ficar parado por um tempo.
+ring_desc_049,"Inimigos próximo se tornam mais lentos, mas perde um pouco de PV por cada inimigo atingido."
+ring_desc_050,se torna imune a qualquer hit por um tempo após receber um grande dano.
+ring_desc_051,Caminhos ocultos se tornam mais evidentes.
+ring_desc_052,Restaura um pouco a duração de efeitos ao derrotar inimigos.
+ring_desc_053,"Cada inimigo derrotado gera um acúmulo de negação de dano, mas o acúmulo se diminui com o tempo."
+ring_desc_054,"Cada inimigo derrotado gera um acúmulo de força, mas o acúmulo se diminui com o tempo."
+ring_desc_055,Uma bolha é criada ao seu redor como um escudo.
+ring_desc_056,Aumenta a altura alcançada com o pulo.
+ring_desc_057,Diminui todas as negações de dano.
+ring_inspec_000,
+ring_inspec_001,
+ring_inspec_002,
+ring_inspec_003,
+ring_inspec_004,
+ring_inspec_005,
+ring_inspec_006,
+ring_inspec_007,
+ring_inspec_008,
+ring_inspec_009,
+ring_inspec_010,
+ring_inspec_011,
+ring_inspec_012,
+ring_inspec_013,
+ring_inspec_014,
+ring_inspec_015,
+ring_inspec_016,
+ring_inspec_017,
+ring_inspec_018,
+ring_inspec_019,
+ring_inspec_020,
+ring_inspec_021,
+ring_inspec_022,
+ring_inspec_023,
+ring_inspec_024,
+ring_inspec_025,
+ring_inspec_026,
+ring_inspec_027,
+ring_inspec_028,
+ring_inspec_029,
+ring_inspec_030,
+ring_inspec_031,
+ring_inspec_032,
+ring_inspec_033,
+ring_inspec_034,
+ring_inspec_035,
+ring_inspec_036,
+ring_inspec_037,
+ring_inspec_038,
+ring_inspec_039,
+ring_inspec_040,
+ring_inspec_041,
+ring_inspec_042,
+ring_inspec_043,
+ring_inspec_044,
+ring_inspec_045,
+ring_inspec_046,
+ring_inspec_047,
+ring_inspec_048,
+ring_inspec_049,
+ring_inspec_050,
+ring_inspec_051,
+ring_inspec_052,
+ring_inspec_053,
+ring_inspec_054,
+ring_inspec_055,
+ring_inspec_056,
+ring_inspec_057,
+knowledge_name_000,Carta de um Antigo Aventureiro do Inferno
+knowledge_name_001,"Folha avulsa da ""O Gelo da Quarta Camada"""
+knowledge_name_002,"Segunda página da ""A grama da Primeira Camada"""
+knowledge_name_003,"Décima quinta página da ""A grama da Primeira Camada"""
+knowledge_desc_000,Uma carta escrita por um aventureiro há muito tempo atrás.
+knowledge_desc_001,"Uma folha avulsa do primeiro volume da série ""Inferno explicado"" de Connor Sant'Anna."
+knowledge_desc_002,"Segunda página do quinto volume da série ""Inferno explicado"" de Connor Sant'Anna."
+knowledge_desc_003,"Décima quinta página do quinto volume da série ""Inferno explicado"" de Connor Sant'Anna."
+knowledge_inspec_000,"A folha está extremamente velha e desgastada, entretanto ainda é possivel ler perfeitamente:[n]""Olá, próximo aventureiro, fico feliz que também encontrou esta área, por perto desta carta há um totem roxo. Ele é capaz de restaurar seu vigor e curar qualquer doença ao descansar perto dele e acreditar em sua dádiva."""
+knowledge_inspec_001,"A folha está queimada, mas é possível ler uma parte:[n]""...Devido à sua distância do centro do inferno, sendo extremamente fria e gélida, é quase impossível sobreviver sem um grande preparo, como roupas mais quentes e fogueiras, por exemplo. Entretanto nem sempre foi assim, a Quinta Camada já foi a mais quente de todas, e possuía um rei, o Rei do Subsolo, Drensriel, que logo após ganhar seu título, traiu Mounds tentando o matá-lo para se tornar o Rei do Inferno. Contudo, claramente foi derrotado, Mounds é implacável, não há como derrotá-lo... Então a Quinta camada foi distanciada o máximo possível do centro, como forma de mostrar que Mounds não terá piedade com ninguém que for contra ele..."""
+knowledge_inspec_002,"A folha está rasgada e um pouco queimada, mas ainda legível.[n]""...Com seus poderes, Mounds cria um grande campo florido, com mais de 500 bilhões de quilômetros de extensão, como tentativa de imitar seu antigo lar, Os Céus. Porém a tentativa foi ao fracasso num piscar de olhos. Mounds, furioso, grita tão alto que todo o campo é brutalmente queimado. As flores, transformadas em cinzas. As árvores, derretidas em lava. Os animais defeituosos, transformados em montes de carne podre..."""
+knowledge_inspec_003,"A folhas estão rasgada e um pouco queimada, mas ainda legível.[n]""...Seus discípulos, Doalpus e Alreeis, terminaram a construção. Finalmente, após 134 anos, estava erguido e pronto para demonstrar o poder e arquitetura do inferno, o Castelo Moundzian, o domínio de Mounds... No laboratório do castelo, Mounds e seus discípulos criaram, a partir do sangue de Mounds e de um mamífero fêmea, a donzela de Mounds, Astrina... Já casados, Mounds e Astrina tiveram 6 filhos, denominados de os primeiros seres demoníacos, que quando alcançaram a maioridade, receberam o título de Lordes Demoníacos..."""
+bes_name_n000,Corpo Fraco
+bes_name_n001,Bárbaro Demoníaco
+bes_name_n002,"Eldaron, o Golem Perdido"
+bes_desc_n000,"Um guerreiro morto, que devido a sua morte honrosa em batalha, possui um corpo. No entando, foi maldito em vida, sua sentença eterna agora é batalhar para sempre contra seus iguais como memória de seus últimos momentos de vida, sentindo toda a dor e o fardo de causar tanta desgraça enquanto estava em vida.[n][n]Devido a nova ditadura de Mounds, todos os mortos agora estão gradualmente fortificando-se e tornando-se demônios. Assim, quando completarem a transformação, farão parte do exército de Mounds no ataque ao Reino dos Humanos."
+bes_desc_n001,"Um enorme e musculoso guerreiro morto, morto em batalha, por isso mantém seu corpo até no inferno. Mas por cada local que passou, causou desgraça. Agora, para sempre, sofrerá em batalhas, lembrando de seus últimos momentos de vida e sofrendo pelo fardo do tormento que causou em vida.[n][n]Devido a nova ditadura de Mounds, todos os mortos agora estão gradualmente fortificando-se e tornando-se demônios. Assim, quando completarem a transformação, farão parte do exército de Mounds no ataque ao Reino dos Humanos."
+bes_desc_n002,"Um golem forjado a partir de pedras vulcânicas e magia que batalhou na Primeira Guerra Demoníaca. Usam geralmente martelos ou machados grandes flamejantes muito poderosos.[n][n]Eldaron, em uma batalha na guerra, acabou se perdendo, caindo na abandonada Quarta Camada do inferno e nunca foi encontrado."
+bes_type_n000,Semi-demônio
+bes_type_n001,Golem Flamejante de Guerra - Chefe
+dialogue_op_000,Comprar itens
+dialogue_op_001,Vender itens
+dialogue_op_002,Conversar
+npc_name_000,Gustav
+npc_name_001,Grumyin
+npc_000_dialogue_000,Olá amigo.
+npc_000_dialogue_001,Como vai?
+npc_000_dialogue_002,Eu sou... Um mercante... O que vai querer?
+npc_000_dialogue_003,Eu? haha...
+npc_000_dialogue_004,Não sou nada mais do que um mercante.
+npc_000_dialogue_005,Falhei com minha familia e...
+npc_000_dialogue_006,"Na verdade, sei que você não se importa."
+npc_000_dialogue_007,Que bom que você voltou!
+npc_000_dialogue_008,O que vai querer?
+npc_001_dialogue_000,"Ei ei ei! Calma aí, rapaz."
+npc_001_dialogue_001,Você não está morto...
+npc_001_dialogue_002,"Me diga, como chegou aqui?!"
+npc_001_dialogue_003,"Espera, você é mais um dos que vieram para cá por causa daquele bruxo incoveniente, ne?"
+npc_001_dialogue_004,"Se for assim, vá em frente!"
+npc_001_dialogue_005,"Tente mais uma vez, morra mais uma vez... Renasça mais uma vez."
+npc_001_dialogue_006,ah...
+npc_001_dialogue_007,Por quanto tempo continuarão tentando?
+npc_001_dialogue_008,"Tente mais uma vez, morra mais uma vez... Renasça mais uma vez."
+npc_001_dialogue_009,ah...
+npc_001_dialogue_010,Por quanto tempo continuarão tentando?
+intro_dialogue_000,"Ah, querido irmão..."
+intro_dialogue_001,"Já fizestes tanto por mim, peço que me ofereça sua ajuda mais uma vez."
+intro_dialogue_002,"Imagino que já tenhas ouvido falar de Mounds, o Rei Demônio, o ser celeste decaído."
+intro_dialogue_003,"A partir de meus rituais, descobri que o próprio está se preparando para invadir a Terra, o reino dos vivos"
+intro_dialogue_004,"dominá-la, para depois ascender aos céus novamente e se tornar o deus supremo."
+intro_dialogue_005,"Nada de bom sairá disso, meu irmão. Ele transmitirá desgraça por todo o mundo, miséria e sofrimento."
+intro_dialogue_006,"Por isso lhe peço, Massaru, tu és o único que lhe confio de corpo e alma que poderás enfrentá-lo, e assim, derrotá-lo."
+intro_dialogue_007,"Por meio de minha bruxaria, lhe envio ao inferno."
+intro_dialogue_008,Faça o que for.
+intro_dialogue_009,Matarás seu exército... 
+intro_dialogue_010,Matarás Mounds.
+help_no_tutorial,Você ainda não desbloqueou[n]este tutorial.
+help_title_000,Menu: Info. de Personagem
+help_title_001,Menu: Equipamentos
+help_title_002,Menu: Inventário
+help_title_003,Menu: Bestiário
+help_text_000,"No menu de Informações de Personagem, você pode conferir sua condição, nível, atributos, poder de ataque e mais.[n][n]As informações aqui refletem em seus ataques e em sua negação de dano contra diversos tipos de dano, tais que podem aumentar por armamentos e armaduras que você equipar."
+help_text_001,"No menu de Equipamentos, você pode equipar armamentos, armaduras, anéis, gemas e itens.[n][n]Cada equipamento de cada categoria alteram a força de Massaru de formas diferentes. Sua arma aumenta seu poder de ataque. sua armadura aumenta sua negação de dano, seus anéis e seu acessório te concedem efeitos, gemas concedem efeitos à sua arma. Todos seus equipamentos podem conceder outros efeitos, como uma arma te conceder algum efeito, mesmo nao sendo essa sua principal função. Já a bolsa te facilita no acesso de itens de seu inventário."
+help_text_002,"No meu de Inventário, você pode conferir todos os itens que você possui.[n][n]Você pode usá-los, gerando a você algum tipo de ganho ou perda, depedendo do item. Equipá-los, assim sem ter que ir ao menu de Equipamentos para equipar algum item desejado. Até mesmo descartá-los, caso não deseje mais algum item em seu inventário, mas tenha em mente que fazer isso descartará todos os itens que você tem desse tipo, ou seja, descartar um item que você possui 10 quantias dele, por exemplo, fará com que todas as suas 10 quantias sejam descartadas."
+help_text_003,"No menu de Bestiário, você pode conferir todos os monstros que você encontrou até agora.[n][n]Aqui você pode descobrir mais sobre os monstros, seus nomes, tipos, história, PV e poder de ataque, negação de dano e vezes que você ja os derrotou."
+class_no_class,Sem classe
+class_knight,Cavaleiro
+class_northern_pilgrim,Peregrino do Norte
+class_ronin,Ronin
+class_rogue,Ladino
+class_templar,Templário
+class_wizard,Mago
+class_profaned,Profanado
+class_convict,Condenado
