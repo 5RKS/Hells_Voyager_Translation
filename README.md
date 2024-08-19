@@ -19,6 +19,9 @@ In the spreadsheet of translation, you going to see some strange words, here are
 - **{0}, {1}, {2}...** - This is a word of replacement, for texts in which parts of it can change depending on the context in game. For example, the key "term_heavy_infusion_a" returns "Heavy {0}" in english, this is for the weapons in the game, which can change their properties, and consequently their name. So this "{0}" will be replaced by the name of the weapon, such as a "Heavy Sword";
 - **\[n]** - This is used to go to the next line.
 
+### Text Variations
+In some moments of the translation you will see the keys with almost the same name, but with the suffix "_a", "_b", "_c", "_d", such as happens in the keys of the infusions. Those are inflections of the noun, such as in gender (masculine or feminine) or number (singular or plural). The "_a" singular masculine, "_b" singular feminine, "_c" plural masculine and "_d" plural feminine.
+
 ### Proper names
 Here is the list of proper names of areas, characters, items, etc. So, if you find than, don't translate, just put them in the text without changing your writing, changing only to the alphabet of the language.
 - Mounds;
