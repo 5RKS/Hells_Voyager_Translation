@@ -23,7 +23,7 @@ In the spreadsheet of translation, you going to see some strange words, here are
 In some moments of the translation you will see the keys with almost the same name, but with the suffix "_a", "_b", "_c", "_d", such as happens in the keys of the infusions. Those are inflections of the noun, such as in gender (masculine or feminine) or number (singular or plural). The "_a" singular masculine, "_b" singular feminine, "_c" plural masculine and "_d" plural feminine.
 
 ### Proper names
-Here is the list of proper names of areas, characters, items, etc. So, if you find than, don't translate, just put them in the text without changing your writing, changing only to the alphabet of the language.
+Here is the list of proper names of areas, characters, items, etc. I prefer that you just transliterate them. If there are any problems with the translation, such as names meaning something wrong in your language, or some kind of double entendre, please contact RKS (@5rks) on Discord to discuss a good adaptation for these name.
 - Mounds;
 - Moundzian;
 - Massaru;
