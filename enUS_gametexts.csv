@@ -9,14 +9,14 @@ init_menu_guit_game,Quit game
 save_slot_empty,Empty data
 set_menu_apply,Apply changes
 set_menu_reset,Reset to default
-set_menu_settings,SETTINGS
-set_menu_video,VIDEO
+set_menu_settings,Settings
+set_menu_video,Video
 set_menu_view_mode,View mode
 set_menu_fullscreen,Fullscreen
 set_menu_bw,Borderless window
 set_menu_window,Window
 set_menu_resolution,Resolution
-set_menu_gameplay,GAMEPLAY
+set_menu_gameplay,Gameplay
 set_menu_hud,HUD
 set_menu_language,Language
 set_menu_auto_lan,Automatic language switching
@@ -33,14 +33,14 @@ set_menu_cons_icons,Controls icons
 set_menu_keyboard,Keyboard and Mouse
 set_menu_gamepad,Game Pad
 set_menu_dynamic,Dynamic
-set_menu_audio,AUDIO
+set_menu_audio,Audio
 set_menu_master,General
 set_menu_sfx,Sound effects
 set_menu_ambient,Ambient
 set_menu_musics,Musics
 set_menu_dialogues,Dialogues
-set_menu_go_back_div,BACK TO[n][n]HOME MENU
-set_menu_go_back,BACK TO HOME MENU
+set_menu_go_back_div,Back to[n][n]home menu
+set_menu_go_back,Back to home menu
 set_descri_fullscreen,"Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]WARNING:[n]- The ""Bordeless window"" option may not work if there is more than 1 screen."
 set_descri_resolution,"Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the ""View mode"" option is set to ""Window""."
 set_descri_hud,Defines whether the HUD will appear on the screen.[n]Default: On
@@ -70,7 +70,7 @@ set_descri_musics,Sets the volume of all musics.[n][n]Default: 10
 set_descri_dialogues,Sets the volume of all dialogues.[n][n]Default: 10
 set_descri_apply,Applies the changes made in the previous options (You may need to restart the game to apply certain changes)
 set_descri_reset_default,Reset the original predefinitions of the game.[n][n]IMPORTANT WARNING:[n]- The game will be RESTARTED.
-descri_default,This item have no description yet XD.
+descri_default,This item have no description yet.
 popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
 popup_reseting,Reseting the configurations...
 popup_apply_changes_warn,Are you sure you want to apply the changes?
@@ -78,16 +78,16 @@ popup_changing,Applying the changes...
 lan_menu_eng,English
 lan_menu_pt_br,Português BR
 lan_menu_jap,Japanese
-cred_menu_credits,CREDITS
-cred_menu_developed,DEVELOPED BY
+cred_menu_credits,Credits
+cred_menu_developed,Developed by
 cred_menu_ravi,Ravi de Santana 'RKS'
-cred_menu_musics,MUSICS BY
+cred_menu_musics,Musics by
 cred_menu_fl,Freak Luke
 term_version,Version {0}
 term_cancel,Cancel
 term_hold,Hold
 term_press,Press
-term_pause,PAUSE
+term_confirm,Confirm
 term_ok,OK
 term_no,No
 term_yes,Yes
@@ -102,6 +102,7 @@ term_leave,Leave
 term_type_a,Type A
 term_type_b,Type B
 term_type_c,Type C
+term_nothing,Nothing
 term_you_died,YOU DIED
 term_ct_restored,CINDER TOTEM RESTORED
 term_enemy_exterminated,ENEMY EXTERMINATED
@@ -169,7 +170,6 @@ term_conclusion,Conclusion
 term_base_power,Base power
 term_use,Use
 term_equip,Equip
-term_abbr_equip,E
 term_discard,Discard
 term_tdefeat,Times defeated
 term_no_magics,You don't have any magic...
@@ -180,41 +180,37 @@ term_lit,Restore
 term_rest,Rest
 term_talk,Talk
 term_investigate,Investigate
+term_change_equip,Change equipment
 term_class,Class
+term_manor_court,Manor courtesy
 term_kind,Kind
 term_unknown,Unknown
 term_value,Value
-term_in_possession,In possession
-term_stored,stored
+term_held,Held
+term_stored,Stored
 term_cannot_sold,This item cannot be sold
 term_description,Description
 term_skip,Skip
 term_effects,Effects
 term_immune,Imm.
 term_limit_reached,You can't store more quantities of {0}.
-inv_init_title,Character info
-inv_descri_title,Look your stats
-inv_init_equi,EQUIPMENT
-inv_descri_equi,Change your equipament
-inv_init_inv,INVENTORY
-inv_descri_inv,Look and use your items
-inv_init_knw,BESTIARY
-inv_descri_knw,Monsters' description
-inv_init_map,MAP
-inv_descri_map,Look your location
-inv_tools,TOOLS
-inv_materials,MATERIALS
-inv_keys,KEY ITEMS
-inv_accessories,ACCESSORIES
-inv_armors,ARMORS
-inv_weapons,WEAPONS
-inv_gems,GEMS
-inv_magics,MAGICS
-inv_rings,RINGS
-inv_knowledges,KNOWLEDGES
-box_general,General
-box_power,Power
-box_equipments,Equipments
+menu_info_title,Character info
+menu_equi_title,Equipment
+menu_inv_title,Inventory
+menu_knw_title,Bestiary
+menu_map_title,Map
+menu_shop_title,Shop of items
+menu_shop_purchase,Purchase
+menu_shop_sell,Sell
+menu_class_title,Class definition
+menu_info_descri,Look your stats
+menu_equi_descri,Change your equipament
+menu_inv_descri,Look and use your items
+menu_knw_descri,Monsters' description
+menu_map_descri,Look your location
+menu_shop_descri_purchase,Purchase items from the merchant
+menu_shop_descri_sell,Sell items to the mercant
+menu_class_descri,Choose your initial equipment
 menu_equi_ana,Armor and rings
 menu_equi_wng,Weapon and gems
 menu_equi_bag,Bag
@@ -223,6 +219,22 @@ menu_inv_bda,Attribute bonus & requirement
 menu_inv_dis_warn,Discard this item?
 menu_shop_purchase_many,Purchase how many?
 menu_shop_sell_many,Sell how many?
+menu_class_items,Class items
+menu_class_status,Class status
+menu_class_appearance,This is the class armor appearance
+group_tools,Tools
+group_materials,Materials
+group_keys,Key items
+group_accessories,Accessories
+group_armors,Armors
+group_weapons,Weapons
+group_gems,Gems
+group_magics,Magics
+group_rings,Rings
+group_knowledges,Knowledges
+box_general,General
+box_power,Power
+box_equipment,Equipment
 attr_str,Strength
 attr_dex,Dexterity
 attr_imp,Impetus
@@ -261,15 +273,10 @@ def_elec,Eletrical DEF
 def_psn,Poisonous DEF
 def_ble,Bloody DEF
 def_dar,Dark DEF
-legion_contra,Dungeon Convicts
-legion_seinoc,Conformists of the Entity
-legion_indcle,Darkness Congregation
-legion_dessip,Draconic Myth
-shp_title,Shop of items
-shp_kind_purchase,Purchase
-shp_kind_sell,Sell
-shp_desc_purchase,Purchase items from the merchant
-shp_desc_sell,Sell items to the mercant
+legion_000,Dungeon Convicts
+legion_001,Conformists of the Entity
+legion_002,Darkness Congregation
+legion_003,Draconic Myth
 pause_cont,Continue
 pause_desk,Exit to desktop
 pause_main,Exit to main menu
@@ -282,7 +289,6 @@ ct_dc,Demon Chalice
 ct_storage,Storage
 ct_warp,Warp
 ct_wisdom,Wisdom
-ct_confirm,Confirm
 ct_lu_confirm_singular,Spend {0} blood and up {1} level?
 ct_lu_confirm_plural,Spend {0} blood and up {1} levels?
 ct_dc_allot,Allot Chalices
@@ -325,11 +331,11 @@ weapon_kind_14,Great hammer
 weapon_kind_15,Spear
 weapon_kind_16,Halberd
 weapon_kind_17,Scythe
-weapon_kind_18,Colossal Weapon
+weapon_kind_18,Colossal weapon
 weapon_kind_19,Whip
 weapon_kind_20,Fists
 weapon_kind_21,Claws
-weapon_kind_22,Double Weapon
+weapon_kind_22,Double weapon
 weapon_kind_23,Bow
 weapon_kind_24,Gun
 weapon_kind_25,Heavy Gun
@@ -339,23 +345,65 @@ weapon_kind_28,Great Shield
 magic_kind_00,Attack
 magic_kind_01,Support
 tool_name_000,Demon Chalice
-tool_name_001,Demon Magic Chalice
+tool_name_001,Clerical Demon Chalice
 tool_name_002_010,Bloody Demon Shard
-tool_name_011,Flaming jar
-tool_name_012,Pyromantic papyrus
+tool_name_011,Piromantic Pot
+tool_name_012,Gunpowder Pot
+tool_name_013,Freezing Pot
+tool_name_014,Electric Pot
+tool_name_015,Poisonous Pot
+tool_name_016,Bleeding Pot
+tool_name_017,Viscous Pot
+tool_name_018,Pyromantic Papyrus
+tool_name_019,Flaming Papyrus
+tool_name_020,Freezing Papyrus
+tool_name_021,Electric Papyrus
+tool_name_022,Poisonous Papyrus
+tool_name_023,Bleeding Papyrus
+tool_name_024,Viscous Papyrus
+tool_name_025,Hot Water Gourd
+tool_name_026,Cold Water Gourd
+tool_name_027,Cursed Herbs Jug
+tool_name_028,Refreshing Herbs Jug
+tool_name_029,Smoking Herbs Jug
+tool_name_030,Dissipating Herbs Jug
+tool_name_031,Purifying Herbs Jug
+tool_name_032,Coagulating Herbs Jug
+tool_name_033,Radiant Herbs Jug
+tool_name_034,Divinity Bloodstained Miniature
+tool_name_035,Divinity Shiny Miniature
+tool_name_036,Worn Vase
+tool_name_037,Noble Vase
 tool_desc_000,A chalice containing the blood of a Demon Cleric.[n][n]Recovers a certain amount of HP.
 tool_desc_001,A chalice containing the blood of a Demon Cleric baptized with human magic.[n][n]Recovers a certain amount of MP.
-tool_desc_002,Gives 850 blood.
-tool_desc_003,Gives 1200 blood.
-tool_desc_004,Gives 3000 blood.
-tool_desc_005,Gives 6000 blood.
-tool_desc_006,Gives 10000 blood.
-tool_desc_007,Gives 25000 blood.
-tool_desc_008,Gives 50000 blood.
-tool_desc_009,Gives 75000 blood.
-tool_desc_010,Gives 100000 blood.
-tool_desc_011,A pot that can be thrown at things or enemies.[n][n]Cause fire damage.
-tool_desc_012,Imbues the current weapon with pyromantic damage.
+tool_desc_002_010,Gives {0} blood.
+tool_desc_011,
+tool_desc_012,A pot that can be thrown at things or enemies.[n][n]Cause fire damage.
+tool_desc_013,
+tool_desc_014,
+tool_desc_015,
+tool_desc_016,
+tool_desc_017,
+tool_desc_018,Imbues the current weapon with pyromantic damage.
+tool_desc_019,
+tool_desc_020,
+tool_desc_021,
+tool_desc_022,
+tool_desc_023,
+tool_desc_024,
+tool_desc_025,
+tool_desc_026,
+tool_desc_027,
+tool_desc_028,
+tool_desc_029,
+tool_desc_030,
+tool_desc_031,
+tool_desc_032,
+tool_desc_033,
+tool_desc_034,
+tool_desc_035,
+tool_desc_036,
+tool_desc_037,
 tool_inspec_000,
 tool_inspec_001,
 tool_inspec_002,
@@ -369,6 +417,31 @@ tool_inspec_009,
 tool_inspec_010,
 tool_inspec_011,
 tool_inspec_012,
+tool_inspec_013,
+tool_inspec_014,
+tool_inspec_015,
+tool_inspec_016,
+tool_inspec_017,
+tool_inspec_018,
+tool_inspec_019,
+tool_inspec_020,
+tool_inspec_021,
+tool_inspec_022,
+tool_inspec_023,
+tool_inspec_024,
+tool_inspec_025,
+tool_inspec_026,
+tool_inspec_027,
+tool_inspec_028,
+tool_inspec_029,
+tool_inspec_030,
+tool_inspec_031,
+tool_inspec_032,
+tool_inspec_033,
+tool_inspec_034,
+tool_inspec_035,
+tool_inspec_036,
+tool_inspec_037,
 material_name_000,Clerical Bone
 material_name_001,Blood Orb
 material_name_002,Sun Stone Residue
@@ -394,21 +467,15 @@ material_inspec_005,
 key_name_000,Demon Wings
 key_name_001,Goddess Purple Pendant
 key_name_002,Radiant Silver Bracelet
-key_name_003,Master key (1)
-key_name_004,Master key (2)
-key_name_005,Upper room key
-key_desc_000,Wings torn from an ancient red demon. Grants the ability to make a second jump.
-key_desc_001,"Pendant forged with the Sacred Stone of Zuweixa, goddess of the elements. Grants the ability to dodge."
-key_desc_002,Silver bracelet forged by the ancient blacksmiths of the Snowy Mountain. Grants the ability to grab walls.
-key_desc_003,"Opens common locks, used by ordinary thieves."
-key_desc_004,"Opens common and uncommon locks, used by malicious thieves."
-key_desc_005,Opens the room in the upper wing of the safe zone.
+key_name_003,Jails Keys
+key_desc_000,
+key_desc_001,
+key_desc_002,
+key_desc_003,
 key_inspec_000,
 key_inspec_001,
 key_inspec_002,
 key_inspec_003,
-key_inspec_004,
-key_inspec_005,
 accessory_name_000,Knight Helmet
 accessory_name_001,Templar Helmet
 accessory_name_002,Profaned Helmet
@@ -555,15 +622,15 @@ weapon_name_055,Laminated Geta
 weapon_name_056,Frosty Mist Shield
 weapon_name_057,Demon Snake Bone Shield
 weapon_name_058,Spiked Wall
-weapon_desc_000,A slender dagger with a serpent handle. Inflicts poison on foes.
+weapon_desc_000,A slender dagger with a serpent handle. Causes poison on foes.
 weapon_desc_001,"A pair of very sharpened daggers, one straight and the other curved."
-weapon_desc_002,A pair of daggers so cold that crystallize itself. Inflicts freezing on foes.
+weapon_desc_002,A pair of daggers so cold that crystallize itself. Causes freezing on foes.
 weapon_desc_003,"A pair of crescent-shaped daggers, very powerful and agile."
 weapon_desc_004,"A neither too big nor too small sword, strong and agile."
 weapon_desc_005,"A straight sword, balanced between strength and agility."
 weapon_desc_006,"A straight sword engraved with runes on its blade, blessed by Meapol."
 weapon_desc_007,"A pair of bastard sword, great for consecutives attacks."
-weapon_desc_008,A greatsword forged directly by Huozue's blacksmiths. Inflicts pyromancy.
+weapon_desc_008,A greatsword forged directly by Huozue's blacksmiths. Causes pyromancy.
 weapon_desc_009,The greatsword of the warriors of the Darkness Congregation.
 weapon_desc_010,The ancient sword. its trully power is as unknown as its creation.
 weapon_desc_011,Swords capable of raising the dead.
@@ -574,7 +641,7 @@ weapon_desc_015,"A long oriental sword, agile and effective, although it's not v
 weapon_desc_016,"The sword of a great long haired warrior, engraved with unknown runes."
 weapon_desc_017,The sword of an ancient warrior who composed soothing melodies for the soul.
 weapon_desc_018,A katana with a huge blade.
-weapon_desc_019,A katana with a notched blade. Inflicts bleeding.
+weapon_desc_019,A katana with a notched blade. Causes bleeding.
 weapon_desc_020,"A katana and a wakizashi together, offensives and agile at the same time."
 weapon_desc_021,An axe forged from precarious resources by the desperation of a jailed soul.
 weapon_desc_022,"The winded axe of Vuikur, one of the god of the Golden Divinity."
@@ -677,44 +744,68 @@ magic_name_000,Piromantic Floor
 magic_name_001,Piromantic Combustion
 magic_name_002,Fire Ball
 magic_name_003,Flaming Wall
-magic_name_004,Ice Stake
-magic_name_005,Icy Crystals
-magic_name_006,Lightning Bolt
-magic_name_007,Poison Spit
-magic_name_008,Bloody Chase
-magic_name_009,Dark Explosion
-magic_name_010,Huoko's Strength
-magic_name_011,Explendid Huoko's Strength
-magic_name_012,Huoko's Fortitude
-magic_name_013,Noctarogar's Blessing
-magic_name_014,Kiabass' Blessing
-magic_name_015,Falon's Piromance
-magic_name_016,Falon's Fire
-magic_name_017,Falon's Ice
-magic_name_018,Falon's Lightnings
-magic_name_019,Falon's Blood
-magic_name_020,Feared Entity Darkness
+magic_name_004,Lightning Bolt
+magic_name_005,Poison Spit
+magic_name_006,Bloody Chase
+magic_name_007,Dark Explosion
+magic_name_008,Huoko's Strength
+magic_name_009,Explendid Huoko's Strength
+magic_name_010,Huoko's Fortitude
+magic_name_011,Noctarogar's Blessing
+magic_name_012,Kiabass' Blessing
+magic_name_013,Feared Entity Darkness
+magic_name_014,Night Dart
+magic_name_015,Great Night Dart
+magic_name_016,Night Spiral
+magic_name_017,Great Night Arrow
+magic_name_018,Night Orbs
+magic_name_019,Night Voids
+magic_name_020,Great Night Void
+magic_name_021,Night Sword
+magic_name_022,Great Night Slash
+magic_name_023,Ice Stake
+magic_name_024,Ice Crystals
+magic_name_025,Ice Orbs
+magic_name_026,Ice Explosion
+magic_name_027,Ice Bow
+magic_name_028,Falon's Piromance
+magic_name_029,Falon's Fire
+magic_name_030,Falon's Ice
+magic_name_031,Falon's Lightnings
+magic_name_032,Falon's Blood
 magic_desc_000,Spread pyromancy on the ground.
 magic_desc_001,Casts a pyromantic explosion.
 magic_desc_002,Throws a flaming ball.
 magic_desc_003,Throws columns of fire.
-magic_desc_004,Throws an ice stake.
-magic_desc_005,Throws sharp ice crystals.
-magic_desc_006,Throws a lightning bolt.
-magic_desc_007,Expels poison from your mouth.
-magic_desc_008,Conjures a smoke of blood that chase enemies.
-magic_desc_009,Casts orbs of darkness that chase enemies.
-magic_desc_010,Increases attack power.
-magic_desc_011,Greatly increases attack power.
-magic_desc_012,Improve all the damage negations.
-magic_desc_013,Gradually restores HP.
-magic_desc_014,Increases the damage of magics and decreases their MP cost.
-magic_desc_015,Inflicts pyromancy on the equipped weapon.
-magic_desc_016,Inflicts fire on the equipped weapon
-magic_desc_017,Inflicts freezing to equipped weapon
-magic_desc_018,Inflicts electricity on equipped weapon
-magic_desc_019,Inflicts bleeding on the equipped weapon
-magic_desc_020,"Hits the ground 3 times, exploding everything around with darkness."
+magic_desc_004,Throws a lightning bolt.
+magic_desc_005,Expels poison from your mouth.
+magic_desc_006,Conjures a smoke of blood that chase enemies.
+magic_desc_007,Casts orbs of darkness that chase enemies.
+magic_desc_008,Increases attack power.
+magic_desc_009,Greatly increases attack power.
+magic_desc_010,Improve all the damage negations.
+magic_desc_011,Gradually restores HP.
+magic_desc_012,Increases the damage of magics and decreases their MP cost.
+magic_desc_013,"Hits the ground 3 times, exploding everything around with darkness."
+magic_desc_014,
+magic_desc_015,
+magic_desc_016,
+magic_desc_017,
+magic_desc_018,
+magic_desc_019,
+magic_desc_020,
+magic_desc_021,
+magic_desc_022,
+magic_desc_023,Throws an ice stake.
+magic_desc_024,Throws sharp ice crystals.
+magic_desc_025,
+magic_desc_026,
+magic_desc_027,Imbues night magic on the equipped weapon in the other hand.
+magic_desc_028,Imbues pyromancy on the equipped weapon in the other hand.
+magic_desc_029,Imbues fire on the equipped weapon in the other hand.
+magic_desc_030,Imbues freezing on the equipped weapon in the other hand.
+magic_desc_031,Imbues electricity on the equipped weapon in the other hand.
+magic_desc_032,Imbues bleeding on the equipped weapon in the other hand.
 magic_inspec_000,
 magic_inspec_001,
 magic_inspec_002,
@@ -736,6 +827,18 @@ magic_inspec_017,
 magic_inspec_018,
 magic_inspec_019,
 magic_inspec_020,
+magic_inspec_021,
+magic_inspec_022,
+magic_inspec_023,
+magic_inspec_024,
+magic_inspec_025,
+magic_inspec_026,
+magic_inspec_027,
+magic_inspec_028,
+magic_inspec_029,
+magic_inspec_030,
+magic_inspec_031,
+magic_inspec_032,
 ring_name_000,Pierced Shield Ring
 ring_name_001,Broken Sword Ring
 ring_name_002,Steel Shield Ring
@@ -780,20 +883,21 @@ ring_name_040,Virtue Art Ring
 ring_name_041,War Art Ring
 ring_name_042,Vuikur's Ring
 ring_name_043,Shooter Ring
-ring_name_044,Cat Ring
-ring_name_045,Ornunddu Blessing Ring
-ring_name_046,Phoenix Ring
-ring_name_047,Ghost Ring
-ring_name_048,Camouflage Ring
-ring_name_049,Penalty Ring
-ring_name_050,Fugitive Ring
-ring_name_051,Discernment Ring
-ring_name_052,Restoration Ring
-ring_name_053,Killer Defense Ring
-ring_name_054,Killer Strength Ring
-ring_name_055,Falon Bubble Ring
-ring_name_056,Leap Ring
-ring_name_057,Burden Ring
+ring_name_044,Fighter Ring
+ring_name_045,Cat Ring
+ring_name_046,Ornunddu Blessing Ring
+ring_name_047,Phoenix Ring
+ring_name_048,Ghost Ring
+ring_name_049,Camouflage Ring
+ring_name_050,Penalty Ring
+ring_name_051,Fugitive Ring
+ring_name_052,Discernment Ring
+ring_name_053,Restoration Ring
+ring_name_054,Killer Defense Ring
+ring_name_055,Killer Strength Ring
+ring_name_056,Falon Bubble Ring
+ring_name_057,Leap Ring
+ring_name_058,Burden Ring
 ring_desc_000,Increases damage negation when HP is low.
 ring_desc_001,Increases damage when HP is low.
 ring_desc_002,Increases damage negation when HP is full.
@@ -838,20 +942,21 @@ ring_desc_040,Restores HP with consecutive attacks.
 ring_desc_041,Increases the damage of heavy attacks.
 ring_desc_042,Increases the damage of attacks in the air.
 ring_desc_043,Increases the damage of long-range weapons.
-ring_desc_044,Enemies detect you with more difficulty.
-ring_desc_045,"Blood is not lost when you die, but the ring breaks."
-ring_desc_046,"When you die, you rebirth exploding everything around you. Only works once."
-ring_desc_047,Turns into a ghost for a brief moment and comes back to life after dying.
-ring_desc_048,Becomes intangible after standing still for a while.
-ring_desc_049,"Enemies nearby become slower, but you lose a little HP for each enemy affected."
-ring_desc_050,Becomes immune to any hits for a while after taking a great damage.
-ring_desc_051,Hidden paths become more evident.
-ring_desc_052,Restores a little the duration of effects when defeating enemies.
-ring_desc_053,"Each enemy defeated generates a damage negation buildup, but the buildup decreases over time."
-ring_desc_054,"Each enemy defeated generates a strength buildup, but the buildup decreases over time."
-ring_desc_055,A bubble is created around you as a shield.
-ring_desc_056,Increases the height reached by jumping.
-ring_desc_057,Decreases all damage negations.
+ring_desc_044,Increases bare-handed damage
+ring_desc_045,Enemies detect you with more difficulty.
+ring_desc_046,"Blood is not lost when you die, but the ring breaks."
+ring_desc_047,"When you die, you rebirth exploding everything around you. Only works once."
+ring_desc_048,Turns into a ghost for a brief moment and comes back to life after dying.
+ring_desc_049,Becomes intangible after standing still for a while.
+ring_desc_050,"Enemies nearby become slower, but you lose a little HP for each enemy affected."
+ring_desc_051,Becomes immune to any hits for a while after taking a great damage.
+ring_desc_052,Hidden paths become more evident.
+ring_desc_053,Restores a little the duration of effects when defeating enemies.
+ring_desc_054,"Each enemy defeated generates a damage negation buildup, but the buildup decreases over time."
+ring_desc_055,"Each enemy defeated generates a strength buildup, but the buildup decreases over time."
+ring_desc_056,A bubble is created around you as a shield.
+ring_desc_057,Increases the height reached by jumping.
+ring_desc_058,Decreases all damage negations.
 ring_inspec_000,
 ring_inspec_001,
 ring_inspec_002,
@@ -910,6 +1015,7 @@ ring_inspec_054,
 ring_inspec_055,
 ring_inspec_056,
 ring_inspec_057,
+ring_inspec_058,
 knowledge_name_000,Letter of a Old Hell Adventurer
 knowledge_name_001,"Single sheet of ""The Ice of the Fourth Tier"""
 knowledge_name_002,"Second page of ""The grass of the First Tier"""
@@ -935,26 +1041,36 @@ dialogue_op_001,Sell items
 dialogue_op_002,Talk
 npc_name_000,Gustav
 npc_name_001,Grumyin
+npc_name_002,Randalya
+npc_name_003,Palagard
 npc_000_dialogue_000,Hello friend.
 npc_000_dialogue_001,How it's going?
 npc_000_dialogue_002,I'm... a merchant... What do you want?
 npc_000_dialogue_003,Me? haha...
 npc_000_dialogue_004,I'm nothing but a merchant.
 npc_000_dialogue_005,I failed my family and...
-npc_000_dialogue_006,"Actually, I know you don't care."
+npc_000_dialogue_006,Now I live alone selling goods.
 npc_000_dialogue_007,I'm glad you're back!
 npc_000_dialogue_008,What do you want?
 npc_001_dialogue_000,"Hey hey hey! Take it easy, boy."
 npc_001_dialogue_001,You are not dead...
-npc_001_dialogue_002,"Tell me, how the hell did you arrived here?!"
-npc_001_dialogue_003,"Wait, you are another one of those who came here because of that annoying witch, are not you?"
-npc_001_dialogue_004,"If so, go ahead!"
-npc_001_dialogue_005,"Try once more, die once more... Be reborn once more."
-npc_001_dialogue_006,ah...
-npc_001_dialogue_007,How long will they keep trying?
-npc_001_dialogue_008,"Try once more, die once more... Be reborn once more."
-npc_001_dialogue_009,ah...
-npc_001_dialogue_010,How long will they keep trying?
+npc_001_dialogue_002,"You are another one of those who came here because of that annoying witch, are not you?"
+npc_001_dialogue_003,"If so, go ahead!"
+npc_001_dialogue_004,"Try once more, die once more... Be reborn once more."
+npc_001_dialogue_005,ah...
+npc_001_dialogue_006,"What are you so much planning, witch?"
+npc_001_dialogue_007,"Try once more, die once more... Be reborn once more."
+npc_001_dialogue_008,ah...
+npc_001_dialogue_009,"What are you so much planning, witch?"
+npc_002_dialogue_000,You've finally woken up.
+npc_002_dialogue_001,"I'm Randalya, I saved you from that flaming monster."
+npc_002_dialogue_002,"I guess you've met those purple totems, haven't you? I'm afraid the one next to that demon has already broken..."
+npc_002_dialogue_003,"Those totems are called Cinder Totems, they are totems of worship that, when you rest on them and believe in their power, they restore your vigor and any tribulation in your body, as well as being able to increase your strength, store your luggage and transfer you to other totems you've already found."
+npc_002_dialogue_004,Your current equipment has been well worn out due to your arrival in hell. On the second floor of this building you will find a room with some equipment.
+npc_002_dialogue_005,"But remember that it's not only you who will need equipment, choose just one of each peace. Other warriors have recently arrived in hell, more warriors than usual, even..."
+npc_002_dialogue_006,This building is home to others like me who can help you whenever you need it.
+npc_002_dialogue_007,That's all I have to say.
+npc_002_dialogue_008,May Moygo's blessing be with you.
 intro_dialogue_000,"Ah, dear brother..."
 intro_dialogue_001,"You have already done so much for me, I ask you to offer me your help once again."
 intro_dialogue_002,"I imagine you have heard about Mounds, the Demon King, the fallen celestial being."
