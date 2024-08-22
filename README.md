@@ -1,9 +1,6 @@
 # Hell's Voyager Translation
 The repository to store all translations of Hell's Voyager.
 
-> [!WARNING]
-> The game is not yet complete, so much of the text will probably change several times between now and release. I therefore recommend that you only start translating when RKS (the creator of Hell's Voyager) says that the game is complete.
-
 ## Translating correctly the texts of Hell's Voyager
 ### Organization
 The file of translation is a .csv archive, that is a spreadsheet separeted by comma. You can use any app/site to create your translations. I particularly recommend [Google Sheets](https://docs.google.com/spreadsheets) (Excel will break non-english characters).
