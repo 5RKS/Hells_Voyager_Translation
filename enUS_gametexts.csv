@@ -1,4 +1,4 @@
-KEYS,ENGLISH
+Keys,English
 init_menu_continue,Continue
 init_menu_load_game,Load
 init_menu_new_game,New game
@@ -75,9 +75,6 @@ popup_reset_warn,Are you sure you want to reset to default? The game will be res
 popup_reseting,Reseting the configurations...
 popup_apply_changes_warn,Are you sure you want to apply the changes?
 popup_changing,Applying the changes...
-lan_menu_eng,English
-lan_menu_pt_br,Português BR
-lan_menu_jap,Japanese
 cred_menu_credits,Credits
 cred_menu_developed,Developed by
 cred_menu_ravi,Ravi de Santana 'RKS'
@@ -137,10 +134,10 @@ term_brute_infusion_a,Brute {0}
 term_brute_infusion_b,Brute {0}
 term_brute_infusion_c,Brute {0}
 term_brute_infusion_d,Brute {0}
-term_pyromantic_infusion_a,Piromantic {0}
-term_pyromantic_infusion_b,Piromantic {0}
-term_pyromantic_infusion_c,Piromantic {0}
-term_pyromantic_infusion_d,Piromantic {0}
+term_pyromantic_infusion_a,Pyromantic {0}
+term_pyromantic_infusion_b,Pyromantic {0}
+term_pyromantic_infusion_c,Pyromantic {0}
+term_pyromantic_infusion_d,Pyromantic {0}
 term_flaming_infusion_a,Flaming {0}
 term_flaming_infusion_b,Flaming {0}
 term_flaming_infusion_c,Flaming {0}
@@ -287,13 +284,14 @@ ct_mm,Memorize magics
 ct_skills,Skills
 ct_dc,Demon Chalice
 ct_storage,Storage
-ct_warp,Warp
+ct_travel,Travel
 ct_wisdom,Wisdom
 ct_lu_confirm_singular,Spend {0} blood and up {1} level?
 ct_lu_confirm_plural,Spend {0} blood and up {1} levels?
 ct_dc_allot,Allot Chalices
 ct_dc_charge,Add charges
 ct_dc_force,Increase force
+ct_hp_tv,Travel to Voyager's Manor
 ct_dc_grant_charge_singular,Grant {0} Clerical Bone to increase your demon chalice charges?
 ct_dc_grant_charge_plural,Grant {0} Clerical Bones to increase your demon chalice charges?
 ct_dc_grant_charge_no_items,You don't have any Clerical Bones.
@@ -304,8 +302,9 @@ ct_mm_es,Empty slot
 ct_mm_kind,Kind
 ct_mm_mc,MP cost
 ct_mm_ce,You haven't the necessary attributes to equip this magic.
-ct_wp_warp,Warp to selected Cinder Totem?
-ct_wp_yah,You are in this Cinder Totem
+ct_tv_travel,Travel to selected Cinder Totem?
+ct_tv_vm,Travel to Voyager's Manor?
+ct_tv_yah,You are in this Cinder Totem
 ct_area_000,Icy Sparks
 ct_area_001,Souls Dungeon
 ct_area_002,Core Forge
@@ -347,7 +346,7 @@ magic_kind_01,Support
 tool_name_000,Demon Chalice
 tool_name_001,Clerical Demon Chalice
 tool_name_002_010,Bloody Demon Shard
-tool_name_011,Piromantic Pot
+tool_name_011,Pyromantic Pot
 tool_name_012,Gunpowder Pot
 tool_name_013,Freezing Pot
 tool_name_014,Electric Pot
@@ -732,8 +731,8 @@ weapon_inspec_055,
 weapon_inspec_056,
 weapon_inspec_057,
 weapon_inspec_058,
-magic_name_000,Piromantic Floor
-magic_name_001,Piromantic Combustion
+magic_name_000,Pyromantic Floor
+magic_name_001,Pyromantic Combustion
 magic_name_002,Fire Ball
 magic_name_003,Flaming Wall
 magic_name_004,Lightning Bolt
@@ -760,11 +759,12 @@ magic_name_024,Ice Crystals
 magic_name_025,Ice Orbs
 magic_name_026,Ice Explosion
 magic_name_027,Ice Bow
-magic_name_028,Falon's Piromance
-magic_name_029,Falon's Fire
-magic_name_030,Falon's Ice
-magic_name_031,Falon's Lightnings
-magic_name_032,Falon's Blood
+magic_name_028,Night Constellation
+magic_name_029,Falon's Pyromance
+magic_name_030,Falon's Fire
+magic_name_031,Falon's Ice
+magic_name_032,Falon's Lightnings
+magic_name_033,Falon's Blood
 magic_desc_000,Spread pyromancy on the ground.
 magic_desc_001,Casts a pyromantic explosion.
 magic_desc_002,Throws a flaming ball.
@@ -788,16 +788,17 @@ magic_desc_019,
 magic_desc_020,
 magic_desc_021,
 magic_desc_022,
-magic_desc_023,Throws an ice stake.
-magic_desc_024,Throws sharp ice crystals.
-magic_desc_025,
+magic_desc_023,
+magic_desc_024,Throws an ice stake.
+magic_desc_025,Throws sharp ice crystals.
 magic_desc_026,
-magic_desc_027,Imbues night magic on the equipped weapon in the other hand.
-magic_desc_028,Imbues pyromancy on the equipped weapon in the other hand.
-magic_desc_029,Imbues fire on the equipped weapon in the other hand.
-magic_desc_030,Imbues freezing on the equipped weapon in the other hand.
-magic_desc_031,Imbues electricity on the equipped weapon in the other hand.
-magic_desc_032,Imbues bleeding on the equipped weapon in the other hand.
+magic_desc_027,
+magic_desc_028,Imbues night magic on the equipped weapon in the other hand.
+magic_desc_029,Imbues pyromancy on the equipped weapon in the other hand.
+magic_desc_030,Imbues fire on the equipped weapon in the other hand.
+magic_desc_031,Imbues freezing on the equipped weapon in the other hand.
+magic_desc_032,Imbues electricity on the equipped weapon in the other hand.
+magic_desc_033,Imbues bleeding on the equipped weapon in the other hand.
 magic_inspec_000,
 magic_inspec_001,
 magic_inspec_002,
@@ -831,6 +832,7 @@ magic_inspec_029,
 magic_inspec_030,
 magic_inspec_031,
 magic_inspec_032,
+magic_inspec_033,
 ring_name_000,Pierced Shield Ring
 ring_name_001,Broken Sword Ring
 ring_name_002,Steel Shield Ring
