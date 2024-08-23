@@ -1,4 +1,4 @@
-KEYS,PORTUGUÊS BRASILEIRO
+Keys,Português Brasileiro
 init_menu_continue,Continuar
 init_menu_load_game,Carregar
 init_menu_new_game,Novo jogo
@@ -75,9 +75,6 @@ popup_reset_warn,Tem certeza que deseja repor as predefinições? O jogo será r
 popup_reseting,Resetando as configurações...
 popup_apply_changes_warn,Tem certeza que deseja aplicar as mudanças?
 popup_changing,Aplicando as configurações...
-lan_menu_eng,English
-lan_menu_pt_br,Português BR
-lan_menu_jap,Japonês
 cred_menu_credits,CRÉDITOS
 cred_menu_developed,DESENVOLVIDO POR
 cred_menu_ravi,Ravi de Santana 'RKS'
@@ -287,13 +284,14 @@ ct_mm,Memorizar magias
 ct_skills,Habilidades
 ct_dc,Cálice Demoníaco
 ct_storage,Armazenamento
-ct_warp,Viajar
+ct_travel,Viajar
 ct_wisdom,Sabedoria
 ct_lu_confirm_singular,Gastar {0} de sangue e subir {1} nível?
 ct_lu_confirm_plural,Gastar {0} de sangue e subir {1} níveis?
 ct_dc_allot,Distribuir Cálices
 ct_dc_charge,Adicionar cargas
 ct_dc_force,Aumentar força
+ct_hp_tv,Viajar para Morada dos Viajantes
 ct_dc_grant_charge_singular,Condecer {0} Osso Clerical para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_plural,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_no_items,Você não possui nenhum Osso Clerical.
@@ -304,8 +302,9 @@ ct_mm_es,Espaço vazio
 ct_mm_kind,Tipo
 ct_mm_mc,Custo de PM
 ct_mm_ce,Você não possui os atributos necessários para equipar esta magia.
-ct_wp_warp,Viajar para Totem Cinéreo selecionado?
-ct_wp_yah,Você está nesse Totem Cinéreo
+ct_tv_travel,Viajar para Totem Cinéreo selecionado?
+ct_tv_vm,Viajar para Morada dos Viajantes?
+ct_tv_yah,Você está nesse Totem Cinéreo
 ct_area_000,Fagulhas Esquecidas
 ct_area_001,Calabouço das Almas
 ct_area_002,Forja do Núcleo
@@ -760,11 +759,12 @@ magic_name_024,Cristais Gélidos
 magic_name_025,Orbes Congelantes
 magic_name_026,Explosão Gélida
 magic_name_027,Arco Congelante
-magic_name_028,Piromancia de Falon
-magic_name_029,Fogo de Falon
-magic_name_030,Gelo de Falon
-magic_name_031,Raios de Falon
-magic_name_032,Sangue de Falon
+magic_name_028,Constelação Noturna
+magic_name_029,Piromancia de Falon
+magic_name_030,Fogo de Falon
+magic_name_031,Gelo de Falon
+magic_name_032,Raios de Falon
+magic_name_033,Sangue de Falon
 magic_desc_000,Espalha piromancia pelo chão.
 magic_desc_001,Conjura uma explosão piromântica.
 magic_desc_002,Arremessa uma bola flamejante.
@@ -788,16 +788,17 @@ magic_desc_019,
 magic_desc_020,
 magic_desc_021,
 magic_desc_022,
-magic_desc_023,Arremessa uma estaca de gelo.
-magic_desc_024,Arremessa cristais de gelo pontiagudos.
-magic_desc_025,
+magic_desc_023,
+magic_desc_024,Arremessa uma estaca de gelo.
+magic_desc_025,Arremessa cristais de gelo pontiagudos.
 magic_desc_026,
-magic_desc_027,Imbui magia noturna à arma equipada da outra mão.
-magic_desc_028,Imbui piromancia à arma equipada da outra mão.
-magic_desc_029,Imbui fogo à arma da outra equipada da outra mão.
-magic_desc_030,Imbui congelamento à arma equipada da outra mão.
-magic_desc_031,Imbui eletricidade à arma equipada da outra mão.
-magic_desc_032,Imbui sangramento à arma equipada da outra mão.
+magic_desc_027,
+magic_desc_028,Imbui magia noturna à arma equipada da outra mão.
+magic_desc_029,Imbui piromancia à arma equipada da outra mão.
+magic_desc_030,Imbui fogo à arma da outra equipada da outra mão.
+magic_desc_031,Imbui congelamento à arma equipada da outra mão.
+magic_desc_032,Imbui eletricidade à arma equipada da outra mão.
+magic_desc_033,Imbui sangramento à arma equipada da outra mão.
 magic_inspec_000,
 magic_inspec_001,
 magic_inspec_002,
@@ -831,6 +832,7 @@ magic_inspec_029,
 magic_inspec_030,
 magic_inspec_031,
 magic_inspec_032,
+magic_inspec_033,
 ring_name_000,Anel do Escudo Perfurado
 ring_name_001,Anel da Espada Quebrada
 ring_name_002,Anel do Escudo de Aço
