@@ -41,12 +41,20 @@ set_menu_musics,Músicas
 set_menu_dialogues,Diálogos
 set_menu_go_back_div,Voltar para o[n][n] menu principal
 set_menu_go_back,Voltar para o menu principal
-set_descri_fullscreen,"Define o modo de exibição do jogo, se permanecerá em tela cheia ou não.[n][n]Padrão: Ligado[n][n]AVISO:[n]- A opção ""Janela sem borda"" pode não funcionar se houver mais de 1 monitor."
+set_descri_fullscreen,"Define o modo de exibição do jogo, se permanecerá em tela cheia ou não.[n][n]Padrão: Ligado[n][n]Aviso:[n]- A opção ""Janela sem borda"" pode não funcionar se houver mais de 1 monitor."
 set_descri_resolution,"Define a resolução da janela do jogo.[n][n]Padrão: 1920 x 1080[n][n]Esta opção só funcionará se a opção ""Modo de vídeo"" estiver em ""janela""."
 set_descri_hud,Define se a HUD irá aparecer na tela.[n][n]Padrão: Ligado
-set_descri_language,"Define o idioma do jogo.[n][n]AVISO IMPORTANTE:[n]- O jogo DEVE ser reiniciado para mudar idioma, caso contrário, o idioma NÃO será alterado."
-set_descri_auto_lan,"Define se o idioma do jogo se adequará ao idioma do sistema operacional do usuario.[n][n]AVISOS:[n]- O jogo deve ser reiniciado para a mudança ser aplicada, caso contrário, a mudança NÃO será aplicada;[n][n]- O jogo se adequará apenas aos idiomas disponíveis na opção ""Idioma""."
+set_descri_language,"Define o idioma do jogo.[n][n]Aviso:[n]- O jogo deve ser reiniciado para mudar idioma, caso contrário, o idioma não será alterado."
+set_descri_auto_lan,"Define se o idioma do jogo se adequará ao idioma do sistema operacional do usuario.[n][n]Aviso:[n]- O jogo deve ser reiniciado para a mudança ser aplicada, caso contrário, a mudança não será aplicada;[n][n]- O jogo se adequará apenas aos idiomas disponíveis na opção ""Idioma""."
 set_descri_text_vel,Define a velocidade do texto de diálogos.[n][n]Padrão: Média
+set_descri_cons_icons,Define o icone dos botões de seu controle ou teclado.
+set_descri_master,Define o volume de todos os sons existentes no jogo.[n][n]Padrão: 10
+set_descri_sfx,Define o volume de todos os efeitos sonoros.[n][n]Padrão: 10
+set_descri_ambient,Define o volume dos sons ambientes.[n][n]Padrão: 10
+set_descri_musics,Define o volume de todas as músicas.[n][n]Padrão: 10
+set_descri_dialogues,Define o volume de todos os diálogos.[n][n]Padrão: 10
+set_descri_apply,Aplica as mudanças feitas nas opções anteriores.[n][n]Aviso:[n]- Talvez seja necessário reiniciar o jogo para aplicar certas mudanças.
+set_descri_reset_default,Repõe as predefinições originais do jogo.[n][n]Aviso:[n]- O jogo será reiniciado.
 set_descri_con_walkF,Andar para frente:
 set_descri_con_walkB,Andar para trás:
 set_descri_con_jump,Pular:
@@ -62,23 +70,15 @@ set_descri_con_swap_item,Trocar item da bolsa:
 set_descri_con_menu,Abrir menu de Massaru:
 set_descri_con_pause,Pausar jogo:
 set_descri_con_int,Interagir:
-set_descri_cons_icons,Define o icone dos botões de seu controle ou teclado.
-set_descri_master,Define o volume de todos os sons existentes no jogo.[n][n]Padrão: 10
-set_descri_sfx,Define o volume de todos os efeitos sonoros.[n][n]Padrão: 10
-set_descri_ambient,Define o volume dos sons ambientes.[n][n]Padrão: 10
-set_descri_musics,Define o volume de todas as músicas.[n][n]Padrão: 10
-set_descri_dialogues,Define o volume de todos os diálogos.[n][n]Padrão: 10
-set_descri_apply,Aplica as mudanças feitas nas opções anteriores.[n][n]AVISO IMPORTANTE:[n]- Talvez seja necessário reiniciar o jogo para aplicar certas mudanças.
-set_descri_reset_default,Repõe as predefinições originais do jogo.[n][n]AVISO IMPORTANTE:[n]- O jogo será REINICIADO.
 descri_default,Este item ainda não tem uma descrição.
 popup_reset_warn,Tem certeza que deseja repor as predefinições? O jogo será reiniciado!
 popup_reseting,Resetando as configurações...
 popup_apply_changes_warn,Tem certeza que deseja aplicar as mudanças?
 popup_changing,Aplicando as configurações...
-cred_menu_credits,CRÉDITOS
-cred_menu_developed,DESENVOLVIDO POR
+cred_menu_credits,Créditos
+cred_menu_developed,Desenvolvido por
 cred_menu_ravi,Ravi de Santana 'RKS'
-cred_menu_musics,MÚSICAS POR
+cred_menu_musics,Músicas por
 cred_menu_fl,Freak Luke
 term_version,Versão {0}
 term_cancel,Cancelar
@@ -223,7 +223,7 @@ group_tools,Ferramentas
 group_materials,Materiais
 group_keys,Itens chave
 group_accessories,Acessórios
-group_armors,Aarmaduras
+group_armors,Armaduras
 group_weapons,Armas
 group_gems,Gemas
 group_magics,Magias
@@ -543,8 +543,8 @@ armor_inspec_002,
 armor_inspec_003,
 armor_inspec_004,
 armor_inspec_005,
-armor_inspec_006,
-armor_inspec_007,"Este kimono foi passado de geração em geração da família de Massaru. Já não está tão em perfeito estado quanto já foi um dia. Massaru continua usando ele por respeito à seu bisavô, que foi um grande imperador em Otsumoshita."
+armor_inspec_006,"Este kimono foi passado de geração em geração da família de Massaru. Já não está tão em perfeito estado quanto já foi um dia. Massaru continua usando ele por respeito à seu bisavô, que foi um grande imperador em Otsumoshita."
+armor_inspec_007,
 armor_inspec_008,
 armor_inspec_009,
 armor_inspec_010,
@@ -629,7 +629,7 @@ weapon_desc_012,A espada congelada das antigas lendas. Dizem que é capaz de mat
 weapon_desc_013,Um cutelo enorme. Talvez tenha pertencido a um gigante açogueiro.
 weapon_desc_014,"Uma katana simples e barata, pintada de preto, roxo e verde."
 weapon_desc_015,"Uma longa espada oriental, ágil e eficaz, por mais que não seja muito resistente."
-weapon_desc_016,"A espada de um grande guerreiro de cabelos longos, gravadas com runas desconhecidas."
+weapon_desc_016,"A espada de um grande guerreiro de cabelos longos, gravada com runas desconhecidas."
 weapon_desc_017,A espada de um antigo guerreiro que compunha melodias relaxantes para a alma.
 weapon_desc_018,Uma katana com uma lâmina enorme.
 weapon_desc_019,Uma katana com uma lâmina dentada. Causa sangramento.
@@ -689,7 +689,7 @@ weapon_inspec_013,
 weapon_inspec_014,
 weapon_inspec_015,
 weapon_inspec_016,
-weapon_inspec_017,"Seu dono, o famoso e antigo Vinsir, junto com os guerreiros da Congregação da Escuridão, batalhava contra a Escuridão para trazer paz a Terra. Ele criava melodias calmas e inspiradoras com o intuito de descarregar seu estresse e o de seus aliados nessa guerra eterna contra a Escuridão. Um dia, Vinsir junto com seu companheiro lutavam contra um grande Fingran consumido pela Escuridão. Seu aliado conseguiu ganhar a batalha e libertar a alma da grande besta, mas ao custo do sacrifício da vida de Vinsir. Hoje em dia, no Grande Campo de Ardiflores, reside o túmulo do heróico compositor."
+weapon_inspec_017,"Seu dono, o famoso e antigo Vinsir, junto com os guerreiros da Congregação da Escuridão, batalhavam contra a Escuridão para trazer paz a Terra. Ele criava melodias calmas e inspiradoras com o intuito de descarregar seu estresse e o de seus aliados nessa guerra eterna contra a Escuridão. Um dia, Vinsir junto com seu companheiro lutavam contra um grande Fingran consumido pela Escuridão. Seu aliado conseguiu ganhar a batalha e libertar a alma da grande besta, mas ao custo do sacrifício da vida de Vinsir. Hoje em dia, no Grande Campo de Ardiflores, reside o túmulo do heróico compositor."
 weapon_inspec_018,
 weapon_inspec_019,
 weapon_inspec_020,
@@ -936,7 +936,7 @@ ring_desc_040,Restaura PV com ataques consecutivos.
 ring_desc_041,Aumenta o dano de ataques pesados.
 ring_desc_042,Aumenta o dano de ataques no ar.
 ring_desc_043,Aumenta o dano de armas de longa distância.
-ring_desc_044,Aumenta o dano com as mãos nuas
+ring_desc_044,Aumenta o dano com as mãos nuas.
 ring_desc_045,Inimigos te detectam com mais dificuldade.
 ring_desc_046,"Sangue não é perdido ao morrer, mas o anel se quebra."
 ring_desc_047,"Ao morrer, renasce explodindo tudo ao redor. Funciona apenas uma vez."
@@ -1066,7 +1066,7 @@ npc_002_dialogue_006,"De qualquer forma, esta construção é lar para outros co
 npc_002_dialogue_007,Isso é tudo que eu para dizer.
 npc_002_dialogue_008,Que a benção de Moygo esteja contigo.
 intro_dialogue_000,"Ah, querido irmão..."
-intro_dialogue_001,"Já fizestes tanto por mim, peço que me ofereça sua ajuda mais uma vez."
+intro_dialogue_001,Já fizestes tanto por mim... Peço que me ofereça sua ajuda mais uma vez.
 intro_dialogue_002,"Imagino que já tenhas ouvido falar de Mounds, o Rei Demônio, o ser celeste decaído."
 intro_dialogue_003,"A partir de meus rituais, descobri que o próprio está se preparando para invadir a Terra, o reino dos vivos"
 intro_dialogue_004,"dominá-la, para depois ascender aos céus novamente e se tornar o deus supremo."
