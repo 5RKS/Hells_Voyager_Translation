@@ -2,16 +2,16 @@
 The repository to store all translations of Hell's Voyager.
 
 > [!WARNING]
-> The game is not yet complete, so much of the text will probably change several times between now and release. I therefore recommend that you only start translating when RKS (the creator of Hell's Voyager) says that the game is complete.
+> all original translation files (english) may change their content, thus requiring a revision or even being redone entirely, and every time these changes are made, RKS (@5rks) will notify you on the discord server in the contributors channel. So if you don't have the patience to revise or redo the entire translation, wait until RKS gives notice that this is the last change and that one will be kept for the final game.
 
 ## Translating correctly the texts of Hell's Voyager
 ### Organization
 The file of translation is a .csv archive, that is a spreadsheet separeted by comma. You can use any app/site to create your translations. I particularly recommend [Google Sheets](https://docs.google.com/spreadsheets) (Excel will break non-english characters).
-- **First column** - Here is where the **keys** are located. They are the "name" of the text. For example, if the game is trying to write the option to start the game, it will pull the "init_menu_new_game" key, and when you run the game in English, the text "New game" will appear on the screen, or if you run the game in Portuguese, "Novo jogo" will appear, and so on. The first line must be written "KEYS", in capital letters, just to standardize;
+- **First column** - Here is where the **keys** are located. They are the "name" of the text. For example, if the game is trying to write the option to start the game, it will pull the "init_menu_new_game" key, and when you run the game in English, the text "New game" will appear on the screen, or if you run the game in Portuguese, "Novo jogo" will appear, and so on. The first line must be written "Keys", just to standardize;
 - **Next columns** - All the others columns can be used as the translated texts, with always the first line being the name of the language (on the way it's written in their own language);
 - You just need to have 2 columns, keys and language, respectively. But if you want to translate more languages, you can add another column next to your other translation column, but remember that the first column must ***always*** be the key column.
 
-![image](https://github.com/user-attachments/assets/1443edf8-fe2f-432b-82c6-8625f422466b)
+![image](https://github.com/user-attachments/assets/374447c8-4aff-4eca-8b49-86a8308714d0)
 <sub>Example of what your translation spreadsheet should look like</sub>
 
 ### Code words
