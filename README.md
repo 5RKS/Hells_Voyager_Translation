@@ -20,7 +20,7 @@ In the spreadsheet of translation, you going to see some strange words, here are
 - **\[n]** - This is used to go to the next line.
 
 ### Text Variations
-In some moments of the translation you will see the keys with almost the same name, but with the suffix "_a", "_b", "_c", "_d", such as happens in the keys of the infusions. Those are inflections of the noun, such as in gender (masculine or feminine) or number (singular or plural). The "_a" singular masculine, "_b" singular feminine, "_c" plural masculine and "_d" plural feminine.
+- In some moments of the translation you will see the keys with almost the same name, but with the suffix "_a", "_b", "_c", "_d", such as happens in the keys of the infusions. Those are inflections of the noun, such as in gender (masculine or feminine) or number (singular or plural). The "_a" singular masculine, "_b" singular feminine, "_c" plural masculine and "_d" plural feminine.
 
 ### Proper names
 Here is the list of proper names of areas, characters, items, etc. I prefer that you just transliterate them. If there are any problems with the translation, such as names meaning something wrong in your language, or some kind of double entendre, please contact RKS (@5rks) on Discord to discuss a good adaptation for these name.
@@ -96,8 +96,13 @@ Here is the list of proper names of areas, characters, items, etc. I prefer that
 > ***After RKS approve your translation***, Ping the him (@5rks) in "translation-chat" on Discord and say how you want your name to appear in the credits. If you don't say anything, RKS will put your GitHub or Discord nickname in the credits.
 
 ## FAQ
-### Why do some texts have quotation marks at the beginning and end, but others don't?
+### 1. Why do some texts have quotation marks at the beginning and end, but others don't?
 .csv archives works with commas, so if the text have commas, you need to put that whole text in quotation marks, so that the file doesn't identify it as another text. So while you're editing texts, always remember to put those with commas in quotation marks, or put all the texts in quotation marks, it also works.
+
+### 2. How do I know which texts have been changed, added or deleted?
+In the repository commits, when you click on the commit you want to analyze, you can see the changes of the files, where you can see the changes, additions or deletions.
+
+![image](https://github.com/user-attachments/assets/2dd904a3-c341-42ad-b356-c2550863cdb8)
 
 > [!NOTE]
 > ***ALWAYS*** remember to close the quotation marks, otherwise this will happen in the game:
