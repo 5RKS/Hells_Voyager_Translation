@@ -6,11 +6,11 @@ init_menu_options,Налаштування
 init_menu_language,Мова
 init_menu_credits,Credits
 init_menu_guit_game,Вийти з гри
-save_slot_empty,Empty data
+save_slot_empty,Порожнє збереження
 set_menu_apply,Прийняти зміни
-set_menu_reset,Reset to default
+set_menu_reset,Скинути до замовчення
 set_menu_settings,Налаштування
-set_menu_video,Video
+set_menu_video,Відео
 set_menu_view_mode,Режим перегляду
 set_menu_fullscreen,Повноекранний
 set_menu_bw,Безрамковий
@@ -26,9 +26,9 @@ set_menu_slow,Повільна
 set_menu_mid,Середня
 set_menu_high,Висока
 set_menu_hud_not,Ocult
-set_menu_hud_show,Show
-set_menu_hud_otn,Only the necessary
-set_menu_view_con,View controls
+set_menu_hud_show,Показати
+set_menu_hud_otn,Тільки коли потрібно
+set_menu_view_con,Переглянути керування
 set_menu_cons_icons,Іконки керування
 set_menu_keyboard,Клавіатура та миша
 set_menu_gamepad,Геймпад
@@ -36,25 +36,25 @@ set_menu_dynamic,Динамічно
 set_menu_audio,Аудіо
 set_menu_master,Загальна гучність
 set_menu_sfx,Ефекти
-set_menu_ambient,Ambient
+set_menu_ambient,Атмосфера
 set_menu_musics,Музика
 set_menu_dialogues,Діалоги
-set_menu_go_back_div,Back to[n][n]home menu
-set_menu_go_back,Back to home menu
-set_descri_fullscreen,"Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]Warning:[n]- The ""Bordeless window"" option may not work if there is more than 1 screen."
-set_descri_resolution,"Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the ""View mode"" option is set to ""Window""."
-set_descri_hud,Defines whether the HUD will appear on the screen.[n]Default: On
-set_descri_language,"Defines the game language.[n][n]Warning:[n]- The game must be restarted to change the language, otherwise, the language will not be changed."
-set_descri_auto_lan,"Defines whether the language of the game will match the language of the user's operating system.[n][n]Warning:[n]- The game must be restarted for the change to be applied, otherwise, the change will not be applied;[n][n]- The game will only match the languages available in the ""Language"" option."
-set_descri_text_vel,Defines the speed of the dialog texts.[n][n]Default: Medium
-set_descri_cons_icons,Defines the icon for your controller or keyboard buttons.
-set_descri_master,Sets the volume of all existing sounds in the game.[n][n]Default: 10
+set_menu_go_back_div,Повернутися у [n][n]головне меню
+set_menu_go_back,Повернутися у головне меню
+set_descri_fullscreen,"Визначає режим відображення гри, чи повинна вона залишитися у повноекранному режимі чи ні.[n][n]За замовченням: Увімкнено[n][n]Увага:[n]- «Безрамковий» режим може не працювати якщо у вас більше ніж 1 екран."
+set_descri_resolution,Визначає роздільну здатність вікна гри.[n][n]За замовченням: 1920 x 1080[n][n]Ця опція буде працювати тільки якщо опція «Режим перегляду» буде встановлена на «Віконний».
+set_descri_hud,Визначає чи буде відображатися інтерфейс на екрані.[n]За замовченням: Увімкнено
+set_descri_language,Визначає мову гри.[n][n]Увага:[n]- Гру треба перезавантажити щоб зміни мови вступили в силу.
+set_descri_auto_lan,"Визначає чи буде обрана мова гри в залежності від мови вашої операційної системи.[n][n]Увага:[n]- Щоб зміни вступили в силу, треба перезавантажити гру;[n][n]- Буде обрана та мова яка доступна у списку."
+set_descri_text_vel,Визначає швидкість з якою відображаються діалоги.[n][n]За замовченням: Середня
+set_descri_cons_icons,Визначає які піктограми будуть відображатися у якості підказок керування.
+set_descri_master,Встановлює загальну гучність усіх звуків гри.[n][n]За замовченням: 10
 set_descri_sfx,Sets the volume of all sound effects.[n][n]Default:10
 set_descri_ambient,Sets the volume of ambient sounds.[n][n]Default: 10
 set_descri_musics,Sets the volume of all musics.[n][n]Default: 10
 set_descri_dialogues,Sets the volume of all dialogues.[n][n]Default: 10
-set_descri_apply,Applies the changes made in the previous options.[n][n]Warning:[n]- You may need to restart the game to apply certain changes.
-set_descri_reset_default,Reset the original predefinitions of the game.[n][n]Warning:[n]- The game will be restarted.
+set_descri_apply,"Прийняти нові зміни налаштувань.[n][n]Увага:[n]- Вам може знадобитися перезавантажити гру, щоб деякі зміни вступили в силу."
+set_descri_reset_default,Скинути до замовчення всі налаштування гри.[n][n]Увага:[n]- The game will be restarted.
 set_descri_con_walkF,Йти вперед:
 set_descri_con_walkB,Йти назад:
 set_descri_con_jump,Стрибок:
@@ -63,171 +63,171 @@ set_descri_con_crouch,Присісти:
 set_descri_con_atk,Атака:
 set_descri_con_atk_hv,Важка атака:
 set_descri_con_block,Блокувати:
-set_descri_con_magic,Використати магію:
-set_descri_con_magic_swap,Magic swap:
-set_descri_con_item,Use bag item:
-set_descri_con_swap_item,Bag item swap:
+set_descri_con_magic,Використати чари:
+set_descri_con_magic_swap,Змінити чари:
+set_descri_con_item,Використати предмет у мішечку:
+set_descri_con_swap_item,Змінити предмет у мішечку:
 set_descri_con_menu,Open Massaru's menu:
-set_descri_con_pause,Game pause:
-set_descri_con_int,Interact:
-descri_default,This item have no description yet.
+set_descri_con_pause,Пауза:
+set_descri_con_int,Взаємодіяти:
+descri_default,У цього предмета поки що немає опису.
 popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
-popup_reseting,Reseting the configurations...
+popup_reseting,Скидуємо налаштування...
 popup_apply_changes_warn,Are you sure you want to apply the changes?
 popup_changing,Applying the changes...
 cred_menu_credits,Про гру
-cred_menu_developed,Developed by
+cred_menu_developed,Гру розробив
 cred_menu_ravi,Ravi de Santana 'RKS'
-cred_menu_musics,Musics by
+cred_menu_musics,Музику зробив
 cred_menu_fl,Freak Luke
 term_version,Версія {0}
 term_cancel,Скасувати
-term_hold,Hold
-term_press,Press
+term_hold,Утримувати
+term_press,Натиснути
 term_confirm,Прийняти
 term_ok,ОК
 term_no,Ні
 term_yes,Так
 term_void,Порожньо
-term_on,On
-term_off,Off
-term_enabled,Enabled
-term_disabled,Disabled
-term_locked,Locked
-term_go_back,Go back
-term_leave,Leave
+term_on,Увімкнено
+term_off,Вимкнено
+term_enabled,Активовано
+term_disabled,Деактивовано
+term_locked,Зачинено
+term_go_back,Повернутися
+term_leave,Залишити
 term_type_a,Тип А
 term_type_b,Тип Б
 term_type_c,Тип В
 term_nothing,Нічого
 term_you_died,ВИ ЗАГИНУЛИ
-term_ct_restored,CINDER TOTEM RESTORED
-term_enemy_exterminated,ENEMY EXTERMINATED
-term_leader_defeated,LEADER DEFEATED
-term_king_slain,KING SLAIN
-term_condition,Condition
-term_legion,Legion
-term_hp,HP
-term_mp,MP
-term_blessing,Blessing
-term_def,Damage negation
-term_level,Level
-term_blood_hld,Blood held
-term_blood_ndd,Blood needed
-term_blood_required,Blood required
-term_blood_received,Blood received
-term_atk_power,Attack power
-term_special_armament,Special {0}
-term_heavy_infusion_a,Heavy {0}
-term_heavy_infusion_b,Heavy {0}
-term_heavy_infusion_c,Heavy {0}
-term_heavy_infusion_d,Heavy {0}
-term_sharp_infusion_a,Sharp {0}
-term_sharp_infusion_b,Sharp {0}
-term_sharp_infusion_c,Sharp {0}
-term_sharp_infusion_d,Sharp {0}
-term_quality_infusion_a,Quality {0}
-term_quality_infusion_b,Quality {0}
-term_quality_infusion_c,Quality {0}
-term_quality_infusion_d,Quality {0}
-term_brute_infusion_a,Brute {0}
-term_brute_infusion_b,Brute {0}
-term_brute_infusion_c,Brute {0}
-term_brute_infusion_d,Brute {0}
-term_pyromantic_infusion_a,Pyromantic {0}
-term_pyromantic_infusion_b,Pyromantic {0}
-term_pyromantic_infusion_c,Pyromantic {0}
-term_pyromantic_infusion_d,Pyromantic {0}
-term_flaming_infusion_a,Flaming {0}
-term_flaming_infusion_b,Flaming {0}
-term_flaming_infusion_c,Flaming {0}
-term_flaming_infusion_d,Flaming {0}
-term_freezing_infusion_a,Freezing {0}
-term_freezing_infusion_b,Freezing {0}
-term_freezing_infusion_c,Freezing {0}
-term_freezing_infusion_d,Freezing {0}
-term_electric_infusion_a,Electric {0}
-term_electric_infusion_b,Electric {0}
-term_electric_infusion_c,Electric {0}
-term_electric_infusion_d,Electric {0}
-term_poisonous_infusion_a,Poisonous {0}
-term_poisonous_infusion_b,Poisonous {0}
-term_poisonous_infusion_c,Poisonous {0}
-term_poisonous_infusion_d,Poisonous {0}
-term_bloody_infusion_a,Bloody {0}
-term_bloody_infusion_b,Bloody {0}
-term_bloody_infusion_c,Bloody {0}
-term_bloody_infusion_d,Bloody {0}
-term_darkness_infusion_a,Darkness {0}
-term_darkness_infusion_b,Darkness {0}
-term_darkness_infusion_c,Darkness {0}
-term_darkness_infusion_d,Darkness {0}
+term_ct_restored,ТОТЕМ ПОПЕЛУ ВІДНОВЛЕНО
+term_enemy_exterminated,ВОРОГА ЗНИЩЕНО
+term_leader_defeated,ВАТАЖОК ПЕРЕМОЖЕН
+term_king_slain,КОРОЛЯ ВБИТО
+term_condition,Стан
+term_legion,Легіон
+term_hp,ОЗ
+term_mp,ОМ
+term_blessing,Освячення
+term_def,Зменшення шкоди
+term_level,Рівень
+term_blood_hld,Крові у наявності
+term_blood_ndd,Крові потрібно
+term_blood_required,Крові потребується
+term_blood_received,Отримано крові
+term_atk_power,Сила атаки
+term_special_armament,Особливий {0}
+term_heavy_infusion_a,Важкий {0}
+term_heavy_infusion_b,Важка {0}
+term_heavy_infusion_c,Важкі {0}
+term_heavy_infusion_d,Важкі {0}
+term_sharp_infusion_a,Гострий {0}
+term_sharp_infusion_b,Гостра {0}
+term_sharp_infusion_c,Гострі {0}
+term_sharp_infusion_d,Гострі {0}
+term_quality_infusion_a,Якісний {0}
+term_quality_infusion_b,Якісна {0}
+term_quality_infusion_c,Якісні {0}
+term_quality_infusion_d,Якісні {0}
+term_brute_infusion_a,Грубий {0}
+term_brute_infusion_b,Груба {0}
+term_brute_infusion_c,Грубі {0}
+term_brute_infusion_d,Грубі {0}
+term_pyromantic_infusion_a,Піромантичний {0}
+term_pyromantic_infusion_b,Піромантична {0}
+term_pyromantic_infusion_c,Піромантичні{0}
+term_pyromantic_infusion_d,Піромантичні{0}
+term_flaming_infusion_a,Вогняний {0}
+term_flaming_infusion_b,Вогняна {0}
+term_flaming_infusion_c,Вогняні {0}
+term_flaming_infusion_d,Вогняні {0}
+term_freezing_infusion_a,Крижаний {0}
+term_freezing_infusion_b,Крижана {0}
+term_freezing_infusion_c,Крижані {0}
+term_freezing_infusion_d,Крижані {0}
+term_electric_infusion_a,Електричний {0}
+term_electric_infusion_b,Електрична {0}
+term_electric_infusion_c,Електричні {0}
+term_electric_infusion_d,Електричні {0}
+term_poisonous_infusion_a,Отруйний {0}
+term_poisonous_infusion_b,Отруйна {0}
+term_poisonous_infusion_c,Отруйні {0}
+term_poisonous_infusion_d,Отруйні {0}
+term_bloody_infusion_a,Кривавий {0}
+term_bloody_infusion_b,Кривава {0}
+term_bloody_infusion_c,Криваві {0}
+term_bloody_infusion_d,Криваві {0}
+term_darkness_infusion_a,Темний {0}
+term_darkness_infusion_b,Темна {0}
+term_darkness_infusion_c,Темні {0}
+term_darkness_infusion_d,Темні {0}
 term_number,№
-term_conclusion,Conclusion
-term_base_power,Base power
+term_conclusion,Висновок
+term_base_power,Базова сила
 term_use,Використати
 term_equip,Екіпірувати
 term_discard,Викинути
-term_tdefeat,Times defeated
-term_no_magics,You don't have any magic...
-term_no_items,You don't have any item from this group...
-term_shop_no_items,This merchant doesn't have any item from this group...
-term_pick_up,Take
-term_lit,Restore
-term_rest,Rest
-term_talk,Talk
-term_investigate,Investigate
-term_change_equip,Change equipment
-term_class,Class
+term_tdefeat,Разів переможено
+term_no_magics,У вас немає жодних чар...
+term_no_items,У вас немає жодного предмету цієї групи...
+term_shop_no_items,Цей торговець не має жодного предмету цієї групи...
+term_pick_up,Взяти
+term_lit,Відновити
+term_rest,Відпочити
+term_talk,Говорити
+term_investigate,Дослідити
+term_change_equip,Змінити екіпірування
+term_class,Клас
 term_manor_court,Manor courtesy
-term_kind,Kind
-term_unknown,Unknown
+term_kind,Тип 
+term_unknown,Невідомо
 term_value,Value
-term_held,Held
-term_stored,Stored
-term_cannot_sold,This item cannot be sold
+term_held,В наявності
+term_stored,Зберігається
+term_cannot_sold,Цей предмет не можна продати
 term_description,Опис
-term_skip,Skip
-term_effects,Effects
+term_skip,Пропустити
+term_effects,Ефекти
 term_immune,Imm.
-term_limit_reached,You can't store more quantities of {0}.
-menu_info_title,Character info
-menu_equi_title,Equipment
-menu_inv_title,Inventory
-menu_knw_title,Bestiary
-menu_map_title,Map
-menu_shop_title,Shop of items
-menu_shop_purchase,Purchase
-menu_shop_sell,Sell
-menu_class_title,Class definition
-menu_info_descri,Look your stats
-menu_equi_descri,Change your equipament
-menu_inv_descri,Look and use your items
-menu_knw_descri,Monsters' description
-menu_map_descri,Look your location
-menu_shop_descri_purchase,Purchase items from the merchant
-menu_shop_descri_sell,Sell items to the mercant
+term_limit_reached,Ви не можете зберігати більшу кількість {0}.
+menu_info_title,Інформація про персонажа
+menu_equi_title,Екіпіровка
+menu_inv_title,Інвентар
+menu_knw_title,Бестіарій
+menu_map_title,Мапа
+menu_shop_title,Крамниця предметів
+menu_shop_purchase,Купити
+menu_shop_sell,Продати
+menu_class_title,Визначення класу
+menu_info_descri,Переглянути ваші характеристики
+menu_equi_descri,Змінити вашу екіпіровку
+menu_inv_descri,Переглянути і використати ваші предмети
+menu_knw_descri,Описи монстрів
+menu_map_descri,Переглянути ваше розташування
+menu_shop_descri_purchase,Купити предмети у крамаря
+menu_shop_descri_sell,Продати предмети крамарю
 menu_class_descri,Choose your initial equipment
-menu_equi_ana,Armor and rings
-menu_equi_wng,Weapon and gems
-menu_equi_bag,Bag
+menu_equi_ana,Броня та кільця
+menu_equi_wng,Зброя та самоцвіти
+menu_equi_bag,Мішечок
 menu_ce,You haven't the necessary attributes to use this weapon properly. Your attacks will be weakened.
 menu_inv_bda,Attribute bonus & requirement
-menu_inv_dis_warn,Discard this item?
-menu_shop_purchase_many,Purchase how many?
-menu_shop_sell_many,Sell how many?
+menu_inv_dis_warn,Викинути цей предмет?
+menu_shop_purchase_many,Скільки купити?
+menu_shop_sell_many,Скільки продати?
 menu_class_items,Class items
 menu_class_status,Class status
 menu_class_appearance,This is the class armor appearance
-group_tools,Tools
-group_materials,Materials
-group_keys,Key items
-group_accessories,Accessories
-group_armors,Armors
-group_weapons,Weapons
-group_gems,Gems
-group_magics,Magics
-group_rings,Rings
+group_tools,Інструменти
+group_materials,Матеріали
+group_keys,Ключові предмети
+group_accessories,Аксесуари
+group_armors,Броня
+group_weapons,Зброя
+group_gems,Самоцвіти
+group_magics,Чари
+group_rings,Кільця
 group_knowledges,Knowledges
 box_general,General
 box_power,Power
@@ -274,21 +274,21 @@ legion_000,Dungeon Convicts
 legion_001,Conformists of the Entity
 legion_002,Darkness Congregation
 legion_003,Draconic Myth
-pause_cont,Continue
-pause_desk,Exit to desktop
-pause_main,Exit to main menu
-ct_inventory,Inventory
+pause_cont,Продовжити
+pause_desk,Вийти до робочого столу
+pause_main,Вийти у головне меню
+ct_inventory,Інвентар
 ct_lit,CINDER TOTEM LIT
-ct_lu,Level up
-ct_mm,Memorize magics
-ct_skills,Skills
-ct_dc,Demon Chalice
+ct_lu,Новий рівень
+ct_mm,Вивчити чари
+ct_skills,Навички
+ct_dc,Чаша демона
 ct_storage,Storage
 ct_travel,Travel
 ct_wisdom,Wisdom
-ct_lu_confirm_singular,Spend {0} blood and up {1} level?
-ct_lu_confirm_plural,Spend {0} blood and up {1} levels?
-ct_dc_allot,Allot Chalices
+ct_lu_confirm_singular,Використати {0} крові щоб отримати {1} рівень?
+ct_lu_confirm_plural,Використати {0} крові щоб отримати {1} рівнів(я)?
+ct_dc_allot,Розподілити вміст чаши
 ct_dc_charge,Add charges
 ct_dc_force,Increase force
 ct_hp_tv,Travel to Voyager's Manor
@@ -298,9 +298,9 @@ ct_dc_grant_charge_no_items,You don't have any Clerical Bones.
 ct_dc_grant_force,Grant 1 Blood Orb to increase the amount of HP/MP recovered by your Demon Chalice?
 ct_dc_grant_force_no_items,You don't have any Blood Orbs.
 ct_dc_grant_force_max,The amount of PV/MP recovered by your Demon Chalice can't be increased any futher.
-ct_mm_es,Empty slot
-ct_mm_kind,Kind
-ct_mm_mc,MP cost
+ct_mm_es,Порожній слот
+ct_mm_kind,Тип 
+ct_mm_mc,Вартість ОМ
 ct_mm_ce,You haven't the necessary attributes to equip this magic.
 ct_tv_travel,Travel to selected Cinder Totem?
 ct_tv_vm,Travel to Voyager's Manor?
@@ -312,38 +312,38 @@ ct_area_003,King's Domain
 ct_name_100,Voyagers' Manor
 tool_kind_00,Consumable
 tool_kind_01,Throwable
-weapon_kind_00,Dagger
-weapon_kind_01,Double dagger
-weapon_kind_02,Straight sword
-weapon_kind_03,Double straight sword
-weapon_kind_04,Greatsword
+weapon_kind_00,Кинджал
+weapon_kind_01,Подвійний кинджал
+weapon_kind_02,Прямий меч
+weapon_kind_03,Подвійний прямий меч
+weapon_kind_04,Великий меч
 weapon_kind_05,Curved sword
 weapon_kind_06,Curved double sword
 weapon_kind_07,Curved greatsword
-weapon_kind_08,Katana
+weapon_kind_08,Катана
 weapon_kind_09,Double katana
-weapon_kind_10,Axe
+weapon_kind_10,Сокира
 weapon_kind_11,Double axe
-weapon_kind_12,Hammer
+weapon_kind_12,Молот
 weapon_kind_13,Double hammer
 weapon_kind_14,Great hammer
-weapon_kind_15,Spear
-weapon_kind_16,Halberd
-weapon_kind_17,Scythe
+weapon_kind_15,Спис
+weapon_kind_16,Алебарда
+weapon_kind_17,Коса
 weapon_kind_18,Colossal weapon
-weapon_kind_19,Whip
-weapon_kind_20,Fists
+weapon_kind_19,Батіг
+weapon_kind_20,Кулаки
 weapon_kind_21,Claws
 weapon_kind_22,Double weapon
-weapon_kind_23,Bow
-weapon_kind_24,Gun
-weapon_kind_25,Heavy Gun
+weapon_kind_23,Лук
+weapon_kind_24,Пістолет
+weapon_kind_25,Важкий пістолет
 weapon_kind_26,Exotic Weapon
-weapon_kind_27,Shield
-weapon_kind_28,Great Shield
-magic_kind_00,Attack
-magic_kind_01,Support
-tool_name_000,Demon Chalice
+weapon_kind_27,Щит
+weapon_kind_28,Великий щит
+magic_kind_00,Атака
+magic_kind_01,Підтримка
+tool_name_000,Чаша демона
 tool_name_001,Clerical Demon Chalice
 tool_name_002_010,Bloody Demon Shard
 tool_name_011,Pyromantic Pot
@@ -383,7 +383,7 @@ tool_desc_014,
 tool_desc_015,
 tool_desc_016,
 tool_desc_017,
-tool_desc_018,Imbues the current weapon with pyromantic damage.
+tool_desc_018,Наповнює поточну зброю пайроматичною шкодою.
 tool_desc_019,
 tool_desc_020,
 tool_desc_021,
@@ -433,8 +433,8 @@ tool_inspec_034,
 tool_inspec_035,
 tool_inspec_036,
 tool_inspec_037,
-material_name_000,Clerical Bone
-material_name_001,Blood Orb
+material_name_000,Кістка клірика
+material_name_001,Кривава сфера
 material_name_002,Sun Stone Residue
 material_name_003,Sun Stone Shard
 material_name_004,Sun Stone Chunk
@@ -443,19 +443,19 @@ material_name_006,Moon Stone Shard
 material_name_007,Moon Stone Slab
 material_desc_000,Grant this bone to a blacksmith to increase the Demon Chalice charges.
 material_desc_001,Grant this orb to a Cinder Totem to increase the force of the Demon Chalice.
-material_desc_002,Reinforces weapons until +3.
-material_desc_003,Reinforces weapons until +6.
-material_desc_004,Reinforces weapons until +9.
-material_desc_005,Reinforces weapons to max.
-material_desc_006,Reinforces special weapons until +4.
-material_desc_007,Reinforces specialweapons to max.
-material_inspec_000,"A piece of a Demon Cleric's skull. So powerful that, even though it's constantly flaming, it won't fall apart. A blacksmith can use this bone to forge another charge of Demon Chalice, thanks to a gift that the Demon Sorcerers have given to all blacksmiths in Hell, which makes them able to manipulate the bones of Demon Clerics."
+material_desc_002,Зміцнює зброю до +3.
+material_desc_003,Зміцнює зброю до +6.
+material_desc_004,Зміцнює зброю до +9.
+material_desc_005,Зміцнює зброю до максимального рівня.
+material_desc_006,Зміцнює особливу зброю до +4.
+material_desc_007,Зміцнює особливу зброю до максимального рівня.
+material_inspec_000,"Шматок черепа Демона-Клірика. Настільки потужний, що незважаючи на постійний вогонь, він не розпадеться. Коваль зможе використати цю кістку щоб виготувати ще один заряд для Чаши Демона, thanks to a gift that the Demon Sorcerers have given to all blacksmiths in Hell, which makes them able to manipulate the bones of Demon Clerics."
 material_inspec_001,"The blood of extinct Demon Clerics, wrapped in an absurdly powerful magical barrier. The only way to give it up is to grant it to a Cinder Totem, a totem created in the First Great Demon War, one of whose objectives was to channel the blood of the Demon Clerics into the medicines and healing spells of the Demon Sorcerers in order to avoid as much deaths as possible."
 material_inspec_002,
 material_inspec_003,
 material_inspec_004,
 material_inspec_005,
-key_name_000,Demon Wings
+key_name_000,Крила демона
 key_name_001,Goddess Purple Pendant
 key_name_002,Radiant Silver Bracelet
 key_name_003,Jails Keys
@@ -1030,22 +1030,22 @@ bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps h
 bes_desc_n002,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
 bes_type_n000,Demidemon
 bes_type_n001,Flaming War Golem - Boss
-dialogue_op_000,Purchase items
-dialogue_op_001,Sell items
-dialogue_op_002,Talk
-npc_name_000,Gustav
+dialogue_op_000,Купити предмети
+dialogue_op_001,Продати предмети
+dialogue_op_002,Говорити
+npc_name_000,Густав
 npc_name_001,Grumyin
 npc_name_002,Randalya
-npc_name_003,Palagard
-npc_000_dialogue_000,Hello friend.
-npc_000_dialogue_001,How it's going?
-npc_000_dialogue_002,I'm... a merchant... What do you want?
-npc_000_dialogue_003,Me? haha...
-npc_000_dialogue_004,I'm nothing but a merchant.
+npc_name_003,Палагард
+npc_000_dialogue_000,"Привіт, друже."
+npc_000_dialogue_001,Як ся мається?
+npc_000_dialogue_002,Я... крамар... Чого бажаєш?
+npc_000_dialogue_003,Я? Хаха...
+npc_000_dialogue_004,Я простий крамар.
 npc_000_dialogue_005,I failed my family and...
 npc_000_dialogue_006,Now I live alone selling goods.
-npc_000_dialogue_007,I'm glad you're back!
-npc_000_dialogue_008,What do you want?
+npc_000_dialogue_007,"Я радий, що ти повернувся!"
+npc_000_dialogue_008,Чого бажаєш?
 npc_001_dialogue_000,"Hey hey hey! Take it easy, boy."
 npc_001_dialogue_001,You are not dead...
 npc_001_dialogue_002,"You are another one of those who came here because of that annoying witch, are not you?"
@@ -1065,8 +1065,8 @@ npc_002_dialogue_005,"But remember that it's not only you who will need equipmen
 npc_002_dialogue_006,This building is home to others like me who can help you whenever you need it.
 npc_002_dialogue_007,That's all I have to say.
 npc_002_dialogue_008,May Moygo's blessing be with you.
-intro_dialogue_000,"Ah, dear brother..."
-intro_dialogue_001,You have already done so much for me... I ask you to offer me your help once again.
+intro_dialogue_000,"Ах, дорогий брате..."
+intro_dialogue_001,"Ти вже так багато зробив для мене... Я прошу про, щоб ти знов мені допоміг."
 intro_dialogue_002,"I imagine you have heard about Mounds, the Demon King, the fallen celestial being."
 intro_dialogue_003,"From my rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
 intro_dialogue_004,"To dominate it, and then ascend to heaven again and become the supreme god."
@@ -1077,22 +1077,22 @@ intro_dialogue_008,Whatever it takes.
 intro_dialogue_009,You will kill him army...
 intro_dialogue_010,You will kill Mounds.
 help_no_tutorial,You haven't unlocked[n]this tutorial yet.
-help_title_000,Menu: Character Info
-help_title_001,Menu: Equipament
-help_title_002,Menu: Inventory
-help_title_003,Menu: Bestiary
+help_title_000,Меню: інформація про персонажа
+help_title_001,Меню: екіпіровка
+help_title_002,Меню: інвентар
+help_title_003,Меню: бестіарій
 help_text_000,"In the Character Info menu, you can check your status, level, attributes, attack power and more.[n][n]The information here reflects on your attacks and your damage negation against various types of damage, such that it can be increased by the armor and weapons you equip."
 help_text_001,"In the Equipment menu, you can equip weapons, armor, rings, gems and items.[n][n]Each piece of equipment in each category changes Massaru's strength in different ways. Weapons increase your attack power, armors increase your damage negation, rings and accessories grant you effects, gems grant effects to your weapon. All your equipment can give you other effects, such as a weapon giving you some effect, even if that's not its main function. The bag makes it easier for you to access items in your inventory."
 help_text_002,"In my Inventory, you can check all the items you own.[n][n]You can use them, generating some kind of gain or loss, depending on the item. Equip them, so you don't have to go to the Equipment menu to equip the item you want. Even discard them, if you no longer want an item in your inventory, but bear in mind that doing so will discard all the items you have of that type, that is, discarding an item that you have 10 amounts of, for example, will cause all 10 of your amounts to be discarded."
 help_text_003,"In the Bestiary menu, you can check out all the monsters you've encountered so far.[n][n]Here you can find out more about the monsters, their names, types, history, HP and attack power, damage negation and how many times you've defeated them."
-class_no_class,Without class
-class_knight,Knight
+class_no_class,Немає класу
+class_knight,Лицар
 class_northern_pilgrim,Northern Pilgrim
 class_ronin,Ronin
 class_rogue,Rogue
 class_templar,Templar
-class_wizard,Wizard
+class_wizard,Чародій
 class_profaned,Profaned
 class_convict,Convict
-testers_text_000,"Hello tester, how are you? This map was made to test all the mechanics of Hell's Voyager so far.[n]Commands you may need:[n]B key: Reset the game;[n]F4 key: Activate FPS real, Date, time and game time;[n]F3: Activate hit box and game infos."
+testers_text_000,"Привіт, тестер. Як ся маєш? Цю мапу було створено, щоб тестувати усі механіки Hell's Voyager які поки що ми маємо.[n]Функції що можуть знадобитися:[n]Кнопка «B»: Перезавантажити гру(?);[n]Кнопка «F4»: Активувати лічильник кадрів, реальні дату та час, ігровий час;[n]Кнопка «F3»: Показати хітбокси та ігрову інформацію."
 testers_text_001,"Please understand that the game is ""empty"" because I've only focused on the game menus so far! But from now on I'm focusing on gameplay, equipment, maps and enemies.[n]Most of the weapons and armor are missing their images, animations and descriptions because I haven't worked on them yet (the only one that already has a move set is the Worn Bastard Sword, but it hasn't been properly finalized). I'm focusing first on adding new things that are more important to the game's progress, such as maps, enemies, npcs, etc."
