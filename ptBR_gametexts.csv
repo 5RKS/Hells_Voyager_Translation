@@ -289,13 +289,19 @@ ct_storage,Armazenamento
 ct_travel,Viajar
 ct_wisdom,Sabedoria
 ct_lu_confirm_singular,Gastar {0} de sangue e subir {1} nível?
+ct_lu_confirm_two,Gastar {0} de sangue e subir {1} níveis?
+ct_lu_confirm_few,Gastar {0} de sangue e subir {1} níveis?
 ct_lu_confirm_plural,Gastar {0} de sangue e subir {1} níveis?
+ct_lu_confirm_other,Gastar {0} de sangue e subir {1} níveis?
 ct_dc_allot,Distribuir Cálices
 ct_dc_charge,Adicionar cargas
 ct_dc_force,Aumentar força
 ct_hp_tv,Viajar para Morada dos Viajantes
 ct_dc_grant_charge_singular,Condecer {0} Osso Clerical para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_two,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_few,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_plural,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_other,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_no_items,Você não possui nenhum Osso Clerical.
 ct_dc_grant_force,Conceder 1 Orbe Sangrento para aumentar a quantidade de PV/PM recuperado pelo seu Cálice Demoníaco?
 ct_dc_grant_force_no_items,Você não possui nenhum Orbe Sangrento.
