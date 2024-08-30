@@ -11,7 +11,6 @@ env:
 jobs:
   discordNotification:
     name: Send Translation Update to Discord
-    needs: [prepareMetaData, exportAndDeployWindowsPlaytest]
     runs-on: ubuntu-latest
     steps:
     - name: Send Translation Update to Discord
@@ -20,5 +19,5 @@ jobs:
         VERSION: ${{ needs.prepareMetaData.outputs.version }}
       run: |
         curl -H "Content-Type: application/json" \
-        -d '{"content":"${{ vars.DISCORD_TRANSLATION_UPDATE_TAGGED_ROLES }}:\n\n A new update for the game translation has been released to the branch!\n`'"$VERSION"'`"}' \
+        -d '{"content":"A new update for the game translation has been released to the branch!\n`'"$VERSION"'`"}' \
         $DISCORD_WEBHOOK
