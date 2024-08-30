@@ -31,7 +31,9 @@ set_menu_hud_otn,Only the necessary
 set_menu_view_con,View controls
 set_menu_cons_icons,Controls icons
 set_menu_keyboard,Keyboard and Mouse
-set_menu_gamepad,Game Pad
+set_menu_gamepad_a,Game Pad Type A
+set_menu_gamepad_b,Game Pad Type B
+set_menu_gamepad_c,Game Pad Type C
 set_menu_dynamic,Dynamic
 set_menu_audio,Audio
 set_menu_master,General
@@ -335,12 +337,14 @@ weapon_kind_19,Whip
 weapon_kind_20,Fists
 weapon_kind_21,Claws
 weapon_kind_22,Double weapon
-weapon_kind_23,Bow
-weapon_kind_24,Gun
-weapon_kind_25,Heavy Gun
-weapon_kind_26,Exotic Weapon
-weapon_kind_27,Shield
-weapon_kind_28,Great Shield
+weapon_kind_23,Exotic Weapon
+weapon_kind_24,Staff
+weapon_kind_25,Talisman
+weapon_kind_26,Bow
+weapon_kind_27,Gun
+weapon_kind_28,Heavy Gun
+weapon_kind_29,Shield
+weapon_kind_30,Great Shield
 magic_kind_00,Attack
 magic_kind_01,Support
 tool_name_000,Demon Chalice
@@ -543,8 +547,8 @@ armor_inspec_002,
 armor_inspec_003,
 armor_inspec_004,
 armor_inspec_005,
-armor_inspec_006,"This kimono has been passed down from generation to generation in Massaru's family. It is no longer in as perfect condition as it once was. Massaru still wears it out of respect for his great-grandfather, who was a great emperor in Otsumoshita."
-armor_inspec_007,
+armor_inspec_006,
+armor_inspec_007,"This kimono has been passed down from generation to generation in Massaru's family. It is no longer in as perfect condition as it once was. Massaru still wears it out of respect for his great-grandfather, who was a great emperor in Otsumoshita."
 armor_inspec_008,
 armor_inspec_009,
 armor_inspec_010,
