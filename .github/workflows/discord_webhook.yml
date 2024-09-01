@@ -1,4 +1,4 @@
-name: Discord Webhook Notification
+name: Translation Updates
 
 on:
   push:
