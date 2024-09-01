@@ -1,0 +1,38 @@
+name: Discord Webhook Notification
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '.github/**'
+
+jobs:
+  discord_notification:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install jq
+      run: sudo apt-get install jq
+
+    - name: Extract and Save Commit Messages as JSON
+      run: |
+        echo '${{ toJson(github.event.commits) }}' > commits.json
+
+    - name: Send Commit Messages to Discord
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        jq -c '.[]' commits.json | while read -r data; do
+          message=$(echo "$data" | jq -r '.message')
+          if [[ $message == REDACT* ]]; then
+            message=$(echo "$message" | sed 's/[!-~]/█/g')
+          fi
+          escaped_message=$(jq -nc --arg msg "$message" '{"content": $msg}')
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "$escaped_message" \
+               $DISCORD_WEBHOOK
+        done
