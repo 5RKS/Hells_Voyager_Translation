@@ -15,5 +15,5 @@ jobs:
     - name: Send Translation Updates to Discord
       run: |
         curl -H "Content-Type: application/json" \
-        -d '{"content":"The translations have been updated, set up the repository!\n `'"$VERSION"'`"}' \
+        -d '{"content":"The translations have been updated, set up the repository! a\n `'"$VERSION"'`"}' \
         $DISCORD_WEBHOOK
