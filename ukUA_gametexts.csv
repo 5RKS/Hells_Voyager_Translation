@@ -4,7 +4,7 @@ init_menu_load_game,Завантажити гру
 init_menu_new_game,Нова гра
 init_menu_options,Налаштування
 init_menu_language,Мова
-init_menu_credits,Credits
+init_menu_credits,Про гру
 init_menu_guit_game,Вийти з гри
 save_slot_empty,Порожнє збереження
 set_menu_apply,Прийняти зміни
@@ -31,7 +31,9 @@ set_menu_hud_otn,Тільки коли потрібно
 set_menu_view_con,Переглянути керування
 set_menu_cons_icons,Іконки керування
 set_menu_keyboard,Клавіатура та миша
-set_menu_gamepad,Геймпад
+set_menu_gamepad_a,Тип геймпаду А
+set_menu_gamepad_b,Тип геймпаду Б
+set_menu_gamepad_c,Тип геймпаду В
 set_menu_dynamic,Динамічно
 set_menu_audio,Аудіо
 set_menu_master,Загальна гучність
@@ -49,12 +51,12 @@ set_descri_auto_lan,"Визначає чи буде обрана мова гри
 set_descri_text_vel,Визначає швидкість з якою відображаються діалоги.[n][n]За замовченням: Середня
 set_descri_cons_icons,Визначає які піктограми будуть відображатися у якості підказок керування.
 set_descri_master,Встановлює загальну гучність усіх звуків гри.[n][n]За замовченням: 10
-set_descri_sfx,Sets the volume of all sound effects.[n][n]Default:10
-set_descri_ambient,Sets the volume of ambient sounds.[n][n]Default: 10
-set_descri_musics,Sets the volume of all musics.[n][n]Default: 10
-set_descri_dialogues,Sets the volume of all dialogues.[n][n]Default: 10
+set_descri_sfx,Встановлює гучність звукових ефектів.[n][n]За замовченням: 10
+set_descri_ambient,Встановлює гучність звуків атмосфери.[n][n]За замовченням: 10
+set_descri_musics,Встановлює гучність музики.[n][n]За замовченням: 10
+set_descri_dialogues,Встановлює гучність діалогів.[n][n]За замовченням: 10
 set_descri_apply,"Прийняти нові зміни налаштувань.[n][n]Увага:[n]- Вам може знадобитися перезавантажити гру, щоб деякі зміни вступили в силу."
-set_descri_reset_default,Скинути до замовчення всі налаштування гри.[n][n]Увага:[n]- The game will be restarted.
+set_descri_reset_default,Скинути до замовчення всі налаштування гри.
 set_descri_con_walkF,Йти вперед:
 set_descri_con_walkB,Йти назад:
 set_descri_con_jump,Стрибок:
@@ -67,14 +69,14 @@ set_descri_con_magic,Використати чари:
 set_descri_con_magic_swap,Змінити чари:
 set_descri_con_item,Використати предмет у мішечку:
 set_descri_con_swap_item,Змінити предмет у мішечку:
-set_descri_con_menu,Open Massaru's menu:
+set_descri_con_menu,Відкрити меню Массари:
 set_descri_con_pause,Пауза:
 set_descri_con_int,Взаємодіяти:
 descri_default,У цього предмета поки що немає опису.
-popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
+popup_reset_warn,"Ви впевнені, що бажаєте скинути налаштування за замовченням?"
 popup_reseting,Скидуємо налаштування...
-popup_apply_changes_warn,Are you sure you want to apply the changes?
-popup_changing,Applying the changes...
+popup_apply_changes_warn,"Ви впевнені, що бажаєте прийняти зміни?"
+popup_changing,Приймаємо зміни...
 cred_menu_credits,Про гру
 cred_menu_developed,Гру розробив
 cred_menu_ravi,Ravi de Santana 'RKS'
@@ -116,7 +118,7 @@ term_blood_hld,Крові у наявності
 term_blood_ndd,Крові потрібно
 term_blood_required,Крові потребується
 term_blood_received,Отримано крові
-term_atk_power,Сила атаки
+term_atk_power,Потужність атаки
 term_special_armament,Особливий {0}
 term_heavy_infusion_a,Важкий {0}
 term_heavy_infusion_b,Важка {0}
@@ -136,8 +138,8 @@ term_brute_infusion_c,Грубі {0}
 term_brute_infusion_d,Грубі {0}
 term_pyromantic_infusion_a,Піромантичний {0}
 term_pyromantic_infusion_b,Піромантична {0}
-term_pyromantic_infusion_c,Піромантичні{0}
-term_pyromantic_infusion_d,Піромантичні{0}
+term_pyromantic_infusion_c,Піромантичні {0}
+term_pyromantic_infusion_d,Піромантичні {0}
 term_flaming_infusion_a,Вогняний {0}
 term_flaming_infusion_b,Вогняна {0}
 term_flaming_infusion_c,Вогняні {0}
@@ -164,7 +166,7 @@ term_darkness_infusion_c,Темні {0}
 term_darkness_infusion_d,Темні {0}
 term_number,№
 term_conclusion,Висновок
-term_base_power,Базова сила
+term_base_power,Базова потужність
 term_use,Використати
 term_equip,Екіпірувати
 term_discard,Викинути
@@ -179,17 +181,17 @@ term_talk,Говорити
 term_investigate,Дослідити
 term_change_equip,Змінити екіпірування
 term_class,Клас
-term_manor_court,Manor courtesy
+term_manor_court,Люб’язна садиба
 term_kind,Тип 
 term_unknown,Невідомо
-term_value,Value
+term_value,Значення
 term_held,В наявності
 term_stored,Зберігається
 term_cannot_sold,Цей предмет не можна продати
 term_description,Опис
 term_skip,Пропустити
 term_effects,Ефекти
-term_immune,Imm.
+term_immune,Імун.
 term_limit_reached,Ви не можете зберігати більшу кількість {0}.
 menu_info_title,Інформація про персонажа
 menu_equi_title,Екіпіровка
@@ -207,18 +209,18 @@ menu_knw_descri,Описи монстрів
 menu_map_descri,Переглянути ваше розташування
 menu_shop_descri_purchase,Купити предмети у крамаря
 menu_shop_descri_sell,Продати предмети крамарю
-menu_class_descri,Choose your initial equipment
+menu_class_descri,Оберіть вашу початкову екіпіровку
 menu_equi_ana,Броня та кільця
 menu_equi_wng,Зброя та самоцвіти
 menu_equi_bag,Мішечок
-menu_ce,You haven't the necessary attributes to use this weapon properly. Your attacks will be weakened.
-menu_inv_bda,Attribute bonus & requirement
+menu_ce,"У вас недостатньо атрибутів, щоб повноцінно використовувати цю зброю. Ваші атаки будуть послаблені."
+menu_inv_bda,Бонуси атрибутів та вимоги
 menu_inv_dis_warn,Викинути цей предмет?
 menu_shop_purchase_many,Скільки купити?
 menu_shop_sell_many,Скільки продати?
-menu_class_items,Class items
-menu_class_status,Class status
-menu_class_appearance,This is the class armor appearance
+menu_class_items,Предмети класу
+menu_class_status,Статус класу
+menu_class_appearance,Це зовнішній вигляд броні класу
 group_tools,Інструменти
 group_materials,Матеріали
 group_keys,Ключові предмети
@@ -228,82 +230,88 @@ group_weapons,Зброя
 group_gems,Самоцвіти
 group_magics,Чари
 group_rings,Кільця
-group_knowledges,Knowledges
-box_general,General
-box_power,Power
-box_equipment,Equipment
-attr_str,Strength
-attr_dex,Dexterity
-attr_imp,Impetus
-attr_vit,Vitality
-attr_res,Resistance
-attr_lck,Luck
-elm_phys,Physical
-elm_pyro,Pyromantic
-elm_fire,Fire
-elm_ice,Freezing
-elm_elec,Electricity
-elm_psn,Poison
-elm_ble,Bleeding
-elm_dar,Darkness
-elm_phys_abbr,Phys.
-elm_pyro_abbr,Pyro.
-elm_fire_abbr,Fir.
-elm_ice_abbr,Frz.
-elm_elec_abbr,Elec.
-elm_psn_abbr,Pois.
-elm_ble_abbr,Bld.
-elm_dar_abbr,Drk.
-atk_phys,Pyshical ATK
-atk_pyro,Pyromantic ATK
-atk_fire,Flaming ATK.
-atk_ice,Freezing ATK
-atk_elec,Eletrical ATK
-atk_psn,Poisonous ATK
-atk_ble,Bloody ATK
-atk_dar,Dark ATK
-def_phys,Physical DEF
-def_pyro,Pyromantic DEF
-def_fire,Flaming DEF
-def_ice,Freezing DEF
-def_elec,Eletrical DEF
-def_psn,Poisonous DEF
-def_ble,Bloody DEF
-def_dar,Dark DEF
-legion_000,Dungeon Convicts
-legion_001,Conformists of the Entity
-legion_002,Darkness Congregation
-legion_003,Draconic Myth
+group_knowledges,Знання
+box_general,Загальні
+box_power,Потужність
+box_equipment,Екіпіровка
+attr_str,Сила
+attr_dex,Спритність
+attr_imp,Енергія
+attr_vit,Життєва сила
+attr_res,Опір
+attr_lck,Удача
+elm_phys,Фізична
+elm_pyro,Піромантична
+elm_fire,Вогняна
+elm_ice,Крижана
+elm_elec,Електрична
+elm_psn,Отруєння
+elm_ble,Кровотеча
+elm_dar,Темнота
+elm_phys_abbr,Фіз.
+elm_pyro_abbr,Піро.
+elm_fire_abbr,Вогн.
+elm_ice_abbr,Криж.
+elm_elec_abbr,Елект.
+elm_psn_abbr,Отрує.
+elm_ble_abbr,Кров.
+elm_dar_abbr,Темн.
+atk_phys,Фізична АТК
+atk_pyro,Піромантична АТК
+atk_fire,Вогняна АТК
+atk_ice,Freezing АТК
+atk_elec,Eletrical АТК
+atk_psn,Отруйна АТК
+atk_ble,Кривава АТК
+atk_dar,Темна АТК
+def_phys,Фізичний ЗАХ
+def_pyro,Піроматичний ЗАХ
+def_fire,Вогняний ЗАХ
+def_ice,Крижаний ЗАХ
+def_elec,Електричний ЗАХ
+def_psn,Отруйний ЗАХ
+def_ble,Кривава ЗАХ
+def_dar,Темний ЗАХ
+legion_000,Засудженні підземелля
+legion_001,Конформісти Сутності
+legion_002,Паства темряви
+legion_003,Драконічний міф
 pause_cont,Продовжити
 pause_desk,Вийти до робочого столу
 pause_main,Вийти у головне меню
 ct_inventory,Інвентар
-ct_lit,CINDER TOTEM LIT
+ct_lit,ТОТЕМ ПОПЕЛУ РОЗПАЛЕНО
 ct_lu,Новий рівень
 ct_mm,Вивчити чари
 ct_skills,Навички
 ct_dc,Чаша демона
-ct_storage,Storage
-ct_travel,Travel
-ct_wisdom,Wisdom
-ct_lu_confirm_singular,Використати {0} крові щоб отримати {1} рівень?
-ct_lu_confirm_plural,Використати {0} крові щоб отримати {1} рівнів(я)?
+ct_storage,Сховище
+ct_travel,Подорожувати
+ct_wisdom,Мудрість
+ct_lu_confirm_one,Використати {0} крові щоб отримати {1} рівень?
+ct_lu_confirm_two,Використати {0} крові щоб отримати {1} рівня?
+ct_lu_confirm_few,Використати {0} крові щоб отримати {1} рівня?
+ct_lu_confirm_many,Використати {0} крові щоб отримати {1} рівнів?
+ct_lu_confirm_other,Використати {0} крові щоб отримати {1} рівень?
 ct_dc_allot,Розподілити вміст чаши
-ct_dc_charge,Add charges
-ct_dc_force,Increase force
-ct_hp_tv,Travel to Voyager's Manor
-ct_dc_grant_charge_singular,Grant {0} Clerical Bone to increase your demon chalice charges?
-ct_dc_grant_charge_plural,Grant {0} Clerical Bones to increase your demon chalice charges?
-ct_dc_grant_charge_no_items,You don't have any Clerical Bones.
+ct_dc_charge,Додати заряди
+ct_dc_force,Збільшити силу
+ct_hp_tv,Подорожувати до садиби Вояджера
+ct_dc_grant_charge_one,Використати {0} Кістку Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_two,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_few,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_many,Використати {0} Кісток Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_other,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_no_items,У вас немає жодної Кістки демона.
 ct_dc_grant_force,Grant 1 Blood Orb to increase the amount of HP/MP recovered by your Demon Chalice?
 ct_dc_grant_force_no_items,You don't have any Blood Orbs.
 ct_dc_grant_force_max,The amount of PV/MP recovered by your Demon Chalice can't be increased any futher.
 ct_mm_es,Порожній слот
 ct_mm_kind,Тип 
 ct_mm_mc,Вартість ОМ
-ct_mm_ce,You haven't the necessary attributes to equip this magic.
-ct_tv_travel,Travel to selected Cinder Totem?
-ct_tv_vm,Travel to Voyager's Manor?
+ct_mm_ce,У вас недостатньо атрибутів щоб використовувати ці чари.
+ct_tv_travel,Подорожувати до обраного Тотема попелу?
+ct_tv_vm,Подорожувати до Садиби Вояджера?
 ct_tv_yah,You are in this Cinder Totem
 ct_area_000,Icy Sparks
 ct_area_001,Souls Dungeon
@@ -335,12 +343,14 @@ weapon_kind_19,Батіг
 weapon_kind_20,Кулаки
 weapon_kind_21,Claws
 weapon_kind_22,Double weapon
-weapon_kind_23,Лук
-weapon_kind_24,Пістолет
-weapon_kind_25,Важкий пістолет
-weapon_kind_26,Exotic Weapon
-weapon_kind_27,Щит
-weapon_kind_28,Великий щит
+weapon_kind_23,Екзотична зброя
+weapon_kind_24,Жезл
+weapon_kind_25,Лук
+weapon_kind_26,Пістолет
+weapon_kind_27,Важкий пістолет
+weapon_kind_28,Exotic Weapon
+weapon_kind_29,Щит
+weapon_kind_30,Великий щит
 magic_kind_00,Атака
 magic_kind_01,Підтримка
 tool_name_000,Чаша демона
@@ -383,7 +393,7 @@ tool_desc_014,
 tool_desc_015,
 tool_desc_016,
 tool_desc_017,
-tool_desc_018,Наповнює поточну зброю пайроматичною шкодою.
+tool_desc_018,Наповнює поточну зброю піроматичною шкодою.
 tool_desc_019,
 tool_desc_020,
 tool_desc_021,
@@ -543,8 +553,8 @@ armor_inspec_002,
 armor_inspec_003,
 armor_inspec_004,
 armor_inspec_005,
-armor_inspec_006,"This kimono has been passed down from generation to generation in Massaru's family. It is no longer in as perfect condition as it once was. Massaru still wears it out of respect for his great-grandfather, who was a great emperor in Otsumoshita."
-armor_inspec_007,
+armor_inspec_006,
+armor_inspec_007,"This kimono has been passed down from generation to generation in Massaru's family. It is no longer in as perfect condition as it once was. Massaru still wears it out of respect for his great-grandfather, who was a great emperor in Otsumoshita."
 armor_inspec_008,
 armor_inspec_009,
 armor_inspec_010,
