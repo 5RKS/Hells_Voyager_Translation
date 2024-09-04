@@ -1,4 +1,4 @@
-Keys,???????
+Keys,Русский
 init_menu_continue,Continue
 init_menu_load_game,Load
 init_menu_new_game,New game
@@ -313,7 +313,7 @@ ct_mm_ce,You haven't the necessary attributes to equip this magic.
 ct_tv_travel,Travel to selected Cinder Totem?
 ct_tv_vm,Travel to Voyager's Manor?
 ct_tv_yah,You are in this Cinder Totem
-ct_area_000,Icy Sparks
+ct_area_000,Forgotten Sparks
 ct_area_001,Souls Dungeon
 ct_area_002,Core Forge
 ct_area_003,King's Domain
