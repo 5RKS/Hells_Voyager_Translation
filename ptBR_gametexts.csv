@@ -31,7 +31,9 @@ set_menu_hud_otn,Só o necessário
 set_menu_view_con,Ver controles
 set_menu_cons_icons,Ícones de controles
 set_menu_keyboard,Teclado e Mouse
-set_menu_gamepad,Controle
+set_menu_gamepad_a,Controle Tipo A
+set_menu_gamepad_b,Controle Tipo B
+set_menu_gamepad_c,Controle Tipo C
 set_menu_dynamic,Dinâmico
 set_menu_audio,Audio
 set_menu_master,Geral
@@ -286,14 +288,20 @@ ct_dc,Cálice Demoníaco
 ct_storage,Armazenamento
 ct_travel,Viajar
 ct_wisdom,Sabedoria
-ct_lu_confirm_singular,Gastar {0} de sangue e subir {1} nível?
-ct_lu_confirm_plural,Gastar {0} de sangue e subir {1} níveis?
+ct_lu_confirm_one,Gastar {0} de sangue e subir {1} nível?
+ct_lu_confirm_two,Gastar {0} de sangue e subir {1} níveis?
+ct_lu_confirm_few,Gastar {0} de sangue e subir {1} níveis?
+ct_lu_confirm_many,Gastar {0} de sangue e subir {1} níveis?
+ct_lu_confirm_other,Gastar {0} de sangue e subir {1} níveis?
 ct_dc_allot,Distribuir Cálices
 ct_dc_charge,Adicionar cargas
 ct_dc_force,Aumentar força
 ct_hp_tv,Viajar para Morada dos Viajantes
-ct_dc_grant_charge_singular,Condecer {0} Osso Clerical para aumentar as cargas de Cálice Demoníaco?
-ct_dc_grant_charge_plural,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_one,Condecer {0} Osso Clerical para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_two,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_few,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_many,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_other,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_no_items,Você não possui nenhum Osso Clerical.
 ct_dc_grant_force,Conceder 1 Orbe Sangrento para aumentar a quantidade de PV/PM recuperado pelo seu Cálice Demoníaco?
 ct_dc_grant_force_no_items,Você não possui nenhum Orbe Sangrento.
@@ -335,12 +343,14 @@ weapon_kind_19,Chicote
 weapon_kind_20,Punho
 weapon_kind_21,Garras
 weapon_kind_22,Arma dupla
-weapon_kind_23,Arco
-weapon_kind_24,Arma de fogo
-weapon_kind_25,Arma de fogo pesada
-weapon_kind_26,Arma exótica
-weapon_kind_27,Escudo
-weapon_kind_28,Escudo grande
+weapon_kind_23,Arma exótica
+weapon_kind_24,Cajado
+weapon_kind_25,Talismã
+weapon_kind_26,Arco
+weapon_kind_27,Arma de fogo
+weapon_kind_28,Arma de fogo pesada
+weapon_kind_29,Escudo
+weapon_kind_30,Escudo grande
 magic_kind_00,Ataque
 magic_kind_01,Suporte
 tool_name_000,Cálice Demoníaco
@@ -526,15 +536,15 @@ armor_desc_002,Armadura de um antigo profanado temido.
 armor_desc_003,
 armor_desc_004,
 armor_desc_005,
-armor_desc_006,Roupas de ronin do bisavô de Massaru.
-armor_desc_007,Kimono de um antigo ronin ardiloso.
-armor_desc_008,Armadura de um antigo peregrino do norte bestial.
-armor_desc_009,Vestes de um antigo ladino pilantra.
-armor_desc_010,
-armor_desc_011,Manto de um antigo mago sábio.
-armor_desc_012,
-armor_desc_013,Roupas de um antigo condenado caótico.
-armor_desc_014,
+armor_desc_006,
+armor_desc_007,Roupas de ronin do bisavô de Massaru.
+armor_desc_008,Kimono de um antigo ronin ardiloso.
+armor_desc_009,Armadura de um antigo peregrino do norte bestial.
+armor_desc_010,Vestes de um antigo ladino pilantra.
+armor_desc_011,
+armor_desc_012,Manto de um antigo mago sábio.
+armor_desc_013,
+armor_desc_014,Roupas de um antigo condenado caótico.
 armor_desc_015,Ombreira com uma placa de ferro resistente. Aumenta força e vitalidade.
 armor_desc_016,Armadura dourada. Antigamente foi usada por um grande rei do subsolo.
 armor_inspec_000,
@@ -543,8 +553,8 @@ armor_inspec_002,
 armor_inspec_003,
 armor_inspec_004,
 armor_inspec_005,
-armor_inspec_006,"Este kimono foi passado de geração em geração da família de Massaru. Já não está tão em perfeito estado quanto já foi um dia. Massaru continua usando ele por respeito à seu bisavô, que foi um grande imperador em Otsumoshita."
-armor_inspec_007,
+armor_inspec_006,
+armor_inspec_007,"Este kimono foi passado de geração em geração da família de Massaru. Já não está tão em perfeito estado quanto já foi um dia. Massaru continua usando ele por respeito à seu bisavô, que foi um grande imperador em Otsumoshita."
 armor_inspec_008,
 armor_inspec_009,
 armor_inspec_010,
@@ -598,14 +608,14 @@ weapon_name_040,Chicote do Sopro Gélido
 weapon_name_041,Punhos de Monge
 weapon_name_042,Cestus
 weapon_name_043,Cestus Espinhoso
-weapon_name_044,Esfera explosiva
-weapon_name_045,Garras toxicas
+weapon_name_044,Esfera Explosiva
+weapon_name_045,Garras Tóxicas
 weapon_name_046,Garras Curvadas
 weapon_name_047,Cutelo e Machadinha
 weapon_name_048,Lança e Espada
 weapon_name_049,Foice e Adaga
 weapon_name_050,Arco de Explorador
-weapon_name_051,Arco incendiado
+weapon_name_051,Arco Incendiado
 weapon_name_052,Arco Áureo
 weapon_name_053,Arcabuz
 weapon_name_054,Canhão
@@ -1094,5 +1104,3 @@ class_templar,Templário
 class_wizard,Mago
 class_profaned,Profanado
 class_convict,Condenado
-,"Olá tester, tudo bom contigo? Este mapa foi feito para testar todas as mecânicas de Hell's Voyager até agora.[n]Comandos que talvez você precisará:[n]Tecla B: Reseta o jogo;[n]Tecla F4: Ativa FPS real, Data, horário e tempo de jogo;[n]F3: Ativa hit box e informações sobre o jogo."
-,"Por favor, entanda que, o jogo está ""vazio"" porque foquei até agora apenas nos menus do jogo! Mas a partir de agora estou focando na gameplay, equipamentos, mapas e inimigos.[n]Grande parte das armas e armaduras estão sem suas imagens, animações e descrições pois ainda não trabalhei nelas (a única que ja possui um move set é a Espada Bastarda Desgastada, mas não está devidamente finalizado), estou focando primeiro em adicionar coisas novas e mais importantes para o andamento do jogo, como mapas, inimigos, npcs, etc."
