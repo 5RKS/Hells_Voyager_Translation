@@ -288,19 +288,19 @@ ct_dc,Demon Chalice
 ct_storage,Storage
 ct_travel,Travel
 ct_wisdom,Wisdom
-ct_lu_confirm_singular,Spend {0} blood and up {1} level?
+ct_lu_confirm_one,Spend {0} blood and up {1} level?
 ct_lu_confirm_two,Spend {0} blood and up {1} levels?
 ct_lu_confirm_few,Spend {0} blood and up {1} levels?
-ct_lu_confirm_plural,Spend {0} blood and up {1} levels?
+ct_lu_confirm_many,Spend {0} blood and up {1} levels?
 ct_lu_confirm_other,Spend {0} blood and up {1} levels?
 ct_dc_allot,Allot Chalices
 ct_dc_charge,Add charges
 ct_dc_force,Increase force
 ct_hp_tv,Travel to Voyager's Manor
-ct_dc_grant_charge_singular,Grant {0} Clerical Bone to increase your demon chalice charges?
+ct_dc_grant_charge_one,Grant {0} Clerical Bone to increase your demon chalice charges?
 ct_dc_grant_charge_two,Grant {0} Clerical Bones to increase your demon chalice charges?
 ct_dc_grant_charge_few,Grant {0} Clerical Bones to increase your demon chalice charges?
-ct_dc_grant_charge_plural,Grant {0} Clerical Bones to increase your demon chalice charges?
+ct_dc_grant_charge_many,Grant {0} Clerical Bones to increase your demon chalice charges?
 ct_dc_grant_charge_other,Grant {0} Clerical Bones to increase your demon chalice charges?
 ct_dc_grant_charge_no_items,You don't have any Clerical Bones.
 ct_dc_grant_force,Grant 1 Blood Orb to increase the amount of HP/MP recovered by your Demon Chalice?
