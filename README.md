@@ -14,13 +14,24 @@ The file of translation is a .csv archive, that is a spreadsheet separeted by co
 ![image](https://github.com/user-attachments/assets/374447c8-4aff-4eca-8b49-86a8308714d0)
 <sub>Example of what your translation spreadsheet should look like</sub>
 
+### Workflow
+- Something good you could do is make the translation and test it in-game, changing the texts straight from English, for example, or adding another column on the right (the game identifies the columns as languages). If the language you're translating uses characters differents of the “common” ones (such as those used in English), let RKS (@5rks) know on the game server which language you're translating into, and he will add support for that language to the game as quickly as he can.
+
+> [!WARNING]
+> Every time RKS updates the game on Steam, all the game files will automatically be updated, i.e. your translation in the game's base file will be replaced by the game's native file. I recommend that every time you finish editing the file, save a copy of it in another folder or with another name (such as `gametexts2.csv`) to avoid losing all your changes.
+
+![image](https://github.com/user-attachments/assets/37e65a91-8717-40db-90ea-200081bd66fe)
+
+<sub>Image of the files of the game directory</sub>
+
 ### Code words
 In the spreadsheet of translation, you going to see some strange words, here are the explication and usage of all of them.
 - **{0}, {1}, {2}...** - This is a word of replacement, for texts in which parts of it can change depending on the context in game. For example, the key "term_heavy_infusion_a" returns "Heavy {0}" in english, this is for the weapons in the game, which can change their properties, and consequently their name. So this "{0}" will be replaced by the name of the weapon, such as a "Heavy Sword";
 - **\[n]** - This is used to go to the next line.
 
 ### Text Variations
-In some moments of the translation you will see the keys with almost the same name, but with the suffix "_a", "_b", "_c", "_d", such as happens in the keys of the infusions. Those are inflections of the noun, such as in gender (masculine or feminine) or number (singular or plural). The "_a" singular masculine, "_b" singular feminine, "_c" plural masculine and "_d" plural feminine.
+- In some moments of the translation you will see the keys with almost the same name, but with the suffix "_a", "_b", "_c" or "_d", such as happens in the keys of the infusions. Those are inflections of the noun, such as in gender (masculine or feminine) or number (singular or plural). The "_a" singular masculine, "_b" singular feminine, "_c" plural masculine and "_d" plural feminine.
+- You'll also find the suffixes “one”, “two”, “few”, “many” and “other”. They differ a lot in each language, so check out the [Language Plural Rules Document](https://www.unicode.org/cldr/charts/43/supplemental/language_plural_rules.html) to get a better understanding of how each one works in your language.
 
 ### Proper names
 Here is the list of proper names of areas, characters, items, etc. I prefer that you just transliterate them. If there are any problems with the translation, such as names meaning something wrong in your language, or some kind of double entendre, please contact RKS (@5rks) on Discord to discuss a good adaptation for these name.
@@ -96,8 +107,13 @@ Here is the list of proper names of areas, characters, items, etc. I prefer that
 > ***After RKS approve your translation***, Ping the him (@5rks) in "translation-chat" on Discord and say how you want your name to appear in the credits. If you don't say anything, RKS will put your GitHub or Discord nickname in the credits.
 
 ## FAQ
-### Why do some texts have quotation marks at the beginning and end, but others don't?
+### 1. Why do some texts have quotation marks at the beginning and end, but others don't?
 .csv archives works with commas, so if the text have commas, you need to put that whole text in quotation marks, so that the file doesn't identify it as another text. So while you're editing texts, always remember to put those with commas in quotation marks, or put all the texts in quotation marks, it also works.
+
+### 2. How do I know which texts have been changed, added or deleted?
+In the repository commits, when you click on the commit you want to analyze, you can see the changes of the files, where you can see the changes, additions or deletions.
+
+![image](https://github.com/user-attachments/assets/2dd904a3-c341-42ad-b356-c2550863cdb8)
 
 > [!NOTE]
 > ***ALWAYS*** remember to close the quotation marks, otherwise this will happen in the game:
