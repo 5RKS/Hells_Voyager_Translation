@@ -313,7 +313,7 @@ ct_mm_ce,У вас недостатньо атрибутів щоб викори
 ct_tv_travel,Подорожувати до обраного Тотема попелу?
 ct_tv_vm,Подорожувати до Садиби Вояджера?
 ct_tv_yah,You are in this Cinder Totem
-ct_area_000,Icy Sparks
+ct_area_000,Forgotten Sparks
 ct_area_001,Souls Dungeon
 ct_area_002,Core Forge
 ct_area_003,King's Domain
@@ -345,10 +345,10 @@ weapon_kind_21,Claws
 weapon_kind_22,Double weapon
 weapon_kind_23,Екзотична зброя
 weapon_kind_24,Жезл
-weapon_kind_25,Лук
-weapon_kind_26,Пістолет
-weapon_kind_27,Важкий пістолет
-weapon_kind_28,Exotic Weapon
+weapon_kind_25,Талісман
+weapon_kind_26,Лук
+weapon_kind_27,Пістолет
+weapon_kind_28,Важкий пістолет
 weapon_kind_29,Щит
 weapon_kind_30,Великий щит
 magic_kind_00,Атака
