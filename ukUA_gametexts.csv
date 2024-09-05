@@ -25,7 +25,7 @@ set_menu_insta,Одразу
 set_menu_slow,Повільна
 set_menu_mid,Середня
 set_menu_high,Висока
-set_menu_hud_not,Ocult
+set_menu_hud_not,Не показувати
 set_menu_hud_show,Показати
 set_menu_hud_otn,Тільки коли потрібно
 set_menu_view_con,Переглянути керування
@@ -96,7 +96,7 @@ term_off,Вимкнено
 term_enabled,Активовано
 term_disabled,Деактивовано
 term_locked,Зачинено
-term_go_back,Повернутися
+term_go_back,Назад
 term_leave,Залишити
 term_type_a,Тип А
 term_type_b,Тип Б
@@ -105,14 +105,14 @@ term_nothing,Нічого
 term_you_died,ВИ ЗАГИНУЛИ
 term_ct_restored,ТОТЕМ ПОПЕЛУ ВІДНОВЛЕНО
 term_enemy_exterminated,ВОРОГА ЗНИЩЕНО
-term_leader_defeated,ВАТАЖОК ПЕРЕМОЖЕН
+term_leader_defeated,ВАТАЖКА ПЕРЕМОЖЕНО
 term_king_slain,КОРОЛЯ ВБИТО
 term_condition,Стан
 term_legion,Легіон
 term_hp,ОЗ
 term_mp,ОМ
 term_blessing,Освячення
-term_def,Зменшення шкоди
+term_def,Захист
 term_level,Рівень
 term_blood_hld,Крові у наявності
 term_blood_ndd,Крові потрібно
@@ -184,7 +184,7 @@ term_class,Клас
 term_manor_court,Дарунок садиби
 term_kind,Тип 
 term_unknown,Невідомо
-term_value,Значення
+term_value,Вартість
 term_held,В наявності
 term_stored,Зберігається
 term_cannot_sold,Цей предмет не можна продати
@@ -259,8 +259,8 @@ elm_dar_abbr,Темн.
 atk_phys,Фізична АТК
 atk_pyro,Піромантична АТК
 atk_fire,Вогняна АТК
-atk_ice,Freezing АТК
-atk_elec,Eletrical АТК
+atk_ice,Крижана АТК
+atk_elec,Електрична АТК
 atk_psn,Отруйна АТК
 atk_ble,Кривава АТК
 atk_dar,Темна АТК
@@ -273,7 +273,7 @@ def_psn,Отруйний ЗАХ
 def_ble,Кривава ЗАХ
 def_dar,Темний ЗАХ
 legion_000,Засудженні підземелля
-legion_001,Конформісти Сутності
+legion_001,Конформісти сутності
 legion_002,Паства темряви
 legion_003,Драконічний міф
 pause_cont,Продовжити
@@ -297,39 +297,39 @@ ct_dc_allot,Розподілити вміст чаши
 ct_dc_charge,Додати заряди
 ct_dc_force,Збільшити силу
 ct_hp_tv,Подорожувати до садиби Вояджера
-ct_dc_grant_charge_one,Використати {0} Кістку Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_one,Використати {0} Кістку Клірика щоб збільшити кількість зарядів Чаши демона?
 ct_dc_grant_charge_two,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
 ct_dc_grant_charge_few,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
 ct_dc_grant_charge_many,Використати {0} Кісток Клірика щоб збільшити кількість зарядів чаши демона?
 ct_dc_grant_charge_other,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
 ct_dc_grant_charge_no_items,У вас немає жодної Кістки демона.
-ct_dc_grant_force,Grant 1 Blood Orb to increase the amount of HP/MP recovered by your Demon Chalice?
+ct_dc_grant_force,Використати 1 Криваву кулю щоб збільшити кількість ОЗ/ОМ які буде відновлювати Чаша демона?
 ct_dc_grant_force_no_items,У вас немає Кривавих куль.
-ct_dc_grant_force_max,The amount of PV/MP recovered by your Demon Chalice can't be increased any futher.
+ct_dc_grant_force_max,Кількість ОМ/ОЗ які відновлює Чаша демона більше не можна збільшити.
 ct_mm_es,Порожній слот
 ct_mm_kind,Тип 
 ct_mm_mc,Вартість ОМ
 ct_mm_ce,У вас недостатньо атрибутів щоб використовувати ці чари.
 ct_tv_travel,Подорожувати до обраного Тотема попелу?
-ct_tv_vm,Подорожувати до Садиби Вояджера?
-ct_tv_yah,You are in this Cinder Totem
+ct_tv_vm,Подорожувати до садиби Вояджера?
+ct_tv_yah,Ви знаходитися у цього Тотема попелу
 ct_area_000,Забуті іскри
 ct_area_001,Підземелля душ
-ct_area_002,Core Forge
-ct_area_003,King's Domain
-ct_name_100,Voyagers' Manor
-tool_kind_00,Consumable
-tool_kind_01,Throwable
+ct_area_002,Кузня ядра
+ct_area_003,Земля короля
+ct_name_100,Садиба Вояджера
+tool_kind_00,Витратне
+tool_kind_01,Метальне
 weapon_kind_00,Кинджал
 weapon_kind_01,Подвійний кинджал
 weapon_kind_02,Прямий меч
 weapon_kind_03,Подвійний прямий меч
 weapon_kind_04,Великий меч
-weapon_kind_05,Curved sword
-weapon_kind_06,Curved double sword
-weapon_kind_07,Curved greatsword
+weapon_kind_05,Вигнутий меч
+weapon_kind_06,Вигнутий подвійний меч
+weapon_kind_07,Вигнутий великий меч
 weapon_kind_08,Катана
-weapon_kind_09,Double katana
+weapon_kind_09,Подвійна катана
 weapon_kind_10,Сокира
 weapon_kind_11,Подвійна сокира
 weapon_kind_12,Молот
@@ -338,10 +338,10 @@ weapon_kind_14,Великий молот
 weapon_kind_15,Спис
 weapon_kind_16,Алебарда
 weapon_kind_17,Коса
-weapon_kind_18,Colossal weapon
+weapon_kind_18,Колосальна зброя
 weapon_kind_19,Батіг
 weapon_kind_20,Кулаки
-weapon_kind_21,Claws
+weapon_kind_21,Кігті
 weapon_kind_22,Подвійна зброя
 weapon_kind_23,Екзотична зброя
 weapon_kind_24,Жезл
@@ -354,40 +354,40 @@ weapon_kind_30,Великий щит
 magic_kind_00,Атака
 magic_kind_01,Підтримка
 tool_name_000,Чаша демона
-tool_name_001,Clerical Demon Chalice
-tool_name_002_010,Bloody Demon Shard
-tool_name_011,Pyromantic Pot
-tool_name_012,Gunpowder Pot
-tool_name_013,Freezing Pot
-tool_name_014,Electric Pot
-tool_name_015,Poisonous Pot
-tool_name_016,Bleeding Pot
-tool_name_017,Viscous Pot
+tool_name_001,Чаша демона-клірика
+tool_name_002_010,Кривавий демонічний осколок
+tool_name_011,Піромантичний горщик
+tool_name_012,Горщик з порохом
+tool_name_013,Крижаний горщик
+tool_name_014,Електричний горщик
+tool_name_015,Отруйний горщик
+tool_name_016,Кривавий горщик
+tool_name_017,В’язкий горщик
 tool_name_018,Піромантичний сувій
 tool_name_019,Вогняний сувій
 tool_name_020,Крижаний сувій
 tool_name_021,Електричний сувій
 tool_name_022,Отруйний сувій
 tool_name_023,Кривавий сувій
-tool_name_024,Viscous Papyrus
-tool_name_025,Hot Water Gourd
-tool_name_026,Cold Water Gourd
-tool_name_027,Cursed Herbs Jug
-tool_name_028,Refreshing Herbs Jug
-tool_name_029,Smoking Herbs Jug
+tool_name_024,В’язкий сувій
+tool_name_025,Гарбуз з гарячою водою
+tool_name_026,Гарбуз з холодною водою
+tool_name_027,Гарбуз з проклятими травами
+tool_name_028,Гарбуз з освіжаючими травами
+tool_name_029,Гарбуз з димною травою
 tool_name_030,Dissipating Herbs Jug
-tool_name_031,Purifying Herbs Jug
-tool_name_032,Coagulating Herbs Jug
-tool_name_033,Radiant Herbs Jug
+tool_name_031,Глечик з очисними травами
+tool_name_032,Глечик з коагулючими травами
+tool_name_033,Глечик з променистими травами
 tool_name_034,Divinity Bloodstained Miniature
 tool_name_035,Divinity Shiny Miniature
 tool_name_036,Зношена ваза
 tool_name_037,Шляхетна ваза
-tool_desc_000,A chalice containing the blood of a Demon Cleric.[n][n]Recovers a certain amount of HP.
-tool_desc_001,A chalice containing the blood of a Demon Cleric baptized with human magic.[n][n]Recovers a certain amount of MP.
+tool_desc_000,Чаша яка містить кров Демона клірика.[n][n]Відновлює певну кількість ОЗ.
+tool_desc_001,Чаша Демона клірика охрещена людськими чарами.[n][n]Відновлює певну кількість ОМ.
 tool_desc_002_010,Дає {0} крові.
 tool_desc_011,
-tool_desc_012,A pot that can be thrown at things or enemies.[n][n]Cause fire damage.
+tool_desc_012,Горщик який можна кинути у щось або у когось.[n][n]Викликає вогняну шкоду.
 tool_desc_013,
 tool_desc_014,
 tool_desc_015,
@@ -444,15 +444,15 @@ tool_inspec_035,
 tool_inspec_036,
 tool_inspec_037,
 material_name_000,Кістка клірика
-material_name_001,Кривава сфера
+material_name_001,Кривава куля
 material_name_002,Шматочок сонячного каменя
 material_name_003,Осколок сонячного каменя
 material_name_004,Скиба сонячного каменя
 material_name_005,Плита сонячного каменя
 material_name_006,Осколок місячного каменя
 material_name_007,Плита місячного каменя
-material_desc_000,Grant this bone to a blacksmith to increase the Demon Chalice charges.
-material_desc_001,Grant this orb to a Cinder Totem to increase the force of the Demon Chalice.
+material_desc_000,"Віддайте цю кістку ковалю, щоб збільшити кількість зарядів Чаши демона."
+material_desc_001,"Віддайте цю кулю Тотему попелу, щоб збільшити силу Чаши демона."
 material_desc_002,Зміцнює зброю до +3.
 material_desc_003,Зміцнює зброю до +6.
 material_desc_004,Зміцнює зброю до +9.
@@ -466,8 +466,8 @@ material_inspec_003,
 material_inspec_004,
 material_inspec_005,
 key_name_000,Крила демона
-key_name_001,Goddess Purple Pendant
-key_name_002,Radiant Silver Bracelet
+key_name_001,Фіолетовий кулон богині
+key_name_002,Сяючий срібний браслет
 key_name_003,Ключі від в'язниці
 key_desc_000,
 key_desc_001,
@@ -478,13 +478,13 @@ key_inspec_001,
 key_inspec_002,
 key_inspec_003,
 accessory_name_000,Шолом лицаря
-accessory_name_001,Templar Helmet
-accessory_name_002,Profaned Helmet
-accessory_name_003,Burned Knight Helmet
+accessory_name_001,Шолом тамплієра
+accessory_name_002,Осквернений шолом
+accessory_name_003,Шолом спаленого лицаря
 accessory_name_004,Dark Herald Helmet
 accessory_name_005,Fight Sinner Helmet
 accessory_name_006,Northern Helmet
-accessory_name_007,Oni Mask
+accessory_name_007,Маска Оні
 accessory_name_008,Солом'яний капелюх
 accessory_name_009,Іржава клітка
 accessory_name_010,Astrologer Headband
@@ -497,9 +497,9 @@ accessory_desc_004,
 accessory_desc_005,
 accessory_desc_006,
 accessory_desc_007,
-accessory_desc_008,A straw hat with a ribbon wrapped around it. Gives your attacks greater range.
-accessory_desc_009,"A rusty cage made of a red metal. Poison and Bleed apply faster, but greatly reduce damage negation against them."
-accessory_desc_010,Simple head accessory. Increases impetus and luck.
+accessory_desc_008,Солом’яних капелюх обв’язаний стрічкою. Збільшую дистанцію ваших атак.
+accessory_desc_009,"Іржава клітка зроблена із червоного металу. Ви буде отримувати Отруєння і Окривавлення швидше, але ви будете отримувати зменшену шкоду від цих ефектів."
+accessory_desc_010,Простий аксесуар для голови. Збільшує Енергію та Удачу.
 accessory_desc_011,A necromance magic orb. Increases the damage and the damage negation of non-physic attacks.
 accessory_inspec_000,
 accessory_inspec_001,
@@ -755,22 +755,22 @@ magic_name_010,Huoko's Fortitude
 magic_name_011,Noctarogar's Blessing
 magic_name_012,Kiabass' Blessing
 magic_name_013,Feared Entity Darkness
-magic_name_014,Night Dart
-magic_name_015,Great Night Dart
+magic_name_014,Дротик ночі
+magic_name_015,Великий дротик ночі
 magic_name_016,Night Spiral
-magic_name_017,Great Night Arrow
-magic_name_018,Night Orbs
-magic_name_019,Night Voids
-magic_name_020,Great Night Void
-magic_name_021,Night Sword
-magic_name_022,Great Night Slash
-magic_name_023,Ice Stake
+magic_name_017,Велика стріла ночі
+magic_name_018,Кулі ночі
+magic_name_019,Порожнеча ночі
+magic_name_020,Велика порожнеча ночі
+magic_name_021,Меч ночі
+magic_name_022,Великий різак ночі
+magic_name_023,Крижаний кіл
 magic_name_024,Крижані кристали
 magic_name_025,Крижані кулі
 magic_name_026,Крижаний вибух
 magic_name_027,Крижаний лук
 magic_name_028,Night Constellation
-magic_name_029,Falon's Pyromance
+magic_name_029,Піромантія Фалона
 magic_name_030,Falon's Fire
 magic_name_031,Falon's Ice
 magic_name_032,Falon's Lightnings
@@ -854,64 +854,64 @@ ring_name_007,Кільце кривавої рослини
 ring_name_008,Кільце клірика
 ring_name_009,Conformity Ring
 ring_name_010,Tough Scale Ring
-ring_name_011,Flaming Scale Ring
-ring_name_012,Frozen Scale Ring
-ring_name_013,Electric Scale Ring
-ring_name_014,Poison Scale Ring
-ring_name_015,Bloody Scale Ring
-ring_name_016,Black Scale Ring
+ring_name_011,Вогняне лускате кільце
+ring_name_012,Крижане лускате кільце
+ring_name_013,Електричне лускате кільце
+ring_name_014,Отруйне лускате кільце
+ring_name_015,Криваве лускате кільце
+ring_name_016,Чорне лускате кільце
 ring_name_017,Golden Pantheon Ring
-ring_name_018,Four-Leaf Clover Ring
-ring_name_019,Magical Aid Ring
-ring_name_020,Desire Ring
-ring_name_021,Scholar Ring
+ring_name_018,Кільце з чотирилистою конюшиною
+ring_name_019,Кільце магічної допомоги
+ring_name_020,Кільце бажання
+ring_name_021,Кільце вченого
 ring_name_022,Relentless Magician Ring
-ring_name_023,Shiny Crystal Ring
+ring_name_023,Блискуче кришталеве кільце
 ring_name_024,Кільце зірки
 ring_name_025,Кільце самурая
-ring_name_026,Oni Ring
-ring_name_027,Flaming Serpent Ring
-ring_name_028,Frozen Serpent Ring
-ring_name_029,Electric Serpent Ring
-ring_name_030,Venomous Snake Ring
-ring_name_031,Blood Serpent Ring
-ring_name_032,Black Serpent Ring
-ring_name_033,Barbarian's Ring
-ring_name_034,Scoundrel Ring
-ring_name_035,Alchemist's Ring
-ring_name_036,Knight's Ring
-ring_name_037,Explorer's Ring
-ring_name_038,Motivation Ring
-ring_name_039,Swordsman's Art Ring
-ring_name_040,Virtue Art Ring
-ring_name_041,War Art Ring
+ring_name_026,Кільце Оні
+ring_name_027,Кільце вогняної змії
+ring_name_028,Кільце кришталевої змії
+ring_name_029,Кільце електричної змії
+ring_name_030,Кільце отруйної змії
+ring_name_031,Кільце кривавої змії
+ring_name_032,Кільце чорної змії
+ring_name_033,Кільце варвара
+ring_name_034,Кільце розбійника
+ring_name_035,Кільце алхіміка
+ring_name_036,Кільце лицаря
+ring_name_037,Кільце мандрівника
+ring_name_038,Кільце мотивації
+ring_name_039,Кільце мистецтв мечника
+ring_name_040,Кільце мистецтв доброчесності
+ring_name_041,Кільце мистецтв війни
 ring_name_042,Vuikur's Ring
 ring_name_043,Shooter Ring
 ring_name_044,Fighter Ring
-ring_name_045,Cat Ring
+ring_name_045,Кільце кішки
 ring_name_046,Ornunddu Blessing Ring
 ring_name_047,Phoenix Ring
-ring_name_048,Ghost Ring
-ring_name_049,Camouflage Ring
-ring_name_050,Penalty Ring
+ring_name_048,Кільце привида
+ring_name_049,Кільце камуфляжу
+ring_name_050,Кільце покарання
 ring_name_051,Fugitive Ring
 ring_name_052,Discernment Ring
-ring_name_053,Restoration Ring
+ring_name_053,Кільце відновлення
 ring_name_054,Killer Defense Ring
 ring_name_055,Killer Strength Ring
 ring_name_056,Falon Bubble Ring
-ring_name_057,Leap Ring
+ring_name_057,Кільце стрибку
 ring_name_058,Burden Ring
 ring_desc_000,Increases damage negation when HP is low.
-ring_desc_001,Increases damage when HP is low.
+ring_desc_001,Збільшує шкоду коли залишається мало ОЗ.
 ring_desc_002,Increases damage negation when HP is full.
-ring_desc_003,Increases damage when HP is full.
-ring_desc_004,Increases maximum HP.
-ring_desc_005,Increases maximum MP.
-ring_desc_006,Restores HP gradually.
-ring_desc_007,Restores HP when defeating enemies.
-ring_desc_008,Improves HP and MP restored by the chalice.
-ring_desc_009,Improves stats but increases damage received.
+ring_desc_003,Збільшує шкоду коли ОЗ повні.
+ring_desc_004,Збільшує максимальні ОЗ.
+ring_desc_005,Збільшує максимальні ОМ.
+ring_desc_006,Повільно відновлює ОЗ.
+ring_desc_007,Відновлює ОЗ при вбивстві ворогів.
+ring_desc_008,Збільшує кількість відновлюваних ОМ та ОЗ чашою.
+ring_desc_009,"Збільшує характеристики, але збільшує шкоду яку ви отримуєте."
 ring_desc_010,Improves physical damage negation.
 ring_desc_011,Improves flame damage negation.
 ring_desc_012,Improves freezing damage negation.
@@ -919,14 +919,14 @@ ring_desc_013,Improves electrical damage negation.
 ring_desc_014,Improves poison damage negation.
 ring_desc_015,Improves bleeding damage negation.
 ring_desc_016,Improves darkness damage negation.
-ring_desc_017,Increases blessing.
-ring_desc_018,Increases blood gained from defeating enemies.
-ring_desc_019,Improves support spells.
-ring_desc_020,Increases the duration of support spells.
-ring_desc_021,Improves attack spells.
-ring_desc_022,Greatly improves attack spells.
-ring_desc_023,Spells are executed more quickly.
-ring_desc_024,Reduces the MP consumption of spells.
+ring_desc_017,Збільшує Освячення.
+ring_desc_018,Збільшує кількість крові яку ви отримуєте із вбитих ворогів.
+ring_desc_019,Покращує чари підтримки.
+ring_desc_020,Збільшує тривалість чар підтримки.
+ring_desc_021,Покращую чари атаки.
+ring_desc_022,Дуже сильно покращує чари атак.
+ring_desc_023,Чари будуть викликатися швидше.
+ring_desc_024,Зменшує використання ОМ чарами.
 ring_desc_025,Increases damage negation when bleeding is nearby.
 ring_desc_026,Increases attack when bleeding is nearby.
 ring_desc_027,"Increases flames damage, but decreases flames damage negation."
@@ -935,16 +935,16 @@ ring_desc_029,"Increases electrical damage, but decreases electrical damage nega
 ring_desc_030,"Increases poison damage, but decreases poison damage negation."
 ring_desc_031,"Increases bleeding chance, but decreases bleeding damage negation."
 ring_desc_032,"Increases darkness damage, but decreases darkness damage negation."
-ring_desc_033,Increases strength.
-ring_desc_034,Increases dexterity.
+ring_desc_033,Збільшує силу.
+ring_desc_034,Збільшує спритність.
 ring_desc_035,Increases momentum.
-ring_desc_036,Increases stamina.
+ring_desc_036,Збільшує витривалість.
 ring_desc_037,Increases luck.
-ring_desc_038,Increases the damage of the first attack.
+ring_desc_038,Збільшує шкоду від першої атаки.
 ring_desc_039,Increases the damage of consecutive attacks.
-ring_desc_040,Restores HP with consecutive attacks.
-ring_desc_041,Increases the damage of heavy attacks.
-ring_desc_042,Increases the damage of attacks in the air.
+ring_desc_040,Відновлює ОЗ з кожною атакою.
+ring_desc_041,Збільшує шкоду важких атак.
+ring_desc_042,Збільшує шкоду атак у повітрі.
 ring_desc_043,Increases the damage of long-range weapons.
 ring_desc_044,Increases bare-handed damage.
 ring_desc_045,Enemies detect you with more difficulty.
@@ -1032,13 +1032,13 @@ knowledge_inspec_000,"The sheet is extremely old and worn, but still perfectly l
 knowledge_inspec_001,"The sheet is burnt, but it is possible to read part of it:[n]""...Due to its distance from the center of hell, being extremely cold and icy, it is almost impossible to survive without great preparation, such as warmer clothes and fires, for example. However, it wasn't always like this, the Fifth Layer was once the hottest of all, and had a king, the King of the Underground, Drensriel, who soon after winning his title, betrayed Mounds by trying to kill him to become the King of Hell. However, he was clearly defeated, Mounds is ruthless, there is no beating him... So the fifth layer has been moved as far away from the center as possible, as a way of showing that Mounds will show no mercy to anyone who goes against him..."""
 knowledge_inspec_002,"The sheet is torn and a little bit burnt, but still legible.[n]""...With his powers, Mounds creates a great flowery field, more than 500 billion kilometers long, in an attempt to imitate his old home, The Heavens. But the attempt failed in the blink of an eye. Mounds, furious, yells so loudly that the entire field is brutally burnt. The flowers, turned to ash. Trees, melted into lava. Flawed animals, turned into heaps of rotting flesh..."""
 knowledge_inspec_003,"The leaves are torn and a little burnt, but still legible.[n]""...His disciples, Doalpus and Alreeis, finished the construction. Finally, after 134 years, it was erected and ready to demonstrate the power and architecture of hell, Moundzian Castle, the domain of Mounds... In the castle's laboratory, Mounds and his disciples created, from the blood of Mounds and a female mammal, Mounds' maiden, Astrina... Once married, Mounds and Astrina had 4 children, called the first demonic beings, who, when they came of age, were given the title of Demon Leaders..."""
-bes_name_n000,Weak body
-bes_name_n001,Demonic Barbarian
-bes_name_n002,"Eldaron, the Lost Golem"
+bes_name_n000,Слабке тіло
+bes_name_n001,Демонічний варвар
+bes_name_n002,"Елдарон, загублений голем"
 bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlast sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
 bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
 bes_desc_n002,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
-bes_type_n000,Demidemon
+bes_type_n000,Полудемон
 bes_type_n001,Вогняний Голем Війни — Бос
 dialogue_op_000,Купити предмети
 dialogue_op_001,Продати предмети
@@ -1048,7 +1048,7 @@ npc_name_001,Грум'їн
 npc_name_002,Рандалія
 npc_name_003,Палагард
 npc_000_dialogue_000,"Привіт, друже."
-npc_000_dialogue_001,Як ся мається?
+npc_000_dialogue_001,Як ся маєш?
 npc_000_dialogue_002,Я... крамар... Чого бажаєш?
 npc_000_dialogue_003,Я? Хаха...
 npc_000_dialogue_004,Я простий крамар.
