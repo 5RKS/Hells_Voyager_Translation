@@ -181,7 +181,7 @@ term_talk,Говорити
 term_investigate,Дослідити
 term_change_equip,Змінити екіпірування
 term_class,Клас
-term_manor_court,Люб’язність Садиби
+term_manor_court,Дарунок садиби
 term_kind,Тип 
 term_unknown,Невідомо
 term_value,Значення
@@ -304,7 +304,7 @@ ct_dc_grant_charge_many,Використати {0} Кісток Клірика �
 ct_dc_grant_charge_other,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
 ct_dc_grant_charge_no_items,У вас немає жодної Кістки демона.
 ct_dc_grant_force,Grant 1 Blood Orb to increase the amount of HP/MP recovered by your Demon Chalice?
-ct_dc_grant_force_no_items,You don't have any Blood Orbs.
+ct_dc_grant_force_no_items,У вас немає Кривавих куль.
 ct_dc_grant_force_max,The amount of PV/MP recovered by your Demon Chalice can't be increased any futher.
 ct_mm_es,Порожній слот
 ct_mm_kind,Тип 
@@ -313,8 +313,8 @@ ct_mm_ce,У вас недостатньо атрибутів щоб викори
 ct_tv_travel,Подорожувати до обраного Тотема попелу?
 ct_tv_vm,Подорожувати до Садиби Вояджера?
 ct_tv_yah,You are in this Cinder Totem
-ct_area_000,Forgotten Sparks
-ct_area_001,Souls Dungeon
+ct_area_000,Забуті іскри
+ct_area_001,Підземелля душ
 ct_area_002,Core Forge
 ct_area_003,King's Domain
 ct_name_100,Voyagers' Manor
@@ -331,10 +331,10 @@ weapon_kind_07,Curved greatsword
 weapon_kind_08,Катана
 weapon_kind_09,Double katana
 weapon_kind_10,Сокира
-weapon_kind_11,Double axe
+weapon_kind_11,Подвійна сокира
 weapon_kind_12,Молот
-weapon_kind_13,Double hammer
-weapon_kind_14,Great hammer
+weapon_kind_13,Подвійний молот
+weapon_kind_14,Великий молот
 weapon_kind_15,Спис
 weapon_kind_16,Алебарда
 weapon_kind_17,Коса
@@ -342,7 +342,7 @@ weapon_kind_18,Colossal weapon
 weapon_kind_19,Батіг
 weapon_kind_20,Кулаки
 weapon_kind_21,Claws
-weapon_kind_22,Double weapon
+weapon_kind_22,Подвійна зброя
 weapon_kind_23,Екзотична зброя
 weapon_kind_24,Жезл
 weapon_kind_25,Талісман
@@ -363,12 +363,12 @@ tool_name_014,Electric Pot
 tool_name_015,Poisonous Pot
 tool_name_016,Bleeding Pot
 tool_name_017,Viscous Pot
-tool_name_018,Pyromantic Papyrus
-tool_name_019,Flaming Papyrus
-tool_name_020,Freezing Papyrus
-tool_name_021,Electric Papyrus
-tool_name_022,Poisonous Papyrus
-tool_name_023,Bleeding Papyrus
+tool_name_018,Піромантичний сувій
+tool_name_019,Вогняний сувій
+tool_name_020,Крижаний сувій
+tool_name_021,Електричний сувій
+tool_name_022,Отруйний сувій
+tool_name_023,Кривавий сувій
 tool_name_024,Viscous Papyrus
 tool_name_025,Hot Water Gourd
 tool_name_026,Cold Water Gourd
@@ -381,11 +381,11 @@ tool_name_032,Coagulating Herbs Jug
 tool_name_033,Radiant Herbs Jug
 tool_name_034,Divinity Bloodstained Miniature
 tool_name_035,Divinity Shiny Miniature
-tool_name_036,Worn Vase
-tool_name_037,Noble Vase
+tool_name_036,Зношена ваза
+tool_name_037,Шляхетна ваза
 tool_desc_000,A chalice containing the blood of a Demon Cleric.[n][n]Recovers a certain amount of HP.
 tool_desc_001,A chalice containing the blood of a Demon Cleric baptized with human magic.[n][n]Recovers a certain amount of MP.
-tool_desc_002_010,Gives {0} blood.
+tool_desc_002_010,Дає {0} крові.
 tool_desc_011,
 tool_desc_012,A pot that can be thrown at things or enemies.[n][n]Cause fire damage.
 tool_desc_013,
@@ -445,12 +445,12 @@ tool_inspec_036,
 tool_inspec_037,
 material_name_000,Кістка клірика
 material_name_001,Кривава сфера
-material_name_002,Sun Stone Residue
-material_name_003,Sun Stone Shard
-material_name_004,Sun Stone Chunk
-material_name_005,Sun Stone Slab
-material_name_006,Moon Stone Shard
-material_name_007,Moon Stone Slab
+material_name_002,Шматочок сонячного каменя
+material_name_003,Осколок сонячного каменя
+material_name_004,Скиба сонячного каменя
+material_name_005,Плита сонячного каменя
+material_name_006,Осколок місячного каменя
+material_name_007,Плита місячного каменя
 material_desc_000,Grant this bone to a blacksmith to increase the Demon Chalice charges.
 material_desc_001,Grant this orb to a Cinder Totem to increase the force of the Demon Chalice.
 material_desc_002,Зміцнює зброю до +3.
@@ -468,7 +468,7 @@ material_inspec_005,
 key_name_000,Крила демона
 key_name_001,Goddess Purple Pendant
 key_name_002,Radiant Silver Bracelet
-key_name_003,Jails Keys
+key_name_003,Ключі від в'язниці
 key_desc_000,
 key_desc_001,
 key_desc_002,
@@ -477,7 +477,7 @@ key_inspec_000,
 key_inspec_001,
 key_inspec_002,
 key_inspec_003,
-accessory_name_000,Knight Helmet
+accessory_name_000,Шолом лицаря
 accessory_name_001,Templar Helmet
 accessory_name_002,Profaned Helmet
 accessory_name_003,Burned Knight Helmet
@@ -485,8 +485,8 @@ accessory_name_004,Dark Herald Helmet
 accessory_name_005,Fight Sinner Helmet
 accessory_name_006,Northern Helmet
 accessory_name_007,Oni Mask
-accessory_name_008,Straw Hat
-accessory_name_009,Rusty Cage
+accessory_name_008,Солом'яний капелюх
+accessory_name_009,Іржава клітка
 accessory_name_010,Astrologer Headband
 accessory_name_011,Necromancer Orb
 accessory_desc_000,
@@ -513,7 +513,7 @@ accessory_inspec_008,A hat inspired by an ancient myth about a man who possessed
 accessory_inspec_009,"It was built to trap birds, but one day its purpose changed to not only trap birds, but also something obscure."
 accessory_inspec_010,
 accessory_inspec_011,
-armor_name_000,Knight Armor
+armor_name_000,Броня лицаря
 armor_name_001,Templar Armor
 armor_name_002,Profaned Armor
 armor_name_003,Burned Knight Armor
@@ -523,11 +523,11 @@ armor_name_006,Oni Armor
 armor_name_007,Outdated Kimono
 armor_name_008,Ronin Kimono
 armor_name_009,Northern Chain Mail
-armor_name_010,Rogue Robe
+armor_name_010,Мантія розбійника
 armor_name_011,Night Scholar Robe
-armor_name_012,Wizard Cloak
+armor_name_012,Мантія чародія
 armor_name_013,Hermit Clothes
-armor_name_014,Convict Clothes
+armor_name_014,Одяг в’язня
 armor_name_015,Leather Shoulder Guard
 armor_name_016,Golden Set
 armor_desc_000,Armor of an old respectful knight.
@@ -564,15 +564,15 @@ armor_inspec_013,
 armor_inspec_014,
 armor_inspec_015,
 armor_inspec_016,
-weapon_name_000,Serpent Dagger
-weapon_name_001,Rogue Daggers
-weapon_name_002,Crystalized Daggers
-weapon_name_003,Double Shotel
-weapon_name_004,Worn Bastard Sword
+weapon_name_000,Кинджал змія
+weapon_name_001,Кинджали розбійника
+weapon_name_002,Кристалізовані кинджали
+weapon_name_003,Подвійний шотель
+weapon_name_004,Поношений півтораручний меч
 weapon_name_005,Templar Straight Sword
-weapon_name_006,Runic Straight Sword
-weapon_name_007,Double Bastard Sword
-weapon_name_008,Divine Sword
+weapon_name_006,Рунічний прямий меч
+weapon_name_007,Подвійний півтораручний меч
+weapon_name_008,Святий меч
 weapon_name_009,Congregation Greatsword
 weapon_name_010,Ougmeyer
 weapon_name_011,Necromancer Blades
@@ -585,16 +585,16 @@ weapon_name_017,Tenebrous Melody Katana
 weapon_name_018,Odachi
 weapon_name_019,Sawed Katana
 weapon_name_020,Daisho
-weapon_name_021,Prisioner Axe
+weapon_name_021,Топор в’язня
 weapon_name_022,Storm Axe
 weapon_name_023,Bone Axes
 weapon_name_024,Carved Club
 weapon_name_025,Notched club
 weapon_name_026,Hammer of Will
-weapon_name_027,Iron Duo
+weapon_name_027,Залізна пара
 weapon_name_028,Flanged Great Mace
 weapon_name_029,Black Shell Hammer
-weapon_name_030,Frosty Spear
+weapon_name_030,Крижаний спис
 weapon_name_031,Jumonji Yari
 weapon_name_032,Night Halberd
 weapon_name_033,Bloody Lightning Halberd
@@ -604,25 +604,25 @@ weapon_name_036,Double Blade Scythe
 weapon_name_037,Divine Twilight Candlestick
 weapon_name_038,Profaned Whip
 weapon_name_039,Leather Bomber Whip
-weapon_name_040,Icy Breath Whip
-weapon_name_041,Monk Fists
-weapon_name_042,Caestus
-weapon_name_043,Spiked Caestus
-weapon_name_044,Explosive Ball
-weapon_name_045,Viper Claws
-weapon_name_046,Curved Claws
-weapon_name_047,Cleaver and Axe
-weapon_name_048,Spear and Sword
-weapon_name_049,Scythe and Dagger
-weapon_name_050,Explorer Bow
-weapon_name_051,Burned Bow
-weapon_name_052,Golden Bow
-weapon_name_053,Arquebus
-weapon_name_054,Cannon
+weapon_name_040,Батіг крижаного подиху
+weapon_name_041,Кулаки монаха
+weapon_name_042,Кест
+weapon_name_043,Шипований кест
+weapon_name_044,Вибухова куля
+weapon_name_045,Кігті гадюки
+weapon_name_046,Вигнуті кігті
+weapon_name_047,Тесак та сокира
+weapon_name_048,Спис та меч
+weapon_name_049,Коса та кинджал
+weapon_name_050,Лук дослідника
+weapon_name_051,Опалений лук
+weapon_name_052,Золотий лук
+weapon_name_053,Аркебуза
+weapon_name_054,Гармата
 weapon_name_055,Laminated Geta
 weapon_name_056,Frosty Mist Shield
 weapon_name_057,Demon Snake Bone Shield
-weapon_name_058,Spiked Wall
+weapon_name_058,Шипаста стіна
 weapon_desc_000,A slender dagger with a serpent handle. Causes poison on foes.
 weapon_desc_001,"A pair of very sharpened daggers, one straight and the other curved."
 weapon_desc_002,A pair of daggers so cold that crystallize itself. Causes freezing on foes.
@@ -743,12 +743,12 @@ weapon_inspec_057,
 weapon_inspec_058,
 magic_name_000,Pyromantic Floor
 magic_name_001,Pyromantic Combustion
-magic_name_002,Fire Ball
-magic_name_003,Flaming Wall
-magic_name_004,Lightning Bolt
-magic_name_005,Poison Spit
+magic_name_002,Вогняна куля
+magic_name_003,Вогняна стіна
+magic_name_004,Блискавка
+magic_name_005,Отруйний плювок
 magic_name_006,Bloody Chase
-magic_name_007,Dark Explosion
+magic_name_007,Темний вибух
 magic_name_008,Huoko's Strength
 magic_name_009,Explendid Huoko's Strength
 magic_name_010,Huoko's Fortitude
@@ -765,10 +765,10 @@ magic_name_020,Great Night Void
 magic_name_021,Night Sword
 magic_name_022,Great Night Slash
 magic_name_023,Ice Stake
-magic_name_024,Ice Crystals
-magic_name_025,Ice Orbs
-magic_name_026,Ice Explosion
-magic_name_027,Ice Bow
+magic_name_024,Крижані кристали
+magic_name_025,Крижані кулі
+magic_name_026,Крижаний вибух
+magic_name_027,Крижаний лук
 magic_name_028,Night Constellation
 magic_name_029,Falon's Pyromance
 magic_name_030,Falon's Fire
@@ -844,14 +844,14 @@ magic_inspec_031,
 magic_inspec_032,
 magic_inspec_033,
 ring_name_000,Pierced Shield Ring
-ring_name_001,Broken Sword Ring
-ring_name_002,Steel Shield Ring
+ring_name_001,Кільце зламаного меча
+ring_name_002,Кільце сталевого щита
 ring_name_003,Eternal Sword Ring
 ring_name_004,Noctarogar's Ring
 ring_name_005,Kiabass Ring
 ring_name_006,Immortal Plant Ring
-ring_name_007,Blood Plant Ring
-ring_name_008,Cleric Ring
+ring_name_007,Кільце кривавої рослини
+ring_name_008,Кільце клірика
 ring_name_009,Conformity Ring
 ring_name_010,Tough Scale Ring
 ring_name_011,Flaming Scale Ring
@@ -867,8 +867,8 @@ ring_name_020,Desire Ring
 ring_name_021,Scholar Ring
 ring_name_022,Relentless Magician Ring
 ring_name_023,Shiny Crystal Ring
-ring_name_024,Star Ring
-ring_name_025,Samurai Ring
+ring_name_024,Кільце зірки
+ring_name_025,Кільце самурая
 ring_name_026,Oni Ring
 ring_name_027,Flaming Serpent Ring
 ring_name_028,Frozen Serpent Ring
@@ -1039,13 +1039,13 @@ bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body
 bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
 bes_desc_n002,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
 bes_type_n000,Demidemon
-bes_type_n001,Flaming War Golem - Boss
+bes_type_n001,Вогняний Голем Війни — Бос
 dialogue_op_000,Купити предмети
 dialogue_op_001,Продати предмети
 dialogue_op_002,Говорити
 npc_name_000,Густав
-npc_name_001,Grumyin
-npc_name_002,Randalya
+npc_name_001,Грум'їн
+npc_name_002,Рандалія
 npc_name_003,Палагард
 npc_000_dialogue_000,"Привіт, друже."
 npc_000_dialogue_001,Як ся мається?
@@ -1053,15 +1053,15 @@ npc_000_dialogue_002,Я... крамар... Чого бажаєш?
 npc_000_dialogue_003,Я? Хаха...
 npc_000_dialogue_004,Я простий крамар.
 npc_000_dialogue_005,I failed my family and...
-npc_000_dialogue_006,Now I live alone selling goods.
+npc_000_dialogue_006,Тепер я живу один і продаю товари.
 npc_000_dialogue_007,"Я радий, що ти повернувся!"
 npc_000_dialogue_008,Чого бажаєш?
 npc_001_dialogue_000,"Hey hey hey! Take it easy, boy."
-npc_001_dialogue_001,You are not dead...
-npc_001_dialogue_002,"You are another one of those who came here because of that annoying witch, are not you?"
-npc_001_dialogue_003,"If so, go ahead!"
-npc_001_dialogue_004,"Try once more, die once more... Be reborn once more."
-npc_001_dialogue_005,ah...
+npc_001_dialogue_001,Ти не мертвий...
+npc_001_dialogue_002,"Ти із тих хто прийшов сюди через цю дратівливу відьму, чи не так?"
+npc_001_dialogue_003,"Якщо так, то йди вперев!"
+npc_001_dialogue_004,"Спробуй ще раз, помри ще раз... Знову відродись."
+npc_001_dialogue_005,Ах...
 npc_001_dialogue_006,"What are you so much planning, witch?"
 npc_001_dialogue_007,"Try once more, die once more... Be reborn once more."
 npc_001_dialogue_008,ah...
