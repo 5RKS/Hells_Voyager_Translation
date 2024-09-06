@@ -3,7 +3,7 @@ init_menu_load_game,Carregar
 init_menu_new_game,Novo jogo
 init_menu_options,Configurações
 init_menu_credits,Créditos
-init_menu_guit_game,Sair do jogo
+init_menu_quit_game,Sair do jogo
 init_menu_ng_warn,Iniciar um novo jogo?
 init_menu_load_warn,Carregar arquivo selecionado?
 init_menu_quit_warn,Tem certeza que deseja sair do jogo?
