@@ -1,14 +1,14 @@
 Keys,English
-init_menu_continue,Continue
 init_menu_load_game,Load
 init_menu_new_game,New game
 init_menu_options,Settings
-init_menu_language,Language
 init_menu_credits,Credits
 init_menu_guit_game,Quit game
+init_menu_ng_warn,Start new game?
+init_menu_load_warn,Load selected data?
+init_menu_quit_warn,Are you sure you want to quit game?
 save_slot_empty,Empty data
 set_menu_apply,Apply changes
-set_menu_reset,Reset to default
 set_menu_settings,Settings
 set_menu_video,Video
 set_menu_view_mode,View mode
@@ -27,7 +27,6 @@ set_menu_mid,Medium
 set_menu_high,High
 set_menu_hud_not,Ocult
 set_menu_hud_show,Show
-set_menu_hud_otn,Only the necessary
 set_menu_view_con,View controls
 set_menu_cons_icons,Controls icons
 set_menu_keyboard,Keyboard and Mouse
@@ -41,8 +40,6 @@ set_menu_sfx,Sound effects
 set_menu_ambient,Ambient
 set_menu_musics,Musics
 set_menu_dialogues,Dialogues
-set_menu_go_back_div,Back to[n][n]home menu
-set_menu_go_back,Back to home menu
 set_descri_fullscreen,"Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]Warning:[n]- The ""Bordeless window"" option may not work if there is more than 1 screen."
 set_descri_resolution,"Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the ""View mode"" option is set to ""Window""."
 set_descri_hud,Defines whether the HUD will appear on the screen.[n]Default: On
@@ -56,7 +53,6 @@ set_descri_ambient,Sets the volume of ambient sounds.[n][n]Default: 10
 set_descri_musics,Sets the volume of all musics.[n][n]Default: 10
 set_descri_dialogues,Sets the volume of all dialogues.[n][n]Default: 10
 set_descri_apply,Applies the changes made in the previous options.[n][n]Warning:[n]- You may need to restart the game to apply certain changes.
-set_descri_reset_default,Reset the original predefinitions of the game.[n][n]Warning:[n]- The game will be restarted.
 set_descri_con_walkF,Walk forward:
 set_descri_con_walkB,Walk backward:
 set_descri_con_jump,Jump:
@@ -72,6 +68,30 @@ set_descri_con_swap_item,Bag item swap:
 set_descri_con_menu,Open Massaru's menu:
 set_descri_con_pause,Game pause:
 set_descri_con_int,Interact:
+set_menu_buttons_ingame,Gameplay buttons
+set_menu_buttons_menu,Menu buttons
+set_buttons_rwalk,Walk to right
+set_buttons_lwalk,Walk to left
+set_buttons_jump,Jump
+set_buttons_int,Interact
+set_buttons_rattackl,Light right hand attack
+set_buttons_rattackh,Heavy right hand attack
+set_buttons_lattackl,Light left hand attack
+set_buttons_lattackh,Heavy left hand attack
+set_buttons_quickitem,Use bag item
+set_buttons_charhand,Swap right hand weapon
+set_buttons_chalhand,Swap left hand weapon
+set_buttons_chamagic,Swap magic
+set_buttons_chaitem,Swap bag item
+set_buttons_upcam,Raise camera
+set_buttons_dwcam,Lower camera
+set_buttons_menu,Open menu selection
+set_buttons_map,Open map
+set_buttons_block,Block
+set_buttons_dodge,Dodge
+set_buttons_select,Select
+set_buttons_cancel,Cancel
+set_buttons_remove_item,Remove item
 descri_default,This item have no description yet.
 popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
 popup_reseting,Reseting the configurations...
@@ -79,9 +99,10 @@ popup_apply_changes_warn,Are you sure you want to apply the changes?
 popup_changing,Applying the changes...
 cred_menu_credits,Credits
 cred_menu_developed,Developed by
-cred_menu_ravi,Ravi de Santana 'RKS'
 cred_menu_musics,Musics by
-cred_menu_fl,Freak Luke
+cred_menu_contributors,Contributors
+cred_menu_special_thanks,Special Thanks
+cred_menu_thank_you,Thank you for playing!
 term_version,Version {0}
 term_cancel,Cancel
 term_hold,Hold
@@ -90,7 +111,7 @@ term_confirm,Confirm
 term_ok,OK
 term_no,No
 term_yes,Yes
-term_void,Empty
+term_empty,Empty
 term_on,On
 term_off,Off
 term_enabled,Enabled
@@ -107,7 +128,6 @@ term_ct_restored,CINDER TOTEM RESTORED
 term_enemy_exterminated,ENEMY EXTERMINATED
 term_leader_defeated,LEADER DEFEATED
 term_king_slain,KING SLAIN
-term_condition,Condition
 term_legion,Legion
 term_hp,HP
 term_mp,MP
@@ -119,7 +139,6 @@ term_blood_ndd,Blood needed
 term_blood_required,Blood required
 term_blood_received,Blood received
 term_atk_power,Attack power
-term_special_armament,Special {0}
 term_heavy_infusion_a,Heavy {0}
 term_heavy_infusion_b,Heavy {0}
 term_heavy_infusion_c,Heavy {0}
@@ -178,7 +197,6 @@ term_pick_up,Take
 term_lit,Restore
 term_rest,Rest
 term_talk,Talk
-term_investigate,Investigate
 term_change_equip,Change equipment
 term_class,Class
 term_manor_court,Manor courtesy
@@ -215,6 +233,8 @@ menu_equi_wng,Weapon and gems
 menu_equi_bag,Bag
 menu_ce,You haven't the necessary attributes to use this weapon properly. Your attacks will be weakened.
 menu_inv_bda,Attribute bonus & requirement
+menu_inv_bonus,Bonus
+menu_inv_req,Requirement
 menu_inv_dis_warn,Discard this item?
 menu_shop_purchase_many,Purchase how many?
 menu_shop_sell_many,Sell how many?
@@ -317,6 +337,10 @@ ct_area_000,Forgotten Sparks
 ct_area_001,Souls Dungeon
 ct_area_002,Core Forge
 ct_area_003,King's Domain
+ct_name_000,End of the Frost Cave
+ct_name_001,Csariqs Village Branch
+ct_name_002,Forsaken Roads
+ct_name_003,Yany Town
 ct_name_100,Voyagers' Manor
 tool_kind_00,Consumable
 tool_kind_01,Throwable
@@ -356,45 +380,46 @@ magic_kind_01,Support
 tool_name_000,Demon Chalice
 tool_name_001,Clerical Demon Chalice
 tool_name_002_010,Bloody Demon Shard
-tool_name_011,Pyromantic Pot
-tool_name_012,Gunpowder Pot
-tool_name_013,Freezing Pot
-tool_name_014,Electric Pot
-tool_name_015,Poisonous Pot
-tool_name_016,Bleeding Pot
-tool_name_017,Viscous Pot
-tool_name_018,Pyromantic Papyrus
-tool_name_019,Flaming Papyrus
-tool_name_020,Freezing Papyrus
-tool_name_021,Electric Papyrus
-tool_name_022,Poisonous Papyrus
-tool_name_023,Bleeding Papyrus
-tool_name_024,Viscous Papyrus
-tool_name_025,Hot Water Gourd
-tool_name_026,Cold Water Gourd
-tool_name_027,Cursed Herbs Jug
-tool_name_028,Refreshing Herbs Jug
-tool_name_029,Smoking Herbs Jug
-tool_name_030,Dissipating Herbs Jug
-tool_name_031,Purifying Herbs Jug
-tool_name_032,Coagulating Herbs Jug
-tool_name_033,Radiant Herbs Jug
-tool_name_034,Divinity Bloodstained Miniature
-tool_name_035,Divinity Shiny Miniature
-tool_name_036,Worn Vase
-tool_name_037,Noble Vase
+tool_name_011,Totem Horn
+tool_name_012,Pyromantic Pot
+tool_name_013,Gunpowder Pot
+tool_name_014,Freezing Pot
+tool_name_015,Electric Pot
+tool_name_016,Poisonous Pot
+tool_name_017,Bleeding Pot
+tool_name_018,Viscous Pot
+tool_name_019,Pyromantic Papyrus
+tool_name_020,Flaming Papyrus
+tool_name_021,Freezing Papyrus
+tool_name_022,Electric Papyrus
+tool_name_023,Poisonous Papyrus
+tool_name_024,Bleeding Papyrus
+tool_name_025,Viscous Papyrus
+tool_name_026,Hot Water Gourd
+tool_name_027,Cold Water Gourd
+tool_name_028,Cursed Herbs Jug
+tool_name_029,Refreshing Herbs Jug
+tool_name_030,Smoking Herbs Jug
+tool_name_031,Dissipating Herbs Jug
+tool_name_032,Purifying Herbs Jug
+tool_name_033,Coagulating Herbs Jug
+tool_name_034,Radiant Herbs Jug
+tool_name_035,Divinity Bloodstained Miniature
+tool_name_036,Divinity Shiny Miniature
+tool_name_037,Worn Vase
+tool_name_038,Noble Vase
 tool_desc_000,A chalice containing the blood of a Demon Cleric.[n][n]Recovers a certain amount of HP.
 tool_desc_001,A chalice containing the blood of a Demon Cleric baptized with human magic.[n][n]Recovers a certain amount of MP.
 tool_desc_002_010,Gives {0} blood.
 tool_desc_011,
-tool_desc_012,A pot that can be thrown at things or enemies.[n][n]Cause fire damage.
-tool_desc_013,
+tool_desc_012,
+tool_desc_013,A pot that can be thrown at things or enemies.[n][n]Cause fire damage.
 tool_desc_014,
 tool_desc_015,
 tool_desc_016,
 tool_desc_017,
-tool_desc_018,Imbues the current weapon with pyromantic damage.
-tool_desc_019,
+tool_desc_018,
+tool_desc_019,Imbues the current weapon with pyromantic damage.
 tool_desc_020,
 tool_desc_021,
 tool_desc_022,
@@ -413,6 +438,7 @@ tool_desc_034,
 tool_desc_035,
 tool_desc_036,
 tool_desc_037,
+tool_desc_038,
 tool_inspec_000,
 tool_inspec_001,
 tool_inspec_002_010,
@@ -443,6 +469,7 @@ tool_inspec_034,
 tool_inspec_035,
 tool_inspec_036,
 tool_inspec_037,
+tool_inspec_038,
 material_name_000,Clerical Bone
 material_name_001,Blood Orb
 material_name_002,Sun Stone Residue
@@ -458,7 +485,7 @@ material_desc_003,Reinforces weapons until +6.
 material_desc_004,Reinforces weapons until +9.
 material_desc_005,Reinforces weapons to max.
 material_desc_006,Reinforces special weapons until +4.
-material_desc_007,Reinforces specialweapons to max.
+material_desc_007,Reinforces special weapons to max.
 material_inspec_000,"A piece of a Demon Cleric's skull. So powerful that, even though it's constantly flaming, it won't fall apart. A blacksmith can use this bone to forge another charge of Demon Chalice, thanks to a gift that the Demon Sorcerers have given to all blacksmiths in Hell, which makes them able to manipulate the bones of Demon Clerics."
 material_inspec_001,"The blood of extinct Demon Clerics, wrapped in an absurdly powerful magical barrier. The only way to give it up is to grant it to a Cinder Totem, a totem created in the First Great Demon War, one of whose objectives was to channel the blood of the Demon Clerics into the medicines and healing spells of the Demon Sorcerers in order to avoid as much deaths as possible."
 material_inspec_002,
@@ -927,8 +954,8 @@ ring_desc_021,Improves attack spells.
 ring_desc_022,Greatly improves attack spells.
 ring_desc_023,Spells are executed more quickly.
 ring_desc_024,Reduces the MP consumption of spells.
-ring_desc_025,Increases damage negation when bleeding is nearby.
-ring_desc_026,Increases attack when bleeding is nearby.
+ring_desc_025,Temporarily increases damage negation when bleeding is nearby.
+ring_desc_026,Temporarily increases power attack when bleeding is nearby.
 ring_desc_027,"Increases flames damage, but decreases flames damage negation."
 ring_desc_028,"Increases freezing damage, but decreases freezing damage negation."
 ring_desc_029,"Increases electrical damage, but decreases electrical damage negation."
@@ -1034,10 +1061,22 @@ knowledge_inspec_002,"The sheet is torn and a little bit burnt, but still legibl
 knowledge_inspec_003,"The leaves are torn and a little burnt, but still legible.[n]""...His disciples, Doalpus and Alreeis, finished the construction. Finally, after 134 years, it was erected and ready to demonstrate the power and architecture of hell, Moundzian Castle, the domain of Mounds... In the castle's laboratory, Mounds and his disciples created, from the blood of Mounds and a female mammal, Mounds' maiden, Astrina... Once married, Mounds and Astrina had 4 children, called the first demonic beings, who, when they came of age, were given the title of Demon Leaders..."""
 bes_name_n000,Weak body
 bes_name_n001,Demonic Barbarian
-bes_name_n002,"Eldaron, the Lost Golem"
+bes_name_n002,Grave Spider Skeleton
+bes_name_n003,Blood Skin Gargoyle
+bes_name_n004,Old Guard Demon
+bes_name_n005,"Eldaron, the Lost Golem"
+bes_name_n006,"Mohal, the Draconic Watcher"
+bes_name_n007,"Qmimb, the Incarnate Darkness"
+bes_name_n008,"Gramands, the Frozen Gate Guardian"
 bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlast sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
 bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
-bes_desc_n002,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
+bes_desc_n002,"A strange undead skeleton who awoke from his tomb due to the influence of the Darkness, the Feared Entity. Revived with the mission of contributing to the Darkness' domination of hell, but because of his weak power, he became nothing more than a disturbance to everyone in this layer, demons and demon-hunting voyagers alike."
+bes_desc_n003,"An annoying little Pure Demon capable of throwing fireballs. After killing their prey, they suck their blood to feed, just as certain insects from the Human Realm do.[n][n]These annoying creatures are the most distant type of pure demon from the Mounds bloodline, but still close compared to the Behegunes."
+bes_desc_n004,
+bes_desc_n005,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
+bes_desc_n006,
+bes_desc_n007,
+bes_desc_n008,
 bes_type_n000,Demidemon
 bes_type_n001,Flaming War Golem - Boss
 dialogue_op_000,Purchase items
