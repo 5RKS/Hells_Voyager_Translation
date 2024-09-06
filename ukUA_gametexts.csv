@@ -1,14 +1,14 @@
 Keys,Українська
-init_menu_continue,Продовжити
 init_menu_load_game,Завантажити гру
 init_menu_new_game,Нова гра
 init_menu_options,Налаштування
-init_menu_language,Мова
 init_menu_credits,Про гру
-init_menu_guit_game,Вийти з гри
-save_slot_empty,Порожнє збереження
+init_menu_quit_game,Вийти з гри
+init_menu_ng_warn,Почати нову гру?
+init_menu_load_warn,Завантажити обране збереження?
+init_menu_quit_warn,Ви впевнені що хочете вийти з гри?
+save_slot_empty,Порожне збереження
 set_menu_apply,Прийняти зміни
-set_menu_reset,Скинути до замовчення
 set_menu_settings,Налаштування
 set_menu_video,Відео
 set_menu_view_mode,Режим перегляду
@@ -27,7 +27,6 @@ set_menu_mid,Середня
 set_menu_high,Висока
 set_menu_hud_not,Не показувати
 set_menu_hud_show,Показати
-set_menu_hud_otn,Тільки коли потрібно
 set_menu_view_con,Переглянути керування
 set_menu_cons_icons,Іконки керування
 set_menu_keyboard,Клавіатура та миша
@@ -41,8 +40,6 @@ set_menu_sfx,Ефекти
 set_menu_ambient,Атмосфера
 set_menu_musics,Музика
 set_menu_dialogues,Діалоги
-set_menu_go_back_div,Повернутися у [n][n]головне меню
-set_menu_go_back,Повернутися у головне меню
 set_descri_fullscreen,"Визначає режим відображення гри, чи повинна вона залишитися у повноекранному режимі чи ні.[n][n]За замовченням: Увімкнено[n][n]Увага:[n]- «Безрамковий» режим може не працювати якщо у вас більше ніж 1 екран."
 set_descri_resolution,Визначає роздільну здатність вікна гри.[n][n]За замовченням: 1920 x 1080[n][n]Ця опція буде працювати тільки якщо опція «Режим перегляду» буде встановлена на «Віконний».
 set_descri_hud,Визначає чи буде відображатися інтерфейс на екрані.[n]За замовченням: Увімкнено
@@ -56,7 +53,6 @@ set_descri_ambient,Встановлює гучність звуків атмос
 set_descri_musics,Встановлює гучність музики.[n][n]За замовченням: 10
 set_descri_dialogues,Встановлює гучність діалогів.[n][n]За замовченням: 10
 set_descri_apply,"Прийняти нові зміни налаштувань.[n][n]Увага:[n]- Вам може знадобитися перезавантажити гру, щоб деякі зміни вступили в силу."
-set_descri_reset_default,Скинути до замовчення всі налаштування гри.
 set_descri_con_walkF,Йти вперед:
 set_descri_con_walkB,Йти назад:
 set_descri_con_jump,Стрибок:
@@ -72,6 +68,30 @@ set_descri_con_swap_item,Змінити предмет у мішечку:
 set_descri_con_menu,Відкрити меню Массари:
 set_descri_con_pause,Пауза:
 set_descri_con_int,Взаємодіяти:
+set_menu_buttons_ingame,Gameplay buttons1
+set_menu_buttons_menu,Menu buttons1
+set_buttons_rwalk,Walk to right1
+set_buttons_lwalk,Walk to left1
+set_buttons_jump,Jump1
+set_buttons_int,Interact1
+set_buttons_rattackl,Light right hand attack1
+set_buttons_rattackh,Heavy right hand attack1
+set_buttons_lattackl,Light left hand attack1
+set_buttons_lattackh,Heavy left hand attack1
+set_buttons_quickitem,Use bag item1
+set_buttons_charhand,Swap right hand weapon1
+set_buttons_chalhand,Swap left hand weapon1
+set_buttons_chamagic,Swap magic1
+set_buttons_chaitem,Swap bag item1
+set_buttons_upcam,Raise camera1
+set_buttons_dwcam,Lower camera1
+set_buttons_menu,Open menu selection1
+set_buttons_map,Open map1
+set_buttons_block,Block1
+set_buttons_dodge,Dodge1
+set_buttons_select,Select1
+set_buttons_cancel,Cancel1
+set_buttons_remove_item,Remove item1
 descri_default,У цього предмета поки що немає опису.
 popup_reset_warn,"Ви впевнені, що бажаєте скинути налаштування за замовченням?"
 popup_reseting,Скидуємо налаштування...
@@ -79,9 +99,10 @@ popup_apply_changes_warn,"Ви впевнені, що бажаєте прийн�
 popup_changing,Приймаємо зміни...
 cred_menu_credits,Про гру
 cred_menu_developed,Гру розробив
-cred_menu_ravi,Ravi de Santana 'RKS'
-cred_menu_musics,Музику зробив
-cred_menu_fl,Freak Luke
+cred_menu_musics,Музику виконав
+cred_menu_contributors,Contributors1
+cred_menu_special_thanks,Special Thanks1
+cred_menu_thank_you,Thank you for playing!1
 term_version,Версія {0}
 term_cancel,Скасувати
 term_hold,Утримувати
@@ -90,7 +111,7 @@ term_confirm,Прийняти
 term_ok,ОК
 term_no,Ні
 term_yes,Так
-term_void,Порожньо
+term_empty,Порожньо
 term_on,Увімкнено
 term_off,Вимкнено
 term_enabled,Активовано
@@ -107,7 +128,6 @@ term_ct_restored,ТОТЕМ ПОПЕЛУ ВІДНОВЛЕНО
 term_enemy_exterminated,ВОРОГА ЗНИЩЕНО
 term_leader_defeated,ВАТАЖКА ПЕРЕМОЖЕНО
 term_king_slain,КОРОЛЯ ВБИТО
-term_condition,Стан
 term_legion,Легіон
 term_hp,ОЗ
 term_mp,ОМ
@@ -119,7 +139,6 @@ term_blood_ndd,Крові потрібно
 term_blood_required,Крові потребується
 term_blood_received,Отримано крові
 term_atk_power,Потужність атаки
-term_special_armament,Особливий {0}
 term_heavy_infusion_a,Важкий {0}
 term_heavy_infusion_b,Важка {0}
 term_heavy_infusion_c,Важкі {0}
@@ -178,7 +197,6 @@ term_pick_up,Взяти
 term_lit,Відновити
 term_rest,Відпочити
 term_talk,Говорити
-term_investigate,Дослідити
 term_change_equip,Змінити екіпірування
 term_class,Клас
 term_manor_court,Дарунок садиби
@@ -215,6 +233,8 @@ menu_equi_wng,Зброя та самоцвіти
 menu_equi_bag,Мішечок
 menu_ce,"У вас недостатньо атрибутів, щоб повноцінно використовувати цю зброю. Ваші атаки будуть послаблені."
 menu_inv_bda,Бонуси атрибутів та вимоги
+menu_inv_bonus,Бонус
+menu_inv_req,Вимоги
 menu_inv_dis_warn,Викинути цей предмет?
 menu_shop_purchase_many,Скільки купити?
 menu_shop_sell_many,Скільки продати?
@@ -317,6 +337,10 @@ ct_area_000,Забуті іскри
 ct_area_001,Підземелля душ
 ct_area_002,Кузня ядра
 ct_area_003,Земля короля
+ct_name_000,Кінець крижаної печери
+ct_name_001,Csariqs Village Branch1
+ct_name_002,Forsaken Roads1
+ct_name_003,Yany Town1
 ct_name_100,Садиба Вояджера
 tool_kind_00,Витратне
 tool_kind_01,Метальне
@@ -356,45 +380,46 @@ magic_kind_01,Підтримка
 tool_name_000,Чаша демона
 tool_name_001,Чаша демона-клірика
 tool_name_002_010,Кривавий демонічний осколок
-tool_name_011,Піромантичний горщик
-tool_name_012,Горщик з порохом
-tool_name_013,Крижаний горщик
-tool_name_014,Електричний горщик
-tool_name_015,Отруйний горщик
-tool_name_016,Кривавий горщик
-tool_name_017,В’язкий горщик
-tool_name_018,Піромантичний сувій
-tool_name_019,Вогняний сувій
-tool_name_020,Крижаний сувій
-tool_name_021,Електричний сувій
-tool_name_022,Отруйний сувій
-tool_name_023,Кривавий сувій
-tool_name_024,В’язкий сувій
-tool_name_025,Гарбуз з гарячою водою
-tool_name_026,Гарбуз з холодною водою
-tool_name_027,Гарбуз з проклятими травами
-tool_name_028,Гарбуз з освіжаючими травами
-tool_name_029,Гарбуз з димною травою
-tool_name_030,Dissipating Herbs Jug
-tool_name_031,Глечик з очисними травами
-tool_name_032,Глечик з коагулючими травами
-tool_name_033,Глечик з променистими травами
-tool_name_034,Divinity Bloodstained Miniature
-tool_name_035,Divinity Shiny Miniature
-tool_name_036,Зношена ваза
-tool_name_037,Шляхетна ваза
+tool_name_011,Totem Horn1
+tool_name_012,Піромантичний горщик
+tool_name_013,Горщик з порохом
+tool_name_014,Крижаний горщик
+tool_name_015,Електричний горщик
+tool_name_016,Отруйний горщик
+tool_name_017,Кривавий горщик
+tool_name_018,В’язкий горщик
+tool_name_019,Піромантичний сувій
+tool_name_020,Вогняний сувій
+tool_name_021,Крижаний сувій
+tool_name_022,Електричний сувій
+tool_name_023,Отруйний сувій
+tool_name_024,Кривавий сувій
+tool_name_025,В’язкий сувій
+tool_name_026,Гарбуз з гарячою водою
+tool_name_027,Гарбуз з холодною водою
+tool_name_028,Гарбуз з проклятими травами
+tool_name_029,Гарбуз з освіжаючими травами
+tool_name_030,Гарбуз з димною травою
+tool_name_031,Dissipating Herbs Jug
+tool_name_032,Глечик з очисними травами
+tool_name_033,Глечик з коагулючими травами
+tool_name_034,Глечик з променистими травами
+tool_name_035,Divinity Bloodstained Miniature
+tool_name_036,Divinity Shiny Miniature
+tool_name_037,Зношена ваза
+tool_name_038,Шляхетна ваза
 tool_desc_000,Чаша яка містить кров Демона клірика.[n][n]Відновлює певну кількість ОЗ.
 tool_desc_001,Чаша Демона клірика охрещена людськими чарами.[n][n]Відновлює певну кількість ОМ.
 tool_desc_002_010,Дає {0} крові.
 tool_desc_011,
-tool_desc_012,Горщик який можна кинути у щось або у когось.[n][n]Викликає вогняну шкоду.
-tool_desc_013,
+tool_desc_012,
+tool_desc_013,Горщик який можна кинути у щось або у когось.[n][n]Викликає вогняну шкоду.
 tool_desc_014,
 tool_desc_015,
 tool_desc_016,
 tool_desc_017,
-tool_desc_018,Наповнює поточну зброю піроматичною шкодою.
-tool_desc_019,
+tool_desc_018,
+tool_desc_019,Наповнює поточну зброю піроматичною шкодою.
 tool_desc_020,
 tool_desc_021,
 tool_desc_022,
@@ -413,6 +438,7 @@ tool_desc_034,
 tool_desc_035,
 tool_desc_036,
 tool_desc_037,
+tool_desc_038,
 tool_inspec_000,
 tool_inspec_001,
 tool_inspec_002_010,
@@ -443,6 +469,7 @@ tool_inspec_034,
 tool_inspec_035,
 tool_inspec_036,
 tool_inspec_037,
+tool_inspec_038,
 material_name_000,Кістка клірика
 material_name_001,Кривава куля
 material_name_002,Шматочок сонячного каменя
@@ -1035,9 +1062,21 @@ knowledge_inspec_003,"The leaves are torn and a little burnt, but still legible.
 bes_name_n000,Слабке тіло
 bes_name_n001,Демонічний варвар
 bes_name_n002,"Елдарон, загублений голем"
+bes_name_n003,Blood Skin Gargoyle
+bes_name_n004,Old Guard Demon
+bes_name_n005,"Eldaron, the Lost Golem"
+bes_name_n006,"Mohal, the Draconic Watcher"
+bes_name_n007,"Qmimb, the Incarnate Darkness"
+bes_name_n008,"Gramands, the Frozen Gate Guardian"
 bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlast sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
 bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
 bes_desc_n002,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
+bes_desc_n003,"An annoying little Pure Demon capable of throwing fireballs. After killing their prey, they suck their blood to feed, just as certain insects from the Human Realm do.[n][n]These annoying creatures are the most distant type of pure demon from the Mounds bloodline, but still close compared to the Behegunes."
+bes_desc_n004,
+bes_desc_n005,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
+bes_desc_n006,
+bes_desc_n007,
+bes_desc_n008,
 bes_type_n000,Полудемон
 bes_type_n001,Вогняний Голем Війни — Бос
 dialogue_op_000,Купити предмети
@@ -1104,5 +1143,3 @@ class_templar,Templar
 class_wizard,Чародій
 class_profaned,Profaned
 class_convict,Convict
-testers_text_000,"Привіт, тестер. Як ся маєш? Цю мапу було створено, щоб тестувати усі механіки Hell's Voyager які поки що ми маємо.[n]Функції що можуть знадобитися:[n]Кнопка «B»: Перезавантажити гру(?);[n]Кнопка «F4»: Активувати лічильник кадрів, реальні дату та час, ігровий час;[n]Кнопка «F3»: Показати хітбокси та ігрову інформацію."
-testers_text_001,"Please understand that the game is ""empty"" because I've only focused on the game menus so far! But from now on I'm focusing on gameplay, equipment, maps and enemies.[n]Most of the weapons and armor are missing their images, animations and descriptions because I haven't worked on them yet (the only one that already has a move set is the Worn Bastard Sword, but it hasn't been properly finalized). I'm focusing first on adding new things that are more important to the game's progress, such as maps, enemies, npcs, etc."
