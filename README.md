@@ -8,21 +8,15 @@ The repository to store all translations of Hell's Voyager.
 ### Organization
 The file of translation is a .csv archive, that is a spreadsheet separeted by comma. You can use any app/site to create your translations. I particularly recommend [Google Sheets](https://docs.google.com/spreadsheets) (Excel will break non-english characters).
 - **First column** - Here is where the **keys** are located. They are the "name" of the text. For example, if the game is trying to write the option to start the game, it will pull the "init_menu_new_game" key, and when you run the game in English, the text "New game" will appear on the screen, or if you run the game in Portuguese, "Novo jogo" will appear, and so on. The first line must be written "Keys", just to standardize;
-- **Next columns** - All the others columns can be used as the translated texts, with always the first line being the name of the language (on the way it's written in their own language);
-- You just need to have 2 columns, keys and language, respectively. But if you want to translate more languages, you can add another column next to your other translation column, but remember that the first column must ***always*** be the key column.
+- **Next columns** - Here is the translated texts, with always the first line being the name of the language (on the way it's written in their own language);
+- You just need to have 2 columns, keys and language, respectively, but you can add a third column called "Notes" to write down any observations about the texts, or you can create a new file (called [abbreviation of the language](https://www.loc.gov/standards/iso639-2/php/English_list.php) + [abbreviation of the country in capital](https://www.iban.com/country-codes) + `_notes.txt`, `_notes.odt` or any type of text file) to put those remarks about game terms or anything else you think is good to write down to remember. If you want to translate more languages, you have to create another file to your other translation column. But remember that the first column must ***always*** be the key column.
 
-![image](https://github.com/user-attachments/assets/374447c8-4aff-4eca-8b49-86a8308714d0)
+![image](https://github.com/user-attachments/assets/f9040bf2-fb77-45b4-b258-70fac5330fb6)
+
 <sub>Example of what your translation spreadsheet should look like</sub>
 
 ### Workflow
-- Something good you could do is make the translation and test it in-game, changing the texts straight from English, for example, or adding another column on the right (the game identifies the columns as languages). If the language you're translating uses characters differents of the “common” ones (such as those used in English), let RKS (@5rks) know on the game server which language you're translating into, and he will add support for that language to the game as quickly as he can.
-
-> [!WARNING]
-> Every time RKS updates the game on Steam, all the game files will automatically be updated, i.e. your translation in the game's base file will be replaced by the game's native file. I recommend that every time you finish editing the file, save a copy of it in another folder or with another name (such as `gametexts2.csv`) to avoid losing all your changes.
-
-![image](https://github.com/user-attachments/assets/37e65a91-8717-40db-90ea-200081bd66fe)
-
-<sub>Image of the files of the game directory</sub>
+- Something good you could do is make the translation and test it in-game, changing the texts straight from English (file `enUS_gametext.csv`), for example. If the language you're translating uses characters differents of the “common” ones (such as those used in English), let RKS (@5rks) know on the game server which language you're translating into, and he will add support for that language to the game as quickly as he can.
 
 ### Code words
 In the spreadsheet of translation, you going to see some strange words, here are the explication and usage of all of them.
