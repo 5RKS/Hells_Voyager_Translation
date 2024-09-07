@@ -33,8 +33,6 @@ Here is the list of proper names of areas, characters, items, etc. I prefer that
 - Moundzian;
 - Massaru;
 - Meitsuro;
-- Ravi de Santana 'RKS';
-- Freak Luke;
 - Otsumoshita;
 - Huozue;
 - Vuikur;
