@@ -4,8 +4,8 @@ init_menu_new_game,New game
 init_menu_options,Settings
 init_menu_credits,Credits
 init_menu_quit_game,Quit game
-init_menu_ng_warn,Start new game?
-init_menu_load_warn,Load selected data?
+init_menu_ng_msg,Choose a name for the file
+init_menu_load_warn,Load selected file?
 init_menu_quit_warn,Are you sure you want to quit game?
 save_slot_empty,Empty data
 set_menu_apply,Apply changes
