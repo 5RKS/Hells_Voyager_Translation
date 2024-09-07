@@ -61,6 +61,18 @@ Here is the list of proper names of areas, characters, items, etc. I prefer that
 - Gustav;
 - Ardiflower (singular) or Ardiflowers (plural). You can translate to the translation of a minor form of "ardent" (or just "ardi" if you prefer) together with the translation of "flowers". Let me know in "translation-chat" on Discord how the translation turned out.
 
+## Characters speaking in a more sophisticated/ancient way
+- Hell's Voyager is set in a different world from ours and in an older era, right in the transition between ancient and contemporary times, so some characters in the game will speak in a more sophisticated/ancient way, while others will speak more colloquially. If your language has an “old way” of speaking and it's not too difficult to understand for a average speaker of the language, please, follow the way the characters have to speak, but if the “old way” of your language is too complex for a average speaker or maybe doesn't even exist, it's fine to keep the standard way of speaking for all the characters.
+  
+List of the way each character speaks:
+
+| Character | Way of speaking |
+| - | - |
+| Mounds | Sophisticated |
+| Meitsuro | Sophisticated |
+| Grumyin | Sophisticated |
+| Gustav | Colloquial |
+
 ## Send the translation to the repository
 1. Download the [`enUS_gametexts.csv`](https://github.com/5RKS/Hells_Voyager_Translation/blob/main/enUS_gametexts.csv) and translate all the text to the language that you want to translate the game;
 
