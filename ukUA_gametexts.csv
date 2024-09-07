@@ -4,7 +4,7 @@ init_menu_new_game,Нова гра
 init_menu_options,Налаштування
 init_menu_credits,Про гру
 init_menu_quit_game,Вийти з гри
-init_menu_ng_warn,Почати нову гру?
+init_menu_ng_msg,Оберіть назву для збереження
 init_menu_load_warn,Завантажити обране збереження?
 init_menu_quit_warn,Ви впевнені що хочете вийти з гри?
 save_slot_empty,Порожне збереження
