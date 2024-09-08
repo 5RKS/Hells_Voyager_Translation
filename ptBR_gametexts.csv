@@ -171,6 +171,12 @@ term_darkness_infusion_d,{0} da Escuridão
 term_number,N°
 term_conclusion,Conclusão
 term_base_power,Poder base
+term_bonus_highest_scaling,A+
+term_bonus_high_scaling,A
+term_bonus_good_scaling,B
+term_bonus_mid_scaling,C
+term_bonus_low_scaling,D
+term_bonus_lowest_scaling,E
 term_use,Usar
 term_equip,Equipar
 term_discard,Descartar
