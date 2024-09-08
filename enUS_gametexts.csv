@@ -40,6 +40,8 @@ set_menu_sfx,Sound effects
 set_menu_ambient,Ambient
 set_menu_musics,Musics
 set_menu_dialogues,Dialogues
+set_menu_gp_mapping,Gamepad mapping
+set_menu_kb_mapping,Keyboard and mouse mapping
 set_descri_fullscreen,"Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]Warning:[n]- The ""Bordeless window"" option may not work if there is more than 1 screen."
 set_descri_resolution,"Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the ""View mode"" option is set to ""Window""."
 set_descri_hud,Defines whether the HUD will appear on the screen.[n]Default: On
@@ -53,21 +55,6 @@ set_descri_ambient,Sets the volume of ambient sounds.[n][n]Default: 10
 set_descri_musics,Sets the volume of all musics.[n][n]Default: 10
 set_descri_dialogues,Sets the volume of all dialogues.[n][n]Default: 10
 set_descri_apply,Applies the changes made in the previous options.[n][n]Warning:[n]- You may need to restart the game to apply certain changes.
-set_descri_con_walkF,Walk forward:
-set_descri_con_walkB,Walk backward:
-set_descri_con_jump,Jump:
-set_descri_con_dodge,Dodge:
-set_descri_con_crouch,Crouch:
-set_descri_con_atk,Attack:
-set_descri_con_atk_hv,Heavy attack:
-set_descri_con_block,Block:
-set_descri_con_magic,Use magic:
-set_descri_con_magic_swap,Magic swap:
-set_descri_con_item,Use bag item:
-set_descri_con_swap_item,Bag item swap:
-set_descri_con_menu,Open Massaru's menu:
-set_descri_con_pause,Game pause:
-set_descri_con_int,Interact:
 set_menu_buttons_ingame,Gameplay buttons
 set_menu_buttons_menu,Menu buttons
 set_buttons_rwalk,Walk to right
@@ -91,7 +78,7 @@ set_buttons_block,Block
 set_buttons_dodge,Dodge
 set_buttons_select,Select
 set_buttons_cancel,Cancel
-set_buttons_remove_item,Remove item
+set_buttons_remove,Remove
 descri_default,This item have no description yet.
 popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
 popup_reseting,Reseting the configurations...
@@ -106,7 +93,6 @@ cred_menu_thank_you,Thank you for playing!
 term_version,Version {0}
 term_cancel,Cancel
 term_hold,Hold
-term_press,Press
 term_confirm,Confirm
 term_ok,OK
 term_no,No
@@ -116,7 +102,6 @@ term_on,On
 term_off,Off
 term_enabled,Enabled
 term_disabled,Disabled
-term_locked,Locked
 term_go_back,Go back
 term_leave,Leave
 term_type_a,Type A
@@ -325,7 +310,7 @@ ct_dc_grant_charge_other,Grant {0} Clerical Bones to increase your demon chalice
 ct_dc_grant_charge_no_items,You don't have any Clerical Bones.
 ct_dc_grant_force,Grant 1 Blood Orb to increase the amount of HP/MP recovered by your Demon Chalice?
 ct_dc_grant_force_no_items,You don't have any Blood Orbs.
-ct_dc_grant_force_max,The amount of PV/MP recovered by your Demon Chalice can't be increased any futher.
+ct_dc_grant_force_max,The amount of HP/MP recovered by your Demon Chalice can't be increased any futher.
 ct_mm_es,Empty slot
 ct_mm_kind,Kind
 ct_mm_mc,MP cost

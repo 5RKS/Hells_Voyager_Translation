@@ -40,6 +40,8 @@ set_menu_sfx,Efeitos sonoros
 set_menu_ambient,Ambiente
 set_menu_musics,Músicas
 set_menu_dialogues,Diálogos
+set_menu_gp_mapping,Mapeamento de controle
+set_menu_kb_mapping,Mapeamento de teclado e mouse
 set_descri_fullscreen,"Define o modo de exibição do jogo, se permanecerá em tela cheia ou não.[n][n]Padrão: Ligado[n][n]Aviso:[n]- A opção ""Janela sem borda"" pode não funcionar se houver mais de 1 monitor."
 set_descri_resolution,"Define a resolução da janela do jogo.[n][n]Padrão: 1920 x 1080[n][n]Esta opção só funcionará se a opção ""Modo de vídeo"" estiver em ""janela""."
 set_descri_hud,Define se a HUD irá aparecer na tela.[n][n]Padrão: Ligado
@@ -53,21 +55,6 @@ set_descri_ambient,Define o volume dos sons ambientes.[n][n]Padrão: 10
 set_descri_musics,Define o volume de todas as músicas.[n][n]Padrão: 10
 set_descri_dialogues,Define o volume de todos os diálogos.[n][n]Padrão: 10
 set_descri_apply,Aplica as mudanças feitas nas opções anteriores.[n][n]Aviso:[n]- Talvez seja necessário reiniciar o jogo para aplicar certas mudanças.
-set_descri_con_walkF,Andar para frente:
-set_descri_con_walkB,Andar para trás:
-set_descri_con_jump,Pular:
-set_descri_con_dodge,Esquivar:
-set_descri_con_crouch,Agachar:
-set_descri_con_atk,Ataque:
-set_descri_con_atk_hv,Ataque pesado:
-set_descri_con_block,Bloquear:
-set_descri_con_magic,Usar magia:
-set_descri_con_magic_swap,Trocar magia:
-set_descri_con_item,Usar item da bolsa:
-set_descri_con_swap_item,Trocar item da bolsa:
-set_descri_con_menu,Abrir menu de Massaru:
-set_descri_con_pause,Pausar jogo:
-set_descri_con_int,Interagir:
 set_menu_buttons_ingame,Controles de jogabilidade
 set_menu_buttons_menu,Controles de menu
 set_buttons_rwalk,Andar para direita
@@ -91,7 +78,7 @@ set_buttons_block,Bloquear
 set_buttons_dodge,Esquivar
 set_buttons_select,Selecionar
 set_buttons_cancel,Cancelar
-set_buttons_remove_item,Remover item
+set_buttons_remove,Remover
 descri_default,Este item ainda não tem uma descrição.
 popup_reset_warn,Tem certeza que deseja repor as predefinições? O jogo será reiniciado!
 popup_reseting,Resetando as configurações...
@@ -106,7 +93,6 @@ cred_menu_thank_you,Obrigado por jogar!
 term_version,Versão {0}
 term_cancel,Cancelar
 term_hold,Segurar
-term_press,Pressionar
 term_confirm,Confirmar
 term_ok,OK
 term_no,Não
@@ -116,7 +102,6 @@ term_on,Ligado
 term_off,Desligado
 term_enabled,Ativado
 term_disabled,Desativado
-term_locked,Bloqueado
 term_go_back,Voltar
 term_leave,Sair
 term_type_a,Tipo A
@@ -1082,10 +1067,10 @@ bes_type_n001,Golem Flamejante de Guerra - Chefe
 dialogue_op_000,Comprar itens
 dialogue_op_001,Vender itens
 dialogue_op_002,Conversar
-npc_name_000,Gustav
-npc_name_001,Grumyin
-npc_name_002,Randalya
-npc_name_003,Palagard
+npc_name_000,#REF!
+npc_name_001,#REF!
+npc_name_002,#REF!
+npc_name_003,#REF!
 npc_000_dialogue_000,Olá amigo.
 npc_000_dialogue_001,Como vai?
 npc_000_dialogue_002,Eu sou... Um mercante... O que vais querer?
