@@ -78,7 +78,7 @@ set_buttons_block,Block
 set_buttons_dodge,Dodge
 set_buttons_select,Select
 set_buttons_cancel,Cancel
-set_buttons_remove_item,Remove item
+set_buttons_remove,Remove
 descri_default,This item have no description yet.
 popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
 popup_reseting,Reseting the configurations...
