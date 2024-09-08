@@ -78,7 +78,7 @@ set_buttons_block,Bloquear
 set_buttons_dodge,Esquivar
 set_buttons_select,Selecionar
 set_buttons_cancel,Cancelar
-set_buttons_remove_item,Remover item
+set_buttons_remove,Remover
 descri_default,Este item ainda não tem uma descrição.
 popup_reset_warn,Tem certeza que deseja repor as predefinições? O jogo será reiniciado!
 popup_reseting,Resetando as configurações...
