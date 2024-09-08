@@ -171,6 +171,12 @@ term_darkness_infusion_d,Darkness {0}
 term_number,No.
 term_conclusion,Conclusion
 term_base_power,Base power
+term_bonus_highest_scaling,A+
+term_bonus_high_scaling,A
+term_bonus_good_scaling,B
+term_bonus_mid_scaling,C
+term_bonus_low_scaling,D
+term_bonus_lowest_scaling,E
 term_use,Use
 term_equip,Equip
 term_discard,Discard
