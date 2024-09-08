@@ -6,6 +6,7 @@ init_menu_credits,Credits
 init_menu_quit_game,Quit game
 init_menu_ng_msg,Choose a name for the file
 init_menu_load_warn,Load selected file?
+init_menu_delete_warn,Are you sure you want to delete this file?
 init_menu_quit_warn,Are you sure you want to quit game?
 save_slot_empty,Empty data
 set_menu_apply,Apply changes
@@ -30,6 +31,7 @@ set_menu_hud_show,Show
 set_menu_view_con,View controls
 set_menu_cons_icons,Controls icons
 set_menu_keyboard,Keyboard and Mouse
+set_menu_gamepad,Game Pad
 set_menu_gamepad_a,Game Pad Type A
 set_menu_gamepad_b,Game Pad Type B
 set_menu_gamepad_c,Game Pad Type C
@@ -40,8 +42,6 @@ set_menu_sfx,Sound effects
 set_menu_ambient,Ambient
 set_menu_musics,Musics
 set_menu_dialogues,Dialogues
-set_menu_gp_mapping,Gamepad mapping
-set_menu_kb_mapping,Keyboard and mouse mapping
 set_descri_fullscreen,"Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]Warning:[n]- The ""Bordeless window"" option may not work if there is more than 1 screen."
 set_descri_resolution,"Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the ""View mode"" option is set to ""Window""."
 set_descri_hud,Defines whether the HUD will appear on the screen.[n]Default: On
@@ -289,7 +289,9 @@ legion_002,Darkness Congregation
 legion_003,Draconic Myth
 pause_cont,Continue
 pause_desk,Exit to desktop
-pause_main,Exit to main menu
+pause_main,Go back to main menu
+pause_desk_msg,Save the game and exit to desktop?
+pause_main_msg,Save the game and go back to main menu?
 ct_inventory,Inventory
 ct_lit,CINDER TOTEM LIT
 ct_lu,Level up
@@ -1078,44 +1080,42 @@ npc_name_001,Grumyin
 npc_name_002,Randalya
 npc_name_003,Palagard
 npc_000_dialogue_000,Hello friend.
-npc_000_dialogue_001,How it's going?
-npc_000_dialogue_002,I'm... a merchant... What do you want?
-npc_000_dialogue_003,Me? haha...
+npc_000_dialogue_001,How 'tis going?
+npc_000_dialogue_002,I'm... A merchant. What do you want?
+npc_000_dialogue_003,Me? Haha...
 npc_000_dialogue_004,I'm nothing but a merchant.
-npc_000_dialogue_005,I failed my family and...
+npc_000_dialogue_005,I failed familly and...
 npc_000_dialogue_006,Now I live alone selling goods.
-npc_000_dialogue_007,I'm glad you're back!
+npc_000_dialogue_007,"oh, you're back!"
 npc_000_dialogue_008,What do you want?
-npc_001_dialogue_000,"Hey hey hey! Take it easy, boy."
-npc_001_dialogue_001,You are not dead...
-npc_001_dialogue_002,"You are another one of those who came here because of that annoying witch, are not you?"
-npc_001_dialogue_003,"If so, go ahead!"
-npc_001_dialogue_004,"Try once more, die once more... Be reborn once more."
-npc_001_dialogue_005,ah...
-npc_001_dialogue_006,"What are you so much planning, witch?"
-npc_001_dialogue_007,"Try once more, die once more... Be reborn once more."
-npc_001_dialogue_008,ah...
-npc_001_dialogue_009,"What are you so much planning, witch?"
-npc_002_dialogue_000,You've finally woken up.
-npc_002_dialogue_001,"I'm Randalya, I saved you from that flaming monster."
-npc_002_dialogue_002,"I guess you've met those purple totems, haven't you? I'm afraid the one next to that demon has already broken..."
-npc_002_dialogue_003,"Those totems are called Cinder Totems, they are totems of worship that, when you rest on them and believe in their power, they restore your vigor and any tribulation in your body, as well as being able to increase your strength, store your luggage and transfer you to other totems you've already found."
-npc_002_dialogue_004,Your current equipment has been well worn out due to your arrival in hell. On the second floor of this building you will find a room with some equipment.
-npc_002_dialogue_005,"But remember that it's not only you who will need equipment, choose just one of each peace. Other warriors have recently arrived in hell, more warriors than usual, even..."
-npc_002_dialogue_006,This building is home to others like me who can help you whenever you need it.
-npc_002_dialogue_007,That's all I have to say.
-npc_002_dialogue_008,May Moygo's blessing be with you.
+npc_001_dialogue_000,"Hey hey hey! Calm down, sirrah."
+npc_001_dialogue_001,Thou are not dead...
+npc_001_dialogue_002,"Thou are another one of those whom came hither because of that annoying warlock, are not thou?"
+npc_001_dialogue_003,"If so, hie ahead!"
+npc_001_dialogue_004,"try once moe, die once moe.  Be reborn once moe."
+npc_001_dialogue_005,"ah... What are thou so much planning, warlock?"
+npc_001_dialogue_006,"try once moe, die once moe.  Be reborn once moe."
+npc_001_dialogue_007,"ah... What are thou so much planning, warlock?"
+npc_002_dialogue_000,Thou have finally woken up.
+npc_002_dialogue_001,"I am Randalya, I saved thou from that flaming monster."
+npc_002_dialogue_002,"I guess thou have met those purple totems, have not thou? I am afeard the one next to that demon hath already broken..."
+npc_002_dialogue_003,"Those totems are called cinder totems, they are totems of worship that, when thou rest on 'em and receive in their power, they restore thy vigor and any tribulation in thy corporal agent, as well as being able to increase thy strength, market thy luggage and transfer thou to other totems thou've already found."
+npc_002_dialogue_004,thy current equipment hath been well worn out due to thy arrival in hell. Towards the second floor of this building thou shall find a room with some equipment.
+npc_002_dialogue_005,"Yet remember that 'tis not only thou whom shall want equipment, choose just one of each peace. Other warriors hast recently arrived in hell, moe warriors than usual, e'en."
+npc_002_dialogue_006,this building is home to others like me whom can help thou whenever thou want it.
+npc_002_dialogue_007,that's all I hast to say.
+npc_002_dialogue_008,May Moygo's benison be with thou.
 intro_dialogue_000,"Ah, dear brother..."
-intro_dialogue_001,You have already done so much for me... I ask you to offer me your help once again.
-intro_dialogue_002,"I imagine you have heard about Mounds, the Demon King, the fallen celestial being."
-intro_dialogue_003,"From my rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
+intro_dialogue_001,Thou hast already done so much for me... I bid thou to offer me thy help once again.
+intro_dialogue_002,"I imagine thou hast known about Mounds, the Demon King, the Fallen Celestial Being."
+intro_dialogue_003,"From mine rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
 intro_dialogue_004,"To dominate it, and then ascend to heaven again and become the supreme god."
-intro_dialogue_005,"Nothing good will come of it, my brother. He will spread disgrace throughout the world, misery and suffering."
-intro_dialogue_006,"Therefore I ask, Massaru. You are the only one that I trust of body and soul to be able to face him, and then, defeat him."
-intro_dialogue_007,"Through my witchcraft, I send you to hell."
+intro_dialogue_005,"Nought good shall join of it, mine brother. He shall spread disgrace throughout the world, woe and suffering."
+intro_dialogue_006,"Argal I bid, Massaru. Thou are the only one that I trust of body and soul to be able to brow him, and then, defeat him."
+intro_dialogue_007,"Through mine witchcraft, I send thou to hell."
 intro_dialogue_008,Whatever it takes.
-intro_dialogue_009,You will kill him army...
-intro_dialogue_010,You will kill Mounds.
+intro_dialogue_009,Thou shall kill him power...
+intro_dialogue_010,Thou shall kill mounds.
 help_no_tutorial,You haven't unlocked[n]this tutorial yet.
 help_title_000,Menu: Character Info
 help_title_001,Menu: Equipament
