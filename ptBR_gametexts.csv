@@ -8,6 +8,7 @@ init_menu_ng_msg,Escolha um nome para o arquivo
 init_menu_load_warn,Carregar arquivo selecionado?
 init_menu_delete_warn,Tem certeza que deseja deletar este arquivo?
 init_menu_quit_warn,Tem certeza que deseja sair do jogo?
+init_menu_max_save_warn,Limite de 10 arquivos atingido.[n]Será necessário excluir um arquivo para iniciar um novo jogo.
 save_slot_empty,Dados vazios
 set_menu_apply,Aplicar mudanças
 set_menu_settings,Configurações
