@@ -6,7 +6,9 @@ init_menu_credits,Про гру
 init_menu_quit_game,Вийти з гри
 init_menu_ng_msg,Оберіть назву для збереження
 init_menu_load_warn,Завантажити обране збереження?
+init_menu_delete_warn,Are you sure you want to delete this file?1
 init_menu_quit_warn,Ви впевнені що хочете вийти з гри?
+init_menu_max_save_warn,Limit of 10 files reached.[n]You will need to delete some file to start a new game.1
 save_slot_empty,Порожне збереження
 set_menu_apply,Прийняти зміни
 set_menu_settings,Налаштування
@@ -30,6 +32,7 @@ set_menu_hud_show,Показати
 set_menu_view_con,Переглянути керування
 set_menu_cons_icons,Іконки керування
 set_menu_keyboard,Клавіатура та миша
+set_menu_gamepad,Game Pad1
 set_menu_gamepad_a,Тип геймпаду А
 set_menu_gamepad_b,Тип геймпаду Б
 set_menu_gamepad_c,Тип геймпаду В
@@ -53,21 +56,6 @@ set_descri_ambient,Встановлює гучність звуків атмос
 set_descri_musics,Встановлює гучність музики.[n][n]За замовченням: 10
 set_descri_dialogues,Встановлює гучність діалогів.[n][n]За замовченням: 10
 set_descri_apply,"Прийняти нові зміни налаштувань.[n][n]Увага:[n]- Вам може знадобитися перезавантажити гру, щоб деякі зміни вступили в силу."
-set_descri_con_walkF,Йти вперед:
-set_descri_con_walkB,Йти назад:
-set_descri_con_jump,Стрибок:
-set_descri_con_dodge,Ухилитися:
-set_descri_con_crouch,Присісти:
-set_descri_con_atk,Атака:
-set_descri_con_atk_hv,Важка атака:
-set_descri_con_block,Блокувати:
-set_descri_con_magic,Використати чари:
-set_descri_con_magic_swap,Змінити чари:
-set_descri_con_item,Використати предмет у мішечку:
-set_descri_con_swap_item,Змінити предмет у мішечку:
-set_descri_con_menu,Відкрити меню Массари:
-set_descri_con_pause,Пауза:
-set_descri_con_int,Взаємодіяти:
 set_menu_buttons_ingame,Gameplay buttons1
 set_menu_buttons_menu,Menu buttons1
 set_buttons_rwalk,Walk to right1
@@ -106,7 +94,6 @@ cred_menu_thank_you,Thank you for playing!1
 term_version,Версія {0}
 term_cancel,Скасувати
 term_hold,Утримувати
-term_press,Натиснути
 term_confirm,Прийняти
 term_ok,ОК
 term_no,Ні
@@ -116,7 +103,6 @@ term_on,Увімкнено
 term_off,Вимкнено
 term_enabled,Активовано
 term_disabled,Деактивовано
-term_locked,Зачинено
 term_go_back,Назад
 term_leave,Залишити
 term_type_a,Тип А
@@ -186,6 +172,12 @@ term_darkness_infusion_d,Темні {0}
 term_number,№
 term_conclusion,Висновок
 term_base_power,Базова потужність
+term_bonus_highest_scaling,A+1
+term_bonus_high_scaling,A1
+term_bonus_good_scaling,B1
+term_bonus_mid_scaling,C1
+term_bonus_low_scaling,D1
+term_bonus_lowest_scaling,E1
 term_use,Використати
 term_equip,Екіпірувати
 term_discard,Викинути
@@ -298,7 +290,9 @@ legion_002,Паства темряви
 legion_003,Драконічний міф
 pause_cont,Продовжити
 pause_desk,Вийти до робочого столу
-pause_main,Вийти у головне меню
+pause_main,Повернутися у головне меню
+pause_desk_msg,Save the game and exit to desktop?1
+pause_main_msg,Save the game and go back to main menu?1
 ct_inventory,Інвентар
 ct_lit,ТОТЕМ ПОПЕЛУ РОЗПАЛЕНО
 ct_lu,Новий рівень
@@ -1086,50 +1080,48 @@ npc_name_000,Густав
 npc_name_001,Грум'їн
 npc_name_002,Рандалія
 npc_name_003,Палагард
-npc_000_dialogue_000,"Привіт, друже."
-npc_000_dialogue_001,Як ся маєш?
-npc_000_dialogue_002,Я... крамар... Чого бажаєш?
-npc_000_dialogue_003,Я? Хаха...
-npc_000_dialogue_004,Я простий крамар.
-npc_000_dialogue_005,I failed my family and...
-npc_000_dialogue_006,Тепер я живу один і продаю товари.
-npc_000_dialogue_007,"Я радий, що ти повернувся!"
-npc_000_dialogue_008,Чого бажаєш?
-npc_001_dialogue_000,"Hey hey hey! Take it easy, boy."
-npc_001_dialogue_001,Ти не мертвий...
-npc_001_dialogue_002,"Ти із тих хто прийшов сюди через цю дратівливу відьму, чи не так?"
-npc_001_dialogue_003,"Якщо так, то йди вперев!"
-npc_001_dialogue_004,"Спробуй ще раз, помри ще раз... Знову відродись."
-npc_001_dialogue_005,Ах...
-npc_001_dialogue_006,"What are you so much planning, witch?"
-npc_001_dialogue_007,"Try once more, die once more... Be reborn once more."
-npc_001_dialogue_008,ah...
-npc_001_dialogue_009,"What are you so much planning, witch?"
-npc_002_dialogue_000,You've finally woken up.
-npc_002_dialogue_001,"I'm Randalya, I saved you from that flaming monster."
-npc_002_dialogue_002,"I guess you've met those purple totems, haven't you? I'm afraid the one next to that demon has already broken..."
-npc_002_dialogue_003,"Those totems are called Cinder Totems, they are totems of worship that, when you rest on them and believe in their power, they restore your vigor and any tribulation in your body, as well as being able to increase your strength, store your luggage and transfer you to other totems you've already found."
-npc_002_dialogue_004,Your current equipment has been well worn out due to your arrival in hell. On the second floor of this building you will find a room with some equipment.
-npc_002_dialogue_005,"But remember that it's not only you who will need equipment, choose just one of each peace. Other warriors have recently arrived in hell, more warriors than usual, even..."
-npc_002_dialogue_006,This building is home to others like me who can help you whenever you need it.
-npc_002_dialogue_007,That's all I have to say.
-npc_002_dialogue_008,May Moygo's blessing be with you.
-intro_dialogue_000,"Ах, дорогий брате..."
-intro_dialogue_001,"Ти вже так багато зробив для мене... Я прошу про, щоб ти знов мені допоміг."
-intro_dialogue_002,"I imagine you have heard about Mounds, the Demon King, the fallen celestial being."
-intro_dialogue_003,"From my rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
+npc_000_dialogue_000,Hello friend.
+npc_000_dialogue_001,How 'tis going?
+npc_000_dialogue_002,I'm... A merchant. What do you want?
+npc_000_dialogue_003,Me? Haha...
+npc_000_dialogue_004,I'm nothing but a merchant.
+npc_000_dialogue_005,I failed familly and...
+npc_000_dialogue_006,Now I live alone selling goods.
+npc_000_dialogue_007,"oh, you're back!"
+npc_000_dialogue_008,What do you want?
+npc_001_dialogue_000,"Hey hey hey! Calm down, sirrah."
+npc_001_dialogue_001,Thou are not dead...
+npc_001_dialogue_002,"Thou are another one of those whom came hither because of that annoying warlock, are not thou?"
+npc_001_dialogue_003,"If so, hie ahead!"
+npc_001_dialogue_004,"try once moe, die once moe.  Be reborn once moe."
+npc_001_dialogue_005,"ah... What are thou so much planning, warlock?"
+npc_001_dialogue_006,"try once moe, die once moe.  Be reborn once moe."
+npc_001_dialogue_007,"ah... What are thou so much planning, warlock?"
+npc_002_dialogue_000,Thou have finally woken up.
+npc_002_dialogue_001,"I am Randalya, I saved thou from that flaming monster."
+npc_002_dialogue_002,"I guess thou have met those purple totems, have not thou? I am afeard the one next to that demon hath already broken..."
+npc_002_dialogue_003,"Those totems are called cinder totems, they are totems of worship that, when thou rest on 'em and receive in their power, they restore thy vigor and any tribulation in thy corporal agent, as well as being able to increase thy strength, market thy luggage and transfer thou to other totems thou've already found."
+npc_002_dialogue_004,thy current equipment hath been well worn out due to thy arrival in hell. Towards the second floor of this building thou shall find a room with some equipment.
+npc_002_dialogue_005,"Yet remember that 'tis not only thou whom shall want equipment, choose just one of each peace. Other warriors hast recently arrived in hell, moe warriors than usual, e'en."
+npc_002_dialogue_006,this building is home to others like me whom can help thou whenever thou want it.
+npc_002_dialogue_007,that's all I hast to say.
+npc_002_dialogue_008,May Moygo's benison be with thou.
+intro_dialogue_000,"Ah, dear brother..."
+intro_dialogue_001,Thou hast already done so much for me... I bid thou to offer me thy help once again.
+intro_dialogue_002,"I imagine thou hast known about Mounds, the Demon King, the Fallen Celestial Being."
+intro_dialogue_003,"From mine rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
 intro_dialogue_004,"To dominate it, and then ascend to heaven again and become the supreme god."
-intro_dialogue_005,"Nothing good will come of it, my brother. He will spread disgrace throughout the world, misery and suffering."
-intro_dialogue_006,"Therefore I ask, Massaru. You are the only one that I trust of body and soul to be able to face him, and then, defeat him."
-intro_dialogue_007,"Through my witchcraft, I send you to hell."
+intro_dialogue_005,"Nought good shall join of it, mine brother. He shall spread disgrace throughout the world, woe and suffering."
+intro_dialogue_006,"Argal I bid, Massaru. Thou are the only one that I trust of body and soul to be able to brow him, and then, defeat him."
+intro_dialogue_007,"Through mine witchcraft, I send thou to hell."
 intro_dialogue_008,Whatever it takes.
-intro_dialogue_009,You will kill him army...
-intro_dialogue_010,You will kill Mounds.
+intro_dialogue_009,Thou shall kill him power...
+intro_dialogue_010,Thou shall kill mounds.
 help_no_tutorial,You haven't unlocked[n]this tutorial yet.
-help_title_000,Меню: інформація про персонажа
-help_title_001,Меню: екіпіровка
-help_title_002,Меню: інвентар
-help_title_003,Меню: бестіарій
+help_title_000,Меню: Інформація про персонажа
+help_title_001,Меню: Екіпіровка
+help_title_002,Меню: Інвентар
+help_title_003,Меню: Бестіарій
 help_text_000,"In the Character Info menu, you can check your status, level, attributes, attack power and more.[n][n]The information here reflects on your attacks and your damage negation against various types of damage, such that it can be increased by the armor and weapons you equip."
 help_text_001,"In the Equipment menu, you can equip weapons, armor, rings, gems and items.[n][n]Each piece of equipment in each category changes Massaru's strength in different ways. Weapons increase your attack power, armors increase your damage negation, rings and accessories grant you effects, gems grant effects to your weapon. All your equipment can give you other effects, such as a weapon giving you some effect, even if that's not its main function. The bag makes it easier for you to access items in your inventory."
 help_text_002,"In my Inventory, you can check all the items you own.[n][n]You can use them, generating some kind of gain or loss, depending on the item. Equip them, so you don't have to go to the Equipment menu to equip the item you want. Even discard them, if you no longer want an item in your inventory, but bear in mind that doing so will discard all the items you have of that type, that is, discarding an item that you have 10 amounts of, for example, will cause all 10 of your amounts to be discarded."
