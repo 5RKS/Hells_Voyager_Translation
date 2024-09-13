@@ -6,7 +6,9 @@ init_menu_credits,Créditos
 init_menu_quit_game,Sair do jogo
 init_menu_ng_msg,Escolha um nome para o arquivo
 init_menu_load_warn,Carregar arquivo selecionado?
+init_menu_delete_warn,Tem certeza que deseja deletar este arquivo?
 init_menu_quit_warn,Tem certeza que deseja sair do jogo?
+init_menu_max_save_warn,Limite de 10 arquivos atingido.[n]Será necessário excluir um arquivo para iniciar um novo jogo.
 save_slot_empty,Dados vazios
 set_menu_apply,Aplicar mudanças
 set_menu_settings,Configurações
@@ -30,6 +32,7 @@ set_menu_hud_show,Mostrar
 set_menu_view_con,Ver controles
 set_menu_cons_icons,Ícones de controles
 set_menu_keyboard,Teclado e Mouse
+set_menu_gamepad,Controle
 set_menu_gamepad_a,Controle Tipo A
 set_menu_gamepad_b,Controle Tipo B
 set_menu_gamepad_c,Controle Tipo C
@@ -40,8 +43,6 @@ set_menu_sfx,Efeitos sonoros
 set_menu_ambient,Ambiente
 set_menu_musics,Músicas
 set_menu_dialogues,Diálogos
-set_menu_gp_mapping,Mapeamento de controle
-set_menu_kb_mapping,Mapeamento de teclado e mouse
 set_descri_fullscreen,"Define o modo de exibição do jogo, se permanecerá em tela cheia ou não.[n][n]Padrão: Ligado[n][n]Aviso:[n]- A opção ""Janela sem borda"" pode não funcionar se houver mais de 1 monitor."
 set_descri_resolution,"Define a resolução da janela do jogo.[n][n]Padrão: 1920 x 1080[n][n]Esta opção só funcionará se a opção ""Modo de vídeo"" estiver em ""janela""."
 set_descri_hud,Define se a HUD irá aparecer na tela.[n][n]Padrão: Ligado
@@ -171,6 +172,12 @@ term_darkness_infusion_d,{0} da Escuridão
 term_number,N°
 term_conclusion,Conclusão
 term_base_power,Poder base
+term_bonus_highest_scaling,A+
+term_bonus_high_scaling,A
+term_bonus_good_scaling,B
+term_bonus_mid_scaling,C
+term_bonus_low_scaling,D
+term_bonus_lowest_scaling,E
 term_use,Usar
 term_equip,Equipar
 term_discard,Descartar
@@ -282,8 +289,10 @@ legion_001,Conformistas da Entidade
 legion_002,Congregação da Escuridão
 legion_003,Mito Dracônico
 pause_cont,Continuar
-pause_desk,Sair para desktop
-pause_main,Sair para o menu principal
+pause_desk,Sair para área de trabalho
+pause_main,Voltar ao menu principal
+pause_desk_msg,Salvar o jogo e sair para área de trabalho?
+pause_main_msg,Salvar o jogo e voltar ao menu principal?
 ct_inventory,Inventário
 ct_lit,TOTEM CINÉRIO ACESO
 ct_lu,Subir de nível
@@ -1067,33 +1076,31 @@ bes_type_n001,Golem Flamejante de Guerra - Chefe
 dialogue_op_000,Comprar itens
 dialogue_op_001,Vender itens
 dialogue_op_002,Conversar
-npc_name_000,#REF!
-npc_name_001,#REF!
-npc_name_002,#REF!
-npc_name_003,#REF!
+npc_name_000,Gustav
+npc_name_001,Grumyin
+npc_name_002,Randalya
+npc_name_003,Palagard
 npc_000_dialogue_000,Olá amigo.
 npc_000_dialogue_001,Como vai?
-npc_000_dialogue_002,Eu sou... Um mercante... O que vais querer?
+npc_000_dialogue_002,Eu sou... Um mercante... O que vai querer?
 npc_000_dialogue_003,Eu? haha...
 npc_000_dialogue_004,Não sou nada mais do que um mercante.
 npc_000_dialogue_005,Falhei com minha familia e...
 npc_000_dialogue_006,Agora vivo sozinho vendendo mercadorias.
 npc_000_dialogue_007,Que bom que você voltou!
-npc_000_dialogue_008,O que vais querer?
+npc_000_dialogue_008,O que vai querer?
 npc_001_dialogue_000,"Ei ei ei! Calma aí, rapaz."
 npc_001_dialogue_001,Tu não estás morto...
 npc_001_dialogue_002,"""Tu és mais um dos que vieram para cá por causa daquele bruxo maldito, não és?"
 npc_001_dialogue_003,"Se for assim, vai em frente!"
 npc_001_dialogue_004,"Tenta mais uma vez, morre mais uma vez... Renasce mais uma vez."
-npc_001_dialogue_005,Ah...
-npc_001_dialogue_006,"O que tanto planejas, bruxo?"
-npc_001_dialogue_007,"Tenta mais uma vez, morre mais uma vez... Renasce mais uma vez."
-npc_001_dialogue_008,Ah...
-npc_001_dialogue_009,"O que tanto planejas, bruxo?"
+npc_001_dialogue_005,"Ah... O que tanto planejas, bruxo?"
+npc_001_dialogue_006,"Tenta mais uma vez, morre mais uma vez... Renasce mais uma vez."
+npc_001_dialogue_007,"Ah... O que tanto planejas, bruxo?"
 npc_002_dialogue_000,Finalmente acordastes.
 npc_002_dialogue_001,"Sou Randalya, eu salvei-te daquele monstro flamejante."
 npc_002_dialogue_002,"Eu imagino que ja te encontrastes com aqueles totens roxos, não? Receio de que aquele perto do demônio que te atacou ja tenha se quebrado..."
-npc_002_dialogue_003,"Aqueles são chamados de Totens Cinéreos, eles são totens de oração que, ao descansar ne;es e acreditar no poder deles, eles irão restaurar teu vigor e curar qualquer tribulação em teu corpo, assim como serem capazes de aumentar tua força, armazenar tua bagagem e transferir-te à outros totens que tu tenhas já encontrado."
+npc_002_dialogue_003,"Aqueles são chamados de Totens Cinéreos, eles são totens de oração que, ao descansar nesses e acreditar no poder deles, eles irão restaurar teu vigor e curar qualquer tribulação em teu corpo, assim como serem capazes de aumentar tua força, armazenar tua bagagem e transferir-te à outros totens que tu tenhas já encontrado."
 npc_002_dialogue_004,Teu equipamento atual está bem desgastado devido à tua chegada ao inferno. O segundo piso desta construção tu poderas encontrar uma sala com alguns equipamentos.
 npc_002_dialogue_005,"Mas lembre-te que não é apenas tu que necessitas desses equipamentos, escolha apenas uma de cada peça. Outros guerreiros recentemente têm chegado ao inferno, mais guerreiros do que o normal, até..."
 npc_002_dialogue_006,"De qualquer forma, esta construção é lar para outros como eu que podem te ajudar"
