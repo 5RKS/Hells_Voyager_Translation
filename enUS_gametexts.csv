@@ -27,7 +27,7 @@ set_menu_insta,Instantly
 set_menu_slow,Slow
 set_menu_mid,Medium
 set_menu_high,High
-set_menu_hud_not,Ocult
+set_menu_hud_not,Occult
 set_menu_hud_show,Show
 set_menu_view_con,View controls
 set_menu_cons_icons,Controls icons
@@ -82,15 +82,16 @@ set_buttons_cancel,Cancel
 set_buttons_remove,Remove
 descri_default,This item have no description yet.
 popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
-popup_reseting,Reseting the configurations...
+popup_reseting,Resetting the configurations...
 popup_apply_changes_warn,Are you sure you want to apply the changes?
 popup_changing,Applying the changes...
 cred_menu_credits,Credits
 cred_menu_developed,Developed by
 cred_menu_musics,Musics by
-cred_menu_contributors,Contributors
+cred_menu_translators,Translators
 cred_menu_special_thanks,Special Thanks
 cred_menu_thank_you,Thank you for playing!
+cred_menu_hint,Click on the names to find out more about these incredible people
 term_version,Version {0}
 term_cancel,Cancel
 term_hold,Hold
@@ -213,12 +214,12 @@ menu_shop_purchase,Purchase
 menu_shop_sell,Sell
 menu_class_title,Class definition
 menu_info_descri,Look your stats
-menu_equi_descri,Change your equipament
+menu_equi_descri,Change your equipment
 menu_inv_descri,Look and use your items
 menu_knw_descri,Monsters' description
 menu_map_descri,Look your location
 menu_shop_descri_purchase,Purchase items from the merchant
-menu_shop_descri_sell,Sell items to the mercant
+menu_shop_descri_sell,Sell items to the merchant
 menu_class_descri,Choose your initial equipment
 menu_equi_ana,Armor and rings
 menu_equi_wng,Weapon and gems
@@ -242,7 +243,7 @@ group_weapons,Weapons
 group_gems,Gems
 group_magics,Magics
 group_rings,Rings
-group_knowledges,Knowledges
+group_knowledges,Knowledge
 box_general,General
 box_power,Power
 box_equipment,Equipment
@@ -268,11 +269,11 @@ elm_elec_abbr,Elec.
 elm_psn_abbr,Pois.
 elm_ble_abbr,Bld.
 elm_dar_abbr,Drk.
-atk_phys,Pyshical ATK
+atk_phys,Physical ATK
 atk_pyro,Pyromantic ATK
-atk_fire,Flaming ATK.
+atk_fire,Flaming ATK
 atk_ice,Freezing ATK
-atk_elec,Eletrical ATK
+atk_elec,Electrical ATK
 atk_psn,Poisonous ATK
 atk_ble,Bloody ATK
 atk_dar,Dark ATK
@@ -280,7 +281,7 @@ def_phys,Physical DEF
 def_pyro,Pyromantic DEF
 def_fire,Flaming DEF
 def_ice,Freezing DEF
-def_elec,Eletrical DEF
+def_elec,Electrical DEF
 def_psn,Poisonous DEF
 def_ble,Bloody DEF
 def_dar,Dark DEF
@@ -294,7 +295,6 @@ pause_main,Go back to main menu
 pause_desk_msg,Save the game and exit to desktop?
 pause_main_msg,Save the game and go back to main menu?
 ct_inventory,Inventory
-ct_lit,CINDER TOTEM LIT
 ct_lu,Level up
 ct_mm,Memorize magics
 ct_skills,Skills
@@ -319,7 +319,7 @@ ct_dc_grant_charge_other,Grant {0} Clerical Bones to increase your demon chalice
 ct_dc_grant_charge_no_items,You don't have any Clerical Bones.
 ct_dc_grant_force,Grant 1 Blood Orb to increase the amount of HP/MP recovered by your Demon Chalice?
 ct_dc_grant_force_no_items,You don't have any Blood Orbs.
-ct_dc_grant_force_max,The amount of HP/MP recovered by your Demon Chalice can't be increased any futher.
+ct_dc_grant_force_max,The amount of HP/MP recovered by your Demon Chalice can't be increased any further.
 ct_mm_es,Empty slot
 ct_mm_kind,Kind
 ct_mm_mc,MP cost
@@ -521,7 +521,7 @@ accessory_desc_007,
 accessory_desc_008,A straw hat with a ribbon wrapped around it. Gives your attacks greater range.
 accessory_desc_009,"A rusty cage made of a red metal. Poison and Bleed apply faster, but greatly reduce damage negation against them."
 accessory_desc_010,Simple head accessory. Increases impetus and luck.
-accessory_desc_011,A necromance magic orb. Increases the damage and the damage negation of non-physic attacks.
+accessory_desc_011,A necromantic magic orb. Increases the damage and the damage negation of non-physic attacks.
 accessory_inspec_000,
 accessory_inspec_001,
 accessory_inspec_002,
@@ -587,7 +587,7 @@ armor_inspec_015,
 armor_inspec_016,
 weapon_name_000,Serpent Dagger
 weapon_name_001,Rogue Daggers
-weapon_name_002,Crystalized Daggers
+weapon_name_002,Crystallized Daggers
 weapon_name_003,Double Shotel
 weapon_name_004,Worn Bastard Sword
 weapon_name_005,Templar Straight Sword
@@ -651,10 +651,10 @@ weapon_desc_003,"A pair of crescent-shaped daggers, very powerful and agile."
 weapon_desc_004,"A neither too big nor too small sword, strong and agile."
 weapon_desc_005,"A straight sword, balanced between strength and agility."
 weapon_desc_006,"A straight sword engraved with runes on its blade, blessed by Meapol."
-weapon_desc_007,"A pair of bastard sword, great for consecutives attacks."
+weapon_desc_007,"A pair of bastard sword, great for consecutive attacks."
 weapon_desc_008,A greatsword forged directly by Huozue's blacksmiths. Causes pyromancy.
 weapon_desc_009,The greatsword of the warriors of the Darkness Congregation.
-weapon_desc_010,The ancient sword. its trully power is as unknown as its creation.
+weapon_desc_010,The ancient sword. its truly power is as unknown as its creation.
 weapon_desc_011,Swords capable of raising the dead.
 weapon_desc_012,The frozen sword of ancient legends. They say it's capable of killing a god.
 weapon_desc_013,A huge cleaver. Maybe it belonged to a giant butcher.
@@ -771,7 +771,7 @@ magic_name_005,Poison Spit
 magic_name_006,Bloody Chase
 magic_name_007,Dark Explosion
 magic_name_008,Huoko's Strength
-magic_name_009,Explendid Huoko's Strength
+magic_name_009,Splendid Huoko's Strength
 magic_name_010,Huoko's Fortitude
 magic_name_011,Noctarogar's Blessing
 magic_name_012,Kiabass' Blessing
@@ -791,7 +791,7 @@ magic_name_025,Ice Orbs
 magic_name_026,Ice Explosion
 magic_name_027,Ice Bow
 magic_name_028,Night Constellation
-magic_name_029,Falon's Pyromance
+magic_name_029,Falon's Pyromancy
 magic_name_030,Falon's Fire
 magic_name_031,Falon's Ice
 magic_name_032,Falon's Lightnings
@@ -910,7 +910,7 @@ ring_name_042,Vuikur's Ring
 ring_name_043,Shooter Ring
 ring_name_044,Fighter Ring
 ring_name_045,Cat Ring
-ring_name_046,Ornunddu Blessing Ring
+ring_name_046,Ornunddu’s Blessing Ring
 ring_name_047,Phoenix Ring
 ring_name_048,Ghost Ring
 ring_name_049,Camouflage Ring
@@ -920,7 +920,7 @@ ring_name_052,Discernment Ring
 ring_name_053,Restoration Ring
 ring_name_054,Killer Defense Ring
 ring_name_055,Killer Strength Ring
-ring_name_056,Falon Bubble Ring
+ring_name_056,Falon’s Bubble Ring
 ring_name_057,Leap Ring
 ring_name_058,Burden Ring
 ring_desc_000,Increases damage negation when HP is low.
@@ -1049,7 +1049,7 @@ knowledge_desc_000,A Letter written by an adventurer a long time ago.
 knowledge_desc_001,"A single sheet from the 1st volume of the series ""Hell explained"" by Connor Sant'Anna."
 knowledge_desc_002,"Second page of the fifth volume of the series ""Hell explained"" by Connor Sant'Anna."
 knowledge_desc_003,"Fifteenth page of the fifth volume of the series "" Hell Explained"" by Connor Sant'Anna."
-knowledge_inspec_000,"The sheet is extremely old and worn, but still perfectly legible:[n]""Hello, next adventurer, I'm glad you've also found this area, near this letter there is a purple totem. It is able to restore your vigor and cure any illness by resting near it and believing in its gift.”"
+knowledge_inspec_000,"The sheet is extremely old and worn, but still perfectly legible:[n]""Hello, next adventurer, I'm glad you've also found this area, near this letter there is a purple totem. It is able to restore your vigor and cure any illness by resting near it and believing in its gift€"
 knowledge_inspec_001,"The sheet is burnt, but it is possible to read part of it:[n]""...Due to its distance from the center of hell, being extremely cold and icy, it is almost impossible to survive without great preparation, such as warmer clothes and fires, for example. However, it wasn't always like this, the Fifth Layer was once the hottest of all, and had a king, the King of the Underground, Drensriel, who soon after winning his title, betrayed Mounds by trying to kill him to become the King of Hell. However, he was clearly defeated, Mounds is ruthless, there is no beating him... So the fifth layer has been moved as far away from the center as possible, as a way of showing that Mounds will show no mercy to anyone who goes against him..."""
 knowledge_inspec_002,"The sheet is torn and a little bit burnt, but still legible.[n]""...With his powers, Mounds creates a great flowery field, more than 500 billion kilometers long, in an attempt to imitate his old home, The Heavens. But the attempt failed in the blink of an eye. Mounds, furious, yells so loudly that the entire field is brutally burnt. The flowers, turned to ash. Trees, melted into lava. Flawed animals, turned into heaps of rotting flesh..."""
 knowledge_inspec_003,"The leaves are torn and a little burnt, but still legible.[n]""...His disciples, Doalpus and Alreeis, finished the construction. Finally, after 134 years, it was erected and ready to demonstrate the power and architecture of hell, Moundzian Castle, the domain of Mounds... In the castle's laboratory, Mounds and his disciples created, from the blood of Mounds and a female mammal, Mounds' maiden, Astrina... Once married, Mounds and Astrina had 4 children, called the first demonic beings, who, when they came of age, were given the title of Demon Leaders..."""
@@ -1062,8 +1062,8 @@ bes_name_n005,"Eldaron, the Lost Golem"
 bes_name_n006,"Mohal, the Draconic Watcher"
 bes_name_n007,"Qmimb, the Incarnate Darkness"
 bes_name_n008,"Gramands, the Frozen Gate Guardian"
-bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlast sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
-bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
+bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlasting sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
+bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused disgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
 bes_desc_n002,"A strange undead skeleton who awoke from his tomb due to the influence of the Darkness, the Feared Entity. Revived with the mission of contributing to the Darkness' domination of hell, but because of his weak power, he became nothing more than a disturbance to everyone in this layer, demons and demon-hunting voyagers alike."
 bes_desc_n003,"An annoying little Pure Demon capable of throwing fireballs. After killing their prey, they suck their blood to feed, just as certain insects from the Human Realm do.[n][n]These annoying creatures are the most distant type of pure demon from the Mounds bloodline, but still close compared to the Behegunes."
 bes_desc_n004,
@@ -1112,14 +1112,14 @@ intro_dialogue_002,"I imagine thou hast known about Mounds, the Demon King, the 
 intro_dialogue_003,"From mine rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
 intro_dialogue_004,"To dominate it, and then ascend to heaven again and become the supreme god."
 intro_dialogue_005,"Nought good shall join of it, mine brother. He shall spread disgrace throughout the world, woe and suffering."
-intro_dialogue_006,"Argal I bid, Massaru. Thou are the only one that I trust of body and soul to be able to brow him, and then, defeat him."
+intro_dialogue_006,"Therefore I bid, Massaru. Thou are the only one that I trust of body and soul to be able to brow him, and then, defeat him."
 intro_dialogue_007,"Through mine witchcraft, I send thou to hell."
 intro_dialogue_008,Whatever it takes.
 intro_dialogue_009,Thou shall kill him power...
 intro_dialogue_010,Thou shall kill mounds.
 help_no_tutorial,You haven't unlocked[n]this tutorial yet.
 help_title_000,Menu: Character Info
-help_title_001,Menu: Equipament
+help_title_001,Menu: Equipment
 help_title_002,Menu: Inventory
 help_title_003,Menu: Bestiary
 help_text_000,"In the Character Info menu, you can check your status, level, attributes, attack power and more.[n][n]The information here reflects on your attacks and your damage negation against various types of damage, such that it can be increased by the armor and weapons you equip."
