@@ -88,9 +88,10 @@ popup_changing,Приймаємо зміни...
 cred_menu_credits,Про гру
 cred_menu_developed,Гру розробив
 cred_menu_musics,Музику виконав
-cred_menu_contributors,Contributors1
+cred_menu_translators,Перекладачі
 cred_menu_special_thanks,Special Thanks1
 cred_menu_thank_you,Thank you for playing!1
+cred_menu_hint,Click on the names to find out more about these incredible people1
 term_version,Версія {0}
 term_cancel,Скасувати
 term_hold,Утримувати
