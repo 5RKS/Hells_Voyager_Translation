@@ -8,7 +8,7 @@ init_menu_ng_msg,Escolha um nome para o arquivo
 init_menu_load_warn,Carregar arquivo selecionado?
 init_menu_delete_warn,Tem certeza que deseja deletar este arquivo?
 init_menu_quit_warn,Tem certeza que deseja sair do jogo?
-init_menu_max_save_warn,Limite de 10 arquivos atingido.[n]Será necessário excluir um arquivo para iniciar um novo jogo.
+init_menu_max_save_warn,Limite de 10 arquivos atingido.[n]Será necessário excluir algum arquivo para iniciar um novo jogo.
 save_slot_empty,Dados vazios
 set_menu_apply,Aplicar mudanças
 set_menu_settings,Configurações
@@ -37,7 +37,7 @@ set_menu_gamepad_a,Controle Tipo A
 set_menu_gamepad_b,Controle Tipo B
 set_menu_gamepad_c,Controle Tipo C
 set_menu_dynamic,Dinâmico
-set_menu_audio,Audio
+set_menu_audio,Áudio
 set_menu_master,Geral
 set_menu_sfx,Efeitos sonoros
 set_menu_ambient,Ambiente
@@ -47,9 +47,9 @@ set_descri_fullscreen,"Define o modo de exibição do jogo, se permanecerá em t
 set_descri_resolution,"Define a resolução da janela do jogo.[n][n]Padrão: 1920 x 1080[n][n]Esta opção só funcionará se a opção ""Modo de vídeo"" estiver em ""janela""."
 set_descri_hud,Define se a HUD irá aparecer na tela.[n][n]Padrão: Ligado
 set_descri_language,"Define o idioma do jogo.[n][n]Aviso:[n]- O jogo deve ser reiniciado para mudar idioma, caso contrário, o idioma não será alterado."
-set_descri_auto_lan,"Define se o idioma do jogo se adequará ao idioma do sistema operacional do usuario.[n][n]Aviso:[n]- O jogo deve ser reiniciado para a mudança ser aplicada, caso contrário, a mudança não será aplicada;[n][n]- O jogo se adequará apenas aos idiomas disponíveis na opção ""Idioma""."
+set_descri_auto_lan,"Define se o idioma do jogo se adequará ao idioma do sistema operacional do usuário.[n][n]Aviso:[n]- O jogo deve ser reiniciado para a mudança ser aplicada, caso contrário, a mudança não será aplicada;[n][n]- O jogo se adequará apenas aos idiomas disponíveis na opção ""Idioma""."
 set_descri_text_vel,Define a velocidade do texto de diálogos.[n][n]Padrão: Média
-set_descri_cons_icons,Define o icone dos botões de seu controle ou teclado.
+set_descri_cons_icons,Define o ícone dos botões de seu controle ou teclado.
 set_descri_master,Define o volume de todos os sons existentes no jogo.[n][n]Padrão: 10
 set_descri_sfx,Define o volume de todos os efeitos sonoros.[n][n]Padrão: 10
 set_descri_ambient,Define o volume dos sons ambientes.[n][n]Padrão: 10
@@ -82,15 +82,16 @@ set_buttons_cancel,Cancelar
 set_buttons_remove,Remover
 descri_default,Este item ainda não tem uma descrição.
 popup_reset_warn,Tem certeza que deseja repor as predefinições? O jogo será reiniciado!
-popup_reseting,Resetando as configurações...
+popup_reseting,Redefinindo as configurações...
 popup_apply_changes_warn,Tem certeza que deseja aplicar as mudanças?
 popup_changing,Aplicando as configurações...
 cred_menu_credits,Créditos
 cred_menu_developed,Desenvolvido por
 cred_menu_musics,Músicas por
-cred_menu_contributors,Contribuidores
+cred_menu_contributors,Tradutores
 cred_menu_special_thanks,Agradecimentos especiais
 cred_menu_thank_you,Obrigado por jogar!
+cred_menu_hint,Clique nos nomes para descobrir mais sobre essas pessoas incríveis
 term_version,Versão {0}
 term_cancel,Cancelar
 term_hold,Segurar
@@ -294,7 +295,6 @@ pause_main,Voltar ao menu principal
 pause_desk_msg,Salvar o jogo e sair para área de trabalho?
 pause_main_msg,Salvar o jogo e voltar ao menu principal?
 ct_inventory,Inventário
-ct_lit,TOTEM CINÉRIO ACESO
 ct_lu,Subir de nível
 ct_mm,Memorizar magias
 ct_skills,Habilidades
@@ -311,7 +311,7 @@ ct_dc_allot,Distribuir Cálices
 ct_dc_charge,Adicionar cargas
 ct_dc_force,Aumentar força
 ct_hp_tv,Viajar para Morada dos Viajantes
-ct_dc_grant_charge_one,Condecer {0} Osso Clerical para aumentar as cargas de Cálice Demoníaco?
+ct_dc_grant_charge_one,Conceder {0} Osso Clerical para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_two,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_few,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
 ct_dc_grant_charge_many,Conceder {0} Ossos Clericais para aumentar as cargas de Cálice Demoníaco?
@@ -387,12 +387,12 @@ tool_name_020,Papiro Flamejante
 tool_name_021,Papiro Congelante
 tool_name_022,Papiro Elétrico
 tool_name_023,Papiro Venenoso
-tool_name_024,Papito Sangrento
+tool_name_024,Papiro Sangrento
 tool_name_025,Papiro Viscoso
 tool_name_026,Porongo de Água Quente
 tool_name_027,Porongo de Água Fria
 tool_name_028,Jarra de Ervas Malditas
-tool_name_029,Jarra de Ervas Resfrescantes
+tool_name_029,Jarra de Ervas Refrescantes
 tool_name_030,Jarra de Ervas Fumegantes
 tool_name_031,Jarra de Ervas Dissipantes
 tool_name_032,Jarra de Ervas Purificantes
@@ -480,7 +480,7 @@ material_desc_004,Reforça armas até +9.
 material_desc_005,Reforça armas ao máximo.
 material_desc_006,Reforça armas especiais até +4.
 material_desc_007,Reforça armas especiais ao máximo.
-material_inspec_000,"Uma parte de um crânio de um Demônio Clérigo. Tão poderoso que, mesmo flamejando constantemente, não se desfaz. Um ferreiro pode usar este osso para forjar mais uma carga de Cálice Demoníaco, graças a uma dádiva que os Demônios Feitiçeiros deram à todos os ferreiros do inferno, que os fazem capaz de manipular os ossos dos Demônios Clérigos."
+material_inspec_000,"Uma parte de um crânio de um Demônio Clérigo. Tão poderoso que, mesmo flamejando constantemente, não se desfaz. Um ferreiro pode usar este osso para forjar mais uma carga de Cálice Demoníaco, graças a uma dádiva que os Demônios Feiticeiros deram à todos os ferreiros do inferno, que os fazem capaz de manipular os ossos dos Demônios Clérigos."
 material_inspec_001,"Sangue dos extintos Demônios Clérigos, envolto de uma barreira mágica absurdamente poderosa. A única forma de cedê-la é concedendo o próprio à um Totem Cinéreo, um totem criado na Primeira Grande Guerra Demoníaca, um de seus objetivos era canalizar o sangue dos Demônios Clérigos nos medicamentos e magias curandeiras dos Demônios Feiticeiros para evitar o máximo de mortes possíveis."
 material_inspec_002,
 material_inspec_003,
@@ -646,7 +646,7 @@ weapon_name_057,Escudo de Ossos de Serpente Demoníaca
 weapon_name_058,Parede com Espinhos
 weapon_desc_000,Uma adaga esguia com um cabo de serpente. Causa veneno nos inimigos.
 weapon_desc_001,"Uma dupla de adagas muito bem afiadas, uma reta e a outra curvada."
-weapon_desc_002,Uma dupla de adagas tão gelidas que se cristalizam. Causa congelamento nos inimigos.
+weapon_desc_002,Uma dupla de adagas tão gélidas que se cristalizam. Causa congelamento nos inimigos.
 weapon_desc_003,"Uma dupla de adagas com formato de meia lua, muito poderosas e ágeis."
 weapon_desc_004,"Uma espada nem muito grande e nem muito pequena, forte e ágil."
 weapon_desc_005,"Uma espada reta, balanceada entre força e agilidade."
@@ -657,7 +657,7 @@ weapon_desc_009,A grande espada da legião de guerreiros da Calamidade Negra.
 weapon_desc_010,"A espada anciã, seu verdadeiro poder é tão desconhecida quanto sua criação."
 weapon_desc_011,Espadas capazes de renascerem os mortos.
 weapon_desc_012,A espada congelada das antigas lendas. Dizem que é capaz de matar um deus.
-weapon_desc_013,Um cutelo enorme. Talvez tenha pertencido a um gigante açogueiro.
+weapon_desc_013,Um cutelo enorme. Talvez tenha pertencido a um gigante açougueiro.
 weapon_desc_014,"Uma katana simples e barata, pintada de preto, roxo e verde."
 weapon_desc_015,"Uma longa espada oriental, ágil e eficaz, por mais que não seja muito resistente."
 weapon_desc_016,"A espada de um grande guerreiro de cabelos longos, gravada com runas desconhecidas."
@@ -720,7 +720,7 @@ weapon_inspec_013,
 weapon_inspec_014,
 weapon_inspec_015,
 weapon_inspec_016,
-weapon_inspec_017,"Seu dono, o famoso e antigo Vinsir, junto com os guerreiros da Congregação da Escuridão, batalhavam contra a Escuridão para trazer paz a Terra. Ele criava melodias calmas e inspiradoras com o intuito de descarregar seu estresse e o de seus aliados nessa guerra eterna contra a Escuridão. Um dia, Vinsir junto com seu companheiro lutavam contra um grande Fingran consumido pela Escuridão. Seu aliado conseguiu ganhar a batalha e libertar a alma da grande besta, mas ao custo do sacrifício da vida de Vinsir. Hoje em dia, no Grande Campo de Ardiflores, reside o túmulo do heróico compositor."
+weapon_inspec_017,"Seu dono, o famoso e antigo Vinsir, junto com os guerreiros da Congregação da Escuridão, batalhavam contra a Escuridão para trazer paz a Terra. Ele criava melodias calmas e inspiradoras com o intuito de descarregar seu estresse e o de seus aliados nessa guerra eterna contra a Escuridão. Um dia, Vinsir junto com seu companheiro lutavam contra um grande Fingran consumido pela Escuridão. Seu aliado conseguiu ganhar a batalha e libertar a alma da grande besta, mas ao custo do sacrifício da vida de Vinsir. Hoje em dia, no Grande Campo de Ardiflores, reside o túmulo do heroico compositor."
 weapon_inspec_018,
 weapon_inspec_019,
 weapon_inspec_020,
@@ -771,7 +771,7 @@ magic_name_005,Cuspe Venenoso
 magic_name_006,Perseguição Sangrenta
 magic_name_007,Explosão Negra
 magic_name_008,Força de Huoko
-magic_name_009,Explêndida Força de Huoko
+magic_name_009,Esplêndida Força de Huoko
 magic_name_010,Fortitude de Huoko
 magic_name_011,Benção de Noctarogar
 magic_name_012,Benção de Kiabass
@@ -911,7 +911,7 @@ ring_name_043,Anel do Atirador
 ring_name_044,Anel do Lutador
 ring_name_045,Anel do Gato
 ring_name_046,Anel da Benção de Ornunddu
-ring_name_047,Anel da Fénix
+ring_name_047,Anel da Fênix
 ring_name_048,Anel do Fantasma
 ring_name_049,Anel da Camuflagem
 ring_name_050,Anel da Penalidade
@@ -974,7 +974,7 @@ ring_desc_047,"Ao morrer, renasce explodindo tudo ao redor. Funciona apenas uma 
 ring_desc_048,Se transforma num fantasma por um breve momento e retorna a vida após morrer.
 ring_desc_049,Se torna intangível após ficar parado por um tempo.
 ring_desc_050,"Inimigos próximo se tornam mais lentos, mas perde um pouco de PV por cada inimigo atingido."
-ring_desc_051,se torna imune a qualquer hit por um tempo após receber um grande dano.
+ring_desc_051,Se torna imune a qualquer ataque por um tempo após receber um grande dano.
 ring_desc_052,Caminhos ocultos se tornam mais evidentes.
 ring_desc_053,Restaura um pouco a duração de efeitos ao derrotar inimigos.
 ring_desc_054,"Cada inimigo derrotado gera um acúmulo de negação de dano, mas o acúmulo se diminui com o tempo."
@@ -1049,7 +1049,7 @@ knowledge_desc_000,Uma carta escrita por um aventureiro há muito tempo atrás.
 knowledge_desc_001,"Uma folha avulsa do primeiro volume da série ""Inferno explicado"" de Connor Sant'Anna."
 knowledge_desc_002,"Segunda página do quinto volume da série ""Inferno explicado"" de Connor Sant'Anna."
 knowledge_desc_003,"Décima quinta página do quinto volume da série ""Inferno explicado"" de Connor Sant'Anna."
-knowledge_inspec_000,"A folha está extremamente velha e desgastada, entretanto ainda é possivel ler perfeitamente:[n]""Olá, próximo aventureiro, fico feliz que também encontrou esta área, por perto desta carta há um totem roxo. Ele é capaz de restaurar seu vigor e curar qualquer doença ao descansar perto dele e acreditar em sua dádiva."""
+knowledge_inspec_000,"A folha está extremamente velha e desgastada, entretanto ainda é possível ler perfeitamente:[n]""Olá, próximo aventureiro, fico feliz que também encontrou esta área, por perto desta carta há um totem roxo. Ele é capaz de restaurar seu vigor e curar qualquer doença ao descansar perto dele e acreditar em sua dádiva."""
 knowledge_inspec_001,"A folha está queimada, mas é possível ler uma parte:[n]""...Devido à sua distância do centro do inferno, sendo extremamente fria e gélida, é quase impossível sobreviver sem um grande preparo, como roupas mais quentes e fogueiras, por exemplo. Entretanto nem sempre foi assim, a Quinta Camada já foi a mais quente de todas, e possuía um rei, o Rei do Subsolo, Drensriel, que logo após ganhar seu título, traiu Mounds tentando o matá-lo para se tornar o Rei do Inferno. Contudo, claramente foi derrotado, Mounds é implacável, não há como derrotá-lo... Então a Quinta camada foi distanciada o máximo possível do centro, como forma de mostrar que Mounds não terá piedade com ninguém que for contra ele..."""
 knowledge_inspec_002,"A folha está rasgada e um pouco queimada, mas ainda legível.[n]""...Com seus poderes, Mounds cria um grande campo florido, com mais de 500 bilhões de quilômetros de extensão, como tentativa de imitar seu antigo lar, Os Céus. Porém a tentativa foi ao fracasso num piscar de olhos. Mounds, furioso, grita tão alto que todo o campo é brutalmente queimado. As flores, transformadas em cinzas. As árvores, derretidas em lava. Os animais defeituosos, transformados em montes de carne podre..."""
 knowledge_inspec_003,"A folhas estão rasgada e um pouco queimada, mas ainda legível.[n]""...Seus discípulos, Doalpus e Alreeis, terminaram a construção. Finalmente, após 134 anos, estava erguido e pronto para demonstrar o poder e arquitetura do inferno, o Castelo Moundzian, o domínio de Mounds... No laboratório do castelo, Mounds e seus discípulos criaram, a partir do sangue de Mounds e de um mamífero fêmea, a donzela de Mounds, Astrina... Já casados, Mounds e Astrina tiveram 4 filhos, denominados de os primeiros seres demoníacos, que quando alcançaram a maioridade, receberam o título de Líderes Demoníacos..."""
@@ -1062,10 +1062,10 @@ bes_name_n005,"Eldaron, o Golem Perdido"
 bes_name_n006,"Mohal, o Vigilante Dracônico"
 bes_name_n007,"Qmimb, Escuridão Encarnada"
 bes_name_n008,"Gramands, o Guardião do Portão Congelado"
-bes_desc_n000,"Um guerreiro morto, que devido a sua morte honrosa em batalha, possui um corpo. No entando, foi maldito em vida, sua sentença eterna agora é batalhar para sempre contra seus iguais como memória de seus últimos momentos de vida, sentindo toda a dor e o fardo de causar tanta desgraça enquanto estava em vida.[n][n]Devido a nova ditadura de Mounds, todos os mortos agora estão gradualmente fortificando-se e tornando-se demônios. Assim, quando completarem a transformação, farão parte do exército de Mounds no ataque ao Reino dos Humanos."
+bes_desc_n000,"Um guerreiro morto, que devido a sua morte honrosa em batalha, possui um corpo. No entanto, foi maldito em vida, sua sentença eterna agora é batalhar para sempre contra seus iguais como memória de seus últimos momentos de vida, sentindo toda a dor e o fardo de causar tanta desgraça enquanto estava em vida.[n][n]Devido a nova ditadura de Mounds, todos os mortos agora estão gradualmente fortificando-se e tornando-se demônios. Assim, quando completarem a transformação, farão parte do exército de Mounds no ataque ao Reino dos Humanos."
 bes_desc_n001,"Um enorme e musculoso guerreiro morto, morto em batalha, por isso mantém seu corpo até no inferno. Mas por cada local que passou, causou desgraça. Agora, para sempre, sofrerá em batalhas, lembrando de seus últimos momentos de vida e sofrendo pelo fardo do tormento que causou em vida.[n][n]Devido a nova ditadura de Mounds, todos os mortos agora estão gradualmente fortificando-se e tornando-se demônios. Assim, quando completarem a transformação, farão parte do exército de Mounds no ataque ao Reino dos Humanos."
 bes_desc_n002,"Um estranho esqueleto morto-vivo que acordou de sua tumba graças à influência da Escuridão, a Entidade Temida. Revivido com a missão de contribuir para a dominação do inferno pela Escuridão, mas graças ao seu fraco poder, se tornou apenas um incômodo para todos desta camada, tanto demônios quanto viajantes caçadores de demônios."
-bes_desc_n003,"Um pequeno Demônio Puro irritante capazes de lançarem bolas de fogo. Após matarem suas presas, sugam seu sangue para se alimentar, assim como certos insetos do Reino Humano fazem.[n][n]Essas criaturas incovenientes são os tipos de demônios puros mais distantes da linhagem de sangue de Mounds, mas ainda próximos comparados aos Behegunos."
+bes_desc_n003,"Um pequeno Demônio Puro irritante capazes de lançarem bolas de fogo. Após matarem suas presas, sugam seu sangue para se alimentar, assim como certos insetos do Reino Humano fazem.[n][n]Essas criaturas inconvenientes são os tipos de demônios puros mais distantes da linhagem de sangue de Mounds, mas ainda próximos comparados aos Behegunos."
 bes_desc_n004,
 bes_desc_n005,"Um golem forjado a partir de pedras vulcânicas e magia que batalhou na Primeira Guerra Demoníaca. Usam geralmente martelos ou machados grandes flamejantes muito poderosos.[n][n]Eldaron, em uma batalha na guerra, acabou se perdendo, caindo na abandonada Quarta Camada do inferno e nunca foi encontrado."
 bes_desc_n006,
@@ -1085,7 +1085,7 @@ npc_000_dialogue_001,Como vai?
 npc_000_dialogue_002,Eu sou... Um mercante... O que vai querer?
 npc_000_dialogue_003,Eu? haha...
 npc_000_dialogue_004,Não sou nada mais do que um mercante.
-npc_000_dialogue_005,Falhei com minha familia e...
+npc_000_dialogue_005,Falhei com minha família e...
 npc_000_dialogue_006,Agora vivo sozinho vendendo mercadorias.
 npc_000_dialogue_007,Que bom que você voltou!
 npc_000_dialogue_008,O que vai querer?
@@ -1099,9 +1099,9 @@ npc_001_dialogue_006,"Tenta mais uma vez, morre mais uma vez... Renasce mais uma
 npc_001_dialogue_007,"Ah... O que tanto planejas, bruxo?"
 npc_002_dialogue_000,Finalmente acordastes.
 npc_002_dialogue_001,"Sou Randalya, eu salvei-te daquele monstro flamejante."
-npc_002_dialogue_002,"Eu imagino que ja te encontrastes com aqueles totens roxos, não? Receio de que aquele perto do demônio que te atacou ja tenha se quebrado..."
+npc_002_dialogue_002,"Eu imagino que já te encontrastes com aqueles totens roxos, não? Receio de que aquele perto do demônio que te atacou já tenha se quebrado..."
 npc_002_dialogue_003,"Aqueles são chamados de Totens Cinéreos, eles são totens de oração que, ao descansar nesses e acreditar no poder deles, eles irão restaurar teu vigor e curar qualquer tribulação em teu corpo, assim como serem capazes de aumentar tua força, armazenar tua bagagem e transferir-te à outros totens que tu tenhas já encontrado."
-npc_002_dialogue_004,Teu equipamento atual está bem desgastado devido à tua chegada ao inferno. O segundo piso desta construção tu poderas encontrar uma sala com alguns equipamentos.
+npc_002_dialogue_004,Teu equipamento atual está bem desgastado devido à tua chegada ao inferno. O segundo piso desta construção tu poderás encontrar uma sala com alguns equipamentos.
 npc_002_dialogue_005,"Mas lembre-te que não é apenas tu que necessitas desses equipamentos, escolha apenas uma de cada peça. Outros guerreiros recentemente têm chegado ao inferno, mais guerreiros do que o normal, até..."
 npc_002_dialogue_006,"De qualquer forma, esta construção é lar para outros como eu que podem te ajudar"
 npc_002_dialogue_007,Isso é tudo que eu para dizer.
@@ -1123,9 +1123,9 @@ help_title_001,Menu: Equipamentos
 help_title_002,Menu: Inventário
 help_title_003,Menu: Bestiário
 help_text_000,"No menu de Informações de Personagem, você pode conferir sua condição, nível, atributos, poder de ataque e mais.[n][n]As informações aqui refletem em seus ataques e em sua negação de dano contra diversos tipos de dano, tais que podem aumentar por armamentos e armaduras que você equipar."
-help_text_001,"No menu de Equipamentos, você pode equipar armamentos, armaduras, anéis, gemas e itens.[n][n]Cada equipamento de cada categoria alteram a força de Massaru de formas diferentes. Sua arma aumenta seu poder de ataque. sua armadura aumenta sua negação de dano, seus anéis e seu acessório te concedem efeitos, gemas concedem efeitos à sua arma. Todos seus equipamentos podem conceder outros efeitos, como uma arma te conceder algum efeito, mesmo nao sendo essa sua principal função. Já a bolsa te facilita no acesso de itens de seu inventário."
-help_text_002,"No meu de Inventário, você pode conferir todos os itens que você possui.[n][n]Você pode usá-los, gerando a você algum tipo de ganho ou perda, depedendo do item. Equipá-los, assim sem ter que ir ao menu de Equipamentos para equipar algum item desejado. Até mesmo descartá-los, caso não deseje mais algum item em seu inventário, mas tenha em mente que fazer isso descartará todos os itens que você tem desse tipo, ou seja, descartar um item que você possui 10 quantias dele, por exemplo, fará com que todas as suas 10 quantias sejam descartadas."
-help_text_003,"No menu de Bestiário, você pode conferir todos os monstros que você encontrou até agora.[n][n]Aqui você pode descobrir mais sobre os monstros, seus nomes, tipos, história, PV e poder de ataque, negação de dano e vezes que você ja os derrotou."
+help_text_001,"No menu de Equipamentos, você pode equipar armamentos, armaduras, anéis, gemas e itens.[n][n]Cada equipamento de cada categoria alteram a força de Massaru de formas diferentes. Sua arma aumenta seu poder de ataque. sua armadura aumenta sua negação de dano, seus anéis e seu acessório te concedem efeitos, gemas concedem efeitos à sua arma. Todos seus equipamentos podem conceder outros efeitos, como uma arma te conceder algum efeito, mesmo não sendo essa sua principal função. Já a bolsa te facilita no acesso de itens de seu inventário."
+help_text_002,"No meu de Inventário, você pode conferir todos os itens que você possui.[n][n]Você pode usá-los, gerando a você algum tipo de ganho ou perda, dependendo do item. Equipá-los, assim sem ter que ir ao menu de Equipamentos para equipar algum item desejado. Até mesmo descartá-los, caso não deseje mais algum item em seu inventário, mas tenha em mente que fazer isso descartará todos os itens que você tem desse tipo, ou seja, descartar um item que você possui 10 quantias dele, por exemplo, fará com que todas as suas 10 quantias sejam descartadas."
+help_text_003,"No menu de Bestiário, você pode conferir todos os monstros que você encontrou até agora.[n][n]Aqui você pode descobrir mais sobre os monstros, seus nomes, tipos, história, PV e poder de ataque, negação de dano e vezes que você já os derrotou."
 class_no_class,Sem classe
 class_knight,Cavaleiro
 class_northern_pilgrim,Peregrino do Norte
