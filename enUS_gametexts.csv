@@ -18,44 +18,43 @@ set_menu_fullscreen,Fullscreen
 set_menu_bw,Borderless window
 set_menu_window,Window
 set_menu_resolution,Resolution
+set_menu_blood_shedding,Blood shedding
+set_menu_particle_density,Particle density
+set_menu_illumination,Global illumination
+set_menu_shadow_intensity,Shadows intensity
 set_menu_gameplay,Gameplay
-set_menu_hud,HUD
+set_menu_screen_info,Screen information
 set_menu_language,Language
 set_menu_auto_lan,Automatic language switching
 set_menu_text_vel,Text speed
-set_menu_insta,Instantly
-set_menu_slow,Slow
-set_menu_mid,Medium
-set_menu_high,High
+set_menu_camera_shift,Camera shift
+set_menu_insta_masculine,Instantly
+set_menu_low_masculine,Low
+set_menu_slow_masculine,Slow
+set_menu_mid_masculine,Medium
+set_menu_high_masculine,High
+set_menu_insta_feminine,Instantly
+set_menu_low_feminine,Low
+set_menu_slow_feminine,Slow
+set_menu_mid_feminine,Medium
+set_menu_high_feminine,High
 set_menu_hud_not,Occult
 set_menu_hud_show,Show
 set_menu_view_con,View controls
-set_menu_cons_icons,Controls icons
+set_menu_dev_icons,Device icons
 set_menu_keyboard,Keyboard and Mouse
 set_menu_gamepad,Game Pad
 set_menu_gamepad_a,Game Pad Type A
 set_menu_gamepad_b,Game Pad Type B
 set_menu_gamepad_c,Game Pad Type C
 set_menu_dynamic,Dynamic
+set_menu_reset,Reset options
 set_menu_audio,Audio
 set_menu_master,General
 set_menu_sfx,Sound effects
 set_menu_ambient,Ambient
 set_menu_musics,Musics
 set_menu_dialogues,Dialogues
-set_descri_fullscreen,"Defines the game display mode, whether it will remain in full screen or not.[n][n]Default: On[n][n]Warning:[n]- The ""Bordeless window"" option may not work if there is more than 1 screen."
-set_descri_resolution,"Defines the resolution of the game window.[n][n]Default: 1920 x 1080[n][n]This option will only work if the ""View mode"" option is set to ""Window""."
-set_descri_hud,Defines whether the HUD will appear on the screen.[n]Default: On
-set_descri_language,"Defines the game language.[n][n]Warning:[n]- The game must be restarted to change the language, otherwise, the language will not be changed."
-set_descri_auto_lan,"Defines whether the language of the game will match the language of the user's operating system.[n][n]Warning:[n]- The game must be restarted for the change to be applied, otherwise, the change will not be applied;[n][n]- The game will only match the languages available in the ""Language"" option."
-set_descri_text_vel,Defines the speed of the dialog texts.[n][n]Default: Medium
-set_descri_cons_icons,Defines the icon for your controller or keyboard buttons.
-set_descri_master,Sets the volume of all existing sounds in the game.[n][n]Default: 10
-set_descri_sfx,Sets the volume of all sound effects.[n][n]Default:10
-set_descri_ambient,Sets the volume of ambient sounds.[n][n]Default: 10
-set_descri_musics,Sets the volume of all musics.[n][n]Default: 10
-set_descri_dialogues,Sets the volume of all dialogues.[n][n]Default: 10
-set_descri_apply,Applies the changes made in the previous options.[n][n]Warning:[n]- You may need to restart the game to apply certain changes.
 set_menu_buttons_ingame,Gameplay buttons
 set_menu_buttons_menu,Menu buttons
 set_buttons_rwalk,Walk to right
@@ -75,11 +74,52 @@ set_buttons_upcam,Raise camera
 set_buttons_dwcam,Lower camera
 set_buttons_menu,Open menu selection
 set_buttons_map,Open map
-set_buttons_block,Block
+set_buttons_guard,Guard
 set_buttons_dodge,Dodge
 set_buttons_select,Select
 set_buttons_cancel,Cancel
 set_buttons_remove,Remove
+set_descri_view_mode,Defines the game screen type.
+set_descri_resolution,Defines the game resolution when in windowed mode.
+set_descri_blood_shedding,Defines how much blood will be spilled per attack.
+set_descri_particle_density,Defines the density of particles.
+set_descri_illumination,Defines the global illumination system.
+set_descri_shadow_intensity,Defines the intensity of the shadows when global illumination is activated.
+set_descri_screen_info,"Defines whether screen information, such as life bar and blood counter, will be shown."
+set_descri_buttons_icons,Defines which buttons group will be shown in the menus.
+set_descri_language,Defines the game language.
+set_descri_auto_lan,Defines the game to always start with the same language as your computer.
+set_descri_text_vel,Defines the speed of the dialogue texts.
+set_descri_camera_shift,Defines how much the camera will move when raised or lowered.
+set_descri_buttons_ingame,In-game buttons mapping
+set_descri_buttons_menu,Menu buttons mapping
+set_descri_rwalk,Defines the button to walk to right.
+set_descri_lwalk,Defines the button to walk to left.
+set_descri_jump,Defines the button to jump.
+set_descri_int,Defines the button to interact.
+set_descri_rattackl,Defines the button to perform the light attack with the right-hand weapon.
+set_descri_rattackh,Defines the button to perform the heavy attack with the right-hand weapon.
+set_descri_lattackl,Defines the button to perform the light attack with the left-hand weapon.
+set_descri_lattackh,Defines the button to perform the heavy attack with the left-hand weapon.
+set_descri_quickitem,Defines the button to use the bag item.
+set_descri_charhand,Defines the button to swap the right-hand weapon.
+set_descri_chalhand,Defines the button to swap the left-hand weapon.
+set_descri_chamagic,Defines the button to swap the magic.
+set_descri_chaitem,Defines the button to swap the item bag.
+set_descri_upcam,Defines the button to raise the camera.
+set_descri_dwcam,Defines the button to lower the camera.
+set_descri_menu,Defines the button to open the menu selection.
+set_descri_map,Defines the button to open the map.
+set_descri_guard,Defines the button to guard.
+set_descri_dodge,Defines the button to dodge.
+set_descri_select,Defines the button to select.
+set_descri_cancel,Defines the button to cancel.
+set_descri_remove,Defines the button to remove a selection.
+set_descri_general,Defines the volume of the game.
+set_descri_sfx,Defines the volume of the sound effects.
+set_descri_musics,Defines the volume of the musics.
+set_descri_ambient,Defines the volume of the ambient.
+set_descri_dialogues,Defines the volume of the dialogues.
 descri_default,This item have no description yet.
 popup_reset_warn,Are you sure you want to reset to default? The game will be restarted!
 popup_reseting,Resetting the configurations...
@@ -720,7 +760,7 @@ weapon_inspec_013,
 weapon_inspec_014,
 weapon_inspec_015,
 weapon_inspec_016,
-weapon_inspec_017,"Its owner, the famous and old Vinsir, together with the warriors of the Congregation of Darkness, battled against the Darkness to bring peace to Earth. He created calm and inspiring melodies to relieve his stress and that of his allies in this eternal war against the Dark. One day, Vinsir and his fellow fought against a great Fingran consumed by the Dark. His allie managed to win the battle and free the great beast's soul, but at the cost of sacrificing Vinsir's life. Today, in the Great Field of Ardiflowers, lies the tomb of the heroic composer."
+weapon_inspec_017,"Its owner, the famous and old Vinsir, together with the warriors of the Congregation of Darkness, battled against the Darkness to bring peace to Earth. He created calm and inspiring melodies to relieve his stress and that of his allies in this eternal war against the Dark. One day, Vinsir and his fellow fought against a great Fingran consumed by the Dark. His ally managed to win the battle and free the great beast's soul, but at the cost of sacrificing Vinsir's life. Today, in the Great Field of Ardiflowers, lies the tomb of the heroic composer."
 weapon_inspec_018,
 weapon_inspec_019,
 weapon_inspec_020,
@@ -1042,14 +1082,12 @@ ring_inspec_056,
 ring_inspec_057,
 ring_inspec_058,
 knowledge_name_000,Letter of a Old Hell Adventurer
-knowledge_name_001,"Single sheet of ""The Ice of the Fourth Tier"""
-knowledge_name_002,"Second page of ""The grass of the First Tier"""
-knowledge_name_003,"Fifteenth page of ""The grass of the First Tier"""
+knowledge_name_001_003,Page of a Lost Book
 knowledge_desc_000,A Letter written by an adventurer a long time ago.
-knowledge_desc_001,"A single sheet from the 1st volume of the series ""Hell explained"" by Connor Sant'Anna."
-knowledge_desc_002,"Second page of the fifth volume of the series ""Hell explained"" by Connor Sant'Anna."
-knowledge_desc_003,"Fifteenth page of the fifth volume of the series "" Hell Explained"" by Connor Sant'Anna."
-knowledge_inspec_000,"The sheet is extremely old and worn, but still perfectly legible:[n]""Hello, next adventurer, I'm glad you've also found this area, near this letter there is a purple totem. It is able to restore your vigor and cure any illness by resting near it and believing in its gift€"
+knowledge_desc_001,"A single page from the first volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_desc_002,"A single page of the four volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_desc_003,"A single page of the four volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_inspec_000,"The sheet is extremely old and worn, but still perfectly legible:[n]""Hello, next adventurer, I'm glad you've also found this area, near this letter there is a purple totem. It is able to restore your vigor and cure any illness by resting near it and believing in its gift"""
 knowledge_inspec_001,"The sheet is burnt, but it is possible to read part of it:[n]""...Due to its distance from the center of hell, being extremely cold and icy, it is almost impossible to survive without great preparation, such as warmer clothes and fires, for example. However, it wasn't always like this, the Fifth Layer was once the hottest of all, and had a king, the King of the Underground, Drensriel, who soon after winning his title, betrayed Mounds by trying to kill him to become the King of Hell. However, he was clearly defeated, Mounds is ruthless, there is no beating him... So the fifth layer has been moved as far away from the center as possible, as a way of showing that Mounds will show no mercy to anyone who goes against him..."""
 knowledge_inspec_002,"The sheet is torn and a little bit burnt, but still legible.[n]""...With his powers, Mounds creates a great flowery field, more than 500 billion kilometers long, in an attempt to imitate his old home, The Heavens. But the attempt failed in the blink of an eye. Mounds, furious, yells so loudly that the entire field is brutally burnt. The flowers, turned to ash. Trees, melted into lava. Flawed animals, turned into heaps of rotting flesh..."""
 knowledge_inspec_003,"The leaves are torn and a little burnt, but still legible.[n]""...His disciples, Doalpus and Alreeis, finished the construction. Finally, after 134 years, it was erected and ready to demonstrate the power and architecture of hell, Moundzian Castle, the domain of Mounds... In the castle's laboratory, Mounds and his disciples created, from the blood of Mounds and a female mammal, Mounds' maiden, Astrina... Once married, Mounds and Astrina had 4 children, called the first demonic beings, who, when they came of age, were given the title of Demon Leaders..."""
@@ -1135,3 +1173,4 @@ class_templar,Templar
 class_wizard,Wizard
 class_profaned,Profaned
 class_convict,Convict
+Font,0

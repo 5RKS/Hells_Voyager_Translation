@@ -18,48 +18,47 @@ set_menu_fullscreen,Tela cheia
 set_menu_bw,Janela sem borda
 set_menu_window,Janela
 set_menu_resolution,Resolução
+set_menu_blood_shedding,Derramamento de sangue
+set_menu_particle_density,Densidade de partículas
+set_menu_illumination,Iluminação global
+set_menu_shadow_intensity,Intensidade de sombras
 set_menu_gameplay,Jogabilidade
-set_menu_hud,HUD
+set_menu_screen_info,Informações de tela
 set_menu_language,Idioma
 set_menu_auto_lan,Mudança automática de idioma
 set_menu_text_vel,Velocidade de texto
-set_menu_insta,Instantâneo
-set_menu_slow,Lenta
-set_menu_mid,Média
-set_menu_high,Alta
+set_menu_camera_shift,Deslocamento de câmera
+set_menu_insta_masculine,Instantâneo
+set_menu_low_masculine,Baixo
+set_menu_slow_masculine,Lento
+set_menu_mid_masculine,Médio
+set_menu_high_masculine,Alto
+set_menu_insta_feminine,Instantânea
+set_menu_low_feminine,Baixa
+set_menu_slow_feminine,Lenta
+set_menu_mid_feminine,Média
+set_menu_high_feminine,Alta
 set_menu_hud_not,Ocultar
 set_menu_hud_show,Mostrar
 set_menu_view_con,Ver controles
-set_menu_cons_icons,Ícones de controles
+set_menu_dev_icons,Ícones de dispositivo
 set_menu_keyboard,Teclado e Mouse
 set_menu_gamepad,Controle
 set_menu_gamepad_a,Controle Tipo A
 set_menu_gamepad_b,Controle Tipo B
 set_menu_gamepad_c,Controle Tipo C
 set_menu_dynamic,Dinâmico
+set_menu_reset,Redefinir opções
 set_menu_audio,Áudio
 set_menu_master,Geral
 set_menu_sfx,Efeitos sonoros
 set_menu_ambient,Ambiente
 set_menu_musics,Músicas
 set_menu_dialogues,Diálogos
-set_descri_fullscreen,"Define o modo de exibição do jogo, se permanecerá em tela cheia ou não.[n][n]Padrão: Ligado[n][n]Aviso:[n]- A opção ""Janela sem borda"" pode não funcionar se houver mais de 1 monitor."
-set_descri_resolution,"Define a resolução da janela do jogo.[n][n]Padrão: 1920 x 1080[n][n]Esta opção só funcionará se a opção ""Modo de vídeo"" estiver em ""janela""."
-set_descri_hud,Define se a HUD irá aparecer na tela.[n][n]Padrão: Ligado
-set_descri_language,"Define o idioma do jogo.[n][n]Aviso:[n]- O jogo deve ser reiniciado para mudar idioma, caso contrário, o idioma não será alterado."
-set_descri_auto_lan,"Define se o idioma do jogo se adequará ao idioma do sistema operacional do usuário.[n][n]Aviso:[n]- O jogo deve ser reiniciado para a mudança ser aplicada, caso contrário, a mudança não será aplicada;[n][n]- O jogo se adequará apenas aos idiomas disponíveis na opção ""Idioma""."
-set_descri_text_vel,Define a velocidade do texto de diálogos.[n][n]Padrão: Média
-set_descri_cons_icons,Define o ícone dos botões de seu controle ou teclado.
-set_descri_master,Define o volume de todos os sons existentes no jogo.[n][n]Padrão: 10
-set_descri_sfx,Define o volume de todos os efeitos sonoros.[n][n]Padrão: 10
-set_descri_ambient,Define o volume dos sons ambientes.[n][n]Padrão: 10
-set_descri_musics,Define o volume de todas as músicas.[n][n]Padrão: 10
-set_descri_dialogues,Define o volume de todos os diálogos.[n][n]Padrão: 10
-set_descri_apply,Aplica as mudanças feitas nas opções anteriores.[n][n]Aviso:[n]- Talvez seja necessário reiniciar o jogo para aplicar certas mudanças.
-set_menu_buttons_ingame,Controles de jogabilidade
-set_menu_buttons_menu,Controles de menu
-set_buttons_rwalk,Andar para direita
-set_buttons_lwalk,Andar para esquerda
+set_menu_buttons_ingame,Botões de jogabilidade
+set_menu_buttons_menu,Botões de menu
+set_buttons_rwalk,Andar para a direita
+set_buttons_lwalk,Andar para a esquerda
 set_buttons_jump,Pular
 set_buttons_int,Interagir
 set_buttons_rattackl,Ataque leve de mão dir.
@@ -75,11 +74,52 @@ set_buttons_upcam,Levantar câmera
 set_buttons_dwcam,Abaixar câmera
 set_buttons_menu,Abrir seleção de menu
 set_buttons_map,Abrir mapa
-set_buttons_block,Bloquear
+set_buttons_block,Defender
 set_buttons_dodge,Esquivar
 set_buttons_select,Selecionar
 set_buttons_cancel,Cancelar
 set_buttons_remove,Remover
+set_descri_view_mode,Define o tipo de tela do jogo.
+set_descri_resolution,Define a resolução do jogo quando estiver no modo janela.
+set_descri_blood_shedding,Define quanto sangue será expelido por ataque.
+set_descri_particle_density,Define a densidade de partículas.
+set_descri_illumination,Define o sistema de iluminação global.
+set_descri_shadow_intensity,Define a intensidade das sombras quando a iluminação global está ativa.
+set_descri_screen_info,"Define se as informações de tela, como a barra de vida e o contador de sangue, irão ser exibidas."
+set_descri_buttons_icons,Define quais ícones de dispositivo serão exibidos nos menus.
+set_descri_language,Define o idioma do jogo.
+set_descri_auto_lan,Define o jogo para sempre iniciar com o mesmo idioma do seu computador.
+set_descri_text_vel,Define a velocidade do texto de diálogos.
+set_descri_camera_shift,Define o quanto a câmera se moverá ao levantá-la ou abaixá-la
+set_descri_buttons_ingame,Mapeamento dos botões em jogo.
+set_descri_buttons_menu,Mapeamento dos botões em menus.
+set_descri_rwalk,Define o  botão para andar para a direita.
+set_descri_lwalk,Define o  botão para andar para a esquerda.
+set_descri_jump,Define o  botão para pular.
+set_descri_int,Define o  botão para interagir.
+set_descri_rattackl,Define o  botão para realizar um ataque leve com a arma da mão direita.
+set_descri_rattackh,Define o  botão para realizar um ataque pesado com a arma da mão direita.
+set_descri_lattackl,Define o  botão para realizar um ataque leve com a arma da mão esquerda.
+set_descri_lattackh,Define o  botão para realizar um ataque pesado com a arma da mão esquerda.
+set_descri_quickitem,Define o  botão para usar o item da bolsa.
+set_descri_charhand,Define o  botão para trocar a arma da mão direita.
+set_descri_chalhand,Define o  botão para trocar a arma da mão esquerda.
+set_descri_chamagic,Define o  botão para trocar a magia.
+set_descri_chaitem,Define o  botão para trocar o item da bolsa.
+set_descri_upcam,Define o  botão para levantar a câmera.
+set_descri_dwcam,Define o  botão para abaixar a câmera.
+set_descri_menu,Define o  botão para abrir a seleção de menu.
+set_descri_map,Define o  botão para abrir o mapa.
+set_descri_block,Define o  botão para defender.
+set_descri_dodge,Define o  botão para esquivar.
+set_descri_select,Define o  botão para selecionar
+set_descri_cancel,Define o  botão para cancelar
+set_descri_remove,Define o  botão para remover uma seleção
+set_descri_general,Define o volume do jogo.
+set_descri_sfx,Define o volume dos efeitos sonoros.
+set_descri_musics,Define o volume das músicas.
+set_descri_ambient,Define o volume do ambiente.
+set_descri_dialogues,Define o volume dos diálogos.
 descri_default,Este item ainda não tem uma descrição.
 popup_reset_warn,Tem certeza que deseja repor as predefinições? O jogo será reiniciado!
 popup_reseting,Redefinindo as configurações...
@@ -1042,13 +1082,11 @@ ring_inspec_056,
 ring_inspec_057,
 ring_inspec_058,
 knowledge_name_000,Carta de um Antigo Aventureiro do Inferno
-knowledge_name_001,"Folha avulsa da ""O Gelo da Quarta Camada"""
-knowledge_name_002,"Segunda página da ""A grama da Primeira Camada"""
-knowledge_name_003,"Décima quinta página da ""A grama da Primeira Camada"""
+knowledge_name_001_003,Página de um Livro Perdido
 knowledge_desc_000,Uma carta escrita por um aventureiro há muito tempo atrás.
-knowledge_desc_001,"Uma folha avulsa do primeiro volume da série ""Inferno explicado"" de Connor Sant'Anna."
-knowledge_desc_002,"Segunda página do quinto volume da série ""Inferno explicado"" de Connor Sant'Anna."
-knowledge_desc_003,"Décima quinta página do quinto volume da série ""Inferno explicado"" de Connor Sant'Anna."
+knowledge_desc_001,"Folha avulsa do primeiro volume da série ""Inferno explicado"" de Connor Sant'Anna."
+knowledge_desc_002,"Folha avulsa do quarto volume da série ""Inferno explicado"" de Connor Sant'Anna."
+knowledge_desc_003,"Folha avulsa do quarto volume da série ""Inferno explicado"" de Connor Sant'Anna."
 knowledge_inspec_000,"A folha está extremamente velha e desgastada, entretanto ainda é possível ler perfeitamente:[n]""Olá, próximo aventureiro, fico feliz que também encontrou esta área, por perto desta carta há um totem roxo. Ele é capaz de restaurar seu vigor e curar qualquer doença ao descansar perto dele e acreditar em sua dádiva."""
 knowledge_inspec_001,"A folha está queimada, mas é possível ler uma parte:[n]""...Devido à sua distância do centro do inferno, sendo extremamente fria e gélida, é quase impossível sobreviver sem um grande preparo, como roupas mais quentes e fogueiras, por exemplo. Entretanto nem sempre foi assim, a Quinta Camada já foi a mais quente de todas, e possuía um rei, o Rei do Subsolo, Drensriel, que logo após ganhar seu título, traiu Mounds tentando o matá-lo para se tornar o Rei do Inferno. Contudo, claramente foi derrotado, Mounds é implacável, não há como derrotá-lo... Então a Quinta camada foi distanciada o máximo possível do centro, como forma de mostrar que Mounds não terá piedade com ninguém que for contra ele..."""
 knowledge_inspec_002,"A folha está rasgada e um pouco queimada, mas ainda legível.[n]""...Com seus poderes, Mounds cria um grande campo florido, com mais de 500 bilhões de quilômetros de extensão, como tentativa de imitar seu antigo lar, Os Céus. Porém a tentativa foi ao fracasso num piscar de olhos. Mounds, furioso, grita tão alto que todo o campo é brutalmente queimado. As flores, transformadas em cinzas. As árvores, derretidas em lava. Os animais defeituosos, transformados em montes de carne podre..."""
@@ -1135,3 +1173,4 @@ class_templar,Templário
 class_wizard,Mago
 class_profaned,Profanado
 class_convict,Condenado
+Font,0
