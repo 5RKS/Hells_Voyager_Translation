@@ -1,0 +1,1176 @@
+Keys,Українська
+init_menu_load_game,Завантажити гру
+init_menu_new_game,Нова гра
+init_menu_options,Налаштування
+init_menu_credits,Про гру
+init_menu_quit_game,Вийти з гри
+init_menu_ng_msg,Оберіть назву для збереження
+init_menu_load_warn,Завантажити обране збереження?
+init_menu_delete_warn,"Ви впевнені, що бажаєте видалили це збереження?"
+init_menu_quit_warn,Ви впевнені що хочете вийти з гри?
+init_menu_max_save_warn,"Досягнуто ліміт у 10 збережень.[n]Вам потрібно видалити якесь з них, щоб почати нову гру."
+save_slot_empty,Порожнє збереження
+set_menu_apply,Прийняти зміни
+set_menu_settings,Налаштування
+set_menu_video,Відео
+set_menu_view_mode,Режим перегляду
+set_menu_fullscreen,Повноекранний
+set_menu_bw,Безрамковий
+set_menu_window,Віконний
+set_menu_resolution,Роздільна здатність
+set_menu_blood_shedding,Blood shedding1
+set_menu_particle_density,Particle density1
+set_menu_illumination,Global illumination1
+set_menu_shadow_intensity,Shadows intensity1
+set_menu_gameplay,Ігролад
+set_menu_screen_info,Screen information1
+set_menu_language,Мова
+set_menu_auto_lan,Автоматична зміна мови
+set_menu_text_vel,Швидкість тексту
+set_menu_camera_shift,Camera shift1
+set_menu_insta_masculine,Instantly1
+set_menu_low_masculine,Low1
+set_menu_slow_masculine,Slow1
+set_menu_mid_masculine,Medium1
+set_menu_high_masculine,High1
+set_menu_insta_feminine,Instantly1
+set_menu_low_feminine,Low1
+set_menu_slow_feminine,Slow1
+set_menu_mid_feminine,Medium1
+set_menu_high_feminine,High1
+set_menu_hud_not,Не показувати
+set_menu_hud_show,Показати
+set_menu_view_con,Переглянути керування
+set_menu_dev_icons,Іконки керування
+set_menu_keyboard,Клавіатура та миша
+set_menu_gamepad,Геймпад
+set_menu_gamepad_a,Тип геймпаду А
+set_menu_gamepad_b,Тип геймпаду Б
+set_menu_gamepad_c,Тип геймпаду В
+set_menu_dynamic,Динамічно
+set_menu_reset,Reset options1
+set_menu_audio,Аудіо
+set_menu_master,Загальна гучність
+set_menu_sfx,Ефекти
+set_menu_ambient,Атмосфера
+set_menu_musics,Музика
+set_menu_dialogues,Діалоги
+set_menu_buttons_ingame,Gameplay buttons1
+set_menu_buttons_menu,Menu buttons1
+set_buttons_rwalk,Walk to right1
+set_buttons_lwalk,Walk to left1
+set_buttons_jump,Jump1
+set_buttons_int,Interact1
+set_buttons_rattackl,Light right hand attack1
+set_buttons_rattackh,Heavy right hand attack1
+set_buttons_lattackl,Light left hand attack1
+set_buttons_lattackh,Heavy left hand attack1
+set_buttons_quickitem,Use bag item1
+set_buttons_charhand,Swap right hand weapon1
+set_buttons_chalhand,Swap left hand weapon1
+set_buttons_chamagic,Swap magic1
+set_buttons_chaitem,Swap bag item1
+set_buttons_upcam,Raise camera1
+set_buttons_dwcam,Lower camera1
+set_buttons_menu,Open menu selection1
+set_buttons_map,Open map1
+set_buttons_guard,Guard1
+set_buttons_dodge,Dodge1
+set_buttons_select,Select1
+set_buttons_cancel,Cancel1
+set_buttons_remove,Remove1
+set_descri_view_mode,Defines the game screen type.
+set_descri_resolution,Defines the game resolution when in windowed mode.
+set_descri_blood_shedding,Defines how much blood will be spilled per attack.
+set_descri_particle_density,Defines the density of particles.
+set_descri_illumination,Defines the global illumination system.
+set_descri_shadow_intensity,Defines the intensity of the shadows when global illumination is activated.
+set_descri_screen_info,"Defines whether screen information, such as life bar and blood counter, will be shown."
+set_descri_buttons_icons,Defines which buttons group will be shown in the menus.
+set_descri_language,Defines the game language.
+set_descri_auto_lan,Defines the game to always start with the same language as your computer.
+set_descri_text_vel,Defines the speed of the dialogue texts.
+set_descri_camera_shift,Defines how much the camera will move when raised or lowered.
+set_descri_buttons_ingame,In-game buttons mapping
+set_descri_buttons_menu,Menu buttons mapping
+set_descri_rwalk,Defines the button to walk to right.
+set_descri_lwalk,Defines the button to walk to left.
+set_descri_jump,Defines the button to jump.
+set_descri_int,Defines the button to interact.
+set_descri_rattackl,Defines the button to perform the light attack with the right-hand weapon.
+set_descri_rattackh,Defines the button to perform the heavy attack with the right-hand weapon.
+set_descri_lattackl,Defines the button to perform the light attack with the left-hand weapon.
+set_descri_lattackh,Defines the button to perform the heavy attack with the left-hand weapon.
+set_descri_quickitem,Defines the button to use the bag item.
+set_descri_charhand,Defines the button to swap the right-hand weapon.
+set_descri_chalhand,Defines the button to swap the left-hand weapon.
+set_descri_chamagic,Defines the button to swap the magic.
+set_descri_chaitem,Defines the button to swap the item bag.
+set_descri_upcam,Defines the button to raise the camera.
+set_descri_dwcam,Defines the button to lower the camera.
+set_descri_menu,Defines the button to open the menu selection.
+set_descri_map,Defines the button to open the map.
+set_descri_guard,Defines the button to guard.
+set_descri_dodge,Defines the button to dodge.
+set_descri_select,Defines the button to select.
+set_descri_cancel,Defines the button to cancel.
+set_descri_remove,Defines the button to remove a selection.
+set_descri_general,Defines the volume of the game.
+set_descri_sfx,Defines the volume of the sound effects.
+set_descri_musics,Defines the volume of the musics.
+set_descri_ambient,Defines the volume of the ambient.
+set_descri_dialogues,Defines the volume of the dialogues.
+descri_default,У цього предмета поки що немає опису.
+popup_reset_warn,"Ви впевнені, що бажаєте скинути налаштування за замовченням?"
+popup_reseting,Скидуємо налаштування...
+popup_apply_changes_warn,"Ви впевнені, що бажаєте прийняти зміни?"
+popup_changing,Приймаємо зміни...
+cred_menu_credits,Про гру
+cred_menu_developed,Гру розробив
+cred_menu_musics,Музику виконав
+cred_menu_translators,Перекладачі
+cred_menu_special_thanks,Особливі подяки
+cred_menu_thank_you,Дякуємо за гру!
+cred_menu_hint,"Клацніть на імена, щоб дізнатися більше про цих неймовірних людей."
+term_version,Версія {0}
+term_cancel,Скасувати
+term_hold,Утримувати
+term_confirm,Прийняти
+term_ok,ОК
+term_no,Ні
+term_yes,Так
+term_empty,Порожньо
+term_on,Увімкнено
+term_off,Вимкнено
+term_enabled,Активовано
+term_disabled,Деактивовано
+term_go_back,Назад
+term_leave,Залишити
+term_type_a,Тип А
+term_type_b,Тип Б
+term_type_c,Тип В
+term_nothing,Нічого
+term_you_died,ВИ ЗАГИНУЛИ
+term_ct_restored,ТОТЕМ ПОПЕЛУ ВІДНОВЛЕНО
+term_enemy_exterminated,ВОРОГА ЗНИЩЕНО
+term_leader_defeated,ВАТАЖКА ПЕРЕМОЖЕНО
+term_king_slain,КОРОЛЯ ВБИТО
+term_legion,Легіон
+term_hp,ОЗ
+term_mp,ОМ
+term_blessing,Освячення
+term_def,Захист
+term_level,Рівень
+term_blood_hld,Крові у наявності
+term_blood_ndd,Крові потрібно
+term_blood_required,Крові потребується
+term_blood_received,Отримано крові
+term_atk_power,Потужність атаки
+term_heavy_infusion_a,Важкий {0}
+term_heavy_infusion_b,Важка {0}
+term_heavy_infusion_c,Важкі {0}
+term_heavy_infusion_d,Важкі {0}
+term_sharp_infusion_a,Гострий {0}
+term_sharp_infusion_b,Гостра {0}
+term_sharp_infusion_c,Гострі {0}
+term_sharp_infusion_d,Гострі {0}
+term_quality_infusion_a,Якісний {0}
+term_quality_infusion_b,Якісна {0}
+term_quality_infusion_c,Якісні {0}
+term_quality_infusion_d,Якісні {0}
+term_brute_infusion_a,Грубий {0}
+term_brute_infusion_b,Груба {0}
+term_brute_infusion_c,Грубі {0}
+term_brute_infusion_d,Грубі {0}
+term_pyromantic_infusion_a,Піромантичний {0}
+term_pyromantic_infusion_b,Піромантична {0}
+term_pyromantic_infusion_c,Піромантичні {0}
+term_pyromantic_infusion_d,Піромантичні {0}
+term_flaming_infusion_a,Вогняний {0}
+term_flaming_infusion_b,Вогняна {0}
+term_flaming_infusion_c,Вогняні {0}
+term_flaming_infusion_d,Вогняні {0}
+term_freezing_infusion_a,Крижаний {0}
+term_freezing_infusion_b,Крижана {0}
+term_freezing_infusion_c,Крижані {0}
+term_freezing_infusion_d,Крижані {0}
+term_electric_infusion_a,Електричний {0}
+term_electric_infusion_b,Електрична {0}
+term_electric_infusion_c,Електричні {0}
+term_electric_infusion_d,Електричні {0}
+term_poisonous_infusion_a,Отруйний {0}
+term_poisonous_infusion_b,Отруйна {0}
+term_poisonous_infusion_c,Отруйні {0}
+term_poisonous_infusion_d,Отруйні {0}
+term_bloody_infusion_a,Кривавий {0}
+term_bloody_infusion_b,Кривава {0}
+term_bloody_infusion_c,Криваві {0}
+term_bloody_infusion_d,Криваві {0}
+term_darkness_infusion_a,Темний {0}
+term_darkness_infusion_b,Темна {0}
+term_darkness_infusion_c,Темні {0}
+term_darkness_infusion_d,Темні {0}
+term_number,№
+term_conclusion,Висновок
+term_base_power,Базова потужність
+term_bonus_highest_scaling,А+
+term_bonus_high_scaling,А
+term_bonus_good_scaling,Б
+term_bonus_mid_scaling,В
+term_bonus_low_scaling,Г
+term_bonus_lowest_scaling,Д
+term_use,Використати
+term_equip,Екіпірувати
+term_discard,Викинути
+term_tdefeat,Разів переможено
+term_no_magics,У вас немає жодних чар...
+term_no_items,У вас немає жодного предмету цієї групи...
+term_shop_no_items,Цей торговець не має жодного предмету цієї групи...
+term_pick_up,Взяти
+term_lit,Відновити
+term_rest,Відпочити
+term_talk,Говорити
+term_change_equip,Змінити екіпірування
+term_class,Клас
+term_manor_court,Дарунок садиби
+term_kind,Тип 
+term_unknown,Невідомо
+term_value,Вартість
+term_held,В наявності
+term_stored,Зберігається
+term_cannot_sold,Цей предмет не можна продати
+term_description,Опис
+term_skip,Пропустити
+term_effects,Ефекти
+term_immune,Імун.
+term_limit_reached,Ви не можете зберігати більшу кількість {0}.
+menu_info_title,Інформація про персонажа
+menu_equi_title,Екіпіровка
+menu_inv_title,Інвентар
+menu_knw_title,Бестіарій
+menu_map_title,Мапа
+menu_shop_title,Крамниця предметів
+menu_shop_purchase,Купити
+menu_shop_sell,Продати
+menu_class_title,Визначення класу
+menu_info_descri,Переглянути ваші характеристики
+menu_equi_descri,Змінити вашу екіпіровку
+menu_inv_descri,Переглянути і використати ваші предмети
+menu_knw_descri,Описи монстрів
+menu_map_descri,Переглянути ваше розташування
+menu_shop_descri_purchase,Купити предмети у крамаря
+menu_shop_descri_sell,Продати предмети крамарю
+menu_class_descri,Оберіть вашу початкову екіпіровку
+menu_equi_ana,Броня та кільця
+menu_equi_wng,Зброя та самоцвіти
+menu_equi_bag,Мішечок
+menu_ce,"У вас недостатньо атрибутів, щоб повноцінно використовувати цю зброю. Ваші атаки будуть послаблені."
+menu_inv_bda,Бонуси атрибутів та вимоги
+menu_inv_bonus,Бонус
+menu_inv_req,Вимоги
+menu_inv_dis_warn,Викинути цей предмет?
+menu_shop_purchase_many,Скільки купити?
+menu_shop_sell_many,Скільки продати?
+menu_class_items,Предмети класу
+menu_class_status,Статус класу
+menu_class_appearance,Це зовнішній вигляд броні класу
+group_tools,Інструменти
+group_materials,Матеріали
+group_keys,Ключові предмети
+group_accessories,Аксесуари
+group_armors,Броня
+group_weapons,Зброя
+group_gems,Самоцвіти
+group_magics,Чари
+group_rings,Кільця
+group_knowledges,Знання
+box_general,Загальні
+box_power,Потужність
+box_equipment,Екіпіровка
+attr_str,Сила
+attr_dex,Спритність
+attr_imp,Енергія
+attr_vit,Життєва сила
+attr_res,Опір
+attr_lck,Удача
+elm_phys,Фізична
+elm_pyro,Піромантична
+elm_fire,Вогняна
+elm_ice,Крижана
+elm_elec,Електрична
+elm_psn,Отруєння
+elm_ble,Кровотеча
+elm_dar,Темнота
+elm_phys_abbr,Фіз.
+elm_pyro_abbr,Піро.
+elm_fire_abbr,Вогн.
+elm_ice_abbr,Криж.
+elm_elec_abbr,Елект.
+elm_psn_abbr,Отрує.
+elm_ble_abbr,Кров.
+elm_dar_abbr,Темн.
+atk_phys,Фізична АТК
+atk_pyro,Піромантична АТК
+atk_fire,Вогняна АТК
+atk_ice,Крижана АТК
+atk_elec,Електрична АТК
+atk_psn,Отруйна АТК
+atk_ble,Кривава АТК
+atk_dar,Темна АТК
+def_phys,Фізичний ЗАХ
+def_pyro,Піроматичний ЗАХ
+def_fire,Вогняний ЗАХ
+def_ice,Крижаний ЗАХ
+def_elec,Електричний ЗАХ
+def_psn,Отруйний ЗАХ
+def_ble,Кривава ЗАХ
+def_dar,Темний ЗАХ
+legion_000,Засудженні підземелля
+legion_001,Конформісти сутності
+legion_002,Паства темряви
+legion_003,Драконічний міф
+pause_cont,Продовжити
+pause_desk,Вийти до робочого столу
+pause_main,Повернутися у головне меню
+pause_desk_msg,Save the game and exit to desktop?1
+pause_main_msg,Save the game and go back to main menu?1
+ct_inventory,Інвентар
+ct_lu,Новий рівень
+ct_mm,Вивчити чари
+ct_skills,Навички
+ct_dc,Чаша демона
+ct_storage,Сховище
+ct_travel,Подорожувати
+ct_wisdom,Мудрість
+ct_lu_confirm_one,Використати {0} крові щоб отримати {1} рівень?
+ct_lu_confirm_two,Використати {0} крові щоб отримати {1} рівня?
+ct_lu_confirm_few,Використати {0} крові щоб отримати {1} рівня?
+ct_lu_confirm_many,Використати {0} крові щоб отримати {1} рівнів?
+ct_lu_confirm_other,Використати {0} крові щоб отримати {1} рівень?
+ct_dc_allot,Розподілити вміст чаши
+ct_dc_charge,Додати заряди
+ct_dc_force,Збільшити силу
+ct_hp_tv,Подорожувати до садиби Вояджера
+ct_dc_grant_charge_one,Використати {0} Кістку Клірика щоб збільшити кількість зарядів Чаши демона?
+ct_dc_grant_charge_two,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_few,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_many,Використати {0} Кісток Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_other,Використати {0} Кістки Клірика щоб збільшити кількість зарядів чаши демона?
+ct_dc_grant_charge_no_items,У вас немає жодної Кістки демона.
+ct_dc_grant_force,Використати 1 Криваву кулю щоб збільшити кількість ОЗ/ОМ які буде відновлювати Чаша демона?
+ct_dc_grant_force_no_items,У вас немає Кривавих куль.
+ct_dc_grant_force_max,Кількість ОМ/ОЗ які відновлює Чаша демона більше не можна збільшити.
+ct_mm_es,Порожній слот
+ct_mm_kind,Тип 
+ct_mm_mc,Вартість ОМ
+ct_mm_ce,У вас недостатньо атрибутів щоб використовувати ці чари.
+ct_tv_travel,Подорожувати до обраного Тотема попелу?
+ct_tv_vm,Подорожувати до садиби Вояджера?
+ct_tv_yah,Ви знаходитися у цього Тотема попелу
+ct_area_000,Забуті іскри
+ct_area_001,Підземелля душ
+ct_area_002,Кузня ядра
+ct_area_003,Земля короля
+ct_name_000,Кінець крижаної печери
+ct_name_001,Csariqs Village Branch1
+ct_name_002,Forsaken Roads1
+ct_name_003,Yany Town1
+ct_name_100,Садиба Вояджера
+tool_kind_00,Витратне
+tool_kind_01,Метальне
+weapon_kind_00,Кинджал
+weapon_kind_01,Подвійний кинджал
+weapon_kind_02,Прямий меч
+weapon_kind_03,Подвійний прямий меч
+weapon_kind_04,Великий меч
+weapon_kind_05,Вигнутий меч
+weapon_kind_06,Вигнутий подвійний меч
+weapon_kind_07,Вигнутий великий меч
+weapon_kind_08,Катана
+weapon_kind_09,Подвійна катана
+weapon_kind_10,Сокира
+weapon_kind_11,Подвійна сокира
+weapon_kind_12,Молот
+weapon_kind_13,Подвійний молот
+weapon_kind_14,Великий молот
+weapon_kind_15,Спис
+weapon_kind_16,Алебарда
+weapon_kind_17,Коса
+weapon_kind_18,Колосальна зброя
+weapon_kind_19,Батіг
+weapon_kind_20,Кулаки
+weapon_kind_21,Кігті
+weapon_kind_22,Подвійна зброя
+weapon_kind_23,Екзотична зброя
+weapon_kind_24,Жезл
+weapon_kind_25,Талісман
+weapon_kind_26,Лук
+weapon_kind_27,Пістолет
+weapon_kind_28,Важкий пістолет
+weapon_kind_29,Щит
+weapon_kind_30,Великий щит
+magic_kind_00,Атака
+magic_kind_01,Підтримка
+tool_name_000,Чаша демона
+tool_name_001,Чаша демона-клірика
+tool_name_002_010,Кривавий демонічний осколок
+tool_name_011,Ріг тотема
+tool_name_012,Піромантичний горщик
+tool_name_013,Горщик з порохом
+tool_name_014,Крижаний горщик
+tool_name_015,Електричний горщик
+tool_name_016,Отруйний горщик
+tool_name_017,Кривавий горщик
+tool_name_018,В’язкий горщик
+tool_name_019,Піромантичний сувій
+tool_name_020,Вогняний сувій
+tool_name_021,Крижаний сувій
+tool_name_022,Електричний сувій
+tool_name_023,Отруйний сувій
+tool_name_024,Кривавий сувій
+tool_name_025,В’язкий сувій
+tool_name_026,Гарбуз з гарячою водою
+tool_name_027,Гарбуз з холодною водою
+tool_name_028,Гарбуз з проклятими травами
+tool_name_029,Гарбуз з освіжаючими травами
+tool_name_030,Гарбуз з димною травою
+tool_name_031,Dissipating Herbs Jug
+tool_name_032,Глечик з очисними травами
+tool_name_033,Глечик з коагулючими травами
+tool_name_034,Глечик з променистими травами
+tool_name_035,Divinity Bloodstained Miniature
+tool_name_036,Divinity Shiny Miniature
+tool_name_037,Зношена ваза
+tool_name_038,Шляхетна ваза
+tool_desc_000,Чаша яка містить кров Демона клірика.[n][n]Відновлює певну кількість ОЗ.
+tool_desc_001,Чаша Демона клірика охрещена людськими чарами.[n][n]Відновлює певну кількість ОМ.
+tool_desc_002_010,Дає {0} крові.
+tool_desc_011,
+tool_desc_012,
+tool_desc_013,Горщик який можна кинути у щось або у когось.[n][n]Викликає вогняну шкоду.
+tool_desc_014,
+tool_desc_015,
+tool_desc_016,
+tool_desc_017,
+tool_desc_018,
+tool_desc_019,Наповнює поточну зброю піроматичною шкодою.
+tool_desc_020,
+tool_desc_021,
+tool_desc_022,
+tool_desc_023,
+tool_desc_024,
+tool_desc_025,
+tool_desc_026,
+tool_desc_027,
+tool_desc_028,
+tool_desc_029,
+tool_desc_030,
+tool_desc_031,
+tool_desc_032,
+tool_desc_033,
+tool_desc_034,
+tool_desc_035,
+tool_desc_036,
+tool_desc_037,
+tool_desc_038,
+tool_inspec_000,
+tool_inspec_001,
+tool_inspec_002_010,
+tool_inspec_011,
+tool_inspec_012,
+tool_inspec_013,
+tool_inspec_014,
+tool_inspec_015,
+tool_inspec_016,
+tool_inspec_017,
+tool_inspec_018,
+tool_inspec_019,
+tool_inspec_020,
+tool_inspec_021,
+tool_inspec_022,
+tool_inspec_023,
+tool_inspec_024,
+tool_inspec_025,
+tool_inspec_026,
+tool_inspec_027,
+tool_inspec_028,
+tool_inspec_029,
+tool_inspec_030,
+tool_inspec_031,
+tool_inspec_032,
+tool_inspec_033,
+tool_inspec_034,
+tool_inspec_035,
+tool_inspec_036,
+tool_inspec_037,
+tool_inspec_038,
+material_name_000,Кістка клірика
+material_name_001,Кривава куля
+material_name_002,Шматочок сонячного каменя
+material_name_003,Осколок сонячного каменя
+material_name_004,Скиба сонячного каменя
+material_name_005,Плита сонячного каменя
+material_name_006,Осколок місячного каменя
+material_name_007,Плита місячного каменя
+material_desc_000,"Віддайте цю кістку ковалю, щоб збільшити кількість зарядів Чаши демона."
+material_desc_001,"Віддайте цю кулю Тотему попелу, щоб збільшити силу Чаши демона."
+material_desc_002,Зміцнює зброю до +3.
+material_desc_003,Зміцнює зброю до +6.
+material_desc_004,Зміцнює зброю до +9.
+material_desc_005,Зміцнює зброю до максимального рівня.
+material_desc_006,Зміцнює особливу зброю до +4.
+material_desc_007,Зміцнює особливу зброю до максимального рівня.
+material_inspec_000,"Шматок черепа Демона-Клірика. Настільки потужний, що незважаючи на постійний вогонь, він не розпадеться. Коваль зможе використати цю кістку щоб виготувати ще один заряд для Чаши Демона, thanks to a gift that the Demon Sorcerers have given to all blacksmiths in Hell, which makes them able to manipulate the bones of Demon Clerics."
+material_inspec_001,"The blood of extinct Demon Clerics, wrapped in an absurdly powerful magical barrier. The only way to give it up is to grant it to a Cinder Totem, a totem created in the First Great Demon War, one of whose objectives was to channel the blood of the Demon Clerics into the medicines and healing spells of the Demon Sorcerers in order to avoid as much deaths as possible."
+material_inspec_002,
+material_inspec_003,
+material_inspec_004,
+material_inspec_005,
+key_name_000,Крила демона
+key_name_001,Фіолетовий кулон богині
+key_name_002,Сяючий срібний браслет
+key_name_003,Ключі від в'язниці
+key_desc_000,
+key_desc_001,
+key_desc_002,
+key_desc_003,
+key_inspec_000,
+key_inspec_001,
+key_inspec_002,
+key_inspec_003,
+accessory_name_000,Шолом лицаря
+accessory_name_001,Шолом тамплієра
+accessory_name_002,Осквернений шолом
+accessory_name_003,Шолом спаленого лицаря
+accessory_name_004,Dark Herald Helmet
+accessory_name_005,Fight Sinner Helmet
+accessory_name_006,Northern Helmet
+accessory_name_007,Маска Оні
+accessory_name_008,Солом'яний капелюх
+accessory_name_009,Іржава клітка
+accessory_name_010,Astrologer Headband
+accessory_name_011,Куля некроманта
+accessory_desc_000,
+accessory_desc_001,
+accessory_desc_002,
+accessory_desc_003,
+accessory_desc_004,
+accessory_desc_005,
+accessory_desc_006,
+accessory_desc_007,
+accessory_desc_008,Солом’яних капелюх обв’язаний стрічкою. Збільшую дистанцію ваших атак.
+accessory_desc_009,"Іржава клітка зроблена із червоного металу. Ви буде отримувати Отруєння і Окривавлення швидше, але ви будете отримувати зменшену шкоду від цих ефектів."
+accessory_desc_010,Простий аксесуар для голови. Збільшує Енергію та Удачу.
+accessory_desc_011,A necromance magic orb. Increases the damage and the damage negation of non-physic attacks.
+accessory_inspec_000,
+accessory_inspec_001,
+accessory_inspec_002,
+accessory_inspec_003,
+accessory_inspec_004,
+accessory_inspec_005,
+accessory_inspec_006,
+accessory_inspec_007,
+accessory_inspec_008,A hat inspired by an ancient myth about a man who possessed superhuman powers and had the almost unattainable dream of becoming a king. Somehow that hat is still intact.
+accessory_inspec_009,"It was built to trap birds, but one day its purpose changed to not only trap birds, but also something obscure."
+accessory_inspec_010,
+accessory_inspec_011,
+armor_name_000,Броня лицаря
+armor_name_001,Templar Armor
+armor_name_002,Profaned Armor
+armor_name_003,Burned Knight Armor
+armor_name_004,Dark Herald Armor
+armor_name_005,Fight Sinner Armor
+armor_name_006,Oni Armor
+armor_name_007,Outdated Kimono
+armor_name_008,Ronin Kimono
+armor_name_009,Northern Chain Mail
+armor_name_010,Мантія розбійника
+armor_name_011,Night Scholar Robe
+armor_name_012,Мантія чародія
+armor_name_013,Hermit Clothes
+armor_name_014,Одяг в’язня
+armor_name_015,Leather Shoulder Guard
+armor_name_016,Golden Set
+armor_desc_000,Armor of an old respectful knight.
+armor_desc_001,Armor of an old graced templar.
+armor_desc_002,Armor of an old feared profaned.
+armor_desc_003,
+armor_desc_004,
+armor_desc_005,
+armor_desc_006,
+armor_desc_007,Massaru great-grandfather's ronin clothes.
+armor_desc_008,Kimono of an old cunning ronin.
+armor_desc_009,Armor of an old bestial northern pilgrim.
+armor_desc_010,Robes of an old rogue thief.
+armor_desc_011,
+armor_desc_012,Cloak of an old wise magician.
+armor_desc_013,
+armor_desc_014,Clothes of an old chaotic convict.
+armor_desc_015,Shoulder pad with a sturdy iron plate. Increases strength and vitality.
+armor_desc_016,Golden armor. It was once used by a great underground king.
+armor_inspec_000,
+armor_inspec_001,
+armor_inspec_002,
+armor_inspec_003,
+armor_inspec_004,
+armor_inspec_005,
+armor_inspec_006,
+armor_inspec_007,"This kimono has been passed down from generation to generation in Massaru's family. It is no longer in as perfect condition as it once was. Massaru still wears it out of respect for his great-grandfather, who was a great emperor in Otsumoshita."
+armor_inspec_008,
+armor_inspec_009,
+armor_inspec_010,
+armor_inspec_011,
+armor_inspec_012,
+armor_inspec_013,
+armor_inspec_014,
+armor_inspec_015,
+armor_inspec_016,
+weapon_name_000,Кинджал змія
+weapon_name_001,Кинджали розбійника
+weapon_name_002,Кристалізовані кинджали
+weapon_name_003,Подвійний шотель
+weapon_name_004,Поношений півтораручний меч
+weapon_name_005,Templar Straight Sword
+weapon_name_006,Рунічний прямий меч
+weapon_name_007,Подвійний півтораручний меч
+weapon_name_008,Святий меч
+weapon_name_009,Congregation Greatsword
+weapon_name_010,Ougmeyer
+weapon_name_011,Necromancer Blades
+weapon_name_012,Cristen
+weapon_name_013,Slicer Cleaver
+weapon_name_014,Simple Dyed Katana
+weapon_name_015,Ronin Katana
+weapon_name_016,Engraved Katana
+weapon_name_017,Tenebrous Melody Katana
+weapon_name_018,Odachi
+weapon_name_019,Sawed Katana
+weapon_name_020,Daisho
+weapon_name_021,Топор в’язня
+weapon_name_022,Storm Axe
+weapon_name_023,Bone Axes
+weapon_name_024,Carved Club
+weapon_name_025,Notched club
+weapon_name_026,Hammer of Will
+weapon_name_027,Залізна пара
+weapon_name_028,Flanged Great Mace
+weapon_name_029,Black Shell Hammer
+weapon_name_030,Крижаний спис
+weapon_name_031,Jumonji Yari
+weapon_name_032,Night Halberd
+weapon_name_033,Bloody Lightning Halberd
+weapon_name_034,Prosthetic Cannon halberd
+weapon_name_035,Reaper Scythe
+weapon_name_036,Double Blade Scythe
+weapon_name_037,Divine Twilight Candlestick
+weapon_name_038,Profaned Whip
+weapon_name_039,Leather Bomber Whip
+weapon_name_040,Батіг крижаного подиху
+weapon_name_041,Кулаки монаха
+weapon_name_042,Кест
+weapon_name_043,Шипований кест
+weapon_name_044,Вибухова куля
+weapon_name_045,Кігті гадюки
+weapon_name_046,Вигнуті кігті
+weapon_name_047,Тесак та сокира
+weapon_name_048,Спис та меч
+weapon_name_049,Коса та кинджал
+weapon_name_050,Лук дослідника
+weapon_name_051,Опалений лук
+weapon_name_052,Золотий лук
+weapon_name_053,Аркебуза
+weapon_name_054,Гармата
+weapon_name_055,Laminated Geta
+weapon_name_056,Frosty Mist Shield
+weapon_name_057,Demon Snake Bone Shield
+weapon_name_058,Шипаста стіна
+weapon_desc_000,A slender dagger with a serpent handle. Causes poison on foes.
+weapon_desc_001,"A pair of very sharpened daggers, one straight and the other curved."
+weapon_desc_002,A pair of daggers so cold that crystallize itself. Causes freezing on foes.
+weapon_desc_003,"A pair of crescent-shaped daggers, very powerful and agile."
+weapon_desc_004,"A neither too big nor too small sword, strong and agile."
+weapon_desc_005,"A straight sword, balanced between strength and agility."
+weapon_desc_006,"A straight sword engraved with runes on its blade, blessed by Meapol."
+weapon_desc_007,"A pair of bastard sword, great for consecutives attacks."
+weapon_desc_008,A greatsword forged directly by Huozue's blacksmiths. Causes pyromancy.
+weapon_desc_009,The greatsword of the warriors of the Darkness Congregation.
+weapon_desc_010,The ancient sword. its trully power is as unknown as its creation.
+weapon_desc_011,Swords capable of raising the dead.
+weapon_desc_012,The frozen sword of ancient legends. They say it's capable of killing a god.
+weapon_desc_013,A huge cleaver. Maybe it belonged to a giant butcher.
+weapon_desc_014,"A simple and cheap katana, painted black, purple and green."
+weapon_desc_015,"A long oriental sword, agile and effective, although it's not very sturdy."
+weapon_desc_016,"The sword of a great long haired warrior, engraved with unknown runes."
+weapon_desc_017,The sword of an ancient warrior who composed soothing melodies for the soul.
+weapon_desc_018,Катана з величезним клинком.
+weapon_desc_019,Катана з заточеним клинком. Викликає кровотечу.
+weapon_desc_020,"A katana and a wakizashi together, offensives and agile at the same time."
+weapon_desc_021,An axe forged from precarious resources by the desperation of a jailed soul.
+weapon_desc_022,"The winded axe of Vuikur, one of the god of the Golden Divinity."
+weapon_desc_023,An axe forged from the bones of dead demons.
+weapon_desc_024,A wood batt that thickens on the end. Sturdy and strong.
+weapon_desc_025,"A wood batt that thickens at the end, with wire and teeth embedded in it."
+weapon_desc_026,The hammer given to humans because of their devotion to the gods.
+weapon_desc_027,
+weapon_desc_028,
+weapon_desc_029,
+weapon_desc_030,
+weapon_desc_031,
+weapon_desc_032,
+weapon_desc_033,
+weapon_desc_034,
+weapon_desc_035,
+weapon_desc_036,
+weapon_desc_037,A red chandelier of unimaginable power.
+weapon_desc_038,"A dark whip made with leather, reinforced with spikes."
+weapon_desc_039,
+weapon_desc_040,
+weapon_desc_041,
+weapon_desc_042,
+weapon_desc_043,
+weapon_desc_044,
+weapon_desc_045,
+weapon_desc_046,
+weapon_desc_047,"A set of cleaver and axe, inseparable for bloodthirsty warriors."
+weapon_desc_048,
+weapon_desc_049,
+weapon_desc_050,
+weapon_desc_051,
+weapon_desc_052,
+weapon_desc_053,
+weapon_desc_054,
+weapon_desc_055,
+weapon_desc_056,
+weapon_desc_057,
+weapon_desc_058,
+weapon_inspec_000,
+weapon_inspec_001,
+weapon_inspec_002,
+weapon_inspec_003,
+weapon_inspec_004,
+weapon_inspec_005,
+weapon_inspec_006,
+weapon_inspec_007,
+weapon_inspec_008,
+weapon_inspec_009,
+weapon_inspec_010,
+weapon_inspec_011,
+weapon_inspec_012,
+weapon_inspec_013,
+weapon_inspec_014,
+weapon_inspec_015,
+weapon_inspec_016,
+weapon_inspec_017,"Its owner, the famous and old Vinsir, together with the warriors of the Congregation of Darkness, battled against the Darkness to bring peace to Earth. He created calm and inspiring melodies to relieve his stress and that of his allies in this eternal war against the Dark. One day, Vinsir and his fellow fought against a great Fingran consumed by the Dark. His ally managed to win the battle and free the great beast's soul, but at the cost of sacrificing Vinsir's life. Today, in the Great Field of Ardiflowers, lies the tomb of the heroic composer."
+weapon_inspec_018,
+weapon_inspec_019,
+weapon_inspec_020,
+weapon_inspec_021,
+weapon_inspec_022,
+weapon_inspec_023,
+weapon_inspec_024,
+weapon_inspec_025,
+weapon_inspec_026,
+weapon_inspec_027,
+weapon_inspec_028,
+weapon_inspec_029,
+weapon_inspec_030,
+weapon_inspec_031,
+weapon_inspec_032,
+weapon_inspec_033,
+weapon_inspec_034,
+weapon_inspec_035,
+weapon_inspec_036,
+weapon_inspec_037,It is said that this candlestick was forged by a great blacksmith blessed by Huozue.
+weapon_inspec_038,
+weapon_inspec_039,
+weapon_inspec_040,
+weapon_inspec_041,
+weapon_inspec_042,
+weapon_inspec_043,
+weapon_inspec_044,
+weapon_inspec_045,
+weapon_inspec_046,
+weapon_inspec_047,
+weapon_inspec_048,
+weapon_inspec_049,
+weapon_inspec_050,
+weapon_inspec_051,
+weapon_inspec_052,
+weapon_inspec_053,
+weapon_inspec_054,
+weapon_inspec_055,
+weapon_inspec_056,
+weapon_inspec_057,
+weapon_inspec_058,
+magic_name_000,Pyromantic Floor
+magic_name_001,Pyromantic Combustion
+magic_name_002,Вогняна куля
+magic_name_003,Вогняна стіна
+magic_name_004,Блискавка
+magic_name_005,Отруйний плювок
+magic_name_006,Bloody Chase
+magic_name_007,Темний вибух
+magic_name_008,Huoko's Strength
+magic_name_009,Explendid Huoko's Strength
+magic_name_010,Huoko's Fortitude
+magic_name_011,Noctarogar's Blessing
+magic_name_012,Kiabass' Blessing
+magic_name_013,Feared Entity Darkness
+magic_name_014,Дротик ночі
+magic_name_015,Великий дротик ночі
+magic_name_016,Night Spiral
+magic_name_017,Велика стріла ночі
+magic_name_018,Кулі ночі
+magic_name_019,Порожнеча ночі
+magic_name_020,Велика порожнеча ночі
+magic_name_021,Меч ночі
+magic_name_022,Великий різак ночі
+magic_name_023,Крижаний кіл
+magic_name_024,Крижані кристали
+magic_name_025,Крижані кулі
+magic_name_026,Крижаний вибух
+magic_name_027,Крижаний лук
+magic_name_028,Night Constellation
+magic_name_029,Піромантія Фалона
+magic_name_030,Вогонь Фалона
+magic_name_031,Крига Фалона
+magic_name_032,Блискавка Фалона
+magic_name_033,Кров Фалона
+magic_desc_000,Spread pyromancy on the ground.
+magic_desc_001,Casts a pyromantic explosion.
+magic_desc_002,Throws a flaming ball.
+magic_desc_003,Throws columns of fire.
+magic_desc_004,Throws a lightning bolt.
+magic_desc_005,Expels poison from your mouth.
+magic_desc_006,Conjures a smoke of blood that chase enemies.
+magic_desc_007,Casts orbs of darkness that chase enemies.
+magic_desc_008,Increases attack power.
+magic_desc_009,Greatly increases attack power.
+magic_desc_010,Improve all the damage negations.
+magic_desc_011,Gradually restores HP.
+magic_desc_012,Increases the damage of magics and decreases their MP cost.
+magic_desc_013,"Hits the ground 3 times, exploding everything around with darkness."
+magic_desc_014,
+magic_desc_015,
+magic_desc_016,
+magic_desc_017,
+magic_desc_018,
+magic_desc_019,
+magic_desc_020,
+magic_desc_021,
+magic_desc_022,
+magic_desc_023,
+magic_desc_024,Throws an ice stake.
+magic_desc_025,Throws sharp ice crystals.
+magic_desc_026,
+magic_desc_027,
+magic_desc_028,Imbues night magic on the equipped weapon in the other hand.
+magic_desc_029,Imbues pyromancy on the equipped weapon in the other hand.
+magic_desc_030,Imbues fire on the equipped weapon in the other hand.
+magic_desc_031,Imbues freezing on the equipped weapon in the other hand.
+magic_desc_032,Imbues electricity on the equipped weapon in the other hand.
+magic_desc_033,Imbues bleeding on the equipped weapon in the other hand.
+magic_inspec_000,
+magic_inspec_001,
+magic_inspec_002,
+magic_inspec_003,
+magic_inspec_004,
+magic_inspec_005,
+magic_inspec_006,
+magic_inspec_007,
+magic_inspec_008,
+magic_inspec_009,
+magic_inspec_010,
+magic_inspec_011,
+magic_inspec_012,
+magic_inspec_013,
+magic_inspec_014,
+magic_inspec_015,
+magic_inspec_016,
+magic_inspec_017,
+magic_inspec_018,
+magic_inspec_019,
+magic_inspec_020,
+magic_inspec_021,
+magic_inspec_022,
+magic_inspec_023,
+magic_inspec_024,
+magic_inspec_025,
+magic_inspec_026,
+magic_inspec_027,
+magic_inspec_028,
+magic_inspec_029,
+magic_inspec_030,
+magic_inspec_031,
+magic_inspec_032,
+magic_inspec_033,
+ring_name_000,Pierced Shield Ring
+ring_name_001,Кільце зламаного меча
+ring_name_002,Кільце сталевого щита
+ring_name_003,Eternal Sword Ring
+ring_name_004,Noctarogar's Ring
+ring_name_005,Kiabass Ring
+ring_name_006,Immortal Plant Ring
+ring_name_007,Кільце кривавої рослини
+ring_name_008,Кільце клірика
+ring_name_009,Conformity Ring
+ring_name_010,Tough Scale Ring
+ring_name_011,Вогняне лускате кільце
+ring_name_012,Крижане лускате кільце
+ring_name_013,Електричне лускате кільце
+ring_name_014,Отруйне лускате кільце
+ring_name_015,Криваве лускате кільце
+ring_name_016,Чорне лускате кільце
+ring_name_017,Golden Pantheon Ring
+ring_name_018,Кільце з чотирилистою конюшиною
+ring_name_019,Кільце магічної допомоги
+ring_name_020,Кільце бажання
+ring_name_021,Кільце вченого
+ring_name_022,Relentless Magician Ring
+ring_name_023,Блискуче кришталеве кільце
+ring_name_024,Кільце зірки
+ring_name_025,Кільце самурая
+ring_name_026,Кільце Оні
+ring_name_027,Кільце вогняної змії
+ring_name_028,Кільце кришталевої змії
+ring_name_029,Кільце електричної змії
+ring_name_030,Кільце отруйної змії
+ring_name_031,Кільце кривавої змії
+ring_name_032,Кільце чорної змії
+ring_name_033,Кільце варвара
+ring_name_034,Кільце розбійника
+ring_name_035,Кільце алхіміка
+ring_name_036,Кільце лицаря
+ring_name_037,Кільце мандрівника
+ring_name_038,Кільце мотивації
+ring_name_039,Кільце мистецтв мечника
+ring_name_040,Кільце мистецтв доброчесності
+ring_name_041,Кільце мистецтв війни
+ring_name_042,Vuikur's Ring
+ring_name_043,Shooter Ring
+ring_name_044,Fighter Ring
+ring_name_045,Кільце кішки
+ring_name_046,Ornunddu Blessing Ring
+ring_name_047,Phoenix Ring
+ring_name_048,Кільце привида
+ring_name_049,Кільце камуфляжу
+ring_name_050,Кільце покарання
+ring_name_051,Fugitive Ring
+ring_name_052,Discernment Ring
+ring_name_053,Кільце відновлення
+ring_name_054,Killer Defense Ring
+ring_name_055,Killer Strength Ring
+ring_name_056,Falon Bubble Ring
+ring_name_057,Кільце стрибку
+ring_name_058,Burden Ring
+ring_desc_000,"Збільшує захист від усіх видів шкоди, коли ОЗ знаходяться на низькому рівні."
+ring_desc_001,Збільшує шкоду коли залишається мало ОЗ.
+ring_desc_002,Increases damage negation when HP is full.
+ring_desc_003,Збільшує шкоду коли ОЗ повні.
+ring_desc_004,Збільшує максимальні ОЗ.
+ring_desc_005,Збільшує максимальні ОМ.
+ring_desc_006,Повільно відновлює ОЗ.
+ring_desc_007,Відновлює ОЗ при вбивстві ворогів.
+ring_desc_008,Збільшує кількість відновлюваних ОМ та ОЗ чашою.
+ring_desc_009,"Збільшує характеристики, але збільшує шкоду яку ви отримуєте."
+ring_desc_010,Збільшує захист від фізичних шкод.
+ring_desc_011,Збільшує захист від вогняних шкод.
+ring_desc_012,Збільшує захист від крижаних шкод.
+ring_desc_013,Збільшує захист від електричних шкод.
+ring_desc_014,Збільшує захист від отруєння.
+ring_desc_015,Збільшує захист від кровотечі.
+ring_desc_016,Збільшує захист від темної шкоди.
+ring_desc_017,Збільшує Освячення.
+ring_desc_018,Збільшує кількість крові яку ви отримуєте із вбитих ворогів.
+ring_desc_019,Покращує чари підтримки.
+ring_desc_020,Збільшує тривалість чар підтримки.
+ring_desc_021,Покращую чари атаки.
+ring_desc_022,Дуже сильно покращує чари атак.
+ring_desc_023,Чари будуть викликатися швидше.
+ring_desc_024,Зменшує використання ОМ чарами.
+ring_desc_025,Increases damage negation when bleeding is nearby.
+ring_desc_026,Increases attack when bleeding is nearby.
+ring_desc_027,"Increases flames damage, but decreases flames damage negation."
+ring_desc_028,"Increases freezing damage, but decreases freezing damage negation."
+ring_desc_029,"Increases electrical damage, but decreases electrical damage negation."
+ring_desc_030,"Increases poison damage, but decreases poison damage negation."
+ring_desc_031,"Increases bleeding chance, but decreases bleeding damage negation."
+ring_desc_032,"Increases darkness damage, but decreases darkness damage negation."
+ring_desc_033,Збільшує силу.
+ring_desc_034,Збільшує спритність.
+ring_desc_035,Increases momentum.
+ring_desc_036,Збільшує витривалість.
+ring_desc_037,Increases luck.
+ring_desc_038,Збільшує шкоду від першої атаки.
+ring_desc_039,Increases the damage of consecutive attacks.
+ring_desc_040,Відновлює ОЗ з кожною атакою.
+ring_desc_041,Збільшує шкоду важких атак.
+ring_desc_042,Збільшує шкоду атак у повітрі.
+ring_desc_043,Increases the damage of long-range weapons.
+ring_desc_044,Increases bare-handed damage.
+ring_desc_045,Enemies detect you with more difficulty.
+ring_desc_046,"Blood is not lost when you die, but the ring breaks."
+ring_desc_047,"When you die, you rebirth exploding everything around you. Only works once."
+ring_desc_048,Turns into a ghost for a brief moment and comes back to life after dying.
+ring_desc_049,Becomes intangible after standing still for a while.
+ring_desc_050,"Enemies nearby become slower, but you lose a little HP for each enemy affected."
+ring_desc_051,Becomes immune to any hits for a while after taking a great damage.
+ring_desc_052,Приховані шляхи стають більш помітними.
+ring_desc_053,Restores a little the duration of effects when defeating enemies.
+ring_desc_054,"Each enemy defeated generates a damage negation buildup, but the buildup decreases over time."
+ring_desc_055,"Each enemy defeated generates a strength buildup, but the buildup decreases over time."
+ring_desc_056,Створює бульбашку-щит довкола вас.
+ring_desc_057,Збільшує висоту стрибків.
+ring_desc_058,Збільшує захист від усіх типів шкод.
+ring_inspec_000,
+ring_inspec_001,
+ring_inspec_002,
+ring_inspec_003,
+ring_inspec_004,
+ring_inspec_005,
+ring_inspec_006,
+ring_inspec_007,
+ring_inspec_008,
+ring_inspec_009,
+ring_inspec_010,
+ring_inspec_011,
+ring_inspec_012,
+ring_inspec_013,
+ring_inspec_014,
+ring_inspec_015,
+ring_inspec_016,
+ring_inspec_017,
+ring_inspec_018,
+ring_inspec_019,
+ring_inspec_020,
+ring_inspec_021,
+ring_inspec_022,
+ring_inspec_023,
+ring_inspec_024,
+ring_inspec_025,
+ring_inspec_026,
+ring_inspec_027,
+ring_inspec_028,
+ring_inspec_029,
+ring_inspec_030,
+ring_inspec_031,
+ring_inspec_032,
+ring_inspec_033,
+ring_inspec_034,
+ring_inspec_035,
+ring_inspec_036,
+ring_inspec_037,
+ring_inspec_038,
+ring_inspec_039,
+ring_inspec_040,
+ring_inspec_041,
+ring_inspec_042,
+ring_inspec_043,
+ring_inspec_044,
+ring_inspec_045,
+ring_inspec_046,
+ring_inspec_047,
+ring_inspec_048,
+ring_inspec_049,
+ring_inspec_050,
+ring_inspec_051,
+ring_inspec_052,
+ring_inspec_053,
+ring_inspec_054,
+ring_inspec_055,
+ring_inspec_056,
+ring_inspec_057,
+ring_inspec_058,
+knowledge_name_000,Letter of a Old Hell Adventurer
+knowledge_name_001_003,Page of a Lost Book
+knowledge_desc_000,A Letter written by an adventurer a long time ago.
+knowledge_desc_001,"A single page from the first volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_desc_002,"A single page of the four volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_desc_003,"A single page of the four volume of the series ""Hell explained"" by Connor Sant'Anna."
+knowledge_inspec_000,"The sheet is extremely old and worn, but still perfectly legible:[n]""Hello, next adventurer, I'm glad you've also found this area, near this letter there is a purple totem. It is able to restore your vigor and cure any illness by resting near it and believing in its gift"""
+knowledge_inspec_001,"The sheet is burnt, but it is possible to read part of it:[n]""...Due to its distance from the center of hell, being extremely cold and icy, it is almost impossible to survive without great preparation, such as warmer clothes and fires, for example. However, it wasn't always like this, the Fifth Layer was once the hottest of all, and had a king, the King of the Underground, Drensriel, who soon after winning his title, betrayed Mounds by trying to kill him to become the King of Hell. However, he was clearly defeated, Mounds is ruthless, there is no beating him... So the fifth layer has been moved as far away from the center as possible, as a way of showing that Mounds will show no mercy to anyone who goes against him..."""
+knowledge_inspec_002,"The sheet is torn and a little bit burnt, but still legible.[n]""...With his powers, Mounds creates a great flowery field, more than 500 billion kilometers long, in an attempt to imitate his old home, The Heavens. But the attempt failed in the blink of an eye. Mounds, furious, yells so loudly that the entire field is brutally burnt. The flowers, turned to ash. Trees, melted into lava. Flawed animals, turned into heaps of rotting flesh..."""
+knowledge_inspec_003,"The leaves are torn and a little burnt, but still legible.[n]""...His disciples, Doalpus and Alreeis, finished the construction. Finally, after 134 years, it was erected and ready to demonstrate the power and architecture of hell, Moundzian Castle, the domain of Mounds... In the castle's laboratory, Mounds and his disciples created, from the blood of Mounds and a female mammal, Mounds' maiden, Astrina... Once married, Mounds and Astrina had 4 children, called the first demonic beings, who, when they came of age, were given the title of Demon Leaders..."""
+bes_name_n000,Слабке тіло
+bes_name_n001,Демонічний варвар
+bes_name_n002,"Елдарон, загублений голем"
+bes_name_n003,Blood Skin Gargoyle
+bes_name_n004,Old Guard Demon
+bes_name_n005,"Eldaron, the Lost Golem"
+bes_name_n006,"Mohal, the Draconic Watcher"
+bes_name_n007,"Qmimb, the Incarnate Darkness"
+bes_name_n008,"Gramands, the Frozen Gate Guardian"
+bes_desc_n000,"A dead warrior, who due his honorable death in battle, has a body. However, were cruel in life, his everlast sentence is now fight forever against his equals, as a memory of his last moments of life, feeling every pain and the burden of causing so much suffering in life as.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
+bes_desc_n001,"A huge and muscular dead warrior, killed in battle, so he keeps his body even in hell. However, for every place he passed, he caused desgrace. Now, forever, he will suffer in battles, remembering of his last moments of life and suffering his burden of the torments that caused in life.[n][n]Due the new dictatorship of Mounds, all the dead are now gradually growing stronger and becoming demons. Therefore, when they complete the transformation, they will be part of the army of Mounds in the attack to the Human Realm."
+bes_desc_n002,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
+bes_desc_n003,"An annoying little Pure Demon capable of throwing fireballs. After killing their prey, they suck their blood to feed, just as certain insects from the Human Realm do.[n][n]These annoying creatures are the most distant type of pure demon from the Mounds bloodline, but still close compared to the Behegunes."
+bes_desc_n004,
+bes_desc_n005,"A golem forged from volcanic stones and magic that fought in the First Demon War. They usually use very powerful hammers or large flaming axes.[n][n]Eldaron, in a battle in the war, ended up getting lost, falling into the abandoned Fourth Layer of hell and was never found."
+bes_desc_n006,
+bes_desc_n007,
+bes_desc_n008,
+bes_type_n000,Полудемон
+bes_type_n001,Вогняний Голем Війни — Бос
+dialogue_op_000,Купити предмети
+dialogue_op_001,Продати предмети
+dialogue_op_002,Говорити
+npc_name_000,Густав
+npc_name_001,Грум'їн
+npc_name_002,Рандалія
+npc_name_003,Палагард
+npc_000_dialogue_000,"Вітаю, друже."
+npc_000_dialogue_001,Як ся маєш?
+npc_000_dialogue_002,Я... крамар. Чого бажаєш?
+npc_000_dialogue_003,Я? Хах...
+npc_000_dialogue_004,Я ніхто інший як крамар.
+npc_000_dialogue_005,I failed familly and...
+npc_000_dialogue_006,Тепер я живу один і продаю товари.
+npc_000_dialogue_007,"Ох, ти повернувся!"
+npc_000_dialogue_008,What do you want?
+npc_001_dialogue_000,"Hey hey hey! Calm down, sirrah."
+npc_001_dialogue_001,Thou are not dead...
+npc_001_dialogue_002,"Thou are another one of those whom came hither because of that annoying warlock, are not thou?"
+npc_001_dialogue_003,"If so, hie ahead!"
+npc_001_dialogue_004,"try once moe, die once moe.  Be reborn once moe."
+npc_001_dialogue_005,"ah... What are thou so much planning, warlock?"
+npc_001_dialogue_006,"try once moe, die once moe.  Be reborn once moe."
+npc_001_dialogue_007,"ah... What are thou so much planning, warlock?"
+npc_002_dialogue_000,Thou have finally woken up.
+npc_002_dialogue_001,"I am Randalya, I saved thou from that flaming monster."
+npc_002_dialogue_002,"I guess thou have met those purple totems, have not thou? I am afeard the one next to that demon hath already broken..."
+npc_002_dialogue_003,"Those totems are called cinder totems, they are totems of worship that, when thou rest on 'em and receive in their power, they restore thy vigor and any tribulation in thy corporal agent, as well as being able to increase thy strength, market thy luggage and transfer thou to other totems thou've already found."
+npc_002_dialogue_004,thy current equipment hath been well worn out due to thy arrival in hell. Towards the second floor of this building thou shall find a room with some equipment.
+npc_002_dialogue_005,"Yet remember that 'tis not only thou whom shall want equipment, choose just one of each peace. Other warriors hast recently arrived in hell, moe warriors than usual, e'en."
+npc_002_dialogue_006,this building is home to others like me whom can help thou whenever thou want it.
+npc_002_dialogue_007,that's all I hast to say.
+npc_002_dialogue_008,May Moygo's benison be with thou.
+intro_dialogue_000,"Ах, дорогий брате..."
+intro_dialogue_001,Thou hast already done so much for me... I bid thou to offer me thy help once again.
+intro_dialogue_002,"I imagine thou hast known about Mounds, the Demon King, the Fallen Celestial Being."
+intro_dialogue_003,"From mine rituals, I discovered that he himself is preparing to invade the Earth, the realm of the living"
+intro_dialogue_004,"To dominate it, and then ascend to heaven again and become the supreme god."
+intro_dialogue_005,"Nought good shall join of it, mine brother. He shall spread disgrace throughout the world, woe and suffering."
+intro_dialogue_006,"Argal I bid, Massaru. Thou are the only one that I trust of body and soul to be able to brow him, and then, defeat him."
+intro_dialogue_007,"Through mine witchcraft, I send thou to hell."
+intro_dialogue_008,Whatever it takes.
+intro_dialogue_009,Thou shall kill him power...
+intro_dialogue_010,Thou shall kill mounds.
+help_no_tutorial,You haven't unlocked[n]this tutorial yet.
+help_title_000,Меню: Інформація про персонажа
+help_title_001,Меню: Екіпіровка
+help_title_002,Меню: Інвентар
+help_title_003,Меню: Бестіарій
+help_text_000,"In the Character Info menu, you can check your status, level, attributes, attack power and more.[n][n]The information here reflects on your attacks and your damage negation against various types of damage, such that it can be increased by the armor and weapons you equip."
+help_text_001,"In the Equipment menu, you can equip weapons, armor, rings, gems and items.[n][n]Each piece of equipment in each category changes Massaru's strength in different ways. Weapons increase your attack power, armors increase your damage negation, rings and accessories grant you effects, gems grant effects to your weapon. All your equipment can give you other effects, such as a weapon giving you some effect, even if that's not its main function. The bag makes it easier for you to access items in your inventory."
+help_text_002,"In my Inventory, you can check all the items you own.[n][n]You can use them, generating some kind of gain or loss, depending on the item. Equip them, so you don't have to go to the Equipment menu to equip the item you want. Even discard them, if you no longer want an item in your inventory, but bear in mind that doing so will discard all the items you have of that type, that is, discarding an item that you have 10 amounts of, for example, will cause all 10 of your amounts to be discarded."
+help_text_003,"In the Bestiary menu, you can check out all the monsters you've encountered so far.[n][n]Here you can find out more about the monsters, their names, types, history, HP and attack power, damage negation and how many times you've defeated them."
+class_no_class,Немає класу
+class_knight,Лицар
+class_northern_pilgrim,Northern Pilgrim
+class_ronin,Ronin
+class_rogue,Rogue
+class_templar,Templar
+class_wizard,Чародій
+class_profaned,Profaned
+class_convict,Convict
+Font,0
